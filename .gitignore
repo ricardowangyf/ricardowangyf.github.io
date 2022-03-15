@@ -2,3 +2,4 @@ node_modules
 db.json
 search.xml
 atom.xml
+github-deploy-key.pub
