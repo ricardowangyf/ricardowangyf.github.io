@@ -33,6 +33,5 @@
         "npm": "^8.3.0",
         "packagename": "^2.0.1",
         "prismjs": "^1.27.0",
-        "vue-router": "^3.5.3"
     }
 }
