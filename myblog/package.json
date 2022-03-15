@@ -27,7 +27,7 @@
         "hexo-renderer-pug": "^2.0.0",
         "hexo-renderer-stylus": "^2.0.1",
         "hexo-server": "^2.0.0",
-        "hexo-theme-yun": "^1.8.10",
+        "hexo-theme-yun": "^1.8.11",
         "highlight.js": "^11.4.0",
         "install": "^0.13.0",
         "npm": "^8.3.0",
