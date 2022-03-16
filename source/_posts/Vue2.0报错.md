@@ -133,7 +133,6 @@ div标签对应结束部分没加(/)
 
 ![](https://s3.bmp.ovh/imgs/2022/03/c9b7ddb5a384f4e5.jpg)
 
-
 解决方法：router文件夹下面的index.js中加上下面几句代码:
 
 ```bash
@@ -153,7 +152,7 @@ Router.prototype.push = function push(location) {
 
 报错内容如下:
 
-![](https://s3.bmp.ovh/imgs/2022/03/e79c6a7239328aab.jpg)
+![](https://tva2.sinaimg.cn/large/0074R88yly8h0bnt93yotj30wu09wwho.jpg)
 
 代码部分如下:
 
@@ -195,3 +194,86 @@ Router.prototype.push = function push(location) {
   删除了重复引入的部分，这样代码就不会报错了:
 
   ![](https://s3.bmp.ovh/imgs/2022/03/cbe870a6132c0edf.jpg)
+
+
+  ## 2022.3.16 Vue报错笔记 ##
+
+  ###  Maximum call stack size exceeded  ###
+
+  在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:
+
+  ![](https://img2018.cnblogs.com/blog/357040/201904/357040-20190418092922564-1202635304.png)
+
+  百度翻译过来的内容是:
+
+  超出了最大调用堆栈大小
+
+  仔细检查页面后发现
+
+  ```bash
+  <template>
+  <div>
+    <hr />
+    <HistoryApp></HistoryApp>
+    <hr />
+    <App></App>
+    <hr />
+  </div>
+</template>
+<script>
+import HistoryApp from "./components/history/HistoryApp.vue";
+import App from "./components/App.vue";
+
+
+export default {
+  name:'HistoryApp',
+  components: {
+    HistoryApp,
+    App,
+  },
+};
+</script>
+<style scoped>
+hr {
+  border: 1px solid red;
+}
+div{
+  text-align: center;
+}
+</style>
+```
+
+发现页面引用了一个组件 和页面的`name`重复。所以进入页面的时候，一直都在死循环。
+
+修改如下
+```bash
+<template>
+  <div>
+    <hr />
+    <HistoryApp></HistoryApp>
+    <hr />
+    <App></App>
+    <hr />
+  </div>
+</template>
+<script>
+import HistoryApp from "./components/history/HistoryApp.vue";
+import App from "./components/App.vue";
+
+
+export default {
+  components: {
+    HistoryApp,
+    App,
+  },
+};
+</script>
+<style scoped>
+hr {
+  border: 1px solid red;
+}
+div{
+  text-align: center;
+}
+</style>
+```
