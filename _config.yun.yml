@@ -114,9 +114,6 @@ disqus:
   shortname: logicwang
   count: true
 
-codeblock:
-  copy_btn: true
-
 reward:
   enable: true
   icon: icon-hand-coin-line
