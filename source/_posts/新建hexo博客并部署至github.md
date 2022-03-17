@@ -10,9 +10,9 @@ tags:
 <link href="themes/prism.css" rel="stylesheet" />
 <script src="prism.js" data-manual></script>
 
-# 新建Hexo项目部署至github # 
+# 新建Hexo项目部署至github
 
-### 1. 查看是否安装node.js ###
+### 1. 查看是否安装node.js
 
 如果安装了node.js可以查看版本号
 运行命令
@@ -23,14 +23,14 @@ node -v
 # v16.13.0
 ```
 
-### 2.安装Git ###
+### 2.安装Git
 
 Mac下安装Xcode就自带Git。
 
-### 3.Gihub新建仓库 ###
+### 3.Gihub新建仓库
 如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)
 
-### 4.配置SSH Key ###
+### 4.配置SSH Key
 这一步不是必须的，配置SSHKey的好处是避免每次更新博客需要输入用户名和密码。这样会方便很多
 
 详细配置过程。
@@ -53,12 +53,12 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 点击右上角头像右边的三角图标，点击Settings，然后在左边菜单栏点击SSH and GPG keys，点击New SSH key，Title 随便填一个，在Key栏填入你复制的内容，点击Add SSH key，把你生成的sshkey添加到里面就可以了。
 
-## 5.新建文件夹 ##
+## 5.新建文件夹
 
 ```bash
 mkdir  blog
 ```
-## 6.安装 hexo ##
+## 6.安装 hexo
 
 ```bash
 npm install -g hexo
@@ -72,7 +72,7 @@ npm install -g hexo
 # changed 96 packages in 4s
 ```
 
-## 7.初始化 hexo ##
+## 7.初始化 hexo
 运行命令
 
 ```bash
@@ -88,12 +88,12 @@ hexo init myblog(这个可以随意起名)
 cd  myblog(你取的名称)
 ```
 
-## 9.接下来是安装依赖包 ##
+## 9.接下来是安装依赖包
 ```bash
 npm install
 ```
 
-## 10.浏览器调试 ##
+## 10.浏览器调试
 
 ```bash
 hexo s
@@ -107,7 +107,7 @@ hexo s
 
 ![](https://s3.bmp.ovh/imgs/2022/03/96e3d311c036e065.jpg)
 
-## 11.同步本地博客到Github ##
+## 11.同步本地博客到Github
 在myblog（或者你自己取的名称）中的_config.yml文件中添加deploy节点
 
 ```bash

@@ -11,9 +11,9 @@ tags:
 <link href="themes/prism.css" rel="stylesheet" />
 <script src="prism.js" data-manual></script>
 
-## 常见(性能一般) ##
+## 常见(性能一般)
 
-```bash
+```js
 import Index from "@/components/index"
 const router = new Router({
     routes: [
@@ -25,9 +25,9 @@ const router = new Router({
     ]
 })
 ```
-## 性能有优化 ##
+## 性能有优化
 
-```bash
+```js
 const Index = (resolve) => {
   import('@/components/index').then((module) => {
     resolve(module);
@@ -44,9 +44,9 @@ const router = new Router({
 })
 ```
 
-## 路由懒加载(性能较优，推荐使用) ##
+## 路由懒加载(性能较优，推荐使用)
 
-```bash
+```js
 const index = require('@/components/index');
 const Index = resolve => require.ensure([], () => resolve(index), 'list');
 const router = new Router({

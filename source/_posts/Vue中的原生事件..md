@@ -9,8 +9,8 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Vue中的原生事件 ##
-```bash
+## Vue中的原生事件
+```html
 <router-link :to="path" @click.native="''"></router-link>
 ```
 在router-link中必须加入native,click事件才能生效，否则，router-link会阻止click事件，而a标签不会阻止。

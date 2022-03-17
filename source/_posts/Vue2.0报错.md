@@ -10,7 +10,7 @@ tags:
 <link href="themes/prism.css" rel="stylesheet" />
 
 
-## 2022.3.5 Vue报错笔记 ##
+## 2022.3.5 Vue报错笔记
 
 Vue-cli搭建好默认项目后，想要用路由功能，但是报错:
 
@@ -38,9 +38,9 @@ npm install vue-router@3
 ![](https://s3.bmp.ovh/imgs/2022/03/b566dec104fa864e.jpg)
 
 
-## 2022.3.6 Vue报错笔记 ##
+## 2022.3.6 Vue报错笔记
 
-### Component name "Vueabout" should always be multi-word ###
+### Component name "Vueabout" should always be multi-word
 
 
 今天在跑Vue-router项目的时候碰到一个Bug
@@ -53,10 +53,9 @@ npm install vue-router@3
 
 然后我看了一下我的代码块，果然是组件的命名问题
 原来的代码：
-```bash
+```js
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
@@ -67,10 +66,9 @@ export default {
 ```
 
 更改后的
-```bash
+```js
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'AppNamne',
   components: {
@@ -89,7 +87,7 @@ export default {
 ![](https://s3.bmp.ovh/imgs/2022/03/fb345fc386e153db.jpg)
 
 
-### vue 运行时，报错： `> plan-vue@0.1.0 serve` 解决方式 ###
+### vue 运行时，报错： `> plan-vue@0.1.0 serve` 解决方式
 
 
 出现此问题的原因：由于长时间没有运行项目导致项目缺少依赖项,如下图:
@@ -116,18 +114,18 @@ npm install
 ![](https://s3.bmp.ovh/imgs/2022/03/7f94f589294090fe.jpg)
 
 
-## 2022.3.7 Vue报错笔记 ##
+## 2022.3.7 Vue报错笔记
 
-### ＜div＞ has no matching end tag. ###
+### ＜div＞ has no matching end tag.
 
 ![](https://s3.bmp.ovh/imgs/2022/03/ccd14940d5422c5d.png)
 
 div标签对应结束部分没加(/)
 
 
-## 2022.3.8 Vue报错笔记 ##
+## 2022.3.8 Vue报错笔记
 
-### NavigationDuplicated: Avoided redundant navigation to current location: "h_son2". ###
+### NavigationDuplicated: Avoided redundant navigation to current location: "h_son2".
 
 在VUE中路由遇到Error: Avoided redundant navigation to current location:报错显示是路由重复
 
@@ -135,8 +133,8 @@ div标签对应结束部分没加(/)
 
 解决方法：router文件夹下面的index.js中加上下面几句代码:
 
-```bash
-# 解决ElementUI导航栏中的vue-router在3.0版本以上重复点菜单报错问题
+```js
+// 解决ElementUI导航栏中的vue-router在3.0版本以上重复点菜单报错问题
 const originalPush = Router.prototype.push
 Router.prototype.push = function push(location) {
   return originalPush.call(this, location).catch(err => err)
@@ -144,9 +142,9 @@ Router.prototype.push = function push(location) {
 ```
 
 
-## 2022.3.13 Vue报错笔记 ##
+## 2022.3.13 Vue报错笔记
 
-### Parsing error: Identifier 'Button' has already been declared ###
+### Parsing error: Identifier 'Button' has already been declared
 
 安装Antd Vue的时候碰到一个bug，排查之后发现是引入错误
 
@@ -156,7 +154,7 @@ Router.prototype.push = function push(location) {
 
 代码部分如下:
 
-```bash
+```js
   // src/main.js
   import Vue from 'vue'
   import Button from 'ant-design-vue/lib/button';
@@ -175,7 +173,7 @@ Router.prototype.push = function push(location) {
 
 只要删除重复引入的部分就行，删除代码：
 
-```bash
+```js
   // src/main.js
   import Vue from 'vue'
   import { Button } from 'ant-design-vue';
@@ -196,9 +194,9 @@ Router.prototype.push = function push(location) {
   ![](https://s3.bmp.ovh/imgs/2022/03/cbe870a6132c0edf.jpg)
 
 
-  ## 2022.3.16 Vue报错笔记 ##
+  ## 2022.3.16 Vue报错笔记
 
-  ###  Maximum call stack size exceeded  ###
+  ###  Maximum call stack size exceeded
 
   在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:
 
@@ -210,7 +208,7 @@ Router.prototype.push = function push(location) {
 
   仔细检查页面后发现
 
-  ```bash
+  ```html
   <template>
   <div>
     <hr />
@@ -246,7 +244,7 @@ div{
 发现页面引用了一个组件 和页面的`name`重复。所以进入页面的时候，一直都在死循环。
 
 修改如下
-```bash
+```html
 <template>
   <div>
     <hr />

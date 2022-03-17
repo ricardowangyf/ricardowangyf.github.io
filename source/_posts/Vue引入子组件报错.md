@@ -10,7 +10,7 @@ tags:
 <link href="themes/prism.css" rel="stylesheet" />
 <script src="prism.js" data-manual></script>
 
-## Vue引入子组件报错 ##
+## Vue引入子组件报错
 
 报错内容
 ```bash

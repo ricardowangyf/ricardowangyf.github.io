@@ -12,7 +12,7 @@ tags:
 <!-- more -->
 
 ### Vue中的写法
-```bash
+```html
 <template>
   <button v-on:click="count++">You clicked me {{ count }} times.</button>
 </template>

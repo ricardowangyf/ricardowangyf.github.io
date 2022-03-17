@@ -9,25 +9,26 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Vue中的methods方法 ##
+## Vue中的methods方法
 
-### 在 methods 中定义方法 ###
+### 在 methods 中定义方法
 
 我们可以使用 `methods` 属性给 Vue 定义方法，`methods` 的基本语法：
 
-```bash
+```js
 var vm = new Vue({
-    methods:{
+  methods:{      
+   方法名:function(){
         // 在此时定义方法，方法之间使用逗号分隔
-        方法名:function(){}
+   }
 });
 ```
 
-## 示例: ##
+## 示例:
 
 例如在 `methods `中定义一个名为`show `的方法
 
-```bash
+```js
 methods:{
     show: function(){
         console.log("显示内容")

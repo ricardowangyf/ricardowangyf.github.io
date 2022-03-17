@@ -69,10 +69,10 @@ tags:
 </html>
 ```
 
-### 第三种写法 ###
+### 第三种写法
 这种方法基本用于vue的单页面应用之中，详情可见[Vue官网](https://cn.vuejs.org/v2/guide/single-file-components.html)
 
-```bash
+```html
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -91,9 +91,9 @@ export default {
 </script>
 
 ```
-###  3.1  App.vue文件  ###
-```bash
-### 展示模板
+###  3.1  App.vue文件
+```html
+<!-- 展示模板 -->
 <template>
   <div id="app">
     <img src="./assets/logo.png">
@@ -122,5 +122,4 @@ export default {
   margin-top: 60px;
 }
 </style>
-
 ```

@@ -9,10 +9,10 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Vue中创建单文件组件 注册组件 以及组件的使用 ##
+## Vue中创建单文件组件 注册组件 以及组件的使用
 
-### 1. App.vue ###
-```bash
+### 1. App.vue
+```html
 #App.vue
 <template>
   <div>
@@ -23,9 +23,9 @@ tags:
   </div>
 </template>
 <script>
-# 引入组件
-# 挂载组件
-# 在模板中使用
+// 引入组件
+// 挂载组件
+// 在模板中使用
 import Home from "./Home.vue";
 import News from "./News.vue";
 export default {
@@ -43,8 +43,8 @@ export default {
 ```
 
 
-### 2. Header.vue ###
-```bash
+### 2. Header.vue
+```html
 # Header.vue
 <template>
   <div>
@@ -64,11 +64,11 @@ export default {
 
 
 
-### 3. Home.vue ###
-```bash
-#  Home.vue
+### 3. Home.vue
+```html
+<!-- Home.vue -->
 <template>
-# 所有的内容要被根节点包含起来 
+<!-- 所有的内容要被根节点包含起来  -->
   <div>
     <v-header></v-header>
     <br />
@@ -78,7 +78,7 @@ export default {
   </div>
 </template>
 <script>
-# 引入头部组件
+// 引入头部组件
 import Header from "./Header.vue";
 export default {
   data() {
@@ -100,9 +100,9 @@ export default {
 
 
 
-### 4. News.vue ###
-```bash
-# News.vue
+### 4. News.vue
+```html
+<!-- News.vue -->
 <template>
   <div>
     <v-header></v-header>

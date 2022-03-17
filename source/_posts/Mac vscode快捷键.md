@@ -12,7 +12,7 @@ tags:
 
 <!-- more -->
 
-## 全局 ##
+## 全局
 
 ```bash
 Command + Shift + P / F1 显示命令面板
@@ -21,7 +21,7 @@ Command + Shift + N 打开新窗口
 Command + W 关闭窗口
 ```
 
-## 基本 ##
+## 基本
 
 ```bash
 Command + X 剪切（未选中文本的情况下，剪切光标所在行）
@@ -55,10 +55,10 @@ Command + K Command + U 移除行注释
 Command + / 添加、移除行注释
 Option + Shift + A 添加、移除块注释
 Option + Z 自动换行、取消自动换行
-````
+```
 
 <!-- more -->
-## 多光标与选择 ##
+## 多光标与选择
 
 ```bash
 Option + 点击 插入多个光标
@@ -80,7 +80,7 @@ Command + Shift + Option + PgUp 列选择 向上翻页
 Command + Shift + Option + PgDown 列选择 向下翻页
 ```
 
-## 查找替换 ##
+## 查找替换
 
 ```bash
 Command + F 查找
@@ -92,7 +92,7 @@ Command + D 向下选中相同内容
 Command + K Command + D 移除前一个向下选中相同内容
 ```
 
-## 进阶 ##
+## 进阶
 
 ```bash
 Ctrl + Space 打开建议
@@ -112,7 +112,7 @@ Command + K Command + X 删除行尾多余空格
 Command + K M 更改文件语言
 ```
 
-## 导航 ##
+## 导航
 
 ```bash
 Command + T 显示所有符号
@@ -128,7 +128,7 @@ Ctrl + Shift + - 前进
 Ctrl + Shift + M Tab 切换焦点
 ```
 
-## 编辑器管理 ##
+## 编辑器管理
 
 ```bash
 Command + W 关闭编辑器
@@ -145,7 +145,7 @@ Command + K Left 激活左侧编辑组
 Command + K Right 激活右侧编辑组
 ```
 
-## 文件管理 ##
+## 文件管理
 
 ```bash
 Command + N 新建文件

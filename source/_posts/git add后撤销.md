@@ -14,7 +14,18 @@ tags:
 ![](https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg)
 
 1.使用git reset命令
-
+```html
+<center>
+    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' />
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+      git reset命令效果
+  	</div>
+</center>
+```
 <center>
     <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' />
     <br>
@@ -26,5 +37,4 @@ tags:
   	</div>
 </center>
 
-2.使用git rm --cached [filename]命令
 

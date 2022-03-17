@@ -10,13 +10,13 @@ tags:
 [yarn英文文档](https://yarnpkg.com/)
 
 
-### 前言 ###
+### 前言
 
 最近在学习引入Antd vue需要使用yarn来安装相关的依赖包，其实以前在学习其他东西的时候碰到过，但是当时没有做笔记，现在等于是补上了。
 
 接下来说说在Mac上安装yarn的几种方法。
 
-## 1.使用homebrew 安装 ##
+## 1.使用homebrew 安装
 
 ```bash
 brew install yarn
@@ -32,7 +32,7 @@ brew install yarn
 
 ok这就是第一种安装方法
 
-## 2.脚本安装 ##
+## 2.脚本安装
 
 ```bash
 curl -o- -L https://yarnpkg.com/install.sh | bash

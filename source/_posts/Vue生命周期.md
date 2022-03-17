@@ -9,7 +9,7 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Vue 生命周期 ##
+## Vue 生命周期
 
 Vue实例有一个完整的生命周期，也就是从**开始创建**、**初始化数据**、**编译模板**、**挂载Dom**、**渲染→更新→渲染**、**销毁等一系列过程，我们称这是Vue的生命周期**。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。
 
@@ -33,7 +33,7 @@ Vue实例有一个完整的生命周期，也就是从**开始创建**、**初�
 
 9.vue中的钩子函数;**beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed。**
 
-```bash
+```html
 <template>
   <div>
     <h1>{{ message }}</h1>
@@ -101,9 +101,9 @@ export default {
     console.log("%c%s", "color:red", "message: " + this.message);
   },
 };
-#  vue实例若数据未跟新只会打印到 mounted挂载结束状态
+// vue实例若数据未跟新只会打印到 mounted挂载结束状态
 
-# vm.message='触发组件更新' vue会继续执行 beforeUpdate 和 updated
+// vm.message='触发组件更新' vue会继续执行 beforeUpdate 和 updated
 </script>
 
 ```

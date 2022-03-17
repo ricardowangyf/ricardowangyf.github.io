@@ -9,7 +9,7 @@ tags:
 ---
 <!-- more -->
 
-##  1. Antd-vue的安装方法 ##
+##  1. Antd-vue的安装方法
 
 [Antd-vue](https://www.antdv.com/docs/vue/introduce-cn/)
 [Antd](https://ant.design/index-cn)
@@ -31,7 +31,7 @@ yarn add ant-design-vue
 
 建议使用[cnpm](https://github.com/cnpm/cnpm)来代替npm安装
 
-### 示例 ###
+### 示例
 
 ```bash
 import Vue from 'vue';
@@ -60,9 +60,9 @@ import 'ant-design-vue/lib/date-picker/style/css'; # 加载 CSS
 ```
 
 
-## 2. 引入 ant-design-vue ##
+## 2. 引入 ant-design-vue
 
-### 安装脚手架工具 ####
+### 安装脚手架工具
 
 [vue-cli](https://github.com/vuejs/vue-cli)
 
@@ -72,14 +72,14 @@ npm install -g @vue/cli
 yarn global add @vue/cli
 ```
 
-### 创建一个项目 ###
+### 创建一个项目
 
 使用命令行进行项目初始化:
 ```bash
 vue create antd-demo
 ```
 
-### 使用组件 ###
+### 使用组件
 ```bash
 npm i --save ant-design-vue
 ```
@@ -104,7 +104,7 @@ new Vue({
 
 在main.js文件输入以上代码就能完成Antd的引入，但需要注意的是，样式文件需要单独引入
 
-#### 局部导入组件 ####
+#### 局部导入组件
 
 ```bash
 import Vue from 'vue';
@@ -130,7 +130,7 @@ new Vue({
 });
 ```
 
-## 在 vue-cli 3 中使用 ##
+## 在 vue-cli 3 中使用
 使用命令行安装vue-cli,你可能需要安装[yarn](https://yarn.bootcss.com/)
 
 ```bash
@@ -154,7 +154,7 @@ cd antd-demo
 npm run serve
 ```
 
-### 引入Antd ###
+### 引入Antd
 这是 vue-cli 生成的默认目录结构。
 ```bash
 ├── README.md
@@ -174,11 +174,13 @@ npm run serve
 ```
 
 现在从 yarn 或 npm 安装并引入 ant-design-vue。
+
 ```bash
 yarn add ant-design-vue
 ```
+
 修改 `src/main.js`，引入 antd 的按钮组件以及全部样式文件。
-```bash
+```js
 import Vue from 'vue';
 import Button from 'ant-design-vue/lib/button';
 import 'ant-design-vue/dist/antd.css';
@@ -194,7 +196,7 @@ new Vue({
 ```
 
 修改 `src/App.vue`的 template 内容。
-```bash
+```html
 <template>
   <div id="app">
     <img src="./assets/logo.png">

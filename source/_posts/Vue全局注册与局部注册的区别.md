@@ -10,7 +10,7 @@ tags:
 <link href="themes/prism.css" rel="stylesheet" />
 <script src="prism.js" data-manual></script>
 
-## Vue全局注册与局部注册的区别 ##
+## Vue全局注册与局部注册的区别
 
 不同点
 
@@ -22,7 +22,7 @@ tags:
 
 全局注册
 
-```bash
+```js
 Vue.component('myheader',header),
 Vue.component('mycontent',content),
 Vue.component('mybottom',bottom),
@@ -30,7 +30,7 @@ Vue.component('mybottom',bottom),
 
 局部注册
 
-```bash
+```js
 export default {
   name: 'app',
   components:{
@@ -46,11 +46,11 @@ export default {
 全局注册是都全都能用
 局部注册是在哪里注册就用在哪里
 
-## 相同点 ##
+## 相同点
 
 导入方式一样
 
-```bash
+```js
 import Header from './components/header'
 import Content from './components/content'
 import Bottom from './components/bottom'

@@ -12,8 +12,8 @@ categories: Vue
 
 <!-- more -->
 
-## 为什么Vue子组件当中data必须是函数 ##
-### vue中data有四种写法 ###
+## 为什么Vue子组件当中data必须是函数
+### vue中data有四种写法 
 
 第一种写法
 ```bash

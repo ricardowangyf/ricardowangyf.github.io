@@ -9,9 +9,9 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Markdown插入图片及图注的方法 ##
+## Markdown插入图片及图注的方法
 
-### 一般方法 ###
+### 一般方法
 
 格式为：
 
@@ -23,7 +23,7 @@ tags:
 
 下面是一些进阶操作。
 
-### 插入图注，并调整尺寸 ###
+### 插入图注，并调整尺寸
 ```bash
 <center>
     <img style="border-radius: 0.3125em;
@@ -47,7 +47,9 @@ tags:
 ```
 
 
-### 并排插入两张图片 ###
+### 并排插入两张图片
+
+
 ```bash
  <center>
     <img style="border-radius: 0.3125em;

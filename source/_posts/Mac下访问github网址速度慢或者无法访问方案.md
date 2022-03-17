@@ -9,7 +9,7 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## Mac下访问github网址速度慢或者无法访问方案 ##
+## Mac下访问github网址速度慢或者无法访问方案
 
 最近想用Mac电脑访问github发现一直登不上去,梯子太贵消费不起，常用的几个梯子基本都挂了，一直在网上搜寻解决方案，终于，结合两篇文章解决了
 虽然访问依旧很慢，但是至少不需要梯子就能上github了

@@ -9,7 +9,7 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
-## 1.安装vue-router ##
+## 1.安装vue-router
 
 讲安装方法之前很关键的一点一定要记住！！！
 
@@ -47,7 +47,7 @@ npm install vue-router
   },
 ```
 
-## 2.下面添加一个实例 ##
+## 2.下面添加一个实例
 
 1.在src目录中创建文件夹router
 
@@ -76,7 +76,7 @@ new Vue({
 
 4.components目录中添加文件App.vue
 
-```bash
+```html
 <template>
   <div class="warpper">
     <div>路由实例</div>
@@ -140,7 +140,7 @@ new Vue({
 ```
 
 5.components目录中添加文件About.vue
-```
+```html
 <template>
   <div>
     <h2>我是关于</h2>
@@ -156,8 +156,7 @@ export default {
 
 
 6.components目录中添加文件Good.vue
-
-```bash
+```html
 <template>
   <div>
     <p>Good</p> 
@@ -170,13 +169,12 @@ export default {
 </script>
 ```
 7.components目录中添加文件Home.vue
-
-```bash
+```html
 <template>
   <div id="app">
-    # 可以定义不变的内容
+    <!-- 可以定义不变的内容 -->
     <h3>{{title}}</h3>
-    # 可以定义不变的内容
+    <!-- s可以定义不变的内容 -->
   </div>
 </template>
 
@@ -193,8 +191,7 @@ export default{
 ```
 
 8.components目录中添加文件NotFound.vue
-
-```bash
+```html
 <template>
   <div class="notfound">
       <div>
@@ -216,9 +213,9 @@ export default{
 }
 </style>
 ```
-9.components目录中添加文件User.vue
 
-```bash
+9.components目录中添加文件User.vue
+```html
 <template>
   <div>
       User {{ $route.params.id }}
@@ -232,8 +229,7 @@ export default {
 ```
 
 10.index文件中添加内容
-
-```bash
+```js
 import Vue from 'vue'
 import Router from 'vue-router'
 import About from '../components/About'
