@@ -21,10 +21,10 @@ tags:
 使用 v-model 可以实现数据双向绑定，但是如何实现的呢？
 v-model 绑定数据之后，既绑定了数据，又添加了事件监听，这个事件就是 input 事件。
 使用案例：
-```js
-// 语法糖写法
+```html
+<!-- 语法糖写法 -->
 <input type="text" v-model="name" >
-// 还原为以下实例
+<!-- 还原为以下实例 -->
 <input type="text" 
  v-bind:value="name" 
  v-on:input="name=$event.target.value">
@@ -81,7 +81,7 @@ methods:{
 
 示例：链接添加点击事件，点击之后不希望跳转。
 ```html
-# 语法糖
+<!--  语法糖 -->
 <a href="http://www.baidu.com" rel="external nofollow"  rel="external nofollow"  @click.prevent="go">百度</a>
 
 <!-- 普通写法 -->

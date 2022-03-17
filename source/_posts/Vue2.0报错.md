@@ -53,7 +53,7 @@ npm install vue-router@3
 
 然后我看了一下我的代码块，果然是组件的命名问题
 原来的代码：
-```js
+```html
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 export default {
@@ -66,7 +66,7 @@ export default {
 ```
 
 更改后的
-```js
+```html
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 export default {
@@ -175,6 +175,7 @@ Router.prototype.push = function push(location) {
 
 ```js
   // src/main.js
+
   import Vue from 'vue'
   import { Button } from 'ant-design-vue';
   import 'ant-design-vue/dist/antd.css'
@@ -208,7 +209,7 @@ Router.prototype.push = function push(location) {
 
   仔细检查页面后发现
 
-  ```html
+  ```js
   <template>
   <div>
     <hr />
