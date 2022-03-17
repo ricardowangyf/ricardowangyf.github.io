@@ -28,7 +28,7 @@ export default {
 ```
 
 ### Javascript中的写法
-```bash
+```js
 var vm = new Vue({
     el: '#example',
     data: {
@@ -45,7 +45,7 @@ var vm = new Vue({
 ```
 
 ## HTML中的写法
-```bash
+```html
 <div id="example">
   <p>Original message: "{{ message }}"</p>
   <p>Computed reversed message: "{{ reversedMessage }}"</p>

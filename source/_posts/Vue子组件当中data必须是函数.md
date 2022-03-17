@@ -16,7 +16,7 @@ categories: Vue
 ### vue中data有四种写法 
 
 第一种写法
-```bash
+```js
 data() {
   return {
     msg: '',
@@ -26,7 +26,7 @@ data() {
 ```
 
 第二种写法
-```bash
+```JS
 data:{
     msg:'',
     xxx: 'Hello,vue!'
