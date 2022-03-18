@@ -97,11 +97,11 @@
   </entry>
   
   <entry>
-    <title>Vue2.0报错</title>
+    <title>Vue2.0报错笔记整理</title>
     <link href="http://example.com/2022/03/05/Vue2.0%E6%8A%A5%E9%94%99/"/>
     <id>http://example.com/2022/03/05/Vue2.0%E6%8A%A5%E9%94%99/</id>
     <published>2022-03-04T16:00:00.000Z</published>
-    <updated>2022-03-18T00:26:14.695Z</updated>
+    <updated>2022-03-18T01:18:36.850Z</updated>
     
     <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="2022-3-5-Vue报错笔记"><a href="#2022-3-5-Vue报错笔记" class="headerlink" title="2022.3.5 Vue报错笔记"></a>2022.3.5 Vue报错笔记</h2><p>Vue-cli搭建好默认项目后，想要用路由功能，但是报错:</p><pre><code class="bash">Can’t resolve ‘vue-router’ in xxxx(某路径)</code></pre><p>这是因为缺少包的原因</p><p>你可以看一下你的package.json文件中是否安装了vue-router</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/f15617d9351db180.jpg" loading="lazy"></p><p>运行命令</p><pre><code class="bash">npm install vue-router@3# 如果你的vue版本安装的是2.0，那么vue-router就要安装3.0版本## 如果你的vue版本安装的是3.0，那么vue-router就要安装4.0版本### 改变@后面的数字就行</code></pre><p>安装成功后显示</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/b566dec104fa864e.jpg" loading="lazy"></p><h2 id="2022-3-6-Vue报错笔记"><a href="#2022-3-6-Vue报错笔记" class="headerlink" title="2022.3.6 Vue报错笔记"></a>2022.3.6 Vue报错笔记</h2><h3 id="Component-name-“Vueabout”-should-always-be-multi-word"><a href="#Component-name-“Vueabout”-should-always-be-multi-word" class="headerlink" title="Component name “Vueabout” should always be multi-word"></a>Component name “Vueabout” should always be multi-word</h3><p>今天在跑Vue-router项目的时候碰到一个Bug</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/34dcc56415907b29.jpg" loading="lazy"></p><p>开始排错的时候怎么都发现不了，到百度上到处搜索，后来用百度翻译翻译出来这句话的意思：</p><p>组件名称“Vueabout”应始终为多个字母</p><p>然后我看了一下我的代码块，果然是组件的命名问题<br>原来的代码：</p><pre><code class="html">&lt;script&gt;import HelloWorld from &#39;./components/HelloWorld.vue&#39;export default &#123;  name: &#39;App&#39;,  components: &#123;    HelloWorld  &#125;&#125;&lt;/script&gt;</code></pre><p>更改后的</p><pre><code class="html">&lt;script&gt;import HelloWorld from &#39;./components/HelloWorld.vue&#39;export default &#123;  name: &#39;AppNamne&#39;,  components: &#123;    HelloWorld  &#125;&#125;&lt;/script&gt;</code></pre><p>然后我们就发现不报错了：</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1bb0726156ff5d5d.jpg" loading="lazy"></p><p>页面也成功的运行了起来</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/fb345fc386e153db.jpg" loading="lazy"></p><h3 id="vue-运行时，报错：-gt-plan-vue-0-1-0-serve-解决方式"><a href="#vue-运行时，报错：-gt-plan-vue-0-1-0-serve-解决方式" class="headerlink" title="vue 运行时，报错： &gt; plan-vue@0.1.0 serve 解决方式"></a>vue 运行时，报错： <code>&gt; plan-vue@0.1.0 serve</code> 解决方式</h3><p>出现此问题的原因：由于长时间没有运行项目导致项目缺少依赖项,如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/007f389abe802745.jpg" loading="lazy"></p><p>解决方式：将项目中的node_modules和package-lock.json两个文件手动删除掉，然后在idea窗口中，执行npm install。重启idea即可。如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/312be75605b62bd5.jpg" loading="lazy"></p><p>删除之后重新安装依赖包</p><pre><code class="bash">npm install vue-routernpm install</code></pre><p>安装完成之后可以进入<code>package.json</code>文件查看<br><img src="https://s3.bmp.ovh/imgs/2022/03/1c4af49c72db06db.jpg" loading="lazy"></p><p>最后重新npm run serve,就会发现运行成功，如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/7f94f589294090fe.jpg" loading="lazy"></p><h2 id="2022-3-7-Vue报错笔记"><a href="#2022-3-7-Vue报错笔记" class="headerlink" title="2022.3.7 Vue报错笔记"></a>2022.3.7 Vue报错笔记</h2><h3 id="＜div＞-has-no-matching-end-tag"><a href="#＜div＞-has-no-matching-end-tag" class="headerlink" title="＜div＞ has no matching end tag."></a>＜div＞ has no matching end tag.</h3><p><img src="https://s3.bmp.ovh/imgs/2022/03/ccd14940d5422c5d.png" loading="lazy"></p><p>div标签对应结束部分没加(/)</p><h2 id="2022-3-8-Vue报错笔记"><a href="#2022-3-8-Vue报错笔记" class="headerlink" title="2022.3.8 Vue报错笔记"></a>2022.3.8 Vue报错笔记</h2><h3 id="NavigationDuplicated-Avoided-redundant-navigation-to-current-location-“h-son2”"><a href="#NavigationDuplicated-Avoided-redundant-navigation-to-current-location-“h-son2”" class="headerlink" title="NavigationDuplicated: Avoided redundant navigation to current location: “h_son2”."></a>NavigationDuplicated: Avoided redundant navigation to current location: “h_son2”.</h3><p>在VUE中路由遇到Error: Avoided redundant navigation to current location:报错显示是路由重复</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/c9b7ddb5a384f4e5.jpg" loading="lazy"></p><p>解决方法：router文件夹下面的index.js中加上下面几句代码:</p><pre><code class="js">// 解决ElementUI导航栏中的vue-router在3.0版本以上重复点菜单报错问题const originalPush = Router.prototype.pushRouter.prototype.push = function push(location) &#123;  return originalPush.call(this, location).catch(err =&gt; err)&#125;</code></pre><h2 id="2022-3-13-Vue报错笔记"><a href="#2022-3-13-Vue报错笔记" class="headerlink" title="2022.3.13 Vue报错笔记"></a>2022.3.13 Vue报错笔记</h2><h3 id="Parsing-error-Identifier-‘Button’-has-already-been-declared"><a href="#Parsing-error-Identifier-‘Button’-has-already-been-declared" class="headerlink" title="Parsing error: Identifier ‘Button’ has already been declared"></a>Parsing error: Identifier ‘Button’ has already been declared</h3><p>安装Antd Vue的时候碰到一个bug，排查之后发现是引入错误</p><p>报错内容如下:</p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0bnt93yotj30wu09wwho.jpg" loading="lazy"></p><p>代码部分如下:</p><pre><code class="js">  // src/main.js  import Vue from &#39;vue&#39;  import Button from &#39;ant-design-vue/lib/button&#39;;  import &#123; Button &#125; from &#39;ant-design-vue&#39;;  import &#39;ant-design-vue/dist/antd.css&#39;  import App from &#39;./App&#39;  Vue.component(Button.name, Button)  Vue.config.productionTip = false  new Vue(&#123;      render: h =&gt; h(App)  &#125;).$mount(&quot;#app&quot;);</code></pre><p>只要删除重复引入的部分就行，删除代码：</p><pre><code class="js">  // src/main.js  import Vue from &#39;vue&#39;  import &#123; Button &#125; from &#39;ant-design-vue&#39;;  import &#39;ant-design-vue/dist/antd.css&#39;  import App from &#39;./App&#39;  Vue.component(Button.name, Button)  Vue.config.productionTip = false  new Vue(&#123;      render: h =&gt; h(App)  &#125;).$mount(&quot;#app&quot;);</code></pre><p>  删除了重复引入的部分，这样代码就不会报错了:</p><p>  <img src="https://s3.bmp.ovh/imgs/2022/03/cbe870a6132c0edf.jpg" loading="lazy"></p><h2 id="2022-3-16-Vue报错笔记"><a href="#2022-3-16-Vue报错笔记" class="headerlink" title="2022.3.16 Vue报错笔记"></a>2022.3.16 Vue报错笔记</h2><h3 id="Maximum-call-stack-size-exceeded"><a href="#Maximum-call-stack-size-exceeded" class="headerlink" title="Maximum call stack size exceeded"></a>Maximum call stack size exceeded</h3><p>  在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:</p><p>  <img src="https://img2018.cnblogs.com/blog/357040/201904/357040-20190418092922564-1202635304.png" loading="lazy"></p><p>  百度翻译过来的内容是:</p><p>  超出了最大调用堆栈大小</p><p>  仔细检查页面后发现</p><pre><code class="js">&lt;template&gt;&lt;div&gt;  &lt;hr /&gt;  &lt;HistoryApp&gt;&lt;/HistoryApp&gt;  &lt;hr /&gt;  &lt;App&gt;&lt;/App&gt;  &lt;hr /&gt;&lt;/div&gt;&lt;/template&gt;&lt;script&gt;import HistoryApp from &quot;./components/history/HistoryApp.vue&quot;;import App from &quot;./components/App.vue&quot;;export default &#123;name:&#39;HistoryApp&#39;,components: &#123;  HistoryApp,  App,&#125;,&#125;;&lt;/script&gt;&lt;style scoped&gt;hr &#123;border: 1px solid red;&#125;div&#123;text-align: center;&#125;&lt;/style&gt;</code></pre><p>发现页面引用了一个组件 和页面的<code>name</code>重复。所以进入页面的时候，一直都在死循环。</p><p>修改如下</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;hr /&gt;    &lt;HistoryApp&gt;&lt;/HistoryApp&gt;    &lt;hr /&gt;    &lt;App&gt;&lt;/App&gt;    &lt;hr /&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;import HistoryApp from &quot;./components/history/HistoryApp.vue&quot;;import App from &quot;./components/App.vue&quot;;export default &#123;  components: &#123;    HistoryApp,    App,  &#125;,&#125;;&lt;/script&gt;&lt;style scoped&gt;hr &#123;  border: 1px solid red;&#125;div&#123;  text-align: center;&#125;&lt;/style&gt;</code></pre><h2 id="2022-3-18-Vue报错笔记"><a href="#2022-3-18-Vue报错笔记" class="headerlink" title="2022.3.18 Vue报错笔记"></a>2022.3.18 Vue报错笔记</h2><h3 id="did-you-register-the-component-correctly-For-recursive-components-make-sure-to-provide-the-“name”-option"><a href="#did-you-register-the-component-correctly-For-recursive-components-make-sure-to-provide-the-“name”-option" class="headerlink" title=" - did you register the component correctly? For recursive components, make sure to provide the “name” option."></a><BarApp> - did you register the component correctly? For recursive components, make sure to provide the “name” option.</h3><p>  今天学习vue-router的时候碰到一个bug，浏览器报错如下：</p><p>  <img src="https://s3.bmp.ovh/imgs/2022/03/142b3a8aad79caf1.jpg" loading="lazy"></p><p><strong>重点</strong></p><p><strong>其实是我的components单词写错了</strong></p><p>我以为又是什么很难的问题，结果就是一个少写一个字母的问题  = - =  哭死</p><p>修改之后如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/bdceb5101f4493a4.jpg" loading="lazy"></p>]]></content>
     
@@ -154,33 +154,6 @@
   </entry>
   
   <entry>
-    <title>安装vue-router</title>
-    <link href="http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue-router/"/>
-    <id>http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue-router/</id>
-    <published>2022-03-01T16:00:00.000Z</published>
-    <updated>2022-03-17T04:05:10.199Z</updated>
-    
-    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="1-安装vue-router"><a href="#1-安装vue-router" class="headerlink" title="1.安装vue-router"></a>1.安装vue-router</h2><p>讲安装方法之前很关键的一点一定要记住！！！</p><p><code>vue-router 3.0 对应使用 vue 2.x</code><br><code>vue-router 4.0 对应使用 vue 3.x</code></p><p><a href="https://v3.router.vuejs.org/zh/installation.html">3.0文档</a><br><a href="https://router.vuejs.org/zh/introduction.html">4.0文档</a></p><p>1.安装vue项目</p><pre><code class="bash">vue create hello-world# 文件名称</code></pre><p>安装vue项目的具体过程可以参考我的另外一篇<a href="https://wangyufei.fun/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/">文章</a></p><p>2.通过如下命令安装vue-router</p><pre><code class="bash">npm install vue-router@3npm install vue-router</code></pre><p>3.查看是否安装成功</p><p>安装过后可以在<code>package.json</code>文件中查看到你的vue版本与vue-router版本</p><pre><code class="bash">  &quot;dependencies&quot;: &#123;    &quot;core-js&quot;: &quot;^3.8.3&quot;,    &quot;vue&quot;: &quot;^2.6.14&quot;,    &quot;vue-router&quot;: &quot;^3.5.3&quot;  &#125;,</code></pre><h2 id="2-下面添加一个实例"><a href="#2-下面添加一个实例" class="headerlink" title="2.下面添加一个实例"></a>2.下面添加一个实例</h2><p>1.在src目录中创建文件夹router</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/4543a1d59b4b54fa.jpg" loading="lazy"></p><p>2.在router目录中添加文件index.js</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1f8ca267ab5fa7ad.jpg" loading="lazy"></p><p>3.修改mian.js文件</p><pre><code class="bash">import Vue from &#39;vue&#39;import App from &#39;./components/App&#39;import &#123; router &#125; from &#39;./router/index&#39;new Vue(&#123;    // el: &#39;#app&#39;,    router,    render(h) &#123;        return h(App);    &#125;&#125;).$mount(&#39;#app&#39;)</code></pre><p>4.components目录中添加文件App.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;warpper&quot;&gt;    &lt;div&gt;路由实例&lt;/div&gt;    &lt;div class=&quot;router&quot;&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/&quot;&gt;首页&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/good&quot;&gt;好的&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/about&quot;&gt;关于&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/1&quot;&gt;鞋子&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/2&quot;&gt;帽子&lt;/router-link&gt;    &lt;/div&gt;    &lt;!--定义路由插座--&gt;    &lt;router-view&gt;&lt;/router-view&gt;    &lt;div class=&quot;footer&quot;&gt;      &lt;p&gt;测试&lt;/p&gt;      &lt;div&gt;        &lt;a href=&quot;#&quot;&gt;测试1&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;测试2&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;xxxxxxxxx&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;aaaaaaaaa&lt;/a&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.warpper &#123;  max-width: 980px;  margin: 0 auto;&#125;.router &#123;  background: #e8e7e3;&#125;.router a &#123;  display: inline-block;  padding: 13px 20px;  font-weight: bold;  text-decoration: auto;&#125;.router-link-exact-active &#123;  color: #fff;  background: #3f3f3f;&#125;.footer &#123;  font-size: 12px;  text-align: center;&#125;.footer p &#123;  background: #e8e7e3;  padding: 10px 18px;&#125;.footer div a &#123;  color: #333;  padding: 0 5px;&#125;.footer div a:hover &#123;  color: #0028f3;&#125;&lt;/style&gt;</code></pre><p>5.components目录中添加文件About.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;h2&gt;我是关于&lt;/h2&gt;    &lt;p&gt;xxxx&lt;/p&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>6.components目录中添加文件Good.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;p&gt;Good&lt;/p&gt;   &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>7.components目录中添加文件Home.vue</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;!-- 可以定义不变的内容 --&gt;    &lt;h3&gt;&#123;&#123;title&#125;&#125;&lt;/h3&gt;    &lt;!-- s可以定义不变的内容 --&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default&#123;    name:&#39;app&#39;,    data()&#123;        return&#123;            title:&#39;首页&#39;        &#125;    &#125;&#125;&lt;/script&gt;</code></pre><p>8.components目录中添加文件NotFound.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;notfound&quot;&gt;      &lt;div&gt;        &lt;h1&gt;404&lt;/h1&gt;        &lt;div&gt;            &lt;p&gt;页面不存在&lt;/p&gt;        &lt;/div&gt;      &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.notfound &#123;    text-align: center;     min-height: 200px;    display: flex;    justify-content: center;        color: #afafaf;    align-items: center;&#125;&lt;/style&gt;</code></pre><p>9.components目录中添加文件User.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;      User &#123;&#123; $route.params.id &#125;&#125;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>10.index文件中添加内容</p><pre><code class="js">import Vue from &#39;vue&#39;import Router from &#39;vue-router&#39;import About from &#39;../components/About&#39;import Good from &#39;../components/Good&#39;import Home from &#39;../components/Home&#39;import NotFound from &#39;../components/NotFound&#39;import User from &#39;../components/User&#39;export const routes = [    &#123; path: &#39;/&#39;, component: Home &#125;,    &#123; path: &#39;/about&#39;, component: About &#125;,    &#123; path: &#39;/good&#39;, component: Good &#125;,    &#123; path: &#39;/user/:id&#39;, component: User &#125;,    &#123; path: &#39;*&#39;, component: NotFound &#125;]export const router = new Router(&#123;    routes // (缩写) 相当于 routes: routes&#125;);Vue.use(Router);</code></pre><p>至此，从安装vue-router到完成第一个实例全部结束</p><p>实例运行效果图如下:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/d33b159b6fd5b0a3.jpg" loading="lazy"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;h2 id=&quot;1-安装vue-router&quot;&gt;&lt;a href=&quot;#1-安装vue-router&quot; class=</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
     <title>安装vue项目</title>
     <link href="http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/"/>
     <id>http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/</id>
@@ -197,6 +170,33 @@
 
 
 &lt;h1 id=&quot;如何安装vue项目&quot;&gt;&lt;a href=&quot;#如何安装vue项目&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装vue-router</title>
+    <link href="http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue-router/"/>
+    <id>http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue-router/</id>
+    <published>2022-03-01T16:00:00.000Z</published>
+    <updated>2022-03-17T04:05:10.199Z</updated>
+    
+    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="1-安装vue-router"><a href="#1-安装vue-router" class="headerlink" title="1.安装vue-router"></a>1.安装vue-router</h2><p>讲安装方法之前很关键的一点一定要记住！！！</p><p><code>vue-router 3.0 对应使用 vue 2.x</code><br><code>vue-router 4.0 对应使用 vue 3.x</code></p><p><a href="https://v3.router.vuejs.org/zh/installation.html">3.0文档</a><br><a href="https://router.vuejs.org/zh/introduction.html">4.0文档</a></p><p>1.安装vue项目</p><pre><code class="bash">vue create hello-world# 文件名称</code></pre><p>安装vue项目的具体过程可以参考我的另外一篇<a href="https://wangyufei.fun/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/">文章</a></p><p>2.通过如下命令安装vue-router</p><pre><code class="bash">npm install vue-router@3npm install vue-router</code></pre><p>3.查看是否安装成功</p><p>安装过后可以在<code>package.json</code>文件中查看到你的vue版本与vue-router版本</p><pre><code class="bash">  &quot;dependencies&quot;: &#123;    &quot;core-js&quot;: &quot;^3.8.3&quot;,    &quot;vue&quot;: &quot;^2.6.14&quot;,    &quot;vue-router&quot;: &quot;^3.5.3&quot;  &#125;,</code></pre><h2 id="2-下面添加一个实例"><a href="#2-下面添加一个实例" class="headerlink" title="2.下面添加一个实例"></a>2.下面添加一个实例</h2><p>1.在src目录中创建文件夹router</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/4543a1d59b4b54fa.jpg" loading="lazy"></p><p>2.在router目录中添加文件index.js</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1f8ca267ab5fa7ad.jpg" loading="lazy"></p><p>3.修改mian.js文件</p><pre><code class="bash">import Vue from &#39;vue&#39;import App from &#39;./components/App&#39;import &#123; router &#125; from &#39;./router/index&#39;new Vue(&#123;    // el: &#39;#app&#39;,    router,    render(h) &#123;        return h(App);    &#125;&#125;).$mount(&#39;#app&#39;)</code></pre><p>4.components目录中添加文件App.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;warpper&quot;&gt;    &lt;div&gt;路由实例&lt;/div&gt;    &lt;div class=&quot;router&quot;&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/&quot;&gt;首页&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/good&quot;&gt;好的&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/about&quot;&gt;关于&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/1&quot;&gt;鞋子&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/2&quot;&gt;帽子&lt;/router-link&gt;    &lt;/div&gt;    &lt;!--定义路由插座--&gt;    &lt;router-view&gt;&lt;/router-view&gt;    &lt;div class=&quot;footer&quot;&gt;      &lt;p&gt;测试&lt;/p&gt;      &lt;div&gt;        &lt;a href=&quot;#&quot;&gt;测试1&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;测试2&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;xxxxxxxxx&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;aaaaaaaaa&lt;/a&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.warpper &#123;  max-width: 980px;  margin: 0 auto;&#125;.router &#123;  background: #e8e7e3;&#125;.router a &#123;  display: inline-block;  padding: 13px 20px;  font-weight: bold;  text-decoration: auto;&#125;.router-link-exact-active &#123;  color: #fff;  background: #3f3f3f;&#125;.footer &#123;  font-size: 12px;  text-align: center;&#125;.footer p &#123;  background: #e8e7e3;  padding: 10px 18px;&#125;.footer div a &#123;  color: #333;  padding: 0 5px;&#125;.footer div a:hover &#123;  color: #0028f3;&#125;&lt;/style&gt;</code></pre><p>5.components目录中添加文件About.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;h2&gt;我是关于&lt;/h2&gt;    &lt;p&gt;xxxx&lt;/p&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>6.components目录中添加文件Good.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;p&gt;Good&lt;/p&gt;   &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>7.components目录中添加文件Home.vue</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;!-- 可以定义不变的内容 --&gt;    &lt;h3&gt;&#123;&#123;title&#125;&#125;&lt;/h3&gt;    &lt;!-- s可以定义不变的内容 --&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default&#123;    name:&#39;app&#39;,    data()&#123;        return&#123;            title:&#39;首页&#39;        &#125;    &#125;&#125;&lt;/script&gt;</code></pre><p>8.components目录中添加文件NotFound.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;notfound&quot;&gt;      &lt;div&gt;        &lt;h1&gt;404&lt;/h1&gt;        &lt;div&gt;            &lt;p&gt;页面不存在&lt;/p&gt;        &lt;/div&gt;      &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.notfound &#123;    text-align: center;     min-height: 200px;    display: flex;    justify-content: center;        color: #afafaf;    align-items: center;&#125;&lt;/style&gt;</code></pre><p>9.components目录中添加文件User.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;      User &#123;&#123; $route.params.id &#125;&#125;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>10.index文件中添加内容</p><pre><code class="js">import Vue from &#39;vue&#39;import Router from &#39;vue-router&#39;import About from &#39;../components/About&#39;import Good from &#39;../components/Good&#39;import Home from &#39;../components/Home&#39;import NotFound from &#39;../components/NotFound&#39;import User from &#39;../components/User&#39;export const routes = [    &#123; path: &#39;/&#39;, component: Home &#125;,    &#123; path: &#39;/about&#39;, component: About &#125;,    &#123; path: &#39;/good&#39;, component: Good &#125;,    &#123; path: &#39;/user/:id&#39;, component: User &#125;,    &#123; path: &#39;*&#39;, component: NotFound &#125;]export const router = new Router(&#123;    routes // (缩写) 相当于 routes: routes&#125;);Vue.use(Router);</code></pre><p>至此，从安装vue-router到完成第一个实例全部结束</p><p>实例运行效果图如下:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/d33b159b6fd5b0a3.jpg" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
+&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+&lt;h2 id=&quot;1-安装vue-router&quot;&gt;&lt;a href=&quot;#1-安装vue-router&quot; class=</summary>
       
     
     
@@ -424,33 +424,6 @@
   </entry>
   
   <entry>
-    <title>Vue引入子组件报错</title>
-    <link href="http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/"/>
-    <id>http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/</id>
-    <published>2022-02-19T16:00:00.000Z</published>
-    <updated>2022-03-17T04:14:33.413Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue引入子组件报错"><a href="#Vue引入子组件报错" class="headerlink" title="Vue引入子组件报错"></a>Vue引入子组件报错</h2><p>报错内容</p><pre><code class="bash">module &quot;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&quot;Already included file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&#39; differs from file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/Child.vue&#39; only in casing.  The file is in th</code></pre><p>具体显示:</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/b50ee4e1de288a70.jpg" loading="lazy"></p><p>该错误的原因是(当然也可以不管，因为你会发现你的代码可以正常运行)：</p><p>vue名称相同，但是有大小写差异导致的</p><p>解决方法:</p><p>1、修改名称，使得引用的和文件名称大小写都对应起来</p><p>2、去掉vue后缀也能解决掉该问题</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Vue引入子组件报错&quot;&gt;&lt;a href=&quot;#Vue引入子组件报错&quot; cl</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Vue生命周期</title>
     <link href="http://example.com/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
     <id>http://example.com/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</id>
@@ -466,6 +439,33 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;Vue-生命周期&quot;&gt;&lt;a href=&quot;#Vue-生命周期&quot; class=&quot;headerlink&quot;</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue引入子组件报错</title>
+    <link href="http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/</id>
+    <published>2022-02-19T16:00:00.000Z</published>
+    <updated>2022-03-17T04:14:33.413Z</updated>
+    
+    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue引入子组件报错"><a href="#Vue引入子组件报错" class="headerlink" title="Vue引入子组件报错"></a>Vue引入子组件报错</h2><p>报错内容</p><pre><code class="bash">module &quot;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&quot;Already included file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&#39; differs from file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/Child.vue&#39; only in casing.  The file is in th</code></pre><p>具体显示:</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/b50ee4e1de288a70.jpg" loading="lazy"></p><p>该错误的原因是(当然也可以不管，因为你会发现你的代码可以正常运行)：</p><p>vue名称相同，但是有大小写差异导致的</p><p>解决方法:</p><p>1、修改名称，使得引用的和文件名称大小写都对应起来</p><p>2、去掉vue后缀也能解决掉该问题</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;Vue引入子组件报错&quot;&gt;&lt;a href=&quot;#Vue引入子组件报错&quot; cl</summary>
       
     
     
