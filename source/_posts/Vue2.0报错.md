@@ -175,7 +175,6 @@ Router.prototype.push = function push(location) {
 
 ```js
   // src/main.js
-
   import Vue from 'vue'
   import { Button } from 'ant-design-vue';
   import 'ant-design-vue/dist/antd.css'
@@ -201,7 +200,8 @@ Router.prototype.push = function push(location) {
 
   在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:
 
-  ![](https://img2018.cnblogs.com/blog/357040/201904/357040-20190418092922564-1202635304.png)
+  ![](https://s3.bmp.ovh/imgs/2022/03/013a9b93be2bfe59.png)
+
 
   百度翻译过来的内容是:
 
@@ -209,7 +209,7 @@ Router.prototype.push = function push(location) {
 
   仔细检查页面后发现
 
-  ```js
+  ```html
   <template>
   <div>
     <hr />
@@ -222,7 +222,6 @@ Router.prototype.push = function push(location) {
 <script>
 import HistoryApp from "./components/history/HistoryApp.vue";
 import App from "./components/App.vue";
-
 
 export default {
   name:'HistoryApp',
@@ -259,9 +258,8 @@ div{
 import HistoryApp from "./components/history/HistoryApp.vue";
 import App from "./components/App.vue";
 
-
 export default {
-  components: {
+  component: {
     HistoryApp,
     App,
   },
@@ -277,13 +275,13 @@ div{
 </style>
 ```
 
-  ## 2022.3.18 Vue报错笔记
+## 2022.3.18 Vue报错笔记
 
-  ###   <BarApp> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
+### <BarApp> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
 
-  今天学习vue-router的时候碰到一个bug，浏览器报错如下：
+今天学习vue-router的时候碰到一个bug，浏览器报错如下：
 
-  ![](https://s3.bmp.ovh/imgs/2022/03/142b3a8aad79caf1.jpg)
+![](https://s3.bmp.ovh/imgs/2022/03/142b3a8aad79caf1.jpg)
 
 **重点**
 
@@ -294,3 +292,25 @@ div{
 修改之后如下图:
 
 ![](https://s3.bmp.ovh/imgs/2022/03/bdceb5101f4493a4.jpg)
+
+
+## 2022.3.19 Vue报错笔记
+### Route with name '/Login' does not exist
+
+今天学习vue-router内容中的重定向碰到一个bug，浏览器报错如下：
+
+![](https://s3.bmp.ovh/imgs/2022/03/cd715bd2980f84aa.jpg)
+
+路由地址不存在
+找到路由配置文件router.js
+
+解决方法:
+
+```bash
+{
+	path: '/home',
+	name: 'home',
+	component: home,
+}
+
+```
