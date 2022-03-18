@@ -276,3 +276,21 @@ div{
 }
 </style>
 ```
+
+  ## 2022.3.18 Vue报错笔记
+
+  ###   <BarApp> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
+
+  今天学习vue-router的时候碰到一个bug，浏览器报错如下：
+
+  ![](https://s3.bmp.ovh/imgs/2022/03/142b3a8aad79caf1.jpg)
+
+**重点**
+
+**其实是我的components单词写错了**
+
+我以为又是什么很难的问题，结果就是一个少写一个字母的问题  = - =  哭死
+
+修改之后如下图:
+
+![](https://s3.bmp.ovh/imgs/2022/03/bdceb5101f4493a4.jpg)
