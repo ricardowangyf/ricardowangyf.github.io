@@ -174,4 +174,19 @@ girls:
   - name: 中野梓
     avatar: https://img2.baidu.com/it/u=2874446388,1461644438&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 轻音少女
+  - name: 中野一花
+    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F1085578d4bbd3d99373bb0a969864d03ebedf8ad.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650294331&t=f389230e391a8a78f95e5368083a8322
+    from: 五等分的新娘
+  - name: 中野二乃
+    avatar: https://img0.baidu.com/it/u=474867630,2759406617&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+    from: 五等分的新娘
+  - name: 中野三玖
+    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F14073619978%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650294396&t=82a821accac341ac53429301cc1e6030
+    from: 五等分的新娘
+  - name: 中野四叶
+    avatar: https://img0.baidu.com/it/u=1498562688,3731292149&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500
+    from: 五等分的新娘
+  - name: 中野五月
+    avatar: https://img0.baidu.com/it/u=1225048093,4141314436&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=499
+    from: 五等分的新娘
 ---
