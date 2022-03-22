@@ -113,7 +113,7 @@
       
       <categories>
           
-          <category> Macos </category>
+          <category> Mac </category>
           
       </categories>
       
@@ -170,7 +170,7 @@
       
         <tags>
             
-            <tag> Macos </tag>
+            <tag> Mac </tag>
             
             <tag> github </tag>
             
@@ -626,7 +626,9 @@
       
         <tags>
             
-            <tag> Macos </tag>
+            <tag> Mac </tag>
+            
+            <tag> vscode </tag>
             
         </tags>
       

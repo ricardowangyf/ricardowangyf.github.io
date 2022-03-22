@@ -5,7 +5,8 @@ date: 2022.1.11
 categories: Macos
 description:   
 tags:
-- Macos
+- Mac
+- vscode
 ---
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />

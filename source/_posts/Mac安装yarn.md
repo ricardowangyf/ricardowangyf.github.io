@@ -2,7 +2,7 @@
 title: Mac安装yarn
 date: 2022.3.12
 description:  000
-categories: Macos
+categories: Mac
 tags:
 - yarn
 ---

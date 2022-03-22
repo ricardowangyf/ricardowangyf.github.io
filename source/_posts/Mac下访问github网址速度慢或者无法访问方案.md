@@ -3,7 +3,7 @@ title: Mac下访问github网址速度慢或者无法访问方案
 date: 2022.3.2
 categories: Macos github
 tags:
-- Macos
+- Mac
 - github
 ---
 <script src="prism.js"></script>
