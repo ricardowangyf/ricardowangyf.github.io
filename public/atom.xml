@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-19T14:43:40.577Z</updated>
+  <updated>2022-03-22T05:48:29.474Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac环境下运行Vue项目报错</title>
+    <link href="http://example.com/2022/03/22/Mac%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2022/03/22/Mac%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/</id>
+    <published>2022-03-21T16:00:00.000Z</published>
+    <updated>2022-03-22T05:48:29.474Z</updated>
+    
+    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="mac环境下运行vue项目报错sh-vue-cli-service-command-not-found"><a href="#mac环境下运行vue项目报错sh-vue-cli-service-command-not-found" class="headerlink" title="mac环境下运行vue项目报错sh: vue-cli-service: command not found"></a>mac环境下运行vue项目报错sh: vue-cli-service: command not found</h2><p>报错如图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e912617b33e4c0ef.jpg" loading="lazy"></p><p>解决方案:<br>cd到项目目录下，执行命令</p><pre><code class="bash">sudo rm -rf node_modules package-lock.jsonnpm install</code></pre><p>然后根据提示输入密码。安装完成后，再次npm run dev就可以正常运行啦。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;mac环境下运行vue项目报错sh-vue-cli-service-co</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="Mac" scheme="http://example.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue路由组件之间传参</title>
@@ -521,33 +550,6 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;vue中props默认写法&quot;&gt;&lt;a href=&quot;#vue中props默认写法&quot; class=&quot;h</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue全局注册与局部注册的区别</title>
-    <link href="http://example.com/2022/02/16/Vue%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-    <id>http://example.com/2022/02/16/Vue%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
-    <published>2022-02-15T16:00:00.000Z</published>
-    <updated>2022-03-17T04:14:02.668Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue全局注册与局部注册的区别"><a href="#Vue全局注册与局部注册的区别" class="headerlink" title="Vue全局注册与局部注册的区别"></a>Vue全局注册与局部注册的区别</h2><p>不同点</p><p>1.注册位置不同<br>全局注册是在src/mian.js中<br>局部注册是写在APP.vue中</p><p>2.语法的不同点</p><p>全局注册</p><pre><code class="js">Vue.component(&#39;myheader&#39;,header),Vue.component(&#39;mycontent&#39;,content),Vue.component(&#39;mybottom&#39;,bottom),</code></pre><p>局部注册</p><pre><code class="js">export default &#123;  name: &#39;app&#39;,  components:&#123;    &#39;myheader&#39;:Header,    &#39;mycontent&#39;:Content,    &#39;mybottom&#39;:Bottom  &#125;&#125;</code></pre><p>3.起作用的地方不同</p><p>全局注册是都全都能用<br>局部注册是在哪里注册就用在哪里</p><h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><p>导入方式一样</p><pre><code class="js">import Header from &#39;./components/header&#39;import Content from &#39;./components/content&#39;import Bottom from &#39;./components/bottom&#39;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Vue全局注册与局部注册的区别&quot;&gt;&lt;a href=&quot;#Vue全局注册与局</summary>
       
     
     
