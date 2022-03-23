@@ -9,8 +9,9 @@ tags:
 <script src="prism.js"></script>
 <link href="themes/prism.css" rel="stylesheet" />
 
+##  2022.3月报错笔记整理
 
-## 2022.3.5 Vue报错笔记
+### 2022.3.5 Vue报错笔记
 
 Vue-cli搭建好默认项目后，想要用路由功能，但是报错:
 
@@ -38,9 +39,9 @@ npm install vue-router@3
 ![](https://s3.bmp.ovh/imgs/2022/03/b566dec104fa864e.jpg)
 
 
-## 2022.3.6 Vue报错笔记
+### 2022.3.6 Vue报错笔记
 
-### Component name "Vueabout" should always be multi-word
+#### Component name "Vueabout" should always be multi-word
 
 
 今天在跑Vue-router项目的时候碰到一个Bug
@@ -87,7 +88,7 @@ export default {
 ![](https://s3.bmp.ovh/imgs/2022/03/fb345fc386e153db.jpg)
 
 
-### vue 运行时，报错： `> plan-vue@0.1.0 serve` 解决方式
+#### vue 运行时，报错： `> plan-vue@0.1.0 serve` 解决方式
 
 
 出现此问题的原因：由于长时间没有运行项目导致项目缺少依赖项,如下图:
@@ -114,18 +115,18 @@ npm install
 ![](https://s3.bmp.ovh/imgs/2022/03/7f94f589294090fe.jpg)
 
 
-## 2022.3.7 Vue报错笔记
+### 2022.3.7 Vue报错笔记
 
-### ＜div＞ has no matching end tag.
+#### ＜div＞ has no matching end tag.
 
 ![](https://s3.bmp.ovh/imgs/2022/03/ccd14940d5422c5d.png)
 
 div标签对应结束部分没加(/)
 
 
-## 2022.3.8 Vue报错笔记
+### 2022.3.8 Vue报错笔记
 
-### NavigationDuplicated: Avoided redundant navigation to current location: "h_son2".
+#### NavigationDuplicated: Avoided redundant navigation to current location: "h_son2".
 
 在VUE中路由遇到Error: Avoided redundant navigation to current location:报错显示是路由重复
 
@@ -142,9 +143,9 @@ Router.prototype.push = function push(location) {
 ```
 
 
-## 2022.3.13 Vue报错笔记
+### 2022.3.13 Vue报错笔记
 
-### Parsing error: Identifier 'Button' has already been declared
+#### Parsing error: Identifier 'Button' has already been declared
 
 安装Antd Vue的时候碰到一个bug，排查之后发现是引入错误
 
@@ -194,9 +195,9 @@ Router.prototype.push = function push(location) {
   ![](https://s3.bmp.ovh/imgs/2022/03/cbe870a6132c0edf.jpg)
 
 
-  ## 2022.3.16 Vue报错笔记
+  ### 2022.3.16 Vue报错笔记
 
-  ###  Maximum call stack size exceeded
+  ####  Maximum call stack size exceeded
 
   在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:
 
@@ -275,9 +276,9 @@ div{
 </style>
 ```
 
-## 2022.3.18 Vue报错笔记
+### 2022.3.18 Vue报错笔记
 
-### <BarApp> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
+#### <BarApp> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
 
 今天学习vue-router的时候碰到一个bug，浏览器报错如下：
 
@@ -294,8 +295,8 @@ div{
 ![](https://s3.bmp.ovh/imgs/2022/03/bdceb5101f4493a4.jpg)
 
 
-## 2022.3.19 Vue报错笔记
-### Route with name '/Login' does not exist
+### 2022.3.19 Vue报错笔记
+#### Route with name '/Login' does not exist
 
 今天学习vue-router内容中的重定向碰到一个bug，浏览器报错如下：
 
@@ -315,9 +316,9 @@ div{
 
 ```
 
-## 2022.3.23  Vue2.0报错笔记
+### 2022.3.23  Vue2.0报错笔记
 
-### You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
+#### You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
 
 今天写vue路由项目碰到一个bug，浏览器报错如下：
 
