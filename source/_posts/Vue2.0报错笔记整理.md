@@ -314,3 +314,41 @@ div{
 }
 
 ```
+
+## 2022.3.23  Vue2.0报错笔记
+
+### You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
+
+今天写vue路由项目碰到一个bug，浏览器报错如下：
+
+![](https://s3.bmp.ovh/imgs/2022/03/9976d3b3e49aceea.jpg)
+
+报错原因:
+
+vue有两种形式的代码 compiler（模板）模式和runtime模式（运行时）vue模块的package.json的main字段默认为runtime模式， 指向了"dist/vue.runtime.common.js"位置。
+
+这是我main.js文件中初始化的vue块，这种形式为compiler模式，所以就会出现如上的错误信息
+
+```js
+// compiler
+new Vue({
+  el: '#app',
+  router: router,
+  store: store,
+  template: '<App/>',
+  components: { App }
+})
+```
+
+解决办法
+
+
+main.js中修改成如下格式就行:
+```js
+//runtime
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app")
+```
