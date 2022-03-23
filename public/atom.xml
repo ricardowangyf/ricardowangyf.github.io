@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-22T05:48:29.474Z</updated>
+  <updated>2022-03-23T06:23:05.738Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux命令行下修改文件或文件夹名</title>
+    <link href="http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/"/>
+    <id>http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/</id>
+    <published>2022-03-22T16:00:00.000Z</published>
+    <updated>2022-03-23T06:23:05.738Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Linux命令行下修改文件或文件夹名"><a href="#Linux命令行下修改文件或文件夹名" class="headerlink" title="Linux命令行下修改文件或文件夹名"></a>Linux命令行下修改文件或文件夹名</h2><p>打开终端(或者ITerm)输入命令</p><pre><code class="bash">mv file1  file2  #前者是原文件名 后者是更改的文件名</code></pre><p>如图:<br><img src="https://s3.bmp.ovh/imgs/2022/03/6ff823ab17f6808c.jpg" loading="lazy"></p><p>把当前目录下的file1文件名改成file2，如果该目录下有file2，则覆盖以前的file2文件。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;Linux命令行下修改文</summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="http://example.com/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac环境下运行Vue项目报错</title>
@@ -523,33 +551,6 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;Vue-生命周期&quot;&gt;&lt;a href=&quot;#Vue-生命周期&quot; class=&quot;headerlink&quot;</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue中props默认写法</title>
-    <link href="http://example.com/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/"/>
-    <id>http://example.com/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/</id>
-    <published>2022-02-19T16:00:00.000Z</published>
-    <updated>2022-03-14T23:56:06.828Z</updated>
-    
-    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="vue中props默认写法"><a href="#vue中props默认写法" class="headerlink" title="vue中props默认写法"></a>vue中props默认写法</h2><pre><code class="bash">props: &#123;    // 字符串    stringType: &#123;        type: String,        default: () =&gt; &#39;&#39;    &#125;,    // 数值    numberType: &#123;        type: Number,        default: 0    &#125;    // 布尔值    booleanType: &#123;        type: Boolean,        default: true    &#125;    // 数组    arrayType: &#123;        type: Array,        default: () =&gt; []    &#125;    // 对象    objectType: &#123;        type: Object,        default: () =&gt; &#123;&#125;    &#125;    # 待补充...&#125;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;h2 id=&quot;vue中props默认写法&quot;&gt;&lt;a href=&quot;#vue中props默认写法&quot; class=&quot;h</summary>
       
     
     
