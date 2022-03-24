@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-23T06:23:05.738Z</updated>
+  <updated>2022-03-24T02:34:36.377Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git报错笔记整理</title>
+    <link href="http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+    <id>http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</id>
+    <published>2022-03-23T16:00:00.000Z</published>
+    <updated>2022-03-24T02:34:36.377Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h2><h3 id="2022-3-24-Git报错笔记"><a href="#2022-3-24-Git报错笔记" class="headerlink" title="2022.3.24 Git报错笔记"></a>2022.3.24 Git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:<br><img src="https://s3.bmp.ovh/imgs/2022/03/8e96c5f20e050c05.jpg" loading="lazy"></p><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2022-3月报错笔记整理&quot;&gt;&lt;a href=&quot;#2022-3月报错笔记整理&quot; class=&quot;headerlink&quot; title=&quot;2022.3月报错笔记整理&quot;&gt;&lt;/a&gt;2022.3月报错笔记整理&lt;/h2&gt;&lt;h3 id=&quot;2022-3-24-Git报错笔记&quot;&gt;&lt;a</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux命令行下修改文件或文件夹名</title>
@@ -322,6 +346,30 @@
   </entry>
   
   <entry>
+    <title>git add后撤销</title>
+    <link href="http://example.com/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
+    <id>http://example.com/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/</id>
+    <published>2022-02-27T16:00:00.000Z</published>
+    <updated>2022-03-24T02:43:52.800Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;如何撤销git-add操作&quot;&gt;&lt;a href=&quot;#如何撤销git-add操作&quot; class=&quot;headerlink&quot; title=&quot;如何撤销git add操作&quot;&gt;&lt;/a&gt;如何撤销git add操作&lt;/h2&gt;&lt;p&gt;使用Git的时候，有时候不小心使用git add，添</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown插入图片及图注的方法</title>
     <link href="http://example.com/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/"/>
     <id>http://example.com/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/</id>
@@ -372,30 +420,6 @@
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git add后撤销</title>
-    <link href="http://example.com/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
-    <id>http://example.com/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/</id>
-    <published>2022-02-27T16:00:00.000Z</published>
-    <updated>2022-03-17T04:10:33.452Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;如何撤销git-add操作&quot;&gt;&lt;a href=&quot;#如何撤销git-add操作&quot; class=&quot;headerlink&quot; title=&quot;如何撤销git add操作&quot;&gt;&lt;/a&gt;如何撤销git add操作&lt;/h2&gt;&lt;p&gt;使用Git的时候，有时候不小心使用git add，添</summary>
-      
-    
-    
-    
-    <category term="git" scheme="http://example.com/categories/git/"/>
-    
-    
-    <category term="git" scheme="http://example.com/tags/git/"/>
     
   </entry>
   
@@ -523,33 +547,6 @@
 &lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;Vue引入子组件报错&quot;&gt;&lt;a href=&quot;#Vue引入子组件报错&quot; cl</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue生命周期</title>
-    <link href="http://example.com/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
-    <id>http://example.com/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</id>
-    <published>2022-02-19T16:00:00.000Z</published>
-    <updated>2022-03-17T04:14:26.729Z</updated>
-    
-    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue-生命周期"><a href="#Vue-生命周期" class="headerlink" title="Vue 生命周期"></a>Vue 生命周期</h2><p>Vue实例有一个完整的生命周期，也就是从<strong>开始创建</strong>、<strong>初始化数据</strong>、<strong>编译模板</strong>、<strong>挂载Dom</strong>、<strong>渲染→更新→渲染</strong>、<strong>销毁等一系列过程，我们称这是Vue的生命周期</strong>。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。</p><p>每一个组件或者实例都会经历一个完整的生命周期，总共分为三个阶段：初始化、运行中、销毁。</p><p>1.实例、组件通过new Vue() 创建出来之后会初始化事件和生命周期，然后就会执行<strong>beforeCreate钩子函数</strong>，这个时候，<strong>数据还没有挂载呢</strong>，只是一个空壳，<strong>无法访问到数据和真实的dom</strong>，一般不做操作</p><p>2.<strong>挂载数据，绑定事件等等，然后执行created函数</strong>，这个时候已经可以使用到数据，也可以更改数据,在这里更改数据不会触发updated函数，<strong>在这里可以在渲染前倒数第二次更改数据的机会，不会触发其他的钩子函数</strong>，一般可以在这里做初始数据的获取</p><p>3.接下来开始找实例或者组件对应的模板，编译模板为虚拟dom放入到render函数中准备渲染，然后执行beforeMount钩子函数，在这个函数中虚拟dom已经创建完成，马上就要渲染,在这里也可以更改数据，不会触发updated，在这里可以在渲染前最后一次更改数据的机会，不会触发其他的钩子函数，一般可以在这里做初始数据的获取</p><p>4.<strong>接下来开始render，渲染出真实dom</strong>，然后<strong>执行mounted钩子函数</strong>，此时，组件已经出现在页面中，数据、真实dom都已经处理好了,事件都已经挂载好了，可以在这里操作真实dom等事情…</p><p>5.<strong>当组件或实例的数据更改之后，会立即执行beforeUpdate</strong>，然后vue的虚拟dom机制会重新构建虚拟dom与上一次的虚拟dom树利用diff算法进行对比之后重新渲染，一般不做什么事儿</p><p>6.<strong>当更新完成后，执行updated，数据已经更改完成，dom也重新render完成，可以操作更新后的虚拟dom</strong></p><p>7.当经过某种途径调用$destroy方法后，立即执行beforeDestroy，一般在这里做一些善后工作，例如清除计时器、清除非指令绑定的事件等等</p><p>8.组件的数据绑定、监听…去掉后只剩下dom空壳，这个时候，执行destroyed，在这里做善后工作也可以</p><p>9.vue中的钩子函数;<strong>beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed。</strong></p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;h1&gt;&#123;&#123; message &#125;&#125;&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;触发组件更新&quot;,    &#125;;  &#125;,  beforeCreate() &#123;    console.group(&quot;------beforeCreate创建前状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  created() &#123;    console.group(&quot;------created创建完毕状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  beforeMount() &#123;    console.group(&quot;------beforeMount挂载前状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //已被初始化    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  mounted() &#123;    console.group(&quot;------mounted 挂载结束状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //已被初始化    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  beforeUpdate() &#123;    console.group(&quot;beforeUpdate 更新前状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  updated() &#123;    console.group(&quot;updated 更新完成状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  beforeDestroy () &#123;    console.group(&quot;beforeDestroy 销毁前状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  destroyed() &#123;    console.group(&quot;destroyed 销毁完成状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,&#125;;// vue实例若数据未跟新只会打印到 mounted挂载结束状态// vm.message=&#39;触发组件更新&#39; vue会继续执行 beforeUpdate 和 updated&lt;/script&gt;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;h2 id=&quot;Vue-生命周期&quot;&gt;&lt;a href=&quot;#Vue-生命周期&quot; class=&quot;headerlink&quot;</summary>
       
     
     
