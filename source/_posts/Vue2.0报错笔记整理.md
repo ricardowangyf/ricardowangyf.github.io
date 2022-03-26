@@ -353,3 +353,13 @@ new Vue({
   render: h => h(App)
 }).$mount("#app")
 ```
+
+### 2022.3.26  Vue2.0报错笔记
+
+#### Non-nested routes must include a leading slash character. Fix the following routes
+
+出错点
+Non-nested routes must include a leading slash character. Fix the following routes:
+非嵌套路由必须包含前导斜杠字符
+
+![](https://s3.bmp.ovh/imgs/2022/03/de90c863bf7c9b7b.png)
