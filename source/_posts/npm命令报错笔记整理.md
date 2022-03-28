@@ -6,7 +6,7 @@ tags:
 - npm
 ---
 
-
+# 2022.3月报错笔记整理
 ## 2022.3.28
 
 ### npm install下载依赖项时报错 fatal: unable to access ‘https://github.com/nhn/raphael.git/‘: Failed to connect
