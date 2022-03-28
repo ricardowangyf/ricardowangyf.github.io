@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-24T02:34:36.377Z</updated>
+  <updated>2022-03-28T03:38:30.359Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac电脑Node版本降级</title>
+    <link href="http://example.com/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/"/>
+    <id>http://example.com/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/</id>
+    <published>2022-03-27T16:00:00.000Z</published>
+    <updated>2022-03-28T03:38:30.359Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号 #例如：sudo n 12.17.0</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/ad7c54374717a223.jpg" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Mac电脑Node版本降级&quot;&gt;&lt;a href=&quot;#Mac电脑Node版本降级&quot; class=&quot;headerlink&quot; title=&quot;Mac电脑Node版本降级&quot;&gt;&lt;/a&gt;Mac电脑Node版本降级&lt;/h2&gt;&lt;p&gt;1.安装node版本管理模块&lt;/p&gt;
+&lt;pre&gt;&lt;c</summary>
+      
+    
+    
+    
+    <category term="Mac  Nodejs" scheme="http://example.com/categories/Mac-Nodejs/"/>
+    
+    
+    <category term="Mac" scheme="http://example.com/tags/Mac/"/>
+    
+    <category term="Nodejs" scheme="http://example.com/tags/Nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm命令报错笔记整理</title>
+    <link href="http://example.com/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+    <id>http://example.com/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</id>
+    <published>2022-03-27T16:00:00.000Z</published>
+    <updated>2022-03-28T03:39:40.951Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="2022-3-28"><a href="#2022-3-28" class="headerlink" title="2022.3.28"></a>2022.3.28</h2><h3 id="npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect"><a href="#npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect" class="headerlink" title="npm install下载依赖项时报错 fatal: unable to access ‘https://github.com/nhn/raphael.git/‘: Failed to connect"></a>npm install下载依赖项时报错 fatal: unable to access ‘<a href="https://github.com/nhn/raphael.git/%E2%80%98">https://github.com/nhn/raphael.git/‘</a>: Failed to connect</h3><p><img src="https://s3.bmp.ovh/imgs/2022/03/0ebf426d1653e68c.jpg" loading="lazy"></p><p>解决方案：</p><p>1：查看一下自己的node版本，一般高版本下载会出问题，建议使用 12.17.0版本</p><p>2：网络延迟的问题，删除package.lock.json和node_modules文件夹,重新install<br>Node.js降级的方法我会写在另一篇<a href="">文章</a>内。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2022-3-28&quot;&gt;&lt;a href=&quot;#2022-3-28&quot; class=&quot;headerlink&quot; title=&quot;2022.3.28&quot;&gt;&lt;/a&gt;2022.3.28&lt;/h2&gt;&lt;h3 id=&quot;npm-install下载依赖项时报错-fatal-unable-to-a</summary>
+      
+    
+    
+    
+    <category term="npm" scheme="http://example.com/categories/npm/"/>
+    
+    
+    <category term="npm" scheme="http://example.com/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>Git报错笔记整理</title>
@@ -493,60 +544,6 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;Vue中的原生事件&quot;&gt;&lt;a href=&quot;#Vue中的原生事件&quot; class=&quot;headerlin</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue中的methods方法</title>
-    <link href="http://example.com/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/"/>
-    <id>http://example.com/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/</id>
-    <published>2022-02-21T16:00:00.000Z</published>
-    <updated>2022-03-17T05:33:31.106Z</updated>
-    
-    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的methods方法"><a href="#Vue中的methods方法" class="headerlink" title="Vue中的methods方法"></a>Vue中的methods方法</h2><h3 id="在-methods-中定义方法"><a href="#在-methods-中定义方法" class="headerlink" title="在 methods 中定义方法"></a>在 methods 中定义方法</h3><p>我们可以使用 <code>methods</code> 属性给 Vue 定义方法，<code>methods</code> 的基本语法：</p><pre><code class="js">var vm = new Vue(&#123;  methods:&#123;         方法名:function()&#123;        // 在此时定义方法，方法之间使用逗号分隔   &#125;&#125;);</code></pre><h2 id="示例"><a href="#示例" class="headerlink" title="示例:"></a>示例:</h2><p>例如在 <code>methods </code>中定义一个名为<code>show </code>的方法</p><pre><code class="js">methods:&#123;    show: function()&#123;        console.log(&quot;显示内容&quot;)    &#125;&#125;</code></pre><h2 id="在方法中访问属性"><a href="#在方法中访问属性" class="headerlink" title="在方法中访问属性"></a>在方法中访问属性</h2><p>在 <code>methods</code> 方法中访问 <code>data </code>的数据，可以直接通过 <code>this.属性名</code> 的形式来访问。</p><h2 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h2><p>我们在 <code>show </code>方法中，访问<code>number</code>属性，可以直接通过 <code>this.number</code> 形式访问，其中 <code>this</code> 表示的就是Vue 实例对象：</p><pre><code class="bash">&lt;script&gt;export default &#123;  data() &#123;    return &#123;      methods: &#123;        handleClick: function () &#123;          alert(&quot;click&quot;);        &#125;,      &#125;,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><p>如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。</p><h2 id="一个简单的实例"><a href="#一个简单的实例" class="headerlink" title="一个简单的实例:"></a>一个简单的实例:</h2><pre><code class="bash">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;    &lt;button @click=&quot;change&quot;&gt;点我改名&lt;/button&gt;    &lt;h1&gt;点击按钮修改名字&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;老王&quot;,    &#125;;  &#125;,  methods: &#123;    change() &#123;      this.message = &quot;小李&quot;; // 改变data中属性的值    &#125;,  &#125;,&#125;;&lt;/script&gt;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;h2 id=&quot;Vue中的methods方法&quot;&gt;&lt;a href=&quot;#Vue中的methods方法&quot; class=</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue引入子组件报错</title>
-    <link href="http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/"/>
-    <id>http://example.com/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/</id>
-    <published>2022-02-19T16:00:00.000Z</published>
-    <updated>2022-03-17T04:14:33.413Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue引入子组件报错"><a href="#Vue引入子组件报错" class="headerlink" title="Vue引入子组件报错"></a>Vue引入子组件报错</h2><p>报错内容</p><pre><code class="bash">module &quot;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&quot;Already included file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&#39; differs from file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/Child.vue&#39; only in casing.  The file is in th</code></pre><p>具体显示:</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/b50ee4e1de288a70.jpg" loading="lazy"></p><p>该错误的原因是(当然也可以不管，因为你会发现你的代码可以正常运行)：</p><p>vue名称相同，但是有大小写差异导致的</p><p>解决方法:</p><p>1、修改名称，使得引用的和文件名称大小写都对应起来</p><p>2、去掉vue后缀也能解决掉该问题</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Vue引入子组件报错&quot;&gt;&lt;a href=&quot;#Vue引入子组件报错&quot; cl</summary>
       
     
     

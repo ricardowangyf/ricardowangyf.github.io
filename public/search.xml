@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>Mac电脑Node版本降级</title>
+      <link href="/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/"/>
+      <url>/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号 #例如：sudo n 12.17.0</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/ad7c54374717a223.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mac  Nodejs </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>npm命令报错笔记整理</title>
+      <link href="/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="2022-3-28"><a href="#2022-3-28" class="headerlink" title="2022.3.28"></a>2022.3.28</h2><h3 id="npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect"><a href="#npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect" class="headerlink" title="npm install下载依赖项时报错 fatal: unable to access ‘https://github.com/nhn/raphael.git/‘: Failed to connect"></a>npm install下载依赖项时报错 fatal: unable to access ‘<a href="https://github.com/nhn/raphael.git/%E2%80%98">https://github.com/nhn/raphael.git/‘</a>: Failed to connect</h3><p><img src="https://s3.bmp.ovh/imgs/2022/03/0ebf426d1653e68c.jpg" loading="lazy"></p><p>解决方案：</p><p>1：查看一下自己的node版本，一般高版本下载会出问题，建议使用 12.17.0版本</p><p>2：网络延迟的问题，删除package.lock.json和node_modules文件夹,重新install<br>Node.js降级的方法我会写在另一篇<a href="">文章</a>内。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> npm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git报错笔记整理</title>
       <link href="/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
       <url>/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
