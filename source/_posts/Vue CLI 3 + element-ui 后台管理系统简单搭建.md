@@ -10,7 +10,7 @@ tags:
 ---
 
 
-##### 一，Vue CLI 3 安装启动
+#####  1.Vue CLI 3 安装启动
 
 ```bash
 npm install -g @vue-cli
@@ -20,7 +20,7 @@ yarn global add @vue-cli
 
 cd 你的项目名称 
 
-##### 二、element-ui 安装
+#####  2.element-ui 安装
 
 ```bash
 vue add element

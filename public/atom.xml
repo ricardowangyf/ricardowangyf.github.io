@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-29T12:12:09.148Z</updated>
+  <updated>2022-03-29T12:19:27.671Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</id>
     <published>2022-03-28T16:00:00.000Z</published>
-    <updated>2022-03-29T12:12:09.148Z</updated>
+    <updated>2022-03-29T12:19:27.671Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="一，Vue-CLI-3-安装启动"><a href="#一，Vue-CLI-3-安装启动" class="headerlink" title="一，Vue CLI 3 安装启动"></a>一，Vue CLI 3 安装启动</h5><pre><code class="bash">npm install -g @vue-cli# ORyarn global add @vue-cli</code></pre><p>cd 你的项目名称 </p><h5 id="二、element-ui-安装"><a href="#二、element-ui-安装" class="headerlink" title="二、element-ui 安装"></a>二、element-ui 安装</h5><pre><code class="bash">vue add element</code></pre><p>会出现如下提示:</p><blockquote><p>How do you want to import Element? (Use arrow keys)</p></blockquote><p>为了方便，选择第一个全局引用：fully import</p><pre><code class="bash">Do you wish to overwrite Element&#39;s SCSS variables? YesChoose the locale you want to load zh-CN</code></pre><p>启动</p><pre><code class="bash">npm run serve</code></pre>]]></content>
+    <content type="html"><![CDATA[<h5 id="1-Vue-CLI-3-安装启动"><a href="#1-Vue-CLI-3-安装启动" class="headerlink" title="1.Vue CLI 3 安装启动"></a>1.Vue CLI 3 安装启动</h5><pre><code class="bash">npm install -g @vue-cli# ORyarn global add @vue-cli</code></pre><p>cd 你的项目名称 </p><h5 id="2-element-ui-安装"><a href="#2-element-ui-安装" class="headerlink" title="2.element-ui 安装"></a>2.element-ui 安装</h5><pre><code class="bash">vue add element</code></pre><p>会出现如下提示:</p><blockquote><p>How do you want to import Element? (Use arrow keys)</p></blockquote><p>为了方便，选择第一个全局引用：fully import</p><pre><code class="bash">Do you wish to overwrite Element&#39;s SCSS variables? YesChoose the locale you want to load zh-CN</code></pre><p>启动</p><pre><code class="bash">npm run serve</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h5 id=&quot;一，Vue-CLI-3-安装启动&quot;&gt;&lt;a href=&quot;#一，Vue-CLI-3-安装启动&quot; class=&quot;headerlink&quot; title=&quot;一，Vue CLI 3 安装启动&quot;&gt;&lt;/a&gt;一，Vue CLI 3 安装启动&lt;/h5&gt;&lt;pre&gt;&lt;code class=</summary>
+    <summary type="html">&lt;h5 id=&quot;1-Vue-CLI-3-安装启动&quot;&gt;&lt;a href=&quot;#1-Vue-CLI-3-安装启动&quot; class=&quot;headerlink&quot; title=&quot;1.Vue CLI 3 安装启动&quot;&gt;&lt;/a&gt;1.Vue CLI 3 安装启动&lt;/h5&gt;&lt;pre&gt;&lt;code class=</summary>
       
     
     
