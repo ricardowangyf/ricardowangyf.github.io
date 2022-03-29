@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-29T11:57:21.901Z</updated>
+  <updated>2022-03-29T12:07:00.165Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
+    <link href="http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
+    <id>http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</id>
+    <published>2022-03-28T16:00:00.000Z</published>
+    <updated>2022-03-29T12:07:00.165Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Vue-CLI-3-element-ui-后台管理系统简单搭建"><a href="#Vue-CLI-3-element-ui-后台管理系统简单搭建" class="headerlink" title="Vue CLI 3 + element-ui 后台管理系统简单搭建"></a>Vue CLI 3 + element-ui 后台管理系统简单搭建</h2><h3 id="一，Vue-CLI-3-安装启动"><a href="#一，Vue-CLI-3-安装启动" class="headerlink" title="一，Vue CLI 3 安装启动"></a>一，Vue CLI 3 安装启动</h3><pre><code class="bash">npm install -g @vue-cli# ORyarn global add @vue-cli</code></pre><p>cd 你的项目名称 </p><h3 id="二、element-ui-安装"><a href="#二、element-ui-安装" class="headerlink" title="二、element-ui 安装"></a>二、element-ui 安装</h3><pre><code class="bash">vue add element</code></pre><p>会出现如下提示:</p><blockquote><p>How do you want to import Element? (Use arrow keys)</p></blockquote><p>为了方便，选择第一个全局引用：fully import</p><pre><code class="bash">Do you wish to overwrite Element&#39;s SCSS variables? YesChoose the locale you want to load zh-CN</code></pre><p>启动</p><pre><code class="bash">npm run serve</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Vue-CLI-3-element-ui-后台管理系统简单搭建&quot;&gt;&lt;a href=&quot;#Vue-CLI-3-element-ui-后台管理系统简单搭建&quot; class=&quot;headerlink&quot; title=&quot;Vue CLI 3 + element-ui 后台管理系统简</summary>
+      
+    
+    
+    
+    <category term="Vue CLI" scheme="http://example.com/categories/Vue-CLI/"/>
+    
+    
+    <category term="Element" scheme="http://example.com/tags/Element/"/>
+    
+    <category term="Vue CLI" scheme="http://example.com/tags/Vue-CLI/"/>
+    
+    <category term="element-ui" scheme="http://example.com/tags/element-ui/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue-element-admin报错</title>
@@ -516,33 +544,6 @@
 &lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;常见-性能一般&quot;&gt;&lt;a href=&quot;#常见-性能一般&quot; class=&quot;h</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue中的语法糖</title>
-    <link href="http://example.com/2022/02/24/Vue%E4%B8%AD%E7%9A%84%E8%AF%AD%E6%B3%95%E7%B3%96/"/>
-    <id>http://example.com/2022/02/24/Vue%E4%B8%AD%E7%9A%84%E8%AF%AD%E6%B3%95%E7%B3%96/</id>
-    <published>2022-02-23T16:00:00.000Z</published>
-    <updated>2022-03-17T06:11:27.334Z</updated>
-    
-    <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的语法糖"><a href="#Vue中的语法糖" class="headerlink" title="Vue中的语法糖"></a>Vue中的语法糖</h2><h3 id="1、什么是语法糖？"><a href="#1、什么是语法糖？" class="headerlink" title="1、什么是语法糖？"></a>1、什么是语法糖？</h3><p>学习语法糖之前我们要了解什么是语法糖：<br>语法糖（Syntactic sugar），也译为糖衣语法，是由英国计算机科学家彼得·约翰·兰达（Peter J. Landin）发明的一个术语，指计算机语言中添加的某种语法，这种语法对语言的功能并没有影响，但是更方便程序员使用。通常来说使用语法糖能够增加程序的可读性，从而减少程序代码出错的机会。</p><h3 id="2、VUE中语法糖有哪些"><a href="#2、VUE中语法糖有哪些" class="headerlink" title="2、VUE中语法糖有哪些?"></a>2、VUE中语法糖有哪些?</h3><h4 id="2-1、最常见的语法糖-v-model"><a href="#2-1、最常见的语法糖-v-model" class="headerlink" title="2.1、最常见的语法糖 v-model"></a>2.1、最常见的语法糖 v-model</h4><p>使用 v-model 可以实现数据双向绑定，但是如何实现的呢？<br>v-model 绑定数据之后，既绑定了数据，又添加了事件监听，这个事件就是 input 事件。<br>使用案例：</p><pre><code class="html">&lt;!-- 语法糖写法 --&gt;&lt;input type=&quot;text&quot; v-model=&quot;name&quot; &gt;&lt;!-- 还原为以下实例 --&gt;&lt;input type=&quot;text&quot;  v-bind:value=&quot;name&quot;  v-on:input=&quot;name=$event.target.value&quot;&gt;</code></pre><p>输入的时候会触发 input 事件，input 事件会把当前值赋值给 value ，这就是 v-model 为什么可以实现双向绑定的原因。</p><h4 id="2-2、v-bind-的语法糖"><a href="#2-2、v-bind-的语法糖" class="headerlink" title="2.2、v-bind 的语法糖"></a>2.2、v-bind 的语法糖</h4><p>v-bind 用来添加动态属性的，常见的 src、href、class、style、title 等属性都可以通过 v-bind 添加动态属性值。<br>v-bind 的语法糖就是去掉 v-bind 替换成冒号 (:)<br>具体实例:</p><pre><code class="html">&lt;!-- 语法糖写法 --&gt;&lt;div :title=&quot;title&quot;&gt; &lt;img :src=&quot;url&quot; alt=&quot;&quot;&gt; &lt;a :href=&quot;link&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot; &gt;没有语法糖&lt;/a&gt;&lt;/div&gt;&lt;!-- 没有语法糖 --&gt;&lt;div v-bind:title=&quot;title&quot;&gt; &lt;img v-bind:src=&quot;url&quot; alt=&quot;&quot;&gt; &lt;a v-bind:href=&quot;link&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot; &gt;没有语法糖&lt;/a&gt;&lt;/div&gt;</code></pre><h4 id="2-2、v-on-的语法糖"><a href="#2-2、v-on-的语法糖" class="headerlink" title="2.2、v-on 的语法糖"></a>2.2、v-on 的语法糖</h4><p>v-on 绑定事件监听器的，v-on 的语法糖，就是简写成@ 。<br>情况1：如果方法不传参时，可以不加小括号。</p><pre><code class="html">&lt;!-- 需要注意的是，如果方法本身有一个参数，会默认将原生的事件event参数传递进来 --&gt;&lt;button @click=&quot;btn&quot;&gt;语法糖&lt;/button&gt;&lt;button v-on:click=&quot;btn&quot;&gt;无语法糖&lt;/button&gt;methods:&#123; btn( event )&#123;  console.log( &#39;event&#39; , event ) &#125;&#125;</code></pre><p>情况2：如果需要传递参数时，又同时需要 event 参数。</p><pre><code class="html">&lt;button @click=&quot;btn( &#39;点击事件&#39; , $event )&quot;&gt;语法糖&lt;/button&gt;&lt;!-- 需要注意的是，$event 事件拿到浏览器事件对象 --&gt;methods:&#123; btn( type, event )&#123;  console.log( &#39;type&#39; , type ) //点击事件  console.log( &#39;event&#39; , event ) &#125;&#125;</code></pre><h4 id="2-3、修饰符"><a href="#2-3、修饰符" class="headerlink" title="2.3、修饰符"></a>2.3、修饰符</h4><p>修饰符是以半角句号 . 指明的特殊后缀。v-on 后面的修饰符，也是语法糖。</p><p>示例：链接添加点击事件，点击之后不希望跳转。</p><pre><code class="html">&lt;!--  语法糖 --&gt;&lt;a href=&quot;http://www.baidu.com&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot;  @click.prevent=&quot;go&quot;&gt;百度&lt;/a&gt;&lt;!-- 普通写法 --&gt;&lt;a href=&quot;http://www.baidu.com&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot;  v-on:click=&quot;go&quot;&gt;百度&lt;/a&gt;methods:&#123; go(e)&#123;  e.preventDefault();  console.log(&#39;阻止链接跳转&#39;) &#125;&#125;</code></pre><p>prevent 修饰符是阻止默认事件。还有 submit 同样也适用。</p><pre><code class="html">&lt;form @submit.prevent=&quot;onSubmit&quot;&gt;&lt;/form&gt;</code></pre><p>下列是常见的修饰符，与上边 .prevent 使用相同。</p><ul><li> stop 用来阻止事件冒泡。</li><li> .once 事件只触发一次。</li><li> .self 事件只在自身触发，不能从内部触发。</li><li> .enter | .tab | .delete | .esc ….. 键盘修饰符</li><li> .ctr | .alt | .shift | .meta 系统修饰符</li></ul><h3 id="3、动态css"><a href="#3、动态css" class="headerlink" title="3、动态css"></a>3、动态css</h3><p>使用 v-bind 可以通过 style 或 class， 可以添加动态样式。</p><pre><code class="html">&lt;!-- 点击 你好，实现文字红黑之间切换 --&gt;&lt;h1 @click=&quot; changeColor = !changeColor &quot; :style=&quot;&#123;color:changeColor?&#39;red&#39;:&#39;black&#39;&#125;&quot;&gt; 你好&lt;/h1&gt;data:&#123;  changeColor:false&#125;</code></pre><h3 id="4、注册组件语法糖"><a href="#4、注册组件语法糖" class="headerlink" title="4、注册组件语法糖"></a>4、注册组件语法糖</h3><p>所谓的注册组件语法糖是指省去组件构造器的定义，直接将组件构造器对象传入注册组件函数里，这样会减少 CPU 的调度以及内存的分配。</p><p>全局组件使用：</p><pre><code class="js">//全局组件语法糖写法Vue.component(  &#39;my-component&#39; ,   template:`      &lt;div&gt;组件内容&lt;/div&gt;  `)/* 全局组件注册 *///  组件使用&lt;my-component&gt;&lt;/my-component&gt;//注册组件const myComponent = Vue.extend(&#123; template:`  &lt;div&gt;   &lt;h2&gt;VUkeh&lt;/h2&gt;      &lt;/div&gt;  `&#125;)Vue.component(&#39;myComponent&#39;, myComponent)</code></pre><p>局部组件使用：</p><pre><code class="js">// 全局组件语法糖写法components:&#123;  &#39;my-component&#39;:&#123;      template:`&lt;div&gt;组件内容&lt;/div&gt;`  &#125;&#125;// 局部组件注册// 注册组件const myComponent = Vue.extend(&#123; template:`  &lt;div&gt;   &lt;h2&gt;VUkeh&lt;/h2&gt;      &lt;/div&gt;  `,  components:&#123;      child:&#123;     template:`&lt;div&gt;子组件内容&lt;/div&gt;`    &#125;  &#125;&#125;)Vue.component(&#39;myComponent&#39;, myComponent)</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;prism.js&quot;&gt;&lt;/script&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;h2 id=&quot;Vue中的语法糖&quot;&gt;&lt;a href=&quot;#Vue中的语法糖&quot; class=&quot;headerlink&quot;</summary>
       
     
     
