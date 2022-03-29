@@ -10,9 +10,7 @@ tags:
 ---
 
 
-## Vue CLI 3 + element-ui 后台管理系统简单搭建
-
-### 一，Vue CLI 3 安装启动
+##### 一，Vue CLI 3 安装启动
 
 ```bash
 npm install -g @vue-cli
@@ -22,7 +20,7 @@ yarn global add @vue-cli
 
 cd 你的项目名称 
 
-### 二、element-ui 安装
+##### 二、element-ui 安装
 
 ```bash
 vue add element
@@ -39,7 +37,7 @@ Choose the locale you want to load zh-CN
 ```
 
 启动
- 
+
 ```bash
 npm run serve
 ```
