@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-29T12:19:27.671Z</updated>
+  <updated>2022-03-30T08:41:34.185Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Chrome报错</title>
+    <link href="http://example.com/2022/03/30/Chrome%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2022/03/30/Chrome%E6%8A%A5%E9%94%99/</id>
+    <published>2022-03-29T16:00:00.000Z</published>
+    <updated>2022-03-30T08:41:34.185Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Chrome访问出现：-Slow-network-is-detected"><a href="#Chrome访问出现：-Slow-network-is-detected" class="headerlink" title="Chrome访问出现： Slow network is detected."></a>Chrome访问出现： Slow network is detected.</h3><p>Chrome报错:Slow network is detected. See <a href="https://www.chromestatus.com/feature/563695467">https://www.chromestatus.com/feature/563695467</a></p><p>百度一下 给出的解释是：</p><p>This means the network is slow, and Chrome is replacing a web font (loaded with a @font-face rule) with a local fallback.</p><p>By default, the text rendered with a web font is invisible until the font is downloaded (“<a href="https://link.csdn.net/?target=https://css-tricks.com/fout-foit-foft/">flash of invisible text</a>”). With this change, the user on a slow network could start reading right when the content is loaded instead of looking into the empty page for several seconds.</p><p>（这意味着网络速度很慢，Chrome正在用本地回退替换网络字体（加载@ font-face规则）。</p><p>默认情况下，使用Web字体呈现的文本在下载字体之前是不可见的（“不可见文本的闪烁”）。 通过此更改，慢速网络上的用户可以在加载内容时开始正确读取，而不是在几秒钟内查看空白页面。）</p><p>解决方法:</p><p>地址栏输入<code>chrome://flags/#enable-webfonts-intervention-v2</code>，并设置为<code>Disabled</code>；重启Chrome。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Chrome访问出现：-Slow-network-is-detected&quot;&gt;&lt;a href=&quot;#Chrome访问出现：-Slow-network-is-detected&quot; class=&quot;headerlink&quot; title=&quot;Chrome访问出现： Slow net</summary>
+      
+    
+    
+    
+    <category term="Chrome" scheme="http://example.com/categories/Chrome/"/>
+    
+    
+    <category term="Chrome" scheme="http://example.com/tags/Chrome/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
@@ -517,33 +541,6 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;Vue中创建单文件组件-注册组件-以及组件的使用&quot;&gt;&lt;a href=&quot;#Vue中创建单文件组件-</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue路由三种写法方式</title>
-    <link href="http://example.com/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/"/>
-    <id>http://example.com/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/</id>
-    <published>2022-02-25T16:00:00.000Z</published>
-    <updated>2022-03-17T04:13:31.516Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="常见-性能一般"><a href="#常见-性能一般" class="headerlink" title="常见(性能一般)"></a>常见(性能一般)</h2><pre><code class="js">import Index from &quot;@/components/index&quot;const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre><h2 id="性能有优化"><a href="#性能有优化" class="headerlink" title="性能有优化"></a>性能有优化</h2><pre><code class="js">const Index = (resolve) =&gt; &#123;  import(&#39;@/components/index&#39;).then((module) =&gt; &#123;    resolve(module);  &#125;);&#125;;const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre><h2 id="路由懒加载-性能较优，推荐使用"><a href="#路由懒加载-性能较优，推荐使用" class="headerlink" title="路由懒加载(性能较优，推荐使用)"></a>路由懒加载(性能较优，推荐使用)</h2><pre><code class="js">const index = require(&#39;@/components/index&#39;);const Index = resolve =&gt; require.ensure([], () =&gt; resolve(index), &#39;list&#39;);const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;常见-性能一般&quot;&gt;&lt;a href=&quot;#常见-性能一般&quot; class=&quot;h</summary>
       
     
     
