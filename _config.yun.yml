@@ -159,3 +159,9 @@ creative_commons:
   post: false
   language: deed.zh
   clipboard: false
+
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
