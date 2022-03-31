@@ -2,7 +2,7 @@
 title: 新建Hexo项目部署至github
 date: 2022.3.2
 description: 
-categories: Hexo github
+categories: Hexo
 tags:
 - Hexo
 - github
