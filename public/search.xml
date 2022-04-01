@@ -31,33 +31,6 @@
     
     
     <entry>
-      <title>npm和yarn的区别</title>
-      <link href="/2022/04/01/npm%E5%92%8Cyarn%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-      <url>/2022/04/01/npm%E5%92%8Cyarn%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
-      
-        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" />]]></content>
-      
-      
-      <categories>
-          
-          <category> npm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> yarn </tag>
-            
-            <tag> npm </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>windows安装yarn</title>
       <link href="/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/"/>
       <url>/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/</url>
