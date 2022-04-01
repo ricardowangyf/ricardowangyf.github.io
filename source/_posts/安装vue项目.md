@@ -16,12 +16,11 @@ tags:
 1. 检查 Vue 是否安装，如果输出 vue 的版本信息，说明安装了 vue
 
 ```bash
-vue -V
+vue  -v
 # @vue/cli 4.5.15
 ```
 
 如果不存在 vue 命令工具，[安装 vue 命令](https://cli.vuejs.org/zh/guide/installation.html)
-
 ```bash
 npm install -g @vue/cli
 # OR
