@@ -10,27 +10,33 @@ tags:
 
 
 
-### 2.安装Git ###
+#### 安装Git
 
-Mac下安装Xcode就自带Git。
+Windows用户，从[官网](https://git-scm.com/downloads)下载
+![](https://s3.bmp.ovh/imgs/2022/04/01/b96e4197882cf200.png)
 
-如果是windows用户，就从[官网](https://git-scm.com/downloads)下载
-![](https://img-blog.csdn.net/20180611111041738)
 
 点击上图中表示的地方进行下载，得到Git-2.17.1.2-64-bit.exe文件。如果你的系统是32位的，可以通过如下方式下载：
-![](https://img-blog.csdn.net/20180611111331873)
-
-第二步：双击下载好的git安装包，弹出提示框，如下图：
-![](https://img-blog.csdn.net/2018061111281656)
-
-第三步： 直接点击“Next”进入下一步，选择安装路径，如下图：
+![](https://i.bmp.ovh/imgs/2022/04/01/ceac135ed96ef406.png)
 
 
-![](https://img-blog.csdn.net/20180611112837136)
+#### 双击下载好的git安装包，弹出提示框
 
-第四步：选择好安装路径后，点击“Next”进入下一步，弹出安装配置窗口，包括git命令行、git图形窗口等，如下图所示：
+如图
 
-![](https://img-blog.csdn.net/20180611113643218)
+![](https://s3.bmp.ovh/imgs/2022/04/01/6ab7c3a07d6a8435.png)
+
+
+#### 直接点击“Next”进入下一步，选择安装路径
+
+如图：
+![](https://s3.bmp.ovh/imgs/2022/04/01/4a2d623e9e45cf36.png)
+
+
+#### 选择好安装路径后，点击“Next”进入下一步，弹出安装配置窗口，包括git命令行、git图形窗口等，
+
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/a52513c70510d7ab.png)
 
 Additional icons 附加图标
 ​ On the Desktop 在桌面上
@@ -43,12 +49,15 @@ Associate .sh files to be run with Bash  将.sh文件关联到Bash运行
 Use a TrueType font in all console windows  在所有控制台窗口中使用TrueType字体
 Check daily for Git for Windows updates  每天检查Git是否有Windows更新
 
-第五步：按照上述默认配置，直接点击“Next”进入下一步，弹出“选择开始菜单文件夹”的窗口，如下图所示：
+#### 按照上述默认配置，直接点击“Next”进入下一步，弹出“选择开始菜单文件夹”的窗口，
 
-![](https://img-blog.csdn.net/20180611113809662)
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/7635e3a45e7116ab.png)
 
-第六步：按照默认路径即可，直接点击“Next”，进入下一步，进入“选择Git使用的默认编辑器”窗口，如下图所示：
-![](https://img-blog.csdn.net/20180611114642984)
+#### 按照默认路径即可，直接点击“Next”，进入下一步，进入“选择Git使用的默认编辑器”窗口
+
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/d18aedf8a47060c4.png)
 
 Use the Nano editor by default  默认使用 Nano 编辑器
 Use Vim (The ubiquitous text editor) as Git's default editor  使用 Vim 作为 Git 的默认编辑器
@@ -56,8 +65,10 @@ Use Notepad++ as Git's default editor  使用 Notepad++ 作为 Git 的默认编�
 Use Visual Studio Code as Git's default editor  使用 Visual Studio Code 作为Git 的默认编辑器
 Use Visual Studio Code Insiders as Git's default editor  使用Visual Studio Code Insiders 作为 Git 的默认编辑器
 
-第七步：点击“Next”，进入下一步，进入“调整Path环境变量”窗口，如下图所示：
-![](https://img-blog.csdn.net/20180611133722654)
+#### 点击“Next”，进入下一步，进入“调整Path环境变量”窗口
+
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/1e1e0ad92b67227c.png)
 
 配置PATH环境
 Use Git from Git Bash only
@@ -75,9 +86,10 @@ Git和可选的Unix工具都将添加到您计算机的 PATH 中
 Warning:This will override Windows tools like "find and sort".Only use this option if you understand the implications.
 警告：这将覆盖Windows工具，如 “ find 和 sort ”。只有在了解其含义后才使用此选项。
 
-第八步：选第二项，然后点击“Next”进入下一步，选择HTTPS传输后端，如下图所示：
+#### 选第二项，然后点击“Next”进入下一步，选择HTTPS传输后端
 
-![](https://img-blog.csdn.net/20180611134343431)
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/250d400f78254f34.png)
 
 Use the OpenSSL library
 使用 OpenSSL 库
@@ -89,9 +101,10 @@ Use the native Windows Secure Channel library
 Server certificates will be validated using Windows Certificate Stores.This option also allows you to use your company's internal Root CA certificates distributed e.g. via Active Directory Domain Services.
 服务器证书将使用Windows证书存储验证。此选项还允许您使用公司的内部根CA证书，例如， 通过Active Directory Domain Services 。
 
-第九步：选择"Use the OpenSSL library"，点击“Next”进入下一步，配置行结束符，如下图所示：
+#### 选择"Use the OpenSSL library"，点击“Next”进入下一步，配置行结束符
 
-![](https://img-blog.csdn.net/20180611134856670)
+如图
+![](https://i.bmp.ovh/imgs/2022/04/01/55fdf15f684fc28b.png)
 
 Checkout Windows-style,commit Unix-style line endings
 Git will convert LF to CRLF when checking out text files.When committing text files,CRLF will be converted to LF .For cross-pltform projects,this is the recommended setting on Windows ("core.autocrlf" is set to "true")
@@ -105,8 +118,10 @@ Checkout as-is,commit as-is
 Git will not perform any conversions when checking out or committing text files.Choosing this option is not recommended for cross-platform projects ("core.autocrlf"is set to "false")
 在检出或提交文本文件时，Git不会执行任何转换。对于跨平台项目，不推荐使用此选项（“core.autocrlf”设置为“false”）
 
-第十步：选择第一项，点击“Next”进入下一步，配置终端模拟器，如下图所示：
-![](https://img-blog.csdn.net/20180611135510347)
+#### 选择第一项，点击“Next”进入下一步，配置终端模拟器
+
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/78b5b25ce0ba8452.png)
 
 Use MinTTY (the default terminal of MSYS2)
 Git Bash will use MinTTY as terminal emulator,which sports a resizable window,non-rectangular selections and a Unicode font. Windows console programs (such as interactive Python) must be launched via 'winpty' to work in MinTTY.
@@ -116,8 +131,10 @@ Use Windows' default console window
 Git will use the default console window of Windows ("cmd.exe"),which works well with Win32 console programs such as interactive Python or node.js , but has a very limited default scroll-back,needs to be configured to use aUnicode font in order to display non-ASCII characters correctly,and prior to Windows 10 its windows was not freely resizable and it only allowed rectangular text selections.
 Git将使用Windows的默认控制台窗口（“cmd.exe”），该窗口可以与Win32控制台程序（如交互式Python或node.js）一起使用，但默认的回滚非常有限，需要配置为使用unicode 字体以正确显示非ASCII字符，并且在Windows 10之前，其窗口不能自由调整大小，并且只允许矩形文本选择。
 
-第十一步：选择第一项，直接点击“Next”进入下一步，配置额外选项，如下图所示
-![](https://img-blog.csdn.net/20180611140236773)
+#### 选择第一项，直接点击“Next”进入下一步，配置额外选项
+
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/03bcc1bfb2458da4.png)
 
 Enable file system caching
 启用文件系统缓存
@@ -134,8 +151,10 @@ Enable symbolic links
 Enable symbolic links (requires the SeCreateSymbolicLink permission).Please note that existing repositories are unaffected by this setting.
 启用符号链接（需要SeCreateSymbolicLink权限）。请注意，现有存储库不受此设置的影响。
 
-第十二步：使用默认配置，直接点击“Install”开始安装，如下图所示：
-![](https://img-blog.csdn.net/20180611140704212)
+#### 使用默认配置，直接点击“Install”开始安装
 
-第十三步:安装完成:
-![](https://img-blog.csdn.net/20180611140818492)
+如图
+![](https://s3.bmp.ovh/imgs/2022/04/01/fec3e1b8bb261a05.png)
+
+#### 安装完成
+![](https://i.bmp.ovh/imgs/2022/04/01/3774b9e50077f8b2.png)
