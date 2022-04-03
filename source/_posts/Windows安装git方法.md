@@ -1,5 +1,5 @@
 ---
-title: Windows安装git方法
+title: windows安装git方法
 date: 2022.4.1
 description:  
 categories: Windows
