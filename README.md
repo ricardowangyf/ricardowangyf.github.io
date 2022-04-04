@@ -1,4 +1,6 @@
 # 新建hexo项目并部署到github
+
+Windows用户安装git的方法移步至另外一篇[文章](https://wangyufei.fun/2022/04/01/Windows%E5%AE%89%E8%A3%85git%E6%96%B9%E6%B3%95/)
 ### 1. 查看是否安装node.js
 
 如果安装了node.js可以查看版本号
@@ -10,7 +12,6 @@ node -v
 # v16.13.0
 ```
 
-Windows用户安装git的方法移步至另外一篇[文章](https://wangyufei.fun/2022/04/01/Windows%E5%AE%89%E8%A3%85git%E6%96%B9%E6%B3%95/)
 ### 2.Gihub新建仓库
 如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)
 
