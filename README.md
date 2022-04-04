@@ -5,7 +5,8 @@
 运行命令
 
 ```bash
-node -v #显示内容（我安装的是最新版本的nodejs）
+node -v 
+#显示内容（我安装的是最新版本的nodejs）
 # v16.13.0
 ```
 
@@ -44,20 +45,11 @@ mkdir  blog #文件名称
 npm install -g hexo
 ```
 如果报错就在前面加上sudo
-```bash
-运行成功显示
-# Password:
-# changed 96 packages in 4s
-```
 
 ## 6.初始化 hexo
 运行命令
 ```bash
 hexo init myblog(这个可以随意起名) 
-# 成功显示
-# INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git
-# INFO  Install dependencies
-# INFO  Start blogging with Hexo!
 ```
 
 ## 7.进入到你初始化的文件夹中（myblog)
@@ -68,8 +60,6 @@ cd  myblog(你取的名称)
 ## 8.接下来是安装依赖包
 ```bash
 npm install
-# 运行后显示
-# added 1 package in 882ms
 ```
 
 ## 9.浏览器调试
