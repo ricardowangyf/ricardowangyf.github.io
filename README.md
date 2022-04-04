@@ -77,8 +77,6 @@ npm install
 hexo s
 ```
 
-点击 http://localhost:4000/
-
 如图：
 ![](/source/_posts/images/blog1.jpg)
 
