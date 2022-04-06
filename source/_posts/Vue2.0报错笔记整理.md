@@ -363,3 +363,39 @@ Non-nested routes must include a leading slash character. Fix the following rout
 非嵌套路由必须包含前导斜杠字符
 
 ![](https://s3.bmp.ovh/imgs/2022/03/de90c863bf7c9b7b.png)
+
+
+## 2022.4.6  Vue2.0报错笔记
+
+### openUrl is not defined
+
+报错如图：
+![](https://tva1.sinaimg.cn/large/0074R88yly8h0zt91a27yj31tu0eqgny.jpg)
+
+代码部分如下:
+
+```html
+<template>
+  <div>
+    <button onclick="openUrl();">Click here</button>
+
+    <a href="https://www.zhihu.com/" target="_blank"
+      ><button>Click here</button></a
+    >
+  </div>
+</template>
+<script type="text/javascript">
+function openUrl() {
+  var url = "https://www.zhihu.com/";
+  window.open(url); //新窗口打开
+  window.location.href = url; //当前窗口打开
+}
+</script>
+```
+解决方案:
+
+用一个全局变量去定义onclick的点击函数就好了。
+```js
+openUrl = function (id){
+}
+```
