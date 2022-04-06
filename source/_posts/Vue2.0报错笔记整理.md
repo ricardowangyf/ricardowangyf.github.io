@@ -321,7 +321,6 @@ div{
 #### You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
 
 今天写vue路由项目碰到一个bug，浏览器报错如下：
-
 ![](https://s3.bmp.ovh/imgs/2022/03/9976d3b3e49aceea.jpg)
 
 报错原因:
@@ -370,7 +369,7 @@ Non-nested routes must include a leading slash character. Fix the following rout
 ### openUrl is not defined
 
 报错如图：
-![](https://tva1.sinaimg.cn/large/0074R88yly8h0zt91a27yj31tu0eqgny.jpg)
+![](https://i.bmp.ovh/imgs/2022/04/06/a5d494e06d4dcf85.jpg)
 
 代码部分如下:
 
