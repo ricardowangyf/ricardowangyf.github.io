@@ -62,7 +62,9 @@ cd  myblog(你取的名称)
 
 ## 8.接下来是安装依赖包
 ```bash
-npm install  or  npm i 
+npm install
+
+# 亦或者你可以简写成npm i
 ```
 
 ## 9.浏览器调试
