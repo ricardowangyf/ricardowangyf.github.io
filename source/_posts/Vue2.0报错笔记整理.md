@@ -398,3 +398,22 @@ function openUrl() {
 openUrl = function (id){
 }
 ```
+
+## 2022.4.11  Vue2.0报错笔记
+
+### can't resolve 'sass-loader'
+
+![](https://i.bmp.ovh/imgs/2022/04/11/985859e7dfef7855.png)
+
+翻一下来原因是什么 sass-loader 这个玩意儿不能编译
+
+搜索解决原因，安装依赖:
+```bash
+npm install sass-loader
+```
+
+```bash
+npm install node-sass
+```
+
+安装完成之后，npm run serve ok终于不报错了，nice！
