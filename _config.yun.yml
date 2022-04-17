@@ -115,7 +115,7 @@ disqus:
   count: true
 
 reward:
-  enable: true
+  enable: false
   icon: icon-hand-coin-line
   comment: can you give me money?
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
@@ -130,8 +130,8 @@ sidebar:
   bg_position: bottom 3rem center
   tagcloud:
     enable: true
-    amount: 19
-  
+    amount: 21
+      
 bg_image:
   enable: true
   url: https://i.bmp.ovh/imgs/2022/04/04/797720935637f277.png

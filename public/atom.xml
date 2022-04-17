@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-03T23:51:02.383Z</updated>
+  <updated>2022-04-17T02:55:58.119Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日记</title>
+    <link href="http://example.com/2022/04/17/%E6%97%A5%E8%AE%B0/"/>
+    <id>http://example.com/2022/04/17/%E6%97%A5%E8%AE%B0/</id>
+    <published>2022-04-16T16:00:00.000Z</published>
+    <updated>2022-04-17T02:55:58.119Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2022-4-17"><a href="#2022-4-17" class="headerlink" title="2022.4.17"></a>2022.4.17</h3><p>今天开始写日记，不知道能坚持到什么时候，反正开头吧。</p><p>今天是封城第17天，表哥昨天买的菜到了，送了一些菜给我们，老爹买的榨菜和鸡蛋也到了，不知道还能撑多久，也许半个月？也许一个月？不知道。。。</p><p>天天刷推都能看到上海封城的一些消息，已经无法分辨是真实的还是虚假的，潜意识里宁愿相信这是假的，毕竟上海是我生活过近10年的城市。</p><p>有的时候真羡慕那些傻子，什么不用想就是一生；有的时候居然觉得读了那么些书有了一些浅薄的理解之后活的还不如一个傻子，越活越累。</p><p>推上认识了一个美女，叫阿惜，是在美国夏威夷上班的中国人，蛮喜欢这位姑娘的，有自己的见解；现在每天比较高兴的事就是能和她聊聊天，但是奈何找不到话题，很尴尬；<br>可惜的是她有男朋友，虽然说咱不是什么正人君子，但是也不能干烂屁眼的事，祝她幸福。</p><p>做完核酸回来就开始写代码，老爹又把我催着去表哥家学习。</p><p>走的时候鼠标的USB接口忘记拿了，擦，得叫老爹过来的时候帮忙带一下</p><p>就先这样吧。</p><p>2022.4.17<br>上海封城第17天   晴</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;2022-4-17&quot;&gt;&lt;a href=&quot;#2022-4-17&quot; class=&quot;headerlink&quot; title=&quot;2022.4.17&quot;&gt;&lt;/a&gt;2022.4.17&lt;/h3&gt;&lt;p&gt;今天开始写日记，不知道能坚持到什么时候，反正开头吧。&lt;/p&gt;
+&lt;p&gt;今天是封城第17</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>windows安装git方法</title>
@@ -522,35 +547,6 @@
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新建Hexo项目部署至github</title>
-    <link href="http://example.com/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/"/>
-    <id>http://example.com/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/</id>
-    <published>2022-03-01T16:00:00.000Z</published>
-    <updated>2022-03-31T14:26:00.683Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="新建Hexo项目部署至github"><a href="#新建Hexo项目部署至github" class="headerlink" title="新建Hexo项目部署至github"></a>新建Hexo项目部署至github</h1><h3 id="1-查看是否安装node-js"><a href="#1-查看是否安装node-js" class="headerlink" title="1. 查看是否安装node.js"></a>1. 查看是否安装node.js</h3><p>如果安装了node.js可以查看版本号<br>运行命令</p><pre><code class="bash">node -v #显示内容（我安装的是最新版本的nodejs）# v16.13.0</code></pre><h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2.安装Git"></a>2.安装Git</h3><p>Mac下安装Xcode就自带Git。</p><h3 id="3-Gihub新建仓库"><a href="#3-Gihub新建仓库" class="headerlink" title="3.Gihub新建仓库"></a>3.Gihub新建仓库</h3><p>如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)</p><h3 id="4-配置SSH-Key"><a href="#4-配置SSH-Key" class="headerlink" title="4.配置SSH Key"></a>4.配置SSH Key</h3><p>这一步不是必须的，配置SSHKey的好处是避免每次更新博客需要输入用户名和密码。这样会方便很多</p><p>详细配置过程。</p><p>4.1 检查本机上是否存在SSH Key<br>打开终端，输入如下命令</p><pre>cd .sshls -la</pre><p>4.2  创建一个SSH Key</p><p>在终端输入如下命令</p><pre><code class="bash">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre><p>4.3 添加SSH Key到Github</p><p>点击右上角头像右边的三角图标，点击Settings，然后在左边菜单栏点击SSH and GPG keys，点击New SSH key，Title 随便填一个，在Key栏填入你复制的内容，点击Add SSH key，把你生成的sshkey添加到里面就可以了。</p><h2 id="5-新建文件夹"><a href="#5-新建文件夹" class="headerlink" title="5.新建文件夹"></a>5.新建文件夹</h2><pre><code class="bash">mkdir  blog</code></pre><h2 id="6-安装-hexo"><a href="#6-安装-hexo" class="headerlink" title="6.安装 hexo"></a>6.安装 hexo</h2><pre><code class="bash">npm install -g hexo</code></pre><p>如果报错就在前面加上sudo</p><pre><code class="bash">运行成功显示# Password:# changed 96 packages in 4s</code></pre><h2 id="7-初始化-hexo"><a href="#7-初始化-hexo" class="headerlink" title="7.初始化 hexo"></a>7.初始化 hexo</h2><p>运行命令</p><pre><code class="bash">hexo init myblog(这个可以随意起名) # 成功显示# INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git# INFO  Install dependencies# INFO  Start blogging with Hexo!## 8.进入到你初始化的文件夹中（myblog） ##</code></pre><pre><code class="bash">cd  myblog(你取的名称)</code></pre><h2 id="9-接下来是安装依赖包"><a href="#9-接下来是安装依赖包" class="headerlink" title="9.接下来是安装依赖包"></a>9.接下来是安装依赖包</h2><pre><code class="bash">npm install</code></pre><h2 id="10-浏览器调试"><a href="#10-浏览器调试" class="headerlink" title="10.浏览器调试"></a>10.浏览器调试</h2><pre><code class="bash">hexo s</code></pre><p>点击 <a href="http://localhost:4000/">http://localhost:4000/</a></p><p>如图：<br><img src="https://s3.bmp.ovh/imgs/2022/03/5fa064f0891c29db.jpg" loading="lazy"></p><p>转跳到浏览器显示如下</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/96e3d311c036e065.jpg" loading="lazy"></p><h2 id="11-同步本地博客到Github"><a href="#11-同步本地博客到Github" class="headerlink" title="11.同步本地博客到Github"></a>11.同步本地博客到Github</h2><p>在myblog（或者你自己取的名称）中的_config.yml文件中添加deploy节点</p><pre><code class="bash">deploy:  type: git  repo: git@github.com:username/username.github.io.git  branch: master</code></pre><p>为了能够使Hexo部署到GitHub上，需要安装一个插件</p><pre><code class="bash">npm install hexo-deployer-git --save</code></pre><p>然后运行</p><pre><code class="bash">hexo cleanhexo g -d</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;新建Hexo项目部署至github&quot;&gt;&lt;a href=&quot;#新建Hexo项</summary>
-      
-    
-    
-    
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
-    
-    <category term="github" scheme="http://example.com/tags/github/"/>
     
   </entry>
   
