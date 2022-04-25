@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>样式穿透::v-deep</title>
+      <link href="/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/"/>
+      <url>/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/</url>
+      
+        <content type="html"><![CDATA[<h2 id="样式穿透-v-deep"><a href="#样式穿透-v-deep" class="headerlink" title="样式穿透::v-deep"></a>样式穿透::v-deep</h2><p>在用到很多vue的组件库如<a href="https://youzan.github.io/vant/#/zh-CN">vant3</a>，<a href="https://element.eleme.cn/#/zh-CN">Element-ui</a>,<a href="https://vuetifyjs.com/en/">，vuetify</a>等，虽然配好了样式但是神奇的产品还是会让你改一下样式</p><p>一般情况可以直接在当前页面中写入样式：</p><pre><code class="css">&lt;style lang=&quot;scss&quot; scoped&gt;  .v-text-field.v-text-field--enclosed .v-text-field__details &#123;          margin-bottom: 8px;          padding: 0px !important;   &#125;&lt;/style&gt;</code></pre><p>这边需不需要加scoped要自行判断，有scoped限制的时候，实现组件的私有化，不对全局造成样式污染，表示当前style属性只属于当前模块。</p><p>但是知道我遇到了这种方法改不了公司的一个项目样式时，发现可以用<code>::v-deep</code>或者<code>/deep/</code>来解决，<br>注意，/deep/在vue 3.0会报错</p><p>使用方法如下：</p><pre><code class="css">::v-deep .v-text-field.v-text-field--enclosed .v-text-field__details &#123;  margin-bottom: 8px;  padding: 0px !important; &#125;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>windows安装git方法</title>
       <link href="/2022/04/01/windows%E5%AE%89%E8%A3%85git%E6%96%B9%E6%B3%95/"/>
       <url>/2022/04/01/windows%E5%AE%89%E8%A3%85git%E6%96%B9%E6%B3%95/</url>
@@ -110,33 +135,6 @@
     
     
     <entry>
-      <title>Vue-element-admin报错</title>
-      <link href="/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
-      <url>/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Element </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Vue </tag>
-            
-            <tag> Element </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
       <link href="/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
       <url>/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</url>
@@ -158,6 +156,33 @@
             <tag> Vue CLI </tag>
             
             <tag> element-ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue-element-admin报错</title>
+      <link href="/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Element </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> Element </tag>
             
         </tags>
       
@@ -522,31 +547,6 @@
     
     
     <entry>
-      <title>git add后撤销</title>
-      <link href="/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
-      <url>/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/</url>
-      
-        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
-      
-      
-      <categories>
-          
-          <category> Git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown插入图片及图注的方法</title>
       <link href="/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/"/>
       <url>/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/</url>
@@ -589,6 +589,31 @@
         <tags>
             
             <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git add后撤销</title>
+      <link href="/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
+      <url>/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
             
         </tags>
       
