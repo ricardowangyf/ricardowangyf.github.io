@@ -66,32 +66,6 @@
   </entry>
   
   <entry>
-    <title>windows安装yarn</title>
-    <link href="http://example.com/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/"/>
-    <id>http://example.com/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/</id>
-    <published>2022-03-31T16:00:00.000Z</published>
-    <updated>2022-04-25T10:48:29.433Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="第一种安装方法"><a href="#第一种安装方法" class="headerlink" title="第一种安装方法"></a>第一种安装方法</h3><p>安装<a href="https://yarn.bootcss.com/">yarn</a></p><p>安装完成后，一定要记得配置环境变量</p><h3 id="第二种安装方法"><a href="#第二种安装方法" class="headerlink" title="第二种安装方法"></a>第二种安装方法</h3><p>使用npm安装:</p><pre><code class="bash">npm i yarn -g-i：install -g：全局安装（global）,使用 -g 或 --global</code></pre><p>输入yarn -version 可以看到版本号，说明安装成功了。我们就可以在项目中像使用npm一样使用yarn了。</p><p>常用命令</p><pre><code class="bash">yarn / yarn install # 等同于npm install 批量安装依赖yarn add xxx 等同于 # npm install xxx —save 安装指定包到指定位置yarn remove xxx # 等同于 npm uninstall xxx —save 卸载指定包yarn add xxx —dev # 等同于 npm install xxx —save-devyarn upgrade 等同于 # npm update 升级全部包yarn global add xxx # 等同于 npm install xxx -g 全局安装指定包</code></pre><p>使用yarn安装 create-react-app 工具</p><pre><code class="bash">npm install -g create-react-app yarn```</code></pre><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://s3.bmp.ovh/imgs/2022/04/01/ab216d7d9217343b.png" width = "65%" alt=""/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      npm安装脚手架      </div></center><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://i.bmp.ovh/imgs/2022/04/01/594ec247df4c71d4.png" width = "65%" alt=""/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      yarn安装脚手架      </div></center><p>然后新建一个项目。工具会自动初始化一个脚手架并安装Vue项目的各种必要依赖</p><pre><code class="bash">create-vue-app vue-app</code></pre><p>然后我们进入项目并启动。</p><pre><code class="bash">cd react-appyarn start</code></pre><p>此时浏览器会访问 <a href="http://localhost:3000/">http://localhost:3000/</a> ，看到 Welcome to Vue 的界面就算成功了。</p><p>添加组件，如：</p><pre><code class="bash">yarn add antd</code></pre><h3 id="如何卸载yarn"><a href="#如何卸载yarn" class="headerlink" title="如何卸载yarn"></a>如何卸载yarn</h3><p>1.安装包直接软件卸载。</p><p>2.npm安装的则通过命令npm uninstall yarn -g卸载</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;第一种安装方法&quot;&gt;&lt;a href=&quot;#第一种安装方法&quot; class=&quot;headerlink&quot; title=&quot;第一种安装方法&quot;&gt;&lt;/a&gt;第一种安装方法&lt;/h3&gt;&lt;p&gt;安装&lt;a href=&quot;https://yarn.bootcss.com/&quot;&gt;yarn&lt;/a&gt;&lt;/p&gt;</summary>
-      
-    
-    
-    
-    <category term="Windows" scheme="http://example.com/categories/Windows/"/>
-    
-    
-    <category term="Windows" scheme="http://example.com/tags/Windows/"/>
-    
-    <category term="Yarn" scheme="http://example.com/tags/Yarn/"/>
-    
-  </entry>
-  
-  <entry>
     <title>windows环境搭建Vue开发环境</title>
     <link href="http://example.com/2022/04/01/windows%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAVue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     <id>http://example.com/2022/04/01/windows%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAVue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</id>
@@ -545,6 +519,35 @@
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新建Hexo项目部署至github</title>
+    <link href="http://example.com/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/"/>
+    <id>http://example.com/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/</id>
+    <published>2022-03-01T16:00:00.000Z</published>
+    <updated>2022-04-25T10:48:29.435Z</updated>
+    
+    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="新建Hexo项目部署至github"><a href="#新建Hexo项目部署至github" class="headerlink" title="新建Hexo项目部署至github"></a>新建Hexo项目部署至github</h1><h3 id="1-查看是否安装node-js"><a href="#1-查看是否安装node-js" class="headerlink" title="1. 查看是否安装node.js"></a>1. 查看是否安装node.js</h3><p>如果安装了node.js可以查看版本号<br>运行命令</p><pre><code class="bash">node -v #显示内容（我安装的是最新版本的nodejs）# v16.13.0</code></pre><h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2.安装Git"></a>2.安装Git</h3><p>Mac下安装Xcode就自带Git。</p><h3 id="3-Gihub新建仓库"><a href="#3-Gihub新建仓库" class="headerlink" title="3.Gihub新建仓库"></a>3.Gihub新建仓库</h3><p>如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)</p><h3 id="4-配置SSH-Key"><a href="#4-配置SSH-Key" class="headerlink" title="4.配置SSH Key"></a>4.配置SSH Key</h3><p>这一步不是必须的，配置SSHKey的好处是避免每次更新博客需要输入用户名和密码。这样会方便很多</p><p>详细配置过程。</p><p>4.1 检查本机上是否存在SSH Key<br>打开终端，输入如下命令</p><pre>cd .sshls -la</pre><p>4.2  创建一个SSH Key</p><p>在终端输入如下命令</p><pre><code class="bash">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre><p>4.3 添加SSH Key到Github</p><p>点击右上角头像右边的三角图标，点击Settings，然后在左边菜单栏点击SSH and GPG keys，点击New SSH key，Title 随便填一个，在Key栏填入你复制的内容，点击Add SSH key，把你生成的sshkey添加到里面就可以了。</p><h2 id="5-新建文件夹"><a href="#5-新建文件夹" class="headerlink" title="5.新建文件夹"></a>5.新建文件夹</h2><pre><code class="bash">mkdir  blog</code></pre><h2 id="6-安装-hexo"><a href="#6-安装-hexo" class="headerlink" title="6.安装 hexo"></a>6.安装 hexo</h2><pre><code class="bash">npm install -g hexo</code></pre><p>如果报错就在前面加上sudo</p><pre><code class="bash">运行成功显示# Password:# changed 96 packages in 4s</code></pre><h2 id="7-初始化-hexo"><a href="#7-初始化-hexo" class="headerlink" title="7.初始化 hexo"></a>7.初始化 hexo</h2><p>运行命令</p><pre><code class="bash">hexo init myblog(这个可以随意起名) # 成功显示# INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git# INFO  Install dependencies# INFO  Start blogging with Hexo!## 8.进入到你初始化的文件夹中（myblog） ##</code></pre><pre><code class="bash">cd  myblog(你取的名称)</code></pre><h2 id="9-接下来是安装依赖包"><a href="#9-接下来是安装依赖包" class="headerlink" title="9.接下来是安装依赖包"></a>9.接下来是安装依赖包</h2><pre><code class="bash">npm install</code></pre><h2 id="10-浏览器调试"><a href="#10-浏览器调试" class="headerlink" title="10.浏览器调试"></a>10.浏览器调试</h2><pre><code class="bash">hexo s</code></pre><p>点击 <a href="http://localhost:4000/">http://localhost:4000/</a></p><p>如图：<br><img src="https://s3.bmp.ovh/imgs/2022/03/5fa064f0891c29db.jpg" loading="lazy"></p><p>转跳到浏览器显示如下</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/96e3d311c036e065.jpg" loading="lazy"></p><h2 id="11-同步本地博客到Github"><a href="#11-同步本地博客到Github" class="headerlink" title="11.同步本地博客到Github"></a>11.同步本地博客到Github</h2><p>在myblog（或者你自己取的名称）中的_config.yml文件中添加deploy节点</p><pre><code class="bash">deploy:  type: git  repo: git@github.com:username/username.github.io.git  branch: master</code></pre><p>为了能够使Hexo部署到GitHub上，需要安装一个插件</p><pre><code class="bash">npm install hexo-deployer-git --save</code></pre><p>然后运行</p><pre><code class="bash">hexo cleanhexo g -d</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
+
+&lt;h1 id=&quot;新建Hexo项目部署至github&quot;&gt;&lt;a href=&quot;#新建Hexo项</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="github" scheme="http://example.com/tags/github/"/>
     
   </entry>
   

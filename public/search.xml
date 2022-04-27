@@ -54,33 +54,6 @@
     
     
     <entry>
-      <title>windows安装yarn</title>
-      <link href="/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/"/>
-      <url>/2022/04/01/windows%E5%AE%89%E8%A3%85yarn/</url>
-      
-        <content type="html"><![CDATA[<h3 id="第一种安装方法"><a href="#第一种安装方法" class="headerlink" title="第一种安装方法"></a>第一种安装方法</h3><p>安装<a href="https://yarn.bootcss.com/">yarn</a></p><p>安装完成后，一定要记得配置环境变量</p><h3 id="第二种安装方法"><a href="#第二种安装方法" class="headerlink" title="第二种安装方法"></a>第二种安装方法</h3><p>使用npm安装:</p><pre><code class="bash">npm i yarn -g-i：install -g：全局安装（global）,使用 -g 或 --global</code></pre><p>输入yarn -version 可以看到版本号，说明安装成功了。我们就可以在项目中像使用npm一样使用yarn了。</p><p>常用命令</p><pre><code class="bash">yarn / yarn install # 等同于npm install 批量安装依赖yarn add xxx 等同于 # npm install xxx —save 安装指定包到指定位置yarn remove xxx # 等同于 npm uninstall xxx —save 卸载指定包yarn add xxx —dev # 等同于 npm install xxx —save-devyarn upgrade 等同于 # npm update 升级全部包yarn global add xxx # 等同于 npm install xxx -g 全局安装指定包</code></pre><p>使用yarn安装 create-react-app 工具</p><pre><code class="bash">npm install -g create-react-app yarn```</code></pre><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://s3.bmp.ovh/imgs/2022/04/01/ab216d7d9217343b.png" width = "65%" alt=""/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      npm安装脚手架      </div></center><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://i.bmp.ovh/imgs/2022/04/01/594ec247df4c71d4.png" width = "65%" alt=""/>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      yarn安装脚手架      </div></center><p>然后新建一个项目。工具会自动初始化一个脚手架并安装Vue项目的各种必要依赖</p><pre><code class="bash">create-vue-app vue-app</code></pre><p>然后我们进入项目并启动。</p><pre><code class="bash">cd react-appyarn start</code></pre><p>此时浏览器会访问 <a href="http://localhost:3000/">http://localhost:3000/</a> ，看到 Welcome to Vue 的界面就算成功了。</p><p>添加组件，如：</p><pre><code class="bash">yarn add antd</code></pre><h3 id="如何卸载yarn"><a href="#如何卸载yarn" class="headerlink" title="如何卸载yarn"></a>如何卸载yarn</h3><p>1.安装包直接软件卸载。</p><p>2.npm安装的则通过命令npm uninstall yarn -g卸载</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Windows </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Windows </tag>
-            
-            <tag> Yarn </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>windows环境搭建Vue开发环境</title>
       <link href="/2022/04/01/windows%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAVue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
       <url>/2022/04/01/windows%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAVue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
