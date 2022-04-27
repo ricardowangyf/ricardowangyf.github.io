@@ -134,8 +134,8 @@ sidebar:
       
 bg_image:
   enable: true
-  url: https://i.bmp.ovh/imgs/2022/04/04/797720935637f277.png
-  dark: https://i.bmp.ovh/imgs/2022/04/04/797720935637f277.png
+  url: https://tva1.sinaimg.cn/large/0074R88yly8h1o677t2y2j31400px441.jpg
+  dark: https://tva1.sinaimg.cn/large/0074R88yly8h1o677t2y2j31400px441.jpg
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
 

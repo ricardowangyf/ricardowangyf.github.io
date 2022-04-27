@@ -189,4 +189,16 @@ girls:
   - name: 中野五月
     avatar: https://img0.baidu.com/it/u=1225048093,4141314436&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=499
     from: 五等分的新娘
+  - name: 绫波丽
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h1o6alrgeaj30f00dwgmb.jpg
+    from: 新世纪福音战士
+  - name: 惣流·明日香·兰格雷
+    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h1o6bobmyej30j60j6gn0.jpg
+    from: 新世纪福音战士
+  - name: 葛城美里
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h1o6d7lyj1j30rs0rs762.jpg
+    from: 新世纪福音战士
+  - name: 伊吹摩耶
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h1o6f6m9muj30ok0oqmz6.jpg
+    from: 新世纪福音战士
 ---
