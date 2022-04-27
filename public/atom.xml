@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-25T10:48:29.435Z</updated>
+  <updated>2022-04-27T05:16:23.741Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端业务逻辑理解</title>
+    <link href="http://example.com/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/"/>
+    <id>http://example.com/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/</id>
+    <published>2022-04-26T16:00:00.000Z</published>
+    <updated>2022-04-27T05:16:23.741Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前端业务逻辑理解"><a href="#前端业务逻辑理解" class="headerlink" title="前端业务逻辑理解"></a>前端业务逻辑理解</h2><p>今天在学习前端开发的时候碰到一个词<code>业务逻辑</code>，理解如下:</p><blockquote><p>简单来就是在怎么做事（how to do）, 比方说你去餐馆吃饭, 你点了个炒米粉，服务员给你下单，厨房见到单后下锅给你炒，你吃完后付账。这一些列动作都可以说是业务逻辑。</p></blockquote><p><code>业务逻辑就是客户的逻辑</code></p><p>在 N 层架构的系统中，经常会提到这些名词。</p><blockquote><p>表现层（Presentation layer） 业务逻辑层（Application layer） 数据访问层（Data layer） 在一个系统开发过程中，后台做一些处理，如果成功，则跳转到 success_xxx 页面，如果失败，则跳转到 fail_xxx 页面，如果系统抛出了异常，则跳转到 5xx 页面，…… 这些属于页面逻辑。</p></blockquote><p>还有一些持久层的逻辑，也就是对数据库的操作。</p><blockquote><p>业务逻辑是核心逻辑，只关注用户的业务，比如管理系统和财务系统，需要处理的业务肯定不一样，但是页面的跳转大致相同，对于持久层的操作也差不多。如果你使用了 SSH 框架，那么 hibernate 和 struts 的代码有很大一部分可以复用。</p></blockquote><blockquote><p>业务逻辑（BL Action）不关心页面如何跳转，只是简单的返回成功，或是失败，或是异常，struts 框架根据配置文件跳转到相应的页面。</p></blockquote><blockquote><p>业务逻辑也不关心数据如何存储，是存储在文件系统，还是存储在数据库系统。是存储在MySQL，还是NoSQL。也不关系到底用没用缓存。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前端业务逻辑理解&quot;&gt;&lt;a href=&quot;#前端业务逻辑理解&quot; class=&quot;headerlink&quot; title=&quot;前端业务逻辑理解&quot;&gt;&lt;/a&gt;前端业务逻辑理解&lt;/h2&gt;&lt;p&gt;今天在学习前端开发的时候碰到一个词&lt;code&gt;业务逻辑&lt;/code&gt;，理解如下:&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>样式穿透::v-deep</title>
@@ -510,34 +535,6 @@
 &lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
 &lt;h2 id=&quot;1-安装vue-router&quot;&gt;&lt;a href=&quot;#1-安装vue-router&quot; class=</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装vue项目</title>
-    <link href="http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://example.com/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/</id>
-    <published>2022-03-01T16:00:00.000Z</published>
-    <updated>2022-04-25T10:48:29.435Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="如何安装vue项目"><a href="#如何安装vue项目" class="headerlink" title="如何安装vue项目"></a>如何安装vue项目</h1><p><a href="https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create">Vue CLI 官网</a></p><h2 id="2022-02-26"><a href="#2022-02-26" class="headerlink" title="2022/02/26"></a>2022/02/26</h2><ol><li>检查 Vue 是否安装，如果输出 vue 的版本信息，说明安装了 vue</li></ol><pre><code class="bash">vue  -v# @vue/cli 4.5.15</code></pre><p>如果不存在 vue 命令工具，<a href="https://cli.vuejs.org/zh/guide/installation.html">安装 vue 命令</a></p><pre><code class="bash">npm install -g @vue/cli# ORyarn global add @vue/cli</code></pre><ol start="2"><li>通过 vue 命令，创建一个 <code>hello-world</code> 项目</li></ol><pre><code class="bash">vue create hello-world</code></pre><p>选择 Vue 版本, 通过上下键选择 <code>Default ([Vue 2] babel, eslint)</code></p><pre><code class="bash"># Vue CLI v4.5.15# ? Please pick a preset: (Use arrow keys)# ❯ Default ([Vue 2] babel, eslint)#   Default (Vue 3) ([Vue 3] babel, eslint)#   Manually select features</code></pre><p>选择安装，如果成功输出下面内容，如果失败，查看命令行信息，重新安装</p><pre><code class="bash"># Vue CLI v4.5.15# ✨  Creating project in /Users/wangyufei/git-project/FD/hello-world.# 🗃  Initializing git repository...# ⚙️  Installing CLI plugins. This might take a while...# added 1280 packages in 39s# 11 packages are looking for funding#   run `npm fund` for details# 🚀  Invoking generators...# 📦  Installing additional dependencies...# added 55 packages in 5s# 11 packages are looking for funding#   run `npm fund` for details# ⚓  Running completion hooks...# 📄  Generating README.md...# 🎉  Successfully created project hello-world.# 👉  Get started with the following commands:#  $ cd hello-world#  $ npm run serve</code></pre><ol start="3"><li>进入生成的 <code>hello-world</code> 目录，通过 <code>npm run serve</code> 命令运行 vue 服务</li></ol><pre><code class="bash">cd hello-worldnpm run serve</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-
-&lt;h1 id=&quot;如何安装vue项目&quot;&gt;&lt;a href=&quot;#如何安装vue项目&quot; cla</summary>
       
     
     

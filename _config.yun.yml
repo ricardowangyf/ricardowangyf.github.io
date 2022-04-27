@@ -23,7 +23,8 @@ search:
   # placeholder:
 
 
-favicon: https://s3.bmp.ovh/imgs/2022/03/5194728442e7a532.jpg
+favicon: https://tva1.sinaimg.cn/large/0074R88yly8h1o7mey550j30ku0dwwgh.jpg
+
 
 social:
   - name: GitHub
@@ -130,7 +131,7 @@ sidebar:
   bg_position: bottom 3rem center
   tagcloud:
     enable: true
-    amount: 21
+    amount: 23
       
 bg_image:
   enable: true

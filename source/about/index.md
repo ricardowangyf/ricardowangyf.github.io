@@ -19,8 +19,8 @@ date: 2022-02-08 22:38:17
 - Gmail：<wangyufei0909@gmail.com>
 - QQmail: <1758555877@qq.com>
 - GitHub: [logicwang](https://github.com/logicwang)
-- Gitee:[wangyf2020](https://gitee.com/wangyf2020)
--  微博：[某热心市民王先森 ](https://weibo.com/6484697834/profile?topnav=1&wvr=6)
+- Gitee:[logicwang](https://gitee.com/wangyf2020)
+-  微博：[五等分的超电磁炮 ](https://weibo.com/6484697834/profile?topnav=1&wvr=6)
 - 哔哩哔哩: [科学的梵高先生](https://space.bilibili.com/474868654?spm_id_from=333.1007.0.0)
-- 知乎：[科学的王先生](https://www.zhihu.com/people/peng-yu-yan-44-15)
-- Twitter: [科学的王先生](https://twitter.com/logicwyf)
+- 知乎：[伦敦天空下的告白](https://www.zhihu.com/people/peng-yu-yan-44-15)
+- Twitter: [热心市民王先生](https://twitter.com/logicwyf)
