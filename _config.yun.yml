@@ -131,7 +131,7 @@ sidebar:
   bg_position: bottom 3rem center
   tagcloud:
     enable: true
-    amount: 23
+    amount: 22
       
 bg_image:
   enable: true
