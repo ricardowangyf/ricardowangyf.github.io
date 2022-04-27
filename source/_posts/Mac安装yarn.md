@@ -4,7 +4,7 @@ date: 2022.3.12
 description:  000
 categories: Mac
 tags:
-- yarn
+- 
 ---
 [yarn中文文档](https://yarn.bootcss.com/)
 [yarn英文文档](https://yarnpkg.com/)

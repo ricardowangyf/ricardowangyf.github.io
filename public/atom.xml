@@ -391,7 +391,7 @@
     <link href="http://example.com/2022/03/12/Mac%E5%AE%89%E8%A3%85yarn/"/>
     <id>http://example.com/2022/03/12/Mac%E5%AE%89%E8%A3%85yarn/</id>
     <published>2022-03-11T16:00:00.000Z</published>
-    <updated>2022-04-25T10:48:29.419Z</updated>
+    <updated>2022-04-27T07:43:39.527Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://yarn.bootcss.com/">yarn中文文档</a><br><a href="https://yarnpkg.com/">yarn英文文档</a></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近在学习引入Antd vue需要使用yarn来安装相关的依赖包，其实以前在学习其他东西的时候碰到过，但是当时没有做笔记，现在等于是补上了。</p><p>接下来说说在Mac上安装yarn的几种方法。</p><h2 id="1-使用homebrew-安装"><a href="#1-使用homebrew-安装" class="headerlink" title="1.使用homebrew 安装"></a>1.使用homebrew 安装</h2><pre><code class="bash">brew install yarn</code></pre><p>在长久的等待和报错之后，终于安装成功了，建议一定要在良好的网络环境下安装</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/89493cf54284d2e8.jpg" loading="lazy"></p><p>查看yarn的版本</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/a366c8a55242cb07.jpg" loading="lazy"></p><p>ok这就是第一种安装方法</p><h2 id="2-脚本安装"><a href="#2-脚本安装" class="headerlink" title="2.脚本安装"></a>2.脚本安装</h2><pre><code class="bash">curl -o- -L https://yarnpkg.com/install.sh | bash</code></pre><p>同样在长久的等待下，安装成功:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/20e4bc256ee165e7.jpg" loading="lazy"></p><p>继续查看版本号</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e741f86ad8f1dcd1.jpg" loading="lazy"></p><p>ok，上面两种方法都可以使用，建议要在良好的网络环境下安装。</p>]]></content>
     
@@ -406,8 +406,6 @@
     
     <category term="Mac" scheme="http://example.com/categories/Mac/"/>
     
-    
-    <category term="yarn" scheme="http://example.com/tags/yarn/"/>
     
   </entry>
   
