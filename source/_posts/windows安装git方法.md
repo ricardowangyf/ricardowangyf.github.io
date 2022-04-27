@@ -9,16 +9,13 @@ tags:
 ---
 
 
-
 #### 安装Git
 
 Windows用户，从[官网](https://git-scm.com/downloads)下载
 ![](https://s3.bmp.ovh/imgs/2022/04/01/b96e4197882cf200.png)
 
-
 点击上图中表示的地方进行下载，得到Git-2.17.1.2-64-bit.exe文件。如果你的系统是32位的，可以通过如下方式下载：
 ![](https://i.bmp.ovh/imgs/2022/04/01/ceac135ed96ef406.png)
-
 
 #### 双击下载好的git安装包，弹出提示框
 
