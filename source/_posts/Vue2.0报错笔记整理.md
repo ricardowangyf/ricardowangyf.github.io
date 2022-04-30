@@ -1,7 +1,7 @@
 ---
 title: Vue2.0报错笔记整理
 date: 2022.3.5
-categories: Vue
+categories: 
 tags: 
 - Vue
 ---

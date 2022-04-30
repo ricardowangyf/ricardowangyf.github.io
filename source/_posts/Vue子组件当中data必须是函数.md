@@ -4,7 +4,7 @@ date: 2022.1.24
 tags: 
 - Vue
 description: 
-categories: Vue
+categories: 
 
 ---
 <script src="prism.js"></script>

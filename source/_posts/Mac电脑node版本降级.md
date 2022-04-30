@@ -1,7 +1,7 @@
 ---
 title: Mac电脑Node版本降级
 date: 2022.3.28
-categories: Mac  Nodejs
+categories:
 tags: 
 - Mac
 - Nodejs

@@ -1,7 +1,7 @@
 ---
 title: Mac下访问github网址速度慢或者无法访问方案
 date: 2022.3.2
-categories: Mac
+categories: 
 tags:
 - Mac
 - github

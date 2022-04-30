@@ -2,7 +2,7 @@
 title: windows环境搭建Vue开发环境
 date: 2022.4.1
 description:  
-categories: Windows
+categories: 
 tags:
 - Windows
 - Vue

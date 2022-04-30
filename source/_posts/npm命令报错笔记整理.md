@@ -1,7 +1,7 @@
 ---
 title: npm命令报错笔记整理
 date: 2022.3.28
-categories: npm
+categories: 
 tags: 
 - npm
 ---

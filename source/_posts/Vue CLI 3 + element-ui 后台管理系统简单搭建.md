@@ -2,7 +2,7 @@
 title: Vue CLI 3 + element-ui 后台管理系统简单搭建
 date: 2022.3.29
 description:  
-categories: Vue CLI
+categories: 
 tags:
 - Element
 - Vue CLI

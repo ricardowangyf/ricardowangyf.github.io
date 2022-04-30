@@ -1,7 +1,7 @@
 ---
 title: React与Vue中dom节点的区别
 date: 2022.2.1
-categories: Vue React
+categories:  
 description:
 tags:
 - Vue

@@ -2,7 +2,7 @@
 title: Antd-vue的安装方法
 date: 2022.3.14
 description:  
-categories: Antdvue
+categories: 
 tags:
 - Antd
 - Vue

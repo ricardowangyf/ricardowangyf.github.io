@@ -1,7 +1,7 @@
 ---
 title: Javascript练习
 date: 2021.12.28
-categories: 练习
+categories: 
 tags:
 - Javascript
 - 实例

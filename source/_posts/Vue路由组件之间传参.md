@@ -2,7 +2,7 @@
 title: Vue路由组件之间传参
 date: 2022.3.19
 description: 
-categories: Vue
+categories: 
 tags:
 - Vue
 ---

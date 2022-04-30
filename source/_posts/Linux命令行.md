@@ -2,7 +2,7 @@
 title: Linux命令行
 date: 2022.1.10
 description:  
-categories: Linux
+categories: 
 tags:
 - Linux
 ---
