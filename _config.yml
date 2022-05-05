@@ -114,3 +114,9 @@ codeblock:
   prismjs:
     light: default
     dark: tomorrow
+
+minivaline:
+  enable: true
+  md: true
+  backend: waline
+  serverURL: https://waline.vercel.app

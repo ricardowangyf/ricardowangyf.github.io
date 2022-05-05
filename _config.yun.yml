@@ -185,3 +185,5 @@ live2d:
     show: false # 是否在移动设备上显示
   react:
     opacity: 0.7
+
+

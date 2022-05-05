@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>JavaScript标准库学习</title>
+      <link href="/2022/05/05/JavaScript%20%E6%A0%87%E5%87%86%E5%BA%93%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2022/05/05/JavaScript%20%E6%A0%87%E5%87%86%E5%BA%93%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h3 id="JavaScript标准库学习"><a href="#JavaScript标准库学习" class="headerlink" title="JavaScript标准库学习"></a>JavaScript标准库学习</h3><h4 id="Object-构造函数"><a href="#Object-构造函数" class="headerlink" title="Object() 构造函数"></a>Object() 构造函数</h4><p><code>object</code>是一个构造函数，能给特定的值包装成为一个新的对象，在申明变量的时候可以简称为<code>obj</code></p><ul><li>如果给的特定值是<code>null</code>或或者’undefined’的时候，它会创建成为一个新的对象</li><li>否则，它（ojb）将返回一个和给定的值相对应的类型的对象。</li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VueCli3之更改icon图标</title>
       <link href="/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/"/>
       <url>/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/</url>
