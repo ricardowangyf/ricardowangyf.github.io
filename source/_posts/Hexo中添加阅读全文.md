@@ -2,7 +2,7 @@
 title: Hexo中添加阅读全文
 date: 2022.1.11
 description: 
-categories: 
+categories: Hexo
 tags:
 - Hexo
 ---

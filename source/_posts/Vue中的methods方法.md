@@ -2,7 +2,7 @@
 title: Vue中的methods方法
 date: 2022.2.22
 description: 
-categories: 
+categories:  Vue
 tags:
 - Vue
 ---

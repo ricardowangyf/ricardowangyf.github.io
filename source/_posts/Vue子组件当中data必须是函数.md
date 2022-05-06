@@ -1,10 +1,10 @@
 ---
 title: Vue子组件当中data必须是函数
 date: 2022.1.24
+description: 
+categories: Vue
 tags: 
 - Vue
-description: 
-categories: 
 
 ---
 <script src="prism.js"></script>

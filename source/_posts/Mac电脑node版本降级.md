@@ -1,9 +1,8 @@
 ---
-title: Mac电脑Node版本降级
+title: Node版本降级
 date: 2022.3.28
-categories:
+categories: Nodejs
 tags: 
-- Mac
 - Nodejs
 ---
 
@@ -28,6 +27,7 @@ sudo n latest
 
 3.版本降级/升级
 ```bash
-sudo n 版本号 #例如：sudo n 12.17.0
+sudo n 版本号
+#例如：sudo n 12.17.0
 ```
 ![](https://s3.bmp.ovh/imgs/2022/03/ad7c54374717a223.jpg)

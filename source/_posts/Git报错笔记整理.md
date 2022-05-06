@@ -1,7 +1,7 @@
 ---
 title: Git报错笔记整理
 date: 2022.3.24
-categories: 
+categories: Git
 tags: 
 - Git
 ---

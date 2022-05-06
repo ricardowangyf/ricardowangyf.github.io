@@ -1,7 +1,7 @@
 ---
 title: ES6暂时性死区
 date: 2022.4.28
-categories: 
+categories: JavaScript
 tags: 
 - ES6
 - JavaScript

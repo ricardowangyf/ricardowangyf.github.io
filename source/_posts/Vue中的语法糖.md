@@ -2,7 +2,7 @@
 title: Vue中的语法糖
 date: 2022.2.24
 description: 
-categories: 
+categories: Vue
 tags:
 - Vue
 ---

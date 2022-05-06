@@ -1,7 +1,7 @@
 ---
-title: Mac环境下运行Vue项目报错
+title: 运行Vue项目报错
 date: 2022.3.22
-categories: 
+categories: Vue
 tags: 
 - Vue
 ---

@@ -2,7 +2,7 @@
 title: Vue全局注册与局部注册的区别
 date: 2022.2.16
 description: 
-categories: 
+categories: Vue
 tags:
 - Vue
 ---

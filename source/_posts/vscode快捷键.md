@@ -1,11 +1,10 @@
 ---
 uuid: 1baa62dc-1b20-bf8a-de68-153b25fa5eab
-title: Mac vscode快捷键
+title: vscode快捷键
 date: 2022.1.11
-categories: 
+categories: vscode
 description:   
 tags:
-- Mac
 - vscode
 ---
 <script src="prism.js"></script>

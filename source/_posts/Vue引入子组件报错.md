@@ -2,7 +2,7 @@
 title: Vue引入子组件报错
 date: 2022.2.20
 description: 
-categories: 
+categories: Vue
 tags:
 - Vue
 ---

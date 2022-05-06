@@ -2,7 +2,7 @@
 title: vue中data与html中data的写法
 date: 2022.1.10
 description: 
-categories: 
+categories:  Vue
 tags:
 - Vue
 ---

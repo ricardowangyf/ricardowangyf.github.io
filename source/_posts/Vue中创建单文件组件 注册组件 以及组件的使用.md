@@ -2,7 +2,7 @@
 title: Vue中创建单文件组件 注册组件 以及组件的使用
 date: 2022.2.28
 description: 
-categories: 
+categories: Vue
 tags:
 - Vue
 ---

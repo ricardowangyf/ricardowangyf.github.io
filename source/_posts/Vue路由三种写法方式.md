@@ -2,7 +2,7 @@
 title: Vue路由三种写法方式
 date: 2022.2.26
 description: 
-categories: 
+categories: Vue
 tags:
 - Vue
 ---

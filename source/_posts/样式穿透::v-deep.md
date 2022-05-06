@@ -1,7 +1,7 @@
 ---
 title: 样式穿透::v-deep
 date: 2022.4.25
-categories: 
+categories: css 
 tags:
 - css
 ---

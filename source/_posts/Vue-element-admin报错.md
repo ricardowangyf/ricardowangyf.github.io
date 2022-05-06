@@ -2,7 +2,7 @@
 title: Vue-element-admin报错
 date: 2022.3.29
 description:  
-categories: 
+categories:  Vue
 tags:
 - Element
 - Vue
