@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-06T09:22:23.797Z</updated>
+  <updated>2022-05-09T06:36:12.385Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VueCli3之更改icon图标</title>
+    <title>VueCli3更改icon图标</title>
     <link href="http://example.com/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/"/>
     <id>http://example.com/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2022-05-06T09:22:23.797Z</updated>
+    <updated>2022-05-09T06:36:12.385Z</updated>
     
     <content type="html"><![CDATA[<h2 id="VueCli3更改icon图标"><a href="#VueCli3更改icon图标" class="headerlink" title="VueCli3更改icon图标"></a>VueCli3更改icon图标</h2><blockquote><p>初次使用更改icon图标的时候，可能会根据脚手架搭建完成后的public中修改index.html中的link,如下</p></blockquote><pre><code class="bash">&lt;link rel=&quot;icon&quot; href=&quot;&lt;%= BASE_URL %&gt;assets/logo/logo.png&quot;&gt;</code></pre><p>但是，会发现即使修改了之后，重新刷新也没有任何作用。</p><p>那么接下来我来讲一下搜索到的解决方法。<br>一、先将自己的icon直接替换原的图标<br>二、在根目录创建一个<code>vue.config.js</code>文件，然后写下之前</p><pre><code class="js">module.exports = &#123;    pwa: &#123;        iconPaths: &#123;            favicon32: &#39;favicon.ico&#39;,            favicon16: &#39;favicon.ico&#39;,            appleTouchIcon: &#39;favicon.ico&#39;,            maskIcon: &#39;favicon.ico&#39;,            msTileImage: &#39;favicon.ico&#39;        &#125;    &#125;&#125;</code></pre><p>记得修改完成之后需要重启项目，这样图标才会生效。</p>]]></content>
     
     
-    <summary type="html">Vue</summary>
+      
+      
+    <summary type="html">&lt;h2 id=&quot;VueCli3更改icon图标&quot;&gt;&lt;a href=&quot;#VueCli3更改icon图标&quot; class=&quot;headerlink&quot; title=&quot;VueCli3更改icon图标&quot;&gt;&lt;/a&gt;VueCli3更改icon图标&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;初次使用更</summary>
+      
     
     
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
@@ -40,14 +46,21 @@
     <link href="http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/"/>
     <id>http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2022-05-06T09:24:48.033Z</updated>
+    <updated>2022-05-09T06:35:43.571Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Vue引入css"><a href="#Vue引入css" class="headerlink" title="Vue引入css"></a>Vue引入css</h2><p>vue引用css的方法</p><p>在vue中引入外部的css文件：</p><p>在项目的src文件下，新建一个style文件夹，存放css文件。</p><ol><li>全局引入</li></ol><p>将外部的css文件放到style文件下，引入外部文件只需在main.js文件中</p><pre><code class="bash">import &#39;./style/reset.css&#39; # 清除默认样式的css文件</code></pre><ol start="2"><li>局部引入<br>```bash<style scoped>@import '../assets/iconfont/iconfont.css'; #这个分号一定要写，要不会报错</li></ol><p></style></p><p>```</p><p><code>@import CSS@</code>规则，用于从其他样式表导入样式规则。这些规则必须先于所有其他类型的规则，@charset 规则除外; 因为它不是一个嵌套语句，@import不能在条件组的规则中使用。<br>因此，用户代理可以避免为不支持的媒体类型检索资源，作者可以指定依赖媒体的@import规则。这些条件导入在URI之后指定逗号分隔的媒体查询。在没有任何媒体查询的情况下，导入是无条件的。指定所有的媒体具有相同的效果。</p>]]></content>
     
     
-    <summary type="html">Vue</summary>
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Vue引入css&quot;&gt;&lt;a href=&quot;#Vue引入css&quot; class=&quot;headerlink&quot; title=&quot;Vue引入css&quot;&gt;&lt;/a&gt;Vue引入css&lt;/h2&gt;&lt;p&gt;vue引用css的方法&lt;/p&gt;
+&lt;p&gt;在vue中引入外部的css文件：&lt;/p&gt;
+&lt;p&gt;在项目</summary>
+      
     
     
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
