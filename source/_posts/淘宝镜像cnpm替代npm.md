@@ -1,7 +1,7 @@
 ---
-title: 使用淘宝镜像cnpm替代npm
+title: 淘宝镜像cnpm替代npm
 date: 2022.3.14
-description: npm
+description: 
 tags:
 - npm 
 - cnpm

@@ -408,9 +408,9 @@
     
     
     <entry>
-      <title>使用淘宝镜像cnpm替代npm</title>
-      <link href="/2022/03/14/%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
-      <url>/2022/03/14/%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</url>
+      <title>淘宝镜像cnpm替代npm</title>
+      <link href="/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
+      <url>/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</url>
       
         <content type="html"><![CDATA[<span id="more"></span><h2 id="使用淘宝镜像cnpm代替npm"><a href="#使用淘宝镜像cnpm代替npm" class="headerlink" title="使用淘宝镜像cnpm代替npm"></a>使用淘宝镜像cnpm代替npm</h2><p>直接用 npm 安装库非常慢，容易安装失败，简直是浪费时间，使用代理或者库镜像又比较麻烦，最好的解决方案是使用淘宝镜像 cnpm替代npm 。</p><p>使用方法：</p><p>打开ITerm或者你的终端，输入以下命令来安装cnpm：</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>2.显示完成后，使用cnpm替代npm ( 命令参数完全一样），例如安装Vue：</p><pre><code class="bash">cnpm install -g @vue/cli</code></pre>]]></content>
       
@@ -731,7 +731,7 @@
       <link href="/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/"/>
       <url>/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的methods方法"><a href="#Vue中的methods方法" class="headerlink" title="Vue中的methods方法"></a>Vue中的methods方法</h2><h3 id="在-methods-中定义方法"><a href="#在-methods-中定义方法" class="headerlink" title="在 methods 中定义方法"></a>在 methods 中定义方法</h3><p>我们可以使用 <code>methods</code> 属性给 Vue 定义方法，<code>methods</code> 的基本语法：</p><pre><code class="js">var vm = new Vue(&#123;  methods:&#123;         方法名:function()&#123;        // 在此时定义方法，方法之间使用逗号分隔   &#125;&#125;);</code></pre><h2 id="示例"><a href="#示例" class="headerlink" title="示例:"></a>示例:</h2><p>例如在 <code>methods </code>中定义一个名为<code>show </code>的方法</p><pre><code class="js">methods:&#123;    show: function()&#123;        console.log(&quot;显示内容&quot;)    &#125;&#125;</code></pre><h2 id="在方法中访问属性"><a href="#在方法中访问属性" class="headerlink" title="在方法中访问属性"></a>在方法中访问属性</h2><p>在 <code>methods</code> 方法中访问 <code>data </code>的数据，可以直接通过 <code>this.属性名</code> 的形式来访问。</p><h2 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h2><p>我们在 <code>show </code>方法中，访问<code>number</code>属性，可以直接通过 <code>this.number</code> 形式访问，其中 <code>this</code> 表示的就是Vue 实例对象：</p><pre><code class="bash">&lt;script&gt;export default &#123;  data() &#123;    return &#123;      methods: &#123;        handleClick: function () &#123;          alert(&quot;click&quot;);        &#125;,      &#125;,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><p>如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。</p><h2 id="一个简单的实例"><a href="#一个简单的实例" class="headerlink" title="一个简单的实例:"></a>一个简单的实例:</h2><pre><code class="bash">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;    &lt;button @click=&quot;change&quot;&gt;点我改名&lt;/button&gt;    &lt;h1&gt;点击按钮修改名字&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;老王&quot;,    &#125;;  &#125;,  methods: &#123;    change() &#123;      this.message = &quot;小李&quot;; // 改变data中属性的值    &#125;,  &#125;,&#125;;&lt;/script&gt;</code></pre>]]></content>
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的methods方法"><a href="#Vue中的methods方法" class="headerlink" title="Vue中的methods方法"></a>Vue中的methods方法</h2><h3 id="在-methods-中定义方法"><a href="#在-methods-中定义方法" class="headerlink" title="在 methods 中定义方法"></a>在 methods 中定义方法</h3><p>我们可以使用 <code>methods</code> 属性给 Vue 定义方法，<code>methods</code> 的基本语法：</p><pre><code class="js">var vm = new Vue(&#123;  methods:&#123;         方法名:function()&#123;        // 在此时定义方法，方法之间使用逗号分隔   &#125;&#125;);</code></pre><p>例如在 <code>methods </code>中定义一个名为<code>show </code>的方法</p><pre><code class="js">methods:&#123;    show: function()&#123;        console.log(&quot;显示内容&quot;)    &#125;&#125;</code></pre><h2 id="在方法中访问属性"><a href="#在方法中访问属性" class="headerlink" title="在方法中访问属性"></a>在方法中访问属性</h2><p>在 <code>methods</code> 方法中访问 <code>data </code>的数据，可以直接通过 <code>this.属性名</code> 的形式来访问。</p><p>我们在 <code>show </code>方法中，访问<code>number</code>属性，可以直接通过 <code>this.number</code> 形式访问，其中 <code>this</code> 表示的就是Vue 实例对象：</p><pre><code class="js">&lt;script&gt;export default &#123;  data() &#123;    return &#123;      methods: &#123;        handleClick: function () &#123;          alert(&quot;click&quot;);        &#125;,      &#125;,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><p>如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;    &lt;button @click=&quot;change&quot;&gt;点我改名&lt;/button&gt;    &lt;h1&gt;点击按钮修改名字&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;老王&quot;,    &#125;;  &#125;,  methods: &#123;    change() &#123;      this.message = &quot;小李&quot;; // 改变data中属性的值    &#125;,  &#125;,&#125;;&lt;/script&gt;</code></pre>]]></content>
       
       
       <categories>
@@ -802,7 +802,7 @@
     
     
     <entry>
-      <title>vue中props默认写法</title>
+      <title>Vue中props默认写法</title>
       <link href="/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/"/>
       <url>/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/</url>
       
@@ -902,7 +902,7 @@
     
     
     <entry>
-      <title>vscode快捷键</title>
+      <title>Vscode快捷键</title>
       <link href="/2022/01/11/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
       <url>/2022/01/11/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
       
@@ -927,7 +927,7 @@
     
     
     <entry>
-      <title>vue中data与html中data的写法</title>
+      <title>Vue中data与html中data的写法</title>
       <link href="/2022/01/10/Vue%E4%B8%ADdata%E4%B8%8EHTML%E4%B8%ADdata%E7%9A%84%E5%86%99%E6%B3%95/"/>
       <url>/2022/01/10/Vue%E4%B8%ADdata%E4%B8%8EHTML%E4%B8%ADdata%E7%9A%84%E5%86%99%E6%B3%95/</url>
       

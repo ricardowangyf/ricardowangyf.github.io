@@ -1,5 +1,5 @@
 ---
-title: vue中data与html中data的写法
+title: Vue中data与html中data的写法
 date: 2022.1.10
 description: 
 categories:  Vue

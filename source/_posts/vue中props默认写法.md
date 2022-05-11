@@ -1,5 +1,5 @@
 ---
-title: vue中props默认写法
+title: Vue中props默认写法
 date: 2022.2.20
 description: 
 categories: Vue

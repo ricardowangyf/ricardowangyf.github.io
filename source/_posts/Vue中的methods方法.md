@@ -24,7 +24,6 @@ var vm = new Vue({
 });
 ```
 
-## 示例:
 
 例如在 `methods `中定义一个名为`show `的方法
 
@@ -36,15 +35,13 @@ methods:{
 }
 ```
 
-## 在方法中访问属性 ##
+## 在方法中访问属性
 
 在 `methods` 方法中访问 `data `的数据，可以直接通过 `this.属性名` 的形式来访问。
 
-## 示例： ##
-
 我们在 `show `方法中，访问` number `属性，可以直接通过 `this.number` 形式访问，其中 `this` 表示的就是Vue 实例对象：
 
-```bash
+```js
 <script>
 export default {
   data() {
@@ -62,9 +59,7 @@ export default {
 
 如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。
 
-## 一个简单的实例: ##
-
-```bash
+```html
 <template>
   <div id="app">
     <p>{{ message }}</p>
