@@ -74,9 +74,9 @@
     <link href="http://example.com/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/"/>
     <id>http://example.com/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/</id>
     <published>2022-04-27T16:00:00.000Z</published>
-    <updated>2022-05-06T08:45:51.792Z</updated>
+    <updated>2022-05-18T07:38:03.424Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="ES6暂时性死区"><a href="#ES6暂时性死区" class="headerlink" title="ES6暂时性死区"></a>ES6暂时性死区</h2><blockquote><p>暂时性死区是针对<code>const</code>,<code>let</code>这两个关键字而产生的概念。<br>首先变量提升这个js的基本概念无法撼动，’const’和<code>let</code>作为块级作用域也不能避免。<br>和<code>var</code>不同，这两个关键字将作用域限制在了<code>块</code>中，且规定了在该块中，由这两个关键字定义的变量已经被分配内存。<br>即其实已经<code>存在</code>了，但程序未执行到声明处时，访问该变量都会报引用错误。<br>这个时候，对于该变量来说就是’暂时性死区’，通俗来说就是该变量存在，但并未完全存在</p></blockquote><p>代码如下：</p><pre><code class="js">//情景一、if (true) &#123;  // TDZ开始  tmp = &#39;abc&#39;; // ReferenceError  console.log(tmp); // ReferenceError  let tmp; // TDZ结束  console.log(tmp); // undefined  tmp = 123;  console.log(tmp); // 123&#125;</code></pre><p>上面代码中，在let命令声明变量tmp之前，都属于变量tmp的“死区”。</p><pre><code class="js">//情景二var tmp = 123;if (true) &#123;  tmp = &#39;abc&#39;; // ReferenceError  let tmp;&#125;</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="ES6暂时性死区"><a href="#ES6暂时性死区" class="headerlink" title="ES6暂时性死区"></a>ES6暂时性死区</h2><blockquote><p>暂时性死区是针对<code>const</code>,<code>let</code>这两个关键字而产生的概念。<br>首先变量提升这个js的基本概念无法撼动，<code>const</code>和<code>let</code>作为块级作用域也不能避免。<br>和<code>var</code>不同，这两个关键字将作用域限制在了<code>块</code>中，且规定了在该块中，由这两个关键字定义的变量已经被分配内存。<br>即其实已经<code>存在</code>了，但程序未执行到声明处时，访问该变量都会报引用错误。<br>这个时候，对于该变量来说就是’暂时性死区’，通俗来说就是该变量存在，但并未完全存在</p></blockquote><p>代码如下：</p><pre><code class="js">//情景一、if (true) &#123;  // TDZ开始  tmp = &#39;abc&#39;; // ReferenceError  console.log(tmp); // ReferenceError  let tmp; // TDZ结束  console.log(tmp); // undefined  tmp = 123;  console.log(tmp); // 123&#125;</code></pre><p>上面代码中，在let命令声明变量tmp之前，都属于变量tmp的“死区”。</p><pre><code class="js">//情景二var tmp = 123;if (true) &#123;  tmp = &#39;abc&#39;; // ReferenceError  let tmp;&#125;</code></pre>]]></content>
     
     
       
