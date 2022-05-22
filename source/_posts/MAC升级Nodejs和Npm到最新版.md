@@ -1,9 +1,9 @@
 ---
 title: MAC升级Nodejs和Npm到最新版
 date: 2022.5.22
-categories:  Npm
+categories:  npm
 tags: 
-- Npm
+- npm
 ---
 
 
