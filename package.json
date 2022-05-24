@@ -33,5 +33,10 @@
     "npm": "^8.3.0",
     "packagename": "^2.0.1",
     "prismjs": "^1.27.0"
-  }
+  },
+  "description": "Windows用户安装git的方法移步至另外一篇[文章](https://wangyufei.fun/2022/04/01/windows%E5%AE%89%E8%A3%85git%E6%96%B9%E6%B3%95/)",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
