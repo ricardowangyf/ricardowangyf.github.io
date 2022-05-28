@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-22T05:10:47.333Z</updated>
+  <updated>2022-05-28T01:05:30.202Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>v-model与:model的区别</title>
+    <link href="http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
+    <published>2022-05-27T16:00:00.000Z</published>
+    <updated>2022-05-28T01:05:30.202Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="v-model与-model的区别"><a href="#v-model与-model的区别" class="headerlink" title="v-model与:model的区别"></a>v-model与:model的区别</h3><h4 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h4><blockquote><p>通常用于表单上双向数据的绑定，如果除了表单其他组件使用时，起不到任何效果。它还可以实现子组件到父组件的双向数据动态绑定。<br><a href="https://cn.vuejs.org/v2/guide/forms.html">详情参考官网</a></p></blockquote><h4 id="model"><a href="#model" class="headerlink" title=":model"></a>:model</h4><blockquote><p>:model是v-bind:model的缩写。<br>只是将父组件的值传递给和子组件，但是并未实现子组件<br>和父组件之间的双向数据绑定，当然引用类型除外，子组件改变了引用类型的数据的话，父组件的数据也会跟着改变。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;v-model与-model的区别&quot;&gt;&lt;a href=&quot;#v-model与-model的区别&quot; class=&quot;headerlink&quot; title=&quot;v-model与:model的区别&quot;&gt;&lt;/a&gt;v-model与:model的区别&lt;/h3&gt;&lt;h4 id=&quot;v-mod</summary>
+      
+    
+    
+    
+    <category term="vue" scheme="http://example.com/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="http://example.com/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>MAC升级Nodejs和Npm到最新版</title>
@@ -502,31 +526,6 @@
     <category term="npm" scheme="http://example.com/tags/npm/"/>
     
     <category term="cnpm" scheme="http://example.com/tags/cnpm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装yarn</title>
-    <link href="http://example.com/2022/03/12/%E5%AE%89%E8%A3%85yarn/"/>
-    <id>http://example.com/2022/03/12/%E5%AE%89%E8%A3%85yarn/</id>
-    <published>2022-03-11T16:00:00.000Z</published>
-    <updated>2022-05-06T08:31:42.871Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://yarn.bootcss.com/">yarn中文文档</a><br><a href="https://yarnpkg.com/">yarn英文文档</a></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近在学习引入Antd vue需要使用yarn来安装相关的依赖包，其实以前在学习其他东西的时候碰到过，但是当时没有做笔记，现在等于是补上了。</p><p>接下来说说在Mac上安装yarn的几种方法。</p><h2 id="1-使用homebrew-安装"><a href="#1-使用homebrew-安装" class="headerlink" title="1.使用homebrew 安装"></a>1.使用homebrew 安装</h2><pre><code class="bash">brew install yarn</code></pre><p>在长久的等待和报错之后，终于安装成功了，建议一定要在良好的网络环境下安装</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/89493cf54284d2e8.jpg" loading="lazy"></p><p>查看yarn的版本</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/a366c8a55242cb07.jpg" loading="lazy"></p><p>ok这就是第一种安装方法</p><h2 id="2-脚本安装"><a href="#2-脚本安装" class="headerlink" title="2.脚本安装"></a>2.脚本安装</h2><pre><code class="bash">curl -o- -L https://yarnpkg.com/install.sh | bash</code></pre><p>同样在长久的等待下，安装成功:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/20e4bc256ee165e7.jpg" loading="lazy"></p><p>继续查看版本号</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e741f86ad8f1dcd1.jpg" loading="lazy"></p><p>ok，上面两种方法都可以使用，建议要在良好的网络环境下安装。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://yarn.bootcss.com/&quot;&gt;yarn中文文档&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://yarnpkg.com/&quot;&gt;yarn英文文档&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="yarn" scheme="http://example.com/categories/yarn/"/>
-    
-    
-    <category term="yarn" scheme="http://example.com/tags/yarn/"/>
     
   </entry>
   
