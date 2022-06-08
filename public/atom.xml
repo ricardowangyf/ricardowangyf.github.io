@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-28T01:05:30.202Z</updated>
+  <updated>2022-06-08T10:10:48.506Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
     <published>2022-05-27T16:00:00.000Z</published>
-    <updated>2022-05-28T01:05:30.202Z</updated>
+    <updated>2022-06-08T10:10:48.506Z</updated>
     
     <content type="html"><![CDATA[<h3 id="v-model与-model的区别"><a href="#v-model与-model的区别" class="headerlink" title="v-model与:model的区别"></a>v-model与:model的区别</h3><h4 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h4><blockquote><p>通常用于表单上双向数据的绑定，如果除了表单其他组件使用时，起不到任何效果。它还可以实现子组件到父组件的双向数据动态绑定。<br><a href="https://cn.vuejs.org/v2/guide/forms.html">详情参考官网</a></p></blockquote><h4 id="model"><a href="#model" class="headerlink" title=":model"></a>:model</h4><blockquote><p>:model是v-bind:model的缩写。<br>只是将父组件的值传递给和子组件，但是并未实现子组件<br>和父组件之间的双向数据绑定，当然引用类型除外，子组件改变了引用类型的数据的话，父组件的数据也会跟着改变。</p></blockquote>]]></content>
     
@@ -33,10 +33,10 @@
     
     
     
-    <category term="vue" scheme="http://example.com/categories/vue/"/>
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
     
     
-    <category term="vue" scheme="http://example.com/tags/vue/"/>
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
   </entry>
   

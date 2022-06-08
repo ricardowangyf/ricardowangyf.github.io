@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> vue </category>
+          <category> Vue </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> vue </tag>
+            <tag> Vue </tag>
             
         </tags>
       
@@ -554,17 +554,15 @@
     
     
     <entry>
-      <title>Mac下访问github网址速度慢或者无法访问方案</title>
-      <link href="/2022/03/02/Mac%E4%B8%8B%E8%AE%BF%E9%97%AEgithub%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E8%80%85%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%96%B9%E6%A1%88/"/>
-      <url>/2022/03/02/Mac%E4%B8%8B%E8%AE%BF%E9%97%AEgithub%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E8%80%85%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%96%B9%E6%A1%88/</url>
+      <title>github网址速度慢或无法访问</title>
+      <link href="/2022/03/02/github%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
+      <url>/2022/03/02/github%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</url>
       
-        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Mac下访问github网址速度慢或者无法访问方案"><a href="#Mac下访问github网址速度慢或者无法访问方案" class="headerlink" title="Mac下访问github网址速度慢或者无法访问方案"></a>Mac下访问github网址速度慢或者无法访问方案</h2><p>最近想用Mac电脑访问github发现一直登不上去,梯子太贵消费不起，常用的几个梯子基本都挂了，一直在网上搜寻解决方案，终于，结合两篇文章解决了<br>虽然访问依旧很慢，但是至少不需要梯子就能上github了</p><p>1.打开访达窗口，按住<code>shift command G</code>三个键，进入搜索文件夹的页面<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvxxhn4z0j30gm04zaa8.jpg" loading="lazy"></p><p>2.输入框内输入/etc/hosts<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvy0sbky9j30gr04zq35.jpg" loading="lazy"></p><p>3.找到hosts文件<br><img src="https://s3.bmp.ovh/imgs/2022/03/b70711d5471fdfc3.jpg" loading="lazy"></p><p>4.由于hosts文件夹不可编辑，所以复制一份hosts文件先保存到本地桌面<br>注：修改或者变更hosts文件需要输入你的开机密码</p><p>5.在新的hosts文件夹里输入如下内容：</p><pre><code class="bash">151.101.185.194 github.global.ssl.fastly.net140.82.114.4 github.com 151.101.112.133 assets-cdn.github.com 151.101.184.133 assets-cdn.github.com 185.199.108.153 documentcloud.github.com 192.30.253.118 gist.github.com185.199.108.153 help.github.com 192.30.253.120 nodeload.github.com 151.101.112.133 raw.github.com 23.21.63.56 status.github.com 192.30.253.1668 training.github.com 192.30.253.112 www.github.com 151.101.13.194 github.global.ssl.fastly.net 151.101.12.133 avatars0.githubusercontent.com 151.101.112.133 avatars1.githubusercontent.com</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/cf87f0d6b7ec3de3.jpg" loading="lazy"></p><p>6.刷新DNS<br>输入命令:</p><pre><code class="bash">dscacheutil -flushcache</code></pre><p>7.以上完成后，我们来到终端命令行ping 一下github</p><pre><code class="bash">ping www.github.com</code></pre><p>然后我们就会发现，终于ping通了</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1b20cfa4b50191d1.jpg" loading="lazy"></p><p>再然后我们就见到了github页面</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/232c696115e2ff6a.jpg" loading="lazy"></p><p>虽然速度很慢(不知道是不是网速的原因)，但能上就行！</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="github网址速度慢或无法访问"><a href="#github网址速度慢或无法访问" class="headerlink" title="github网址速度慢或无法访问"></a>github网址速度慢或无法访问</h2><p>最近想用Mac电脑访问github发现一直登不上去,梯子太贵消费不起，常用的几个梯子基本都挂了，一直在网上搜寻解决方案，终于，结合两篇文章解决了<br>虽然访问依旧很慢，但是至少不需要梯子就能上github了</p><p>1.打开访达窗口，按住<code>shift command G</code>三个键，进入搜索文件夹的页面<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvxxhn4z0j30gm04zaa8.jpg" loading="lazy"></p><p>2.输入框内输入/etc/hosts<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvy0sbky9j30gr04zq35.jpg" loading="lazy"></p><p>3.找到hosts文件<br><img src="https://s3.bmp.ovh/imgs/2022/03/b70711d5471fdfc3.jpg" loading="lazy"></p><p>4.由于hosts文件夹不可编辑，所以复制一份hosts文件先保存到本地桌面<br>注：修改或者变更hosts文件需要输入你的开机密码</p><p>5.在新的hosts文件夹里输入如下内容：</p><pre><code class="bash">151.101.185.194 github.global.ssl.fastly.net140.82.114.4 github.com 151.101.112.133 assets-cdn.github.com 151.101.184.133 assets-cdn.github.com 185.199.108.153 documentcloud.github.com 192.30.253.118 gist.github.com185.199.108.153 help.github.com 192.30.253.120 nodeload.github.com 151.101.112.133 raw.github.com 23.21.63.56 status.github.com 192.30.253.1668 training.github.com 192.30.253.112 www.github.com 151.101.13.194 github.global.ssl.fastly.net 151.101.12.133 avatars0.githubusercontent.com 151.101.112.133 avatars1.githubusercontent.com</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/cf87f0d6b7ec3de3.jpg" loading="lazy"></p><p>6.刷新DNS<br>输入命令:</p><pre><code class="bash">dscacheutil -flushcache</code></pre><p>7.以上完成后，我们来到终端命令行ping 一下github</p><pre><code class="bash">ping www.github.com</code></pre><p>然后我们就会发现，终于ping通了</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1b20cfa4b50191d1.jpg" loading="lazy"></p><p>再然后我们就见到了github页面</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/232c696115e2ff6a.jpg" loading="lazy"></p><p>虽然速度很慢(不知道是不是网速的原因)，但能上就行！</p>]]></content>
       
       
       
         <tags>
-            
-            <tag> Mac </tag>
             
             <tag> github </tag>
             
@@ -711,14 +709,14 @@
       
       <categories>
           
-          <category> Git </category>
+          <category> git </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Git </tag>
+            <tag> git </tag>
             
         </tags>
       
@@ -1069,7 +1067,7 @@
       <link href="/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/"/>
       <url>/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</url>
       
-        <content type="html"><![CDATA[<p>昨天晚上在编辑Hexo运行的个人博客出现了一个端口占用的问题<br>解决方案如下</p><p>1：重启电脑<br>2：opition+control+c关闭服务<br>3：checkout代码</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="端口占用"><a href="#端口占用" class="headerlink" title="端口占用"></a>端口占用</h2><p>昨天晚上在编辑Hexo运行的个人博客出现了一个端口占用的问题<br>解决方案如下</p><p>1：重启电脑<br>2：opition+control+c关闭服务<br>3：checkout代码</p>]]></content>
       
       
       <categories>
@@ -1090,23 +1088,23 @@
     
     
     <entry>
-      <title>Javascript练习</title>
+      <title>JavaScript练习</title>
       <link href="/2021/12/28/Javascript%E7%BB%83%E4%B9%A0/"/>
       <url>/2021/12/28/Javascript%E7%BB%83%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://logicwang.github.io/Javascript/">这是我的Javascript实例练习记录</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://logicwang.github.io/Javascript/">这是我的JavaScript练习实例练习记录</a></p>]]></content>
       
       
       <categories>
           
-          <category> Javascript </category>
+          <category> JavaScript </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Javascript </tag>
+            <tag> JavaScript </tag>
             
         </tags>
       
