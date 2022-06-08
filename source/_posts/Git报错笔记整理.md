@@ -1,19 +1,39 @@
 ---
-title: Git报错笔记整理
+title: git报错笔记
 date: 2022.3.24
-categories: Git
+categories: git
 tags: 
-- Git
+- git
 ---
 
-##  2022.3月报错笔记整理
-
-### 2022.3.24 Git报错笔记
-
+###  git报错笔记
 #### git总是出现untracked content怎么解决
 
 在用git把本地代码同步至远端的时候出现了一个问题:
-![](https://s3.bmp.ovh/imgs/2022/03/8e96c5f20e050c05.jpg)
+```bash
+admin:ios-hybird-flutter Red$ git add .
+admin:ios-hybird-flutter Red$ git st
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    new file:   FlutterBoostDemo/.gitignore
+    new file:   FlutterBoostDemo/.metadata
+    new file:   FlutterBoostDemo/FlutterBoostDemo.iml
+    new file:   FlutterBoostDemo/FlutterBoostDemo_android.iml
+    new file:   FlutterBoostDemo/README.md
+    new file:   FlutterBoostDemo/lib/FirstPage.dart
+    new file:   FlutterBoostDemo/lib/main.dart
+    new file:   FlutterBoostDemo/pubspec.lock
+    new file:   FlutterBoostDemo/pubspec.yaml
+    new file:   FlutterBoostDemo/test/widget_test.dart
+    new file:   SwiftDemo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+  modified:   SwiftDemo (modified content, untracked content)
+```
 
 报错原因:
 

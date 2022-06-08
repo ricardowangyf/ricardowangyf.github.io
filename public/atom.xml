@@ -372,26 +372,26 @@
   </entry>
   
   <entry>
-    <title>Git报错笔记整理</title>
+    <title>git报错笔记</title>
     <link href="http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
     <id>http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</id>
     <published>2022-03-23T16:00:00.000Z</published>
-    <updated>2022-05-06T08:46:05.341Z</updated>
+    <updated>2022-06-08T07:45:51.498Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h2><h3 id="2022-3-24-Git报错笔记"><a href="#2022-3-24-Git报错笔记" class="headerlink" title="2022.3.24 Git报错笔记"></a>2022.3.24 Git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:<br><img src="https://s3.bmp.ovh/imgs/2022/03/8e96c5f20e050c05.jpg" loading="lazy"></p><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="git报错笔记"><a href="#git报错笔记" class="headerlink" title="git报错笔记"></a>git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:</p><pre><code class="bash">admin:ios-hybird-flutter Red$ git add .admin:ios-hybird-flutter Red$ git stOn branch masterYour branch is up to date with &#39;origin/master&#39;.Changes to be committed:  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)    new file:   FlutterBoostDemo/.gitignore    new file:   FlutterBoostDemo/.metadata    new file:   FlutterBoostDemo/FlutterBoostDemo.iml    new file:   FlutterBoostDemo/FlutterBoostDemo_android.iml    new file:   FlutterBoostDemo/README.md    new file:   FlutterBoostDemo/lib/FirstPage.dart    new file:   FlutterBoostDemo/lib/main.dart    new file:   FlutterBoostDemo/pubspec.lock    new file:   FlutterBoostDemo/pubspec.yaml    new file:   FlutterBoostDemo/test/widget_test.dart    new file:   SwiftDemoChanges not staged for commit:  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)  (commit or discard the untracked or modified content in submodules)  modified:   SwiftDemo (modified content, untracked content)</code></pre><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;2022-3月报错笔记整理&quot;&gt;&lt;a href=&quot;#2022-3月报错笔记整理&quot; class=&quot;headerlink&quot; title=&quot;2022.3月报错笔记整理&quot;&gt;&lt;/a&gt;2022.3月报错笔记整理&lt;/h2&gt;&lt;h3 id=&quot;2022-3-24-Git报错笔记&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h3 id=&quot;git报错笔记&quot;&gt;&lt;a href=&quot;#git报错笔记&quot; class=&quot;headerlink&quot; title=&quot;git报错笔记&quot;&gt;&lt;/a&gt;git报错笔记&lt;/h3&gt;&lt;h4 id=&quot;git总是出现untracked-content怎么解决&quot;&gt;&lt;a href=&quot;#git总是</summary>
       
     
     
     
-    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    <category term="git" scheme="http://example.com/categories/git/"/>
     
     
-    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    <category term="git" scheme="http://example.com/tags/git/"/>
     
   </entry>
   

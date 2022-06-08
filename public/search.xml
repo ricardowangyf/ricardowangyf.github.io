@@ -364,23 +364,23 @@
     
     
     <entry>
-      <title>Git报错笔记整理</title>
+      <title>git报错笔记</title>
       <link href="/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
       <url>/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
       
-        <content type="html"><![CDATA[<h2 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h2><h3 id="2022-3-24-Git报错笔记"><a href="#2022-3-24-Git报错笔记" class="headerlink" title="2022.3.24 Git报错笔记"></a>2022.3.24 Git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:<br><img src="https://s3.bmp.ovh/imgs/2022/03/8e96c5f20e050c05.jpg" loading="lazy"></p><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="git报错笔记"><a href="#git报错笔记" class="headerlink" title="git报错笔记"></a>git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:</p><pre><code class="bash">admin:ios-hybird-flutter Red$ git add .admin:ios-hybird-flutter Red$ git stOn branch masterYour branch is up to date with &#39;origin/master&#39;.Changes to be committed:  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)    new file:   FlutterBoostDemo/.gitignore    new file:   FlutterBoostDemo/.metadata    new file:   FlutterBoostDemo/FlutterBoostDemo.iml    new file:   FlutterBoostDemo/FlutterBoostDemo_android.iml    new file:   FlutterBoostDemo/README.md    new file:   FlutterBoostDemo/lib/FirstPage.dart    new file:   FlutterBoostDemo/lib/main.dart    new file:   FlutterBoostDemo/pubspec.lock    new file:   FlutterBoostDemo/pubspec.yaml    new file:   FlutterBoostDemo/test/widget_test.dart    new file:   SwiftDemoChanges not staged for commit:  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)  (commit or discard the untracked or modified content in submodules)  modified:   SwiftDemo (modified content, untracked content)</code></pre><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
       
       
       <categories>
           
-          <category> Git </category>
+          <category> git </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Git </tag>
+            <tag> git </tag>
             
         </tags>
       
@@ -706,7 +706,7 @@
       <link href="/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
       <url>/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/</url>
       
-        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/40f8615fa0e6951a.jpg" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://s3.bmp.ovh/imgs/2022/02/da5a701fdddad4e4.jpg' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
+        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://github.com/logicwang/storeimage/blob/main/blogimage/20220608163201.jpg?raw=true" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
       
       
       <categories>
@@ -1206,9 +1206,9 @@
       
         <tags>
             
-            <tag> HTML5/CSS3 </tag>
-            
             <tag> 实例 </tag>
+            
+            <tag> HTML5/CSS3 </tag>
             
         </tags>
       
