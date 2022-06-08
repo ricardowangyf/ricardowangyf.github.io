@@ -318,7 +318,7 @@
       <link href="/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/"/>
       <url>/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/</url>
       
-        <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号#例如：sudo n 12.17.0</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/ad7c54374717a223.jpg" loading="lazy"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号#例如：sudo n 12.17.0</code></pre>]]></content>
       
       
       <categories>
@@ -1206,9 +1206,9 @@
       
         <tags>
             
-            <tag> 实例 </tag>
-            
             <tag> HTML5/CSS3 </tag>
+            
+            <tag> 实例 </tag>
             
         </tags>
       

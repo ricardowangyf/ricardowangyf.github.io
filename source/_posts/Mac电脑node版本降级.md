@@ -30,4 +30,3 @@ sudo n latest
 sudo n 版本号
 #例如：sudo n 12.17.0
 ```
-![](https://s3.bmp.ovh/imgs/2022/03/ad7c54374717a223.jpg)
