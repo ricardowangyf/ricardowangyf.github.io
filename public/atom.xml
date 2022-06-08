@@ -119,9 +119,9 @@
     <link href="http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/"/>
     <id>http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2022-05-09T06:35:43.571Z</updated>
+    <updated>2022-06-08T04:35:56.885Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Vue引入css"><a href="#Vue引入css" class="headerlink" title="Vue引入css"></a>Vue引入css</h2><p>vue引用css的方法</p><p>在vue中引入外部的css文件：</p><p>在项目的src文件下，新建一个style文件夹，存放css文件。</p><ol><li>全局引入</li></ol><p>将外部的css文件放到style文件下，引入外部文件只需在main.js文件中</p><pre><code class="bash">import &#39;./style/reset.css&#39; # 清除默认样式的css文件</code></pre><ol start="2"><li>局部引入<br>```bash<style scoped>@import '../assets/iconfont/iconfont.css'; #这个分号一定要写，要不会报错</li></ol><p></style></p><p>```</p><p><code>@import CSS@</code>规则，用于从其他样式表导入样式规则。这些规则必须先于所有其他类型的规则，@charset 规则除外; 因为它不是一个嵌套语句，@import不能在条件组的规则中使用。<br>因此，用户代理可以避免为不支持的媒体类型检索资源，作者可以指定依赖媒体的@import规则。这些条件导入在URI之后指定逗号分隔的媒体查询。在没有任何媒体查询的情况下，导入是无条件的。指定所有的媒体具有相同的效果。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Vue引入css"><a href="#Vue引入css" class="headerlink" title="Vue引入css"></a>Vue引入css</h2><p>vue引用css的方法</p><p>在vue中引入外部的css文件：</p><p>在项目的src文件下，新建一个style文件夹，存放css文件。</p><h4 id="全局引入"><a href="#全局引入" class="headerlink" title="全局引入"></a>全局引入</h4><p>将外部的css文件放到style文件下，引入外部文件只需在main.js文件中</p><pre><code class="bash">import &#39;./style/reset.css&#39; # 清除默认样式的css文件</code></pre><h4 id="局部引入"><a href="#局部引入" class="headerlink" title="局部引入"></a>局部引入</h4><pre><code class="bash">&lt;style scoped&gt;  @import &#39;../assets/iconfont/iconfont.css&#39;; #这个分号一定要写，要不会报错&lt;/style&gt;</code></pre><p><code>@import CSS@</code>规则，用于从其他样式表导入样式规则。这些规则必须先于所有其他类型的规则，@charset 规则除外; 因为它不是一个嵌套语句，@import不能在条件组的规则中使用。<br>因此，用户代理可以避免为不支持的媒体类型检索资源，作者可以指定依赖媒体的@import规则。这些条件导入在URI之后指定逗号分隔的媒体查询。在没有任何媒体查询的情况下，导入是无条件的。指定所有的媒体具有相同的效果。</p>]]></content>
     
     
       
