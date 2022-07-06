@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CSS报错</title>
+      <link href="/2022/07/07/CSS%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/07/07/CSS%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h3 id="CSS报错"><a href="#CSS报错" class="headerlink" title="CSS报错"></a>CSS报错</h3><h4 id="Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar"><a href="#Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar" class="headerlink" title="Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar"></a>Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar</h4><p>今天跑vue项目的碰到一个bug，具体内容如下图：</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/1836d0fa3f411e8d.jpg" loading="lazy"></p><p>原因是 sass新版本目前弃用“/”的用法，sass自定义element theme时会报warnning</p><p>解决方案：</p><p>1:npm install -g sass-migrator</p><p>2：进入项目node_modules文件</p><p>3：执行sass-migrator division **/*.scss</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>v-model与:model的区别</title>
       <link href="/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
       <url>/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
@@ -598,6 +623,31 @@
     
     
     <entry>
+      <title>安装vue项目</title>
+      <link href="/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="如何安装vue项目"><a href="#如何安装vue项目" class="headerlink" title="如何安装vue项目"></a>如何安装vue项目</h1><p><a href="https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create">Vue CLI 官网</a></p><h2 id="2022-02-26"><a href="#2022-02-26" class="headerlink" title="2022/02/26"></a>2022/02/26</h2><ol><li>检查 Vue 是否安装，如果输出 vue 的版本信息，说明安装了 vue</li></ol><pre><code class="bash">vue  -v# @vue/cli 4.5.15</code></pre><p>如果不存在 vue 命令工具，<a href="https://cli.vuejs.org/zh/guide/installation.html">安装 vue 命令</a></p><pre><code class="bash">npm install -g @vue/cli# ORyarn global add @vue/cli</code></pre><ol start="2"><li>通过 vue 命令，创建一个 <code>hello-world</code> 项目</li></ol><pre><code class="bash">vue create hello-world</code></pre><p>选择 Vue 版本, 通过上下键选择 <code>Default ([Vue 2] babel, eslint)</code></p><pre><code class="bash"># Vue CLI v4.5.15# ? Please pick a preset: (Use arrow keys)# ❯ Default ([Vue 2] babel, eslint)#   Default (Vue 3) ([Vue 3] babel, eslint)#   Manually select features</code></pre><p>选择安装，如果成功输出下面内容，如果失败，查看命令行信息，重新安装</p><pre><code class="bash"># Vue CLI v4.5.15# ✨  Creating project in /Users/wangyufei/git-project/FD/hello-world.# 🗃  Initializing git repository...# ⚙️  Installing CLI plugins. This might take a while...# added 1280 packages in 39s# 11 packages are looking for funding#   run `npm fund` for details# 🚀  Invoking generators...# 📦  Installing additional dependencies...# added 55 packages in 5s# 11 packages are looking for funding#   run `npm fund` for details# ⚓  Running completion hooks...# 📄  Generating README.md...# 🎉  Successfully created project hello-world.# 👉  Get started with the following commands:#  $ cd hello-world#  $ npm run serve</code></pre><ol start="3"><li>进入生成的 <code>hello-world</code> 目录，通过 <code>npm run serve</code> 命令运行 vue 服务</li></ol><pre><code class="bash">cd hello-worldnpm run serve</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新建Hexo项目部署至github</title>
       <link href="/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/"/>
       <url>/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/</url>
@@ -617,31 +667,6 @@
             <tag> Hexo </tag>
             
             <tag> github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>安装vue项目</title>
-      <link href="/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/"/>
-      <url>/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/</url>
-      
-        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="如何安装vue项目"><a href="#如何安装vue项目" class="headerlink" title="如何安装vue项目"></a>如何安装vue项目</h1><p><a href="https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create">Vue CLI 官网</a></p><h2 id="2022-02-26"><a href="#2022-02-26" class="headerlink" title="2022/02/26"></a>2022/02/26</h2><ol><li>检查 Vue 是否安装，如果输出 vue 的版本信息，说明安装了 vue</li></ol><pre><code class="bash">vue  -v# @vue/cli 4.5.15</code></pre><p>如果不存在 vue 命令工具，<a href="https://cli.vuejs.org/zh/guide/installation.html">安装 vue 命令</a></p><pre><code class="bash">npm install -g @vue/cli# ORyarn global add @vue/cli</code></pre><ol start="2"><li>通过 vue 命令，创建一个 <code>hello-world</code> 项目</li></ol><pre><code class="bash">vue create hello-world</code></pre><p>选择 Vue 版本, 通过上下键选择 <code>Default ([Vue 2] babel, eslint)</code></p><pre><code class="bash"># Vue CLI v4.5.15# ? Please pick a preset: (Use arrow keys)# ❯ Default ([Vue 2] babel, eslint)#   Default (Vue 3) ([Vue 3] babel, eslint)#   Manually select features</code></pre><p>选择安装，如果成功输出下面内容，如果失败，查看命令行信息，重新安装</p><pre><code class="bash"># Vue CLI v4.5.15# ✨  Creating project in /Users/wangyufei/git-project/FD/hello-world.# 🗃  Initializing git repository...# ⚙️  Installing CLI plugins. This might take a while...# added 1280 packages in 39s# 11 packages are looking for funding#   run `npm fund` for details# 🚀  Invoking generators...# 📦  Installing additional dependencies...# added 55 packages in 5s# 11 packages are looking for funding#   run `npm fund` for details# ⚓  Running completion hooks...# 📄  Generating README.md...# 🎉  Successfully created project hello-world.# 👉  Get started with the following commands:#  $ cd hello-world#  $ npm run serve</code></pre><ol start="3"><li>进入生成的 <code>hello-world</code> 目录，通过 <code>npm run serve</code> 命令运行 vue 服务</li></ol><pre><code class="bash">cd hello-worldnpm run serve</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Vue </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Vue </tag>
             
         </tags>
       
@@ -1204,9 +1229,9 @@
       
         <tags>
             
-            <tag> HTML5/CSS3 </tag>
-            
             <tag> 实例 </tag>
+            
+            <tag> HTML5/CSS3 </tag>
             
         </tags>
       

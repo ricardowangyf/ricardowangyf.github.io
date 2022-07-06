@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-08T10:10:48.506Z</updated>
+  <updated>2022-07-06T22:18:41.692Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS报错</title>
+    <link href="http://example.com/2022/07/07/CSS%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2022/07/07/CSS%E6%8A%A5%E9%94%99/</id>
+    <published>2022-07-06T16:00:00.000Z</published>
+    <updated>2022-07-06T22:18:41.692Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="CSS报错"><a href="#CSS报错" class="headerlink" title="CSS报错"></a>CSS报错</h3><h4 id="Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar"><a href="#Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar" class="headerlink" title="Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar"></a>Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar</h4><p>今天跑vue项目的碰到一个bug，具体内容如下图：</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/1836d0fa3f411e8d.jpg" loading="lazy"></p><p>原因是 sass新版本目前弃用“/”的用法，sass自定义element theme时会报warnning</p><p>解决方案：</p><p>1:npm install -g sass-migrator</p><p>2：进入项目node_modules文件</p><p>3：执行sass-migrator division **/*.scss</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;CSS报错&quot;&gt;&lt;a href=&quot;#CSS报错&quot; class=&quot;headerlink&quot; title=&quot;CSS报错&quot;&gt;&lt;/a&gt;CSS报错&lt;/h3&gt;&lt;h4 id=&quot;Deprecation-Warning-Using-for-division-outside-of-cal</summary>
+      
+    
+    
+    
+    <category term="CSS" scheme="http://example.com/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>v-model与:model的区别</title>
@@ -499,33 +523,6 @@
     
     
     <category term="Antd-vue" scheme="http://example.com/tags/Antd-vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>淘宝镜像cnpm替代npm</title>
-    <link href="http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
-    <id>http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</id>
-    <published>2022-03-13T16:00:00.000Z</published>
-    <updated>2022-05-10T16:48:06.205Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="使用淘宝镜像cnpm代替npm"><a href="#使用淘宝镜像cnpm代替npm" class="headerlink" title="使用淘宝镜像cnpm代替npm"></a>使用淘宝镜像cnpm代替npm</h2><p>直接用 npm 安装库非常慢，容易安装失败，简直是浪费时间，使用代理或者库镜像又比较麻烦，最好的解决方案是使用淘宝镜像 cnpm替代npm 。</p><p>使用方法：</p><p>打开ITerm或者你的终端，输入以下命令来安装cnpm：</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>2.显示完成后，使用cnpm替代npm ( 命令参数完全一样），例如安装Vue：</p><pre><code class="bash">cnpm install -g @vue/cli</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-
-&lt;h2 id=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;a href=&quot;#使用淘宝镜像cnpm代替npm&quot; class=&quot;headerlink&quot; title=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;/a&gt;使用淘宝镜像cnpm代替npm</summary>
-      
-    
-    
-    
-    
-    <category term="npm" scheme="http://example.com/tags/npm/"/>
-    
-    <category term="cnpm" scheme="http://example.com/tags/cnpm/"/>
     
   </entry>
   
