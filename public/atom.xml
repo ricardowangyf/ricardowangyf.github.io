@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-07T13:58:37.674Z</updated>
+  <updated>2022-06-08T10:10:48.506Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>CSS报错</title>
-    <link href="http://example.com/2022/07/07/CSS%E6%8A%A5%E9%94%99/"/>
-    <id>http://example.com/2022/07/07/CSS%E6%8A%A5%E9%94%99/</id>
-    <published>2022-07-06T16:00:00.000Z</published>
-    <updated>2022-07-07T13:58:37.674Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="CSS报错"><a href="#CSS报错" class="headerlink" title="CSS报错"></a>CSS报错</h3><h4 id="2022-7-7"><a href="#2022-7-7" class="headerlink" title="2022.7.7"></a>2022.7.7</h4><h5 id="Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar"><a href="#Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar" class="headerlink" title="Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar"></a>Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar</h5><p>今天跑vue项目的碰到一个bug，具体内容如下图：</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/1836d0fa3f411e8d.jpg" loading="lazy"></p><p>原因是 sass新版本目前弃用“/”的用法，sass自定义element theme时会报warnning</p><p>解决方案：</p><p>1:npm install -g sass-migrator</p><p>2：进入项目node_modules文件</p><p>3：执行sass-migrator division **/*.scss</p><h5 id="Can’t-resolve-‘less-loader’"><a href="#Can’t-resolve-‘less-loader’" class="headerlink" title="Can’t resolve ‘less-loader’"></a>Can’t resolve ‘less-loader’</h5><p>原因分析，文件中的style用了less，而项目中未安装less：</p><pre><code class="bash">&lt;style lang=&quot;less&quot; scoped&gt;&lt;/style&gt;</code></pre><p>解决方法：</p><p>打开项目文件夹，终端命令：</p><pre><code class="bash">npm install --save-dev less-loader less</code></pre><p>如果不想用less，可以将<code>lang=&#39;less&#39;</code>删除</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;CSS报错&quot;&gt;&lt;a href=&quot;#CSS报错&quot; class=&quot;headerlink&quot; title=&quot;CSS报错&quot;&gt;&lt;/a&gt;CSS报错&lt;/h3&gt;&lt;h4 id=&quot;2022-7-7&quot;&gt;&lt;a href=&quot;#2022-7-7&quot; class=&quot;headerlink&quot; titl</summary>
-      
-    
-    
-    
-    <category term="CSS" scheme="http://example.com/categories/CSS/"/>
-    
-    
-    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
-    
-  </entry>
   
   <entry>
     <title>v-model与:model的区别</title>
@@ -293,6 +269,32 @@
   </entry>
   
   <entry>
+    <title>Vue-element-admin报错</title>
+    <link href="http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</id>
+    <published>2022-03-28T16:00:00.000Z</published>
+    <updated>2022-05-06T09:22:38.188Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告&quot;&gt;&lt;a href=&quot;#Added-non-passive-event-listener-to-a-scroll-</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Element" scheme="http://example.com/tags/Element/"/>
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
     <link href="http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</id>
@@ -317,32 +319,6 @@
     <category term="Vue CLI" scheme="http://example.com/tags/Vue-CLI/"/>
     
     <category term="element-ui" scheme="http://example.com/tags/element-ui/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue-element-admin报错</title>
-    <link href="http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
-    <id>http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</id>
-    <published>2022-03-28T16:00:00.000Z</published>
-    <updated>2022-05-06T09:22:38.188Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告&quot;&gt;&lt;a href=&quot;#Added-non-passive-event-listener-to-a-scroll-</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Element" scheme="http://example.com/tags/Element/"/>
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
   </entry>
   
@@ -523,6 +499,33 @@
     
     
     <category term="Antd-vue" scheme="http://example.com/tags/Antd-vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>淘宝镜像cnpm替代npm</title>
+    <link href="http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
+    <id>http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</id>
+    <published>2022-03-13T16:00:00.000Z</published>
+    <updated>2022-05-10T16:48:06.205Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="使用淘宝镜像cnpm代替npm"><a href="#使用淘宝镜像cnpm代替npm" class="headerlink" title="使用淘宝镜像cnpm代替npm"></a>使用淘宝镜像cnpm代替npm</h2><p>直接用 npm 安装库非常慢，容易安装失败，简直是浪费时间，使用代理或者库镜像又比较麻烦，最好的解决方案是使用淘宝镜像 cnpm替代npm 。</p><p>使用方法：</p><p>打开ITerm或者你的终端，输入以下命令来安装cnpm：</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>2.显示完成后，使用cnpm替代npm ( 命令参数完全一样），例如安装Vue：</p><pre><code class="bash">cnpm install -g @vue/cli</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+
+&lt;h2 id=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;a href=&quot;#使用淘宝镜像cnpm代替npm&quot; class=&quot;headerlink&quot; title=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;/a&gt;使用淘宝镜像cnpm代替npm</summary>
+      
+    
+    
+    
+    
+    <category term="npm" scheme="http://example.com/tags/npm/"/>
+    
+    <category term="cnpm" scheme="http://example.com/tags/cnpm/"/>
     
   </entry>
   
