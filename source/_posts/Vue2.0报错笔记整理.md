@@ -419,8 +419,8 @@ npm install node-sass
 安装完成之后，npm run serve ok终于不报错了，nice！
 
 
-#### 2022.7.7 Vue2.0报错笔记
-##### Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar
+## 2022.7.7 Vue2.0报错笔记
+### Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar
 
 今天跑vue项目的碰到一个bug，具体内容如下图：
 
@@ -436,7 +436,7 @@ npm install node-sass
 
 3：执行sass-migrator division **/*.scss
 
-##### Can't resolve 'less-loader'
+#### Can't resolve 'less-loader'
 
 原因分析，文件中的style用了less，而项目中未安装less：
 
