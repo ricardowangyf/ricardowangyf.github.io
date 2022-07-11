@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-08T10:10:48.506Z</updated>
+  <updated>2022-07-11T14:14:19.860Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决vscode下载很慢的问题</title>
+    <link href="http://example.com/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2022-07-10T16:00:00.000Z</published>
+    <updated>2022-07-11T14:14:19.860Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决vscode下载很慢的问题"><a href="#解决vscode下载很慢的问题" class="headerlink" title="解决vscode下载很慢的问题"></a>解决vscode下载很慢的问题</h2><p>1： 打开<a href="https://code.visualstudio.com/">vscode官网</a></p><p>2：点击下图中下载链接（我的电脑是Macos）</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/eaafc16a8a167d76.jpg" loading="lazy"></p><p>3： 下载时可以去谷歌的下载内容里面，看到正在下载的vscode，然后点击上面的链接，会发生跳转</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/2d49b0bf2efe1090.jpg" loading="lazy"></p><p>4.然后在谷歌浏览器上的地址上会发现这个链接，这个时候直接复制 vscode.cdn.azure.cn 替换地址上面的</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/da8fd03a0a004df9.jpg" loading="lazy"></p><p>然后你就会发现速度快到飞起</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/0e8cf7f97bf528b4.jpg" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;解决vscode下载很慢的问题&quot;&gt;&lt;a href=&quot;#解决vscode下载很慢的问题&quot; class=&quot;headerlink&quot; title=&quot;解决vscode下载很慢的问题&quot;&gt;&lt;/a&gt;解决vscode下载很慢的问题&lt;/h2&gt;&lt;p&gt;1： 打开&lt;a href=&quot;http</summary>
+      
+    
+    
+    
+    <category term="vscode" scheme="http://example.com/categories/vscode/"/>
+    
+    
+    <category term="vscode" scheme="http://example.com/tags/vscode/"/>
+    
+  </entry>
   
   <entry>
     <title>v-model与:model的区别</title>
@@ -499,33 +523,6 @@
     
     
     <category term="Antd-vue" scheme="http://example.com/tags/Antd-vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>淘宝镜像cnpm替代npm</title>
-    <link href="http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
-    <id>http://example.com/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</id>
-    <published>2022-03-13T16:00:00.000Z</published>
-    <updated>2022-05-10T16:48:06.205Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="使用淘宝镜像cnpm代替npm"><a href="#使用淘宝镜像cnpm代替npm" class="headerlink" title="使用淘宝镜像cnpm代替npm"></a>使用淘宝镜像cnpm代替npm</h2><p>直接用 npm 安装库非常慢，容易安装失败，简直是浪费时间，使用代理或者库镜像又比较麻烦，最好的解决方案是使用淘宝镜像 cnpm替代npm 。</p><p>使用方法：</p><p>打开ITerm或者你的终端，输入以下命令来安装cnpm：</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>2.显示完成后，使用cnpm替代npm ( 命令参数完全一样），例如安装Vue：</p><pre><code class="bash">cnpm install -g @vue/cli</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-
-&lt;h2 id=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;a href=&quot;#使用淘宝镜像cnpm代替npm&quot; class=&quot;headerlink&quot; title=&quot;使用淘宝镜像cnpm代替npm&quot;&gt;&lt;/a&gt;使用淘宝镜像cnpm代替npm</summary>
-      
-    
-    
-    
-    
-    <category term="npm" scheme="http://example.com/tags/npm/"/>
-    
-    <category term="cnpm" scheme="http://example.com/tags/cnpm/"/>
     
   </entry>
   

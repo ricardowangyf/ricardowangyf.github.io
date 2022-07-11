@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>解决vscode下载很慢的问题</title>
+      <link href="/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="解决vscode下载很慢的问题"><a href="#解决vscode下载很慢的问题" class="headerlink" title="解决vscode下载很慢的问题"></a>解决vscode下载很慢的问题</h2><p>1： 打开<a href="https://code.visualstudio.com/">vscode官网</a></p><p>2：点击下图中下载链接（我的电脑是Macos）</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/eaafc16a8a167d76.jpg" loading="lazy"></p><p>3： 下载时可以去谷歌的下载内容里面，看到正在下载的vscode，然后点击上面的链接，会发生跳转</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/2d49b0bf2efe1090.jpg" loading="lazy"></p><p>4.然后在谷歌浏览器上的地址上会发现这个链接，这个时候直接复制 vscode.cdn.azure.cn 替换地址上面的</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/da8fd03a0a004df9.jpg" loading="lazy"></p><p>然后你就会发现速度快到飞起</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/0e8cf7f97bf528b4.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>v-model与:model的区别</title>
       <link href="/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
       <url>/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
