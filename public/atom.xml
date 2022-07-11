@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-11T14:14:19.860Z</updated>
+  <updated>2022-07-11T14:19:51.541Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode安装code命令</title>
+    <link href="http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</id>
+    <published>2022-07-10T16:00:00.000Z</published>
+    <updated>2022-07-11T14:19:51.541Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vscode安装code命令"><a href="#vscode安装code命令" class="headerlink" title="vscode安装code命令"></a>vscode安装code命令</h2><p><code>VSCode</code>提供<code>code</code>命令直接从命令行中打开文件目录，此时需要先安装 code 命令。</p><p>1:首先打开vscode</p><p>2:Mac使用快捷键<code>command + shift + p</code>,windows使用快捷键<code>ctrl+shift+p</code>然后搜索code，选择 install ‘code’ command in path。  </p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/84c98865835a0fc9.jpg" loading="lazy"></p><p>3、在命令行中运行 code [path] 打开文件目录</p><pre><code class="bash">code ./</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;vscode安装code命令&quot;&gt;&lt;a href=&quot;#vscode安装code命令&quot; class=&quot;headerlink&quot; title=&quot;vscode安装code命令&quot;&gt;&lt;/a&gt;vscode安装code命令&lt;/h2&gt;&lt;p&gt;&lt;code&gt;VSCode&lt;/code&gt;提供&lt;</summary>
+      
+    
+    
+    
+    <category term="vscode" scheme="http://example.com/categories/vscode/"/>
+    
+    
+    <category term="vscode" scheme="http://example.com/tags/vscode/"/>
+    
+  </entry>
   
   <entry>
     <title>解决vscode下载很慢的问题</title>
@@ -497,32 +521,6 @@
     
     
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Antd-vue的安装方法</title>
-    <link href="http://example.com/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
-    <id>http://example.com/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</id>
-    <published>2022-03-13T16:00:00.000Z</published>
-    <updated>2022-05-06T08:45:23.780Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="1-Antd-vue的安装方法"><a href="#1-Antd-vue的安装方法" class="headerlink" title="1. Antd-vue的安装方法"></a>1. Antd-vue的安装方法</h2><p><a href="https://www.antdv.com/docs/vue/introduce-cn/">Antd-vue</a><br><a href="https://ant.design/index-cn">Antd</a></p><p>安装方法:</p><p>推荐使用npm或者yarn方法进行安装，在开发环境中可以轻松进行测试，也可以在生产环境打包部署使用，享受yarn和npm的生态圈和工具链带来的一些好处</p><p>npm安装方法:</p><pre><code class="bash">npm install ant-design-vue --save</code></pre><p>yarn安装方法:</p><pre><code class="bash">yarn add ant-design-vue</code></pre><p>建议使用<a href="https://github.com/cnpm/cnpm">cnpm</a>来代替npm安装</p><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre><code class="bash">import Vue from &#39;vue&#39;;import &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;Vue.use(DatePicker);</code></pre><p>引入样式:</p><pre><code class="bash">import &#39;ant-design-vue/dist/antd.css&#39;; or &#39;ant-design-vue/dist/antd.less&#39;</code></pre><p>然后只需从 ant-design-vue 引入模块即可，无需单独引入样式。等同于下面手动引入的方式。</p><pre><code class="bash"># babel-plugin-import 会帮助你加载 JS 和 CSSimport &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;</code></pre><p>手动引入</p><pre><code class="bash">import DatePicker from &#39;ant-design-vue/lib/date-picker&#39;; # 加载 JSimport &#39;ant-design-vue/lib/date-picker/style/css&#39;; # 加载 CSS# import &#39;ant-design-vue/lib/date-picker/style&#39;;   加载 LESS</code></pre><h2 id="2-引入-ant-design-vue"><a href="#2-引入-ant-design-vue" class="headerlink" title="2. 引入 ant-design-vue"></a>2. 引入 ant-design-vue</h2><h3 id="安装脚手架工具"><a href="#安装脚手架工具" class="headerlink" title="安装脚手架工具"></a>安装脚手架工具</h3><p><a href="https://github.com/vuejs/vue-cli">vue-cli</a></p><pre><code class="bash">npm install -g @vue/cli# or yarn global add @vue/cli</code></pre><h3 id="创建一个项目"><a href="#创建一个项目" class="headerlink" title="创建一个项目"></a>创建一个项目</h3><p>使用命令行进行项目初始化:</p><pre><code class="bash">vue create antd-demo</code></pre><h3 id="使用组件"><a href="#使用组件" class="headerlink" title="使用组件"></a>使用组件</h3><pre><code class="bash">npm i --save ant-design-vue</code></pre><p>完整引入</p><pre><code class="bash">import Vue from &#39;vue&#39;;import Antd from &#39;ant-design-vue&#39;;import App from &#39;./App&#39;;import &#39;ant-design-vue/dist/antd.css&#39;;Vue.config.productionTip = false;Vue.use(Antd);# eslint-disable no-newnew Vue(&#123;  el: &#39;#app&#39;,  components: &#123; App &#125;,  template: &#39;&lt;App/&gt;&#39;,&#125;);</code></pre><p>在main.js文件输入以上代码就能完成Antd的引入，但需要注意的是，样式文件需要单独引入</p><h4 id="局部导入组件"><a href="#局部导入组件" class="headerlink" title="局部导入组件"></a>局部导入组件</h4><pre><code class="bash">import Vue from &#39;vue&#39;;import &#123; Button, message &#125; from &#39;ant-design-vue&#39;;import App from &#39;./App&#39;;Vue.config.productionTip = false;# v1.1.2 Vue.component(Button.name, Button);Vue.component(Button.Group.name, Button.Group);# v1.1.3+ 自动注册Button下组件，如Button.Group Vue.use(Button);Vue.prototype.$message = message;# eslint-disable no-new new Vue(&#123;  el: &#39;#app&#39;,  components: &#123; App &#125;,  template: &#39;&lt;App/&gt;&#39;,&#125;);</code></pre><h2 id="在-vue-cli-3-中使用"><a href="#在-vue-cli-3-中使用" class="headerlink" title="在 vue-cli 3 中使用"></a>在 vue-cli 3 中使用</h2><p>使用命令行安装vue-cli,你可能需要安装<a href="https://yarn.bootcss.com/">yarn</a></p><pre><code class="bash">npm install -g @vue/cli# or yarn global add @vue/cli</code></pre><p>新建一个项目。</p><pre><code class="bash">vue create antd-demo</code></pre><p>并配置项目。</p><p>工具会自动初始化一个脚手架并安装 Vue 项目的各种必要依赖，如果在过程中出现网络问题，请尝试配置代理或使用其他 npm registry。</p><p>然后我们进入项目并启动:</p><pre><code class="bash">cd antd-demonpm run serve</code></pre><h3 id="引入Antd"><a href="#引入Antd" class="headerlink" title="引入Antd"></a>引入Antd</h3><p>这是 vue-cli 生成的默认目录结构。</p><pre><code class="bash">├── README.md├── babel.config├── package.json├── public│   ├── favicon.ico│   └── index.html├── src│   ├── assets│   │   └── logo.png│   ├── components│   │   └── HelloWorld.vue│   ├── App.vue│   └── main.js└── yarn.lock</code></pre><p>现在从 yarn 或 npm 安装并引入 ant-design-vue。</p><pre><code class="bash">yarn add ant-design-vue</code></pre><p>修改 <code>src/main.js</code>，引入 antd 的按钮组件以及全部样式文件。</p><pre><code class="js">import Vue from &#39;vue&#39;;import Button from &#39;ant-design-vue/lib/button&#39;;import &#39;ant-design-vue/dist/antd.css&#39;;import App from &#39;./App&#39;;Vue.component(Button.name, Button);Vue.config.productionTip = false;new Vue(&#123;  render: h =&gt; h(App),&#125;).$mount(&#39;#app&#39;);</code></pre><p>修改 <code>src/App.vue</code>的 template 内容。</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;img src=&quot;./assets/logo.png&quot;&gt;    &lt;a-button type=&quot;primary&quot;&gt;Button&gt;&lt;/a-button&gt;  &lt;/div&gt;&lt;/template&gt;...</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h2 id=&quot;1-Antd-vue的安装方法&quot;&gt;&lt;a href=&quot;#1-Antd-vue的安装方法&quot; class=&quot;headerlink&quot; title=&quot;1. Antd-vue的安装方法&quot;&gt;&lt;/a&gt;1. Antd-vue的安装方</summary>
-      
-    
-    
-    
-    <category term="Antd-vue" scheme="http://example.com/categories/Antd-vue/"/>
-    
-    
-    <category term="Antd-vue" scheme="http://example.com/tags/Antd-vue/"/>
     
   </entry>
   

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>vscode安装code命令</title>
+      <link href="/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
+      <url>/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vscode安装code命令"><a href="#vscode安装code命令" class="headerlink" title="vscode安装code命令"></a>vscode安装code命令</h2><p><code>VSCode</code>提供<code>code</code>命令直接从命令行中打开文件目录，此时需要先安装 code 命令。</p><p>1:首先打开vscode</p><p>2:Mac使用快捷键<code>command + shift + p</code>,windows使用快捷键<code>ctrl+shift+p</code>然后搜索code，选择 install ‘code’ command in path。  </p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/84c98865835a0fc9.jpg" loading="lazy"></p><p>3、在命令行中运行 code [path] 打开文件目录</p><pre><code class="bash">code ./</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决vscode下载很慢的问题</title>
       <link href="/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
       <url>/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</url>
