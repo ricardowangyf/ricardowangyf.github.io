@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-13T01:02:36.115Z</updated>
+  <updated>2022-07-13T04:35:30.846Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode关闭自动更新</title>
+    <link href="http://example.com/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+    <id>http://example.com/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
+    <published>2022-07-12T16:00:00.000Z</published>
+    <updated>2022-07-13T04:35:30.846Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="如何关闭vscode的自动更新"><a href="#如何关闭vscode的自动更新" class="headerlink" title="如何关闭vscode的自动更新"></a>如何关闭vscode的自动更新</h2><p>Macbook 操作如下:<br>command + ,进入设置<br><img src="https://s3.bmp.ovh/imgs/2022/07/13/49e98906685a4afb.jpg" loading="lazy"></p><p>在打开的设置里面搜索<code>update</code>或<code>更新</code>，可能会找到很多关于更新的设置，我们在目录里面选择应用程序。可以看到有这么几个设置：</p><p><code>Update:Channel</code>或者 <code>Update:Mode</code>（配置是否从更新通道接收自动更新）此配置有三个下拉选择<code>none</code>，<code>manual</code>，<code>default</code>三个。<code>none</code>是不自动更新，<code>manual</code>是手动更新，<code>default</code>是自动更新。这里我们选择<code>none</code>或者<code>manual</code>，并重启程序便关闭了自动更新。</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/2bd20561894786c9.jpg" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;如何关闭vscode的自动更新&quot;&gt;&lt;a href=&quot;#如何关闭vscode的自动更新&quot; class=&quot;headerlink&quot; title=&quot;如何关闭vscode的自动更新&quot;&gt;&lt;/a&gt;如何关闭vscode的自动更新&lt;/h2&gt;&lt;p&gt;Macbook 操作如下:&lt;br&gt;c</summary>
+      
+    
+    
+    
+    <category term="vscode" scheme="http://example.com/categories/vscode/"/>
+    
+    
+    <category term="vscode" scheme="http://example.com/tags/vscode/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode查看版本</title>
@@ -488,32 +512,6 @@
     
     
     <category term="git" scheme="http://example.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux命令行下修改文件或文件夹名</title>
-    <link href="http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/"/>
-    <id>http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/</id>
-    <published>2022-03-22T16:00:00.000Z</published>
-    <updated>2022-04-29T23:54:24.647Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Linux命令行下修改文件或文件夹名"><a href="#Linux命令行下修改文件或文件夹名" class="headerlink" title="Linux命令行下修改文件或文件夹名"></a>Linux命令行下修改文件或文件夹名</h2><p>打开终端(或者ITerm)输入命令</p><pre><code class="bash">mv file1  file2  #前者是原文件名 后者是更改的文件名</code></pre><p>如图:<br><img src="https://s3.bmp.ovh/imgs/2022/03/6ff823ab17f6808c.jpg" loading="lazy"></p><p>把当前目录下的file1文件名改成file2，如果该目录下有file2，则覆盖以前的file2文件。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Linux命令行下修改文</summary>
-      
-    
-    
-    
-    
-    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
     
   </entry>
   
