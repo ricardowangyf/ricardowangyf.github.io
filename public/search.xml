@@ -29,6 +29,56 @@
     
     
     <entry>
+      <title>查看vue版本和vue脚手架版本</title>
+      <link href="/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/"/>
+      <url>/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy"></p><p>如图所示，vue版本为</p><pre><code class="bash">2.6.14</code></pre><p>vue脚手架版本为：</p><pre><code class="bash">3.2.13</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>查看vue版本和vue脚手架版本</title>
+      <link href="/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC_/"/>
+      <url>/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC_/</url>
+      
+        <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy">  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vscode安装code命令</title>
       <link href="/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
       <url>/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</url>

@@ -41,6 +41,54 @@
   </entry>
   
   <entry>
+    <title>查看vue版本和vue脚手架版本</title>
+    <link href="http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/"/>
+    <id>http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/</id>
+    <published>2022-07-12T16:00:00.000Z</published>
+    <updated>2022-07-13T01:32:55.026Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy"></p><p>如图所示，vue版本为</p><pre><code class="bash">2.6.14</code></pre><p>vue脚手架版本为：</p><pre><code class="bash">3.2.13</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;查看vue版本和vue脚手架版本&quot;&gt;&lt;a href=&quot;#查看vue版本和vue脚手架版本&quot; class=&quot;headerlink&quot; title=&quot;查看vue版本和vue脚手架版本&quot;&gt;&lt;/a&gt;查看vue版本和vue脚手架版本&lt;/h2&gt;&lt;p&gt;打开cmd控制台：&lt;br&gt;输</summary>
+      
+    
+    
+    
+    <category term="vue" scheme="http://example.com/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="http://example.com/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>查看vue版本和vue脚手架版本</title>
+    <link href="http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC_/"/>
+    <id>http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC_/</id>
+    <published>2022-07-12T16:00:00.000Z</published>
+    <updated>2022-07-13T01:29:55.346Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;查看vue版本和vue脚手架版本&quot;&gt;&lt;a href=&quot;#查看vue版本和vue脚手架版本&quot; class=&quot;headerlink&quot; title=&quot;查看vue版本和vue脚手架版本&quot;&gt;&lt;/a&gt;查看vue版本和vue脚手架版本&lt;/h2&gt;&lt;p&gt;打开cmd控制台：&lt;br&gt;输</summary>
+      
+    
+    
+    
+    <category term="vue" scheme="http://example.com/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="http://example.com/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vscode安装code命令</title>
     <link href="http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</id>
@@ -464,59 +512,6 @@
     
     
     <category term="git" scheme="http://example.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux命令行下修改文件或文件夹名</title>
-    <link href="http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/"/>
-    <id>http://example.com/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/</id>
-    <published>2022-03-22T16:00:00.000Z</published>
-    <updated>2022-04-29T23:54:24.647Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Linux命令行下修改文件或文件夹名"><a href="#Linux命令行下修改文件或文件夹名" class="headerlink" title="Linux命令行下修改文件或文件夹名"></a>Linux命令行下修改文件或文件夹名</h2><p>打开终端(或者ITerm)输入命令</p><pre><code class="bash">mv file1  file2  #前者是原文件名 后者是更改的文件名</code></pre><p>如图:<br><img src="https://s3.bmp.ovh/imgs/2022/03/6ff823ab17f6808c.jpg" loading="lazy"></p><p>把当前目录下的file1文件名改成file2，如果该目录下有file2，则覆盖以前的file2文件。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Linux命令行下修改文</summary>
-      
-    
-    
-    
-    
-    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>运行Vue项目报错</title>
-    <link href="http://example.com/2022/03/22/%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/"/>
-    <id>http://example.com/2022/03/22/%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/</id>
-    <published>2022-03-21T16:00:00.000Z</published>
-    <updated>2022-05-06T08:48:05.652Z</updated>
-    
-    <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="mac环境下运行vue项目报错sh-vue-cli-service-command-not-found"><a href="#mac环境下运行vue项目报错sh-vue-cli-service-command-not-found" class="headerlink" title="mac环境下运行vue项目报错sh: vue-cli-service: command not found"></a>mac环境下运行vue项目报错sh: vue-cli-service: command not found</h2><p>报错如图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e912617b33e4c0ef.jpg" loading="lazy"></p><p>解决方案:<br>cd到项目目录下，执行命令</p><pre><code class="bash">sudo rm -rf node_modules package-lock.jsonnpm install</code></pre><p>然后根据提示输入密码。安装完成后，再次npm run dev就可以正常运行啦。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link href=&quot;themes/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;script src=&quot;prism.js&quot; data-manual&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;mac环境下运行vue项目报错sh-vue-cli-service-co</summary>
-      
-    
-    
-    
-    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
   </entry>
   
