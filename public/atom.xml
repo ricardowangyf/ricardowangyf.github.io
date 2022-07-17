@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-13T04:35:30.846Z</updated>
+  <updated>2022-07-17T10:42:05.885Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SublimeText编辑器设置中文</title>
+    <link href="http://example.com/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/"/>
+    <id>http://example.com/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/</id>
+    <published>2022-07-16T16:00:00.000Z</published>
+    <updated>2022-07-17T10:42:05.885Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="SublimeText编辑器设置中文"><a href="#SublimeText编辑器设置中文" class="headerlink" title="SublimeText编辑器设置中文"></a>SublimeText编辑器设置中文</h3><p>1:打开sublime，使用快捷键Shift+Command+P打开查找栏</p><p>2: 在搜索框中输入<code>Package Control: Install Package</code><br><img src="https://s3.bmp.ovh/imgs/2022/07/17/71c6a73d19eec39d.jpg" loading="lazy"></p><p>出现下拉选项，点击选择其中的：Package Control: Install Package</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/17/83e1158db2046325.jpg" loading="lazy"></p><p><img src="https://img2020.cnblogs.com/blog/2019812/202005/2019812-20200525111153898-1815626418.png" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;SublimeText编辑器设置中文&quot;&gt;&lt;a href=&quot;#SublimeText编辑器设置中文&quot; class=&quot;headerlink&quot; title=&quot;SublimeText编辑器设置中文&quot;&gt;&lt;/a&gt;SublimeText编辑器设置中文&lt;/h3&gt;&lt;p&gt;1:打开su</summary>
+      
+    
+    
+    
+    <category term="SublimeText" scheme="http://example.com/categories/SublimeText/"/>
+    
+    
+    <category term="SublimeText" scheme="http://example.com/tags/SublimeText/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode关闭自动更新</title>
@@ -488,30 +512,6 @@
     
     
     <category term="npm" scheme="http://example.com/tags/npm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git报错笔记</title>
-    <link href="http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
-    <id>http://example.com/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</id>
-    <published>2022-03-23T16:00:00.000Z</published>
-    <updated>2022-06-08T07:45:51.498Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="git报错笔记"><a href="#git报错笔记" class="headerlink" title="git报错笔记"></a>git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:</p><pre><code class="bash">admin:ios-hybird-flutter Red$ git add .admin:ios-hybird-flutter Red$ git stOn branch masterYour branch is up to date with &#39;origin/master&#39;.Changes to be committed:  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)    new file:   FlutterBoostDemo/.gitignore    new file:   FlutterBoostDemo/.metadata    new file:   FlutterBoostDemo/FlutterBoostDemo.iml    new file:   FlutterBoostDemo/FlutterBoostDemo_android.iml    new file:   FlutterBoostDemo/README.md    new file:   FlutterBoostDemo/lib/FirstPage.dart    new file:   FlutterBoostDemo/lib/main.dart    new file:   FlutterBoostDemo/pubspec.lock    new file:   FlutterBoostDemo/pubspec.yaml    new file:   FlutterBoostDemo/test/widget_test.dart    new file:   SwiftDemoChanges not staged for commit:  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)  (commit or discard the untracked or modified content in submodules)  modified:   SwiftDemo (modified content, untracked content)</code></pre><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;git报错笔记&quot;&gt;&lt;a href=&quot;#git报错笔记&quot; class=&quot;headerlink&quot; title=&quot;git报错笔记&quot;&gt;&lt;/a&gt;git报错笔记&lt;/h3&gt;&lt;h4 id=&quot;git总是出现untracked-content怎么解决&quot;&gt;&lt;a href=&quot;#git总是</summary>
-      
-    
-    
-    
-    <category term="git" scheme="http://example.com/categories/git/"/>
-    
-    
-    <category term="git" scheme="http://example.com/tags/git/"/>
     
   </entry>
   
