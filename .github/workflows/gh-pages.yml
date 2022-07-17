@@ -1,0 +1,27 @@
+name: GitHub Pages
+on:
+  push:
+    branches:
+      - hexo
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Install Dependencies
+        run: npm i
+      - run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ hexo }}
+          publish_dir: ./public
+          publish_branch: master
+          force_orphan: true
