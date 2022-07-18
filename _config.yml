@@ -102,7 +102,7 @@ deploy:
   type: git
   repo: https://github.com/logicwang/logicwang.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+  branch: master
 
 
 aplayer:
