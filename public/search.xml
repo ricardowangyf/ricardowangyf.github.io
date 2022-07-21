@@ -408,33 +408,6 @@
     
     
     <entry>
-      <title>Vue-element-admin报错</title>
-      <link href="/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
-      <url>/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Vue </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Element </tag>
-            
-            <tag> Vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
       <link href="/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
       <url>/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</url>
@@ -456,6 +429,33 @@
             <tag> Vue CLI </tag>
             
             <tag> element-ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue-element-admin报错</title>
+      <link href="/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Element </tag>
+            
+            <tag> Vue </tag>
             
         </tags>
       
