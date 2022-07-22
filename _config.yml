@@ -100,7 +100,7 @@ theme: yun
 
 deploy:
   type: git
-  repo: git@github.com:logicwang/logicwang.github.io.git
+  repo: https://github.com/logicwang/logicwang.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
 
