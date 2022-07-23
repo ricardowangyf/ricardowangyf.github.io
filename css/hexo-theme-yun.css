@@ -41,6 +41,7 @@ html.dark {
   --hty-link-color: #0078e7;
   --hty-gray-color: #999;
   --hty-yellow-color: #ff8718;
+  --blockquote-border-left-color: var(--smc-border-color);
 }
 .primary {
   color: #005eb4;
@@ -353,6 +354,44 @@ input {
   align-items: center;
   height: 100vh;
 }
+#banner .char {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-size: var(--banner-char-size, 1rem);
+  font-weight: 900;
+  background-color: var(--banner-char-bg-color);
+  line-height: 1;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+#banner .char:hover {
+  color: var(--banner-char-hover-color);
+  background-color: var(--banner-char-color);
+}
+#banner .char-left,
+#banner .char-right {
+  display: flex;
+  color: var(--banner-char-color);
+  opacity: 0;
+}
+#banner .char-left {
+  border-left: 1px solid var(--banner-line-color);
+  border-right: 0px solid rgba(0,120,231,0.1);
+  border-right-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+#banner .char-right {
+  border-left: 0px solid rgba(0,120,231,0.1);
+  border-right: 1px solid var(--banner-line-color);
+  border-left-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
 .banner-char-container {
   display: flex;
   flex-direction: column;
@@ -371,44 +410,6 @@ input {
 .vertical-line-bottom {
   position: absolute;
   bottom: 0;
-}
-.char {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
-  font-size: var(--banner-char-size, 1rem);
-  font-weight: 900;
-  background-color: var(--banner-char-bg-color);
-  line-height: 1;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-delay: 0s;
-}
-.char:hover {
-  color: var(--banner-char-hover-color);
-  background-color: var(--banner-char-color);
-}
-.char-left,
-.char-right {
-  display: flex;
-  color: var(--banner-char-color);
-  opacity: 0;
-}
-.char-left {
-  border-left: 1px solid var(--banner-line-color);
-  border-right: 0px solid rgba(0,120,231,0.1);
-  border-right-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-}
-.char-right {
-  border-left: 0px solid rgba(0,120,231,0.1);
-  border-right: 1px solid var(--banner-line-color);
-  border-left-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
 }
 .cloud {
   display: flex;
@@ -1558,7 +1559,7 @@ input {
 }
 .markdown-body blockquote {
   padding: 0.6rem 1rem;
-  border-left: 4px solid var(--blockquote-border-left-color);
+  border-left: 4px solid var(--blockquote-border-left-color, --smc-border-color);
   background-color: var(--blockquote-bg-color, rgba(0,120,231,0.05));
 }
 .markdown-body blockquote p {
@@ -1977,7 +1978,7 @@ input {
   color: #999;
   display: block;
 }
-.site-desciption {
+.site-description {
   color: var(--hty-secondary-text-color);
   font-size: 0.8rem;
 }
@@ -2056,31 +2057,32 @@ input {
 #local-search-input {
   outline: none;
 }
-#local-search-result {
+.search-result-container {
   overflow: auto;
   margin: 0;
   padding: 0.5rem 0 1rem 0;
   height: calc(100% - 160px);
 }
-#local-search-result ul.search-result-list {
+.search-result-container ul.search-result-list {
   margin: 0;
   padding: 0;
 }
-#local-search-result ul.search-result-list li {
+.search-result-container ul.search-result-list li {
   display: block;
   width: 100%;
   padding: 0.6rem 0;
 }
-#local-search-result ul.search-result-list li .search-result-title {
+.search-result-container ul.search-result-list li .search-result-title {
   font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: 900;
   font-size: 1.2rem;
 }
-#local-search-result ul.search-result-list li .search-result {
+.search-result-container ul.search-result-list li .search-result {
   margin: 0;
   font-size: 0.8rem;
 }
-#local-search-result ul.search-result-list li .search-result .search-keyword {
+.search-result-container ul.search-result-list li .search-result .search-keyword {
+  background: transparent;
   color: #f00;
   font-style: normal;
   text-decoration: underline;
@@ -2166,12 +2168,6 @@ input {
 }
 #github-issues {
   margin: 1rem;
-}
-.v[data-class=v] p {
-  color: var(--hty-text-color) !important;
-}
-.v[data-class=v] p code {
-  color: #000;
 }
 #say {
   color: var(--hty-text-color);
