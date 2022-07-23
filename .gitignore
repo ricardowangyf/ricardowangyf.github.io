@@ -1,6 +1,15 @@
-
-
 node_modules
 db.json
 package-lock.json
 public
+
+.DS_Store
+.vscode
+.cache
+
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*
