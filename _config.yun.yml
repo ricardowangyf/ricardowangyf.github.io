@@ -110,10 +110,10 @@ wordcloud:
   enable: false
   height: 350
 
-disqus:
-  enable: true
-  shortname: logicwang
-  count: true
+# disqus:
+#   enable: true
+#   shortname: logicwang
+#   count: true
 
 reward:
   enable: false
@@ -146,14 +146,14 @@ cursor:
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
 
-minivaline:
-  enable: true
-  md: true
-  # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）
-  # emoticonUrl 等列表选项 可参考 https://github.com/MiniValine/hexo-next-minivaline
-  # 下面是一个例子：
-  backend: waline
-  serverURL: https://waline.vercel.app
+# minivaline:
+#   enable: true
+#   md: true
+#   # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）
+#   # emoticonUrl 等列表选项 可参考 https://github.com/MiniValine/hexo-next-minivaline
+#   # 下面是一个例子：
+#   backend: waline
+#   serverURL: https://waline.vercel.app
 
 creative_commons:
   license: by-nc-sa

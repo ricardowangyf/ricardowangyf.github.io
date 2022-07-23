@@ -114,20 +114,20 @@ codeblock:
     light: default
     dark: tomorrow
 
-minivaline:
-  enable: true
-  md: true
-  backend: waline
-  serverURL: https://waline.vercel.app
+# minivaline:
+#   enable: true
+#   md: true
+#   backend: waline
+#   serverURL: https://waline.vercel.app
 
 
-# Valine
-valine:
-  enable: true
-  appId: gi3Kzlzj9e1G3ouGQmHNtRrX-gzGzoHsz 
-  appKey: 82yu1A7OjQWCyD15OFt2FLiL
-  placeholder: 雁过留痕
-  avatar: mp
-  pageSize: 10
-  lang: zh-CN
-  url: http://localhost:4000/
+# # Valine
+# valine:
+#   enable: true
+#   appId: gi3Kzlzj9e1G3ouGQmHNtRrX-gzGzoHsz 
+#   appKey: 82yu1A7OjQWCyD15OFt2FLiL
+#   placeholder: 雁过留痕
+#   avatar: mp
+#   pageSize: 10
+#   lang: zh-CN
+#   url: http://localhost:4000/
