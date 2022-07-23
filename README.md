@@ -12,7 +12,7 @@ node -v
 ```
 
 ### 2.Gihub新建仓库
-如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)
+如果你有github账号那么就在改账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名`username.github.io`比如我的用户名是`logicwang`那么我的仓库名就是`logicwang.github.io`(注：中间不能加空格)
 
 ### 3.配置SSH Key
 这一步不是必须的，配置SSHKey的好处是避免每次更新博客需要输入用户名和密码。这样会方便很多
@@ -38,7 +38,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 ## 4.新建文件夹
 
 ```bash
-mkdir  blog #文件名称
+mkdir blog #文件名称
 ```
 ## 5.安装 hexo
 ```bash
@@ -46,7 +46,7 @@ npm install -g hexo
 ```
 如果报错就在前面加上sudo
 
-## 6.初始化 hexo
+## 6.初始化 Hexo
 运行命令
 ```bash
 hexo init myblog(这个可以随意起名) 
@@ -60,7 +60,6 @@ cd  myblog(你取的名称)
 ## 8.接下来是安装依赖包
 ```bash
 npm install
-
 # 亦或者你可以简写成npm i
 ```
 
