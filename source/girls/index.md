@@ -144,15 +144,6 @@ girls:
   - name: 结城明日奈
     avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201808%2F28%2F20180828155720_htgxy.jpg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646997288&t=e55df3bce601676c864af31814b8875d
     from: 刀剑神域
-  - name: 加藤惠
-    avatar: https://img0.baidu.com/it/u=1595631082,3497413736&fm=253&fmt=auto&app=138&f=JPEG?w=506&h=500
-    from: 路人女主的养成方法
-  - name: 泽村·史宾瑟·英梨梨
-    avatar: https://img1.baidu.com/it/u=2188712810,2163726620&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
-    from: 路人女主的养成方法
-  - name: 霞之丘诗羽
-    avatar: https://img1.baidu.com/it/u=1407809956,2326328034&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=441
-    from: 路人女主的养成方法
   - name: 水原千鹤
     avatar: http://t15.baidu.com/it/u=2521318027,3925409435&fm=224&app=112&f=JPEG?w=500&h=500
     from: 租借女友
@@ -198,7 +189,10 @@ girls:
   - name: 葛城美里
     avatar: https://tva1.sinaimg.cn/large/0074R88yly8h1o6d7lyj1j30rs0rs762.jpg
     from: 新世纪福音战士
-  - name: 伊吹摩耶
-    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h1o6f6m9muj30ok0oqmz6.jpg
-    from: 新世纪福音战士
+  - name: 宝多六花
+    avatar: https://s3.bmp.ovh/imgs/2022/07/23/f865b5d0bd8251d3.jpg
+    from: SSSS.古立特
+  - name: 新条茜
+    avatar: https://s3.bmp.ovh/imgs/2022/07/23/657746bdaf6dc71d.jpg
+    from: SSSS.古立特
 ---
