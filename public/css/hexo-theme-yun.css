@@ -189,19 +189,6 @@ html.dark {
 .dark .aplayer {
   color: #000;
 }
-.dark .ohhho .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before {
-  background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9));
-}
-.dark .ohhho .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after {
-  background: rgba(0,0,0,0.9);
-}
-.dark .ohhho pre {
-  background: var(--color-meta);
-  border: 1px solid var(--color-block);
-}
-.dark .ohhho .vlist .vcard .vcomment-body .vhead {
-  filter: brightness(85%);
-}
 body {
   font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
   font-weight: 400;
@@ -2159,12 +2146,6 @@ input {
 }
 #search .icon {
   color: #0078e7;
-}
-:root {
-  --ohhho-color-p: var(--hty-text-color) !important;
-  --ohhho-color-text: var(--hty-secondary-text-color) !important;
-  --ohhho-color-card: var(--post-block-bg-color) !important;
-  --ohhho-color-block: var(--hty-bg-color) !important;
 }
 #comment {
   margin: 0 1rem;
