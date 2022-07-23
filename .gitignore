@@ -6,3 +6,4 @@ node_modules
 db.json
 package.json
 package-lock.json
+public
