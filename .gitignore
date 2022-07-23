@@ -1,9 +1,6 @@
-# *node_modules
-*package-lock.json
-/node_modules\
+
 
 node_modules
 db.json
-package.json
 package-lock.json
 public
