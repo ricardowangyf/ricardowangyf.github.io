@@ -96,13 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Particlex
+theme: yun
 
 deploy:
   type: git
   repo: https://github.com/logicwang/logicwang.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: master
+  branch: gh-pages
 
 
 aplayer:
