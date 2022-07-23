@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>SublimeText编辑器设置中文</title>
+      <link href="/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/"/>
+      <url>/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<h3 id="SublimeText编辑器设置中文"><a href="#SublimeText编辑器设置中文" class="headerlink" title="SublimeText编辑器设置中文"></a>SublimeText编辑器设置中文</h3><p>1:打开sublime，使用快捷键Shift+Command+P打开查找栏</p><p>2: 在搜索框中输入<code>Package Control: Install Package</code><br><img src="https://s3.bmp.ovh/imgs/2022/07/17/71c6a73d19eec39d.jpg" loading="lazy"></p><p>出现下拉选项，点击选择其中的：Package Control: Install Package</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/17/83e1158db2046325.jpg" loading="lazy"></p><p><img src="https://img2020.cnblogs.com/blog/2019812/202005/2019812-20200525111153898-1815626418.png" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> SublimeText </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SublimeText </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode关闭自动更新</title>
+      <link href="/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+      <url>/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何关闭vscode的自动更新"><a href="#如何关闭vscode的自动更新" class="headerlink" title="如何关闭vscode的自动更新"></a>如何关闭vscode的自动更新</h2><p>Macbook 操作如下:<br>command + ,进入设置<br><img src="https://s3.bmp.ovh/imgs/2022/07/13/49e98906685a4afb.jpg" loading="lazy"></p><p>在打开的设置里面搜索<code>update</code>或<code>更新</code>，可能会找到很多关于更新的设置，我们在目录里面选择应用程序。可以看到有这么几个设置：</p><p><code>Update:Channel</code>或者 <code>Update:Mode</code>（配置是否从更新通道接收自动更新）此配置有三个下拉选择<code>none</code>，<code>manual</code>，<code>default</code>三个。<code>none</code>是不自动更新，<code>manual</code>是手动更新，<code>default</code>是自动更新。这里我们选择<code>none</code>或者<code>manual</code>，并重启程序便关闭了自动更新。</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/2bd20561894786c9.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode查看版本</title>
+      <link href="/2022/07/13/vscode%E6%9F%A5%E7%9C%8B%E7%89%88%E6%9C%AC/"/>
+      <url>/2022/07/13/vscode%E6%9F%A5%E7%9C%8B%E7%89%88%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vscode查看版本"><a href="#vscode查看版本" class="headerlink" title="vscode查看版本"></a>vscode查看版本</h2><p>在vscode菜单栏<br>帮助 -&gt; 发行说明<br>Help-&gt;Release Notes<br><img src="https://s3.bmp.ovh/imgs/2022/07/13/0627f0518b5191ee.jpg" loading="lazy"><br><img src="https://s3.bmp.ovh/imgs/2022/07/13/29937e137fb0d88e.jpg" loading="lazy"></p><p>版本为1.69</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>查看vue版本和vue脚手架版本</title>
+      <link href="/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/"/>
+      <url>/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy"></p><p>如图所示，vue版本为</p><pre><code class="bash">2.6.14</code></pre><p>vue脚手架版本为：</p><pre><code class="bash">3.2.13</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode安装code命令</title>
+      <link href="/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
+      <url>/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vscode安装code命令"><a href="#vscode安装code命令" class="headerlink" title="vscode安装code命令"></a>vscode安装code命令</h2><p><code>VSCode</code>提供<code>code</code>命令直接从命令行中打开文件目录，此时需要先安装 code 命令。</p><p>1:首先打开vscode</p><p>2:Mac使用快捷键<code>command + shift + p</code>,windows使用快捷键<code>ctrl+shift+p</code>然后搜索code，选择 install ‘code’ command in path。  </p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/84c98865835a0fc9.jpg" loading="lazy"></p><p>3、在命令行中运行 code [path] 打开文件目录</p><pre><code class="bash">code ./</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决vscode下载很慢的问题</title>
+      <link href="/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="解决vscode下载很慢的问题"><a href="#解决vscode下载很慢的问题" class="headerlink" title="解决vscode下载很慢的问题"></a>解决vscode下载很慢的问题</h2><p>1： 打开<a href="https://code.visualstudio.com/">vscode官网</a></p><p>2：点击下图中下载链接（我的电脑是Macos）</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/eaafc16a8a167d76.jpg" loading="lazy"></p><p>3： 下载时可以去谷歌的下载内容里面，看到正在下载的vscode，然后点击上面的链接，会发生跳转</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/2d49b0bf2efe1090.jpg" loading="lazy"></p><p>4.然后在谷歌浏览器上的地址上会发现这个链接，这个时候直接复制 vscode.cdn.azure.cn 替换地址上面的</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/da8fd03a0a004df9.jpg" loading="lazy"></p><p>然后你就会发现速度快到飞起</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/0e8cf7f97bf528b4.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>v-model与:model的区别</title>
+      <link href="/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+      <url>/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="v-model与-model的区别"><a href="#v-model与-model的区别" class="headerlink" title="v-model与:model的区别"></a>v-model与:model的区别</h3><h4 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h4><blockquote><p>通常用于表单上双向数据的绑定，如果除了表单其他组件使用时，起不到任何效果。它还可以实现子组件到父组件的双向数据动态绑定。<br><a href="https://cn.vuejs.org/v2/guide/forms.html">详情参考官网</a></p></blockquote><h4 id="model"><a href="#model" class="headerlink" title=":model"></a>:model</h4><blockquote><p>:model是v-bind:model的缩写。<br>只是将父组件的值传递给和子组件，但是并未实现子组件<br>和父组件之间的双向数据绑定，当然引用类型除外，子组件改变了引用类型的数据的话，父组件的数据也会跟着改变。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MAC升级Nodejs和Npm到最新版</title>
+      <link href="/2022/05/22/MAC%E5%8D%87%E7%BA%A7Nodejs%E5%92%8CNpm%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88/"/>
+      <url>/2022/05/22/MAC%E5%8D%87%E7%BA%A7Nodejs%E5%92%8CNpm%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Mac升级Node-js和Npm到最新版"><a href="#Mac升级Node-js和Npm到最新版" class="headerlink" title="Mac升级Node.js和Npm到最新版"></a>Mac升级Node.js和Npm到最新版</h3><p>1:  先查看本机node.js版本:</p><pre><code class="bash">node -v</code></pre><p>2:  清除node.js的cache:</p><pre><code class="bash">sudo npm cache clean -f</code></pre><p>3:  安装<code>n工具</code>，这个工具是专门用来管理node:</p><pre><code class="bash">sudo npm install -g n</code></pre><p>4:  安装最新版本的node.js: </p><pre><code class="bash">sudo n stable</code></pre><p>5:  再次查看本机的node.js版本:</p><pre><code class="bash">node -v</code></pre><p>6:  更新npm到最新版:</p><pre><code class="bash">sudo npm install npm@latest -g</code></pre><p>最后一步，验证：</p><pre><code class="bash">node -v#v16.15.0npm -v#8.10.0</code></pre><blockquote><p>转载自: <a href="https://www.cnblogs.com/ae6623/p/6242423.html">博客园</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> npm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>React开发环境搭建</title>
+      <link href="/2022/05/22/React%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <url>/2022/05/22/React%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="开发环境搭建"><a href="#开发环境搭建" class="headerlink" title="开发环境搭建"></a>开发环境搭建</h2><p>安装<a href="https://nodejs.org/en/">node</a></p><p>安装create-react-app, 一个全局的命令行工具，用于简化并创建一个新的 react 项目</p><pre><code class="bash">npm install -g create-react-app</code></pre><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><pre><code class="bash">create-react-app react-demo #创建项目cd react-demo #进入到新的工程目录下</code></pre><p>默认生成的项目框架</p><pre><code class="bash">|-node_modules             #包管理|-public             #一般用于存放静态文件，打包时会被直接复制到输出目录(./buidle)|-src               #项目源代码  |  |-asserts         #用于存放静态资源，打包时会经过 webpack 处理  |  |-components    #组件 存放 React 组件，一般是该项目公用的无状态组件  |  |-containers       #页面视图  |  |-routes         #路由 存放需要 connect model 的路由组件  |  |-App.js         #入口文件  |  |-index         #注册路由与服务  |  |- serviceWorker       #开发配置|-package.json      #包管理代码|-.gitignore # Git忽略文件</code></pre><h2 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h2><pre><code class="bash">npm run start #启动本地server用于开发</code></pre><p>在浏览器中打开 localhost://8080 查看</p><h3 id="项目打包"><a href="#项目打包" class="headerlink" title="项目打包"></a>项目打包</h3><pre><code class="bash">npm run build #命令执行后, 会在工程根目录下生成 build 目录</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> React </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> React </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VueCli3更改icon图标</title>
+      <link href="/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/"/>
+      <url>/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="VueCli3更改icon图标"><a href="#VueCli3更改icon图标" class="headerlink" title="VueCli3更改icon图标"></a>VueCli3更改icon图标</h2><blockquote><p>初次使用更改icon图标的时候，可能会根据脚手架搭建完成后的public中修改index.html中的link,如下</p></blockquote><pre><code class="bash">&lt;link rel=&quot;icon&quot; href=&quot;&lt;%= BASE_URL %&gt;assets/logo/logo.png&quot;&gt;</code></pre><p>但是，会发现即使修改了之后，重新刷新也没有任何作用。</p><p>那么接下来我来讲一下搜索到的解决方法。<br>一、先将自己的icon直接替换原的图标<br>二、在根目录创建一个<code>vue.config.js</code>文件，然后写下之前</p><pre><code class="js">module.exports = &#123;    pwa: &#123;        iconPaths: &#123;            favicon32: &#39;favicon.ico&#39;,            favicon16: &#39;favicon.ico&#39;,            appleTouchIcon: &#39;favicon.ico&#39;,            maskIcon: &#39;favicon.ico&#39;,            msTileImage: &#39;favicon.ico&#39;        &#125;    &#125;&#125;</code></pre><p>记得修改完成之后需要重启项目，这样图标才会生效。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue引入css</title>
+      <link href="/2022/04/30/Vue%E5%BC%95%E5%85%A5css/"/>
+      <url>/2022/04/30/Vue%E5%BC%95%E5%85%A5css/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Vue引入css"><a href="#Vue引入css" class="headerlink" title="Vue引入css"></a>Vue引入css</h2><p>vue引用css的方法</p><p>在vue中引入外部的css文件：</p><p>在项目的src文件下，新建一个style文件夹，存放css文件。</p><h4 id="全局引入"><a href="#全局引入" class="headerlink" title="全局引入"></a>全局引入</h4><p>将外部的css文件放到style文件下，引入外部文件只需在main.js文件中</p><pre><code class="bash">import &#39;./style/reset.css&#39; # 清除默认样式的css文件</code></pre><h4 id="局部引入"><a href="#局部引入" class="headerlink" title="局部引入"></a>局部引入</h4><pre><code class="bash">&lt;style scoped&gt;  @import &#39;../assets/iconfont/iconfont.css&#39;; #这个分号一定要写，要不会报错&lt;/style&gt;</code></pre><p><code>@import CSS@</code>规则，用于从其他样式表导入样式规则。这些规则必须先于所有其他类型的规则，@charset 规则除外; 因为它不是一个嵌套语句，@import不能在条件组的规则中使用。<br>因此，用户代理可以避免为不支持的媒体类型检索资源，作者可以指定依赖媒体的@import规则。这些条件导入在URI之后指定逗号分隔的媒体查询。在没有任何媒体查询的情况下，导入是无条件的。指定所有的媒体具有相同的效果。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ES6暂时性死区</title>
+      <link href="/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/"/>
+      <url>/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="ES6暂时性死区"><a href="#ES6暂时性死区" class="headerlink" title="ES6暂时性死区"></a>ES6暂时性死区</h2><blockquote><p>暂时性死区是针对<code>const</code>,<code>let</code>这两个关键字而产生的概念。<br>首先变量提升这个js的基本概念无法撼动，<code>const</code>和<code>let</code>作为块级作用域也不能避免。<br>和<code>var</code>不同，这两个关键字将作用域限制在了<code>块</code>中，且规定了在该块中，由这两个关键字定义的变量已经被分配内存。<br>即其实已经<code>存在</code>了，但程序未执行到声明处时，访问该变量都会报引用错误。<br>这个时候，对于该变量来说就是’暂时性死区’，通俗来说就是该变量存在，但并未完全存在</p></blockquote><p>代码如下：</p><pre><code class="js">//情景一、if (true) &#123;  // TDZ开始  tmp = &#39;abc&#39;; // ReferenceError  console.log(tmp); // ReferenceError  let tmp; // TDZ结束  console.log(tmp); // undefined  tmp = 123;  console.log(tmp); // 123&#125;</code></pre><p>上面代码中，在let命令声明变量tmp之前，都属于变量tmp的“死区”。</p><pre><code class="js">//情景二var tmp = 123;if (true) &#123;  tmp = &#39;abc&#39;; // ReferenceError  let tmp;&#125;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ES6 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端业务逻辑理解</title>
+      <link href="/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/"/>
+      <url>/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前端业务逻辑理解"><a href="#前端业务逻辑理解" class="headerlink" title="前端业务逻辑理解"></a>前端业务逻辑理解</h2><p>今天在学习前端开发的时候碰到一个词<code>业务逻辑</code>，理解如下:</p><blockquote><p>简单来就是在怎么做事（how to do）, 比方说你去餐馆吃饭, 你点了个炒米粉，服务员给你下单，厨房见到单后下锅给你炒，你吃完后付账。这一些列动作都可以说是业务逻辑。</p></blockquote><p><code>业务逻辑就是客户的逻辑</code></p><p>在 N 层架构的系统中，经常会提到这些名词。</p><blockquote><p>表现层（Presentation layer） 业务逻辑层（Application layer） 数据访问层（Data layer） 在一个系统开发过程中，后台做一些处理，如果成功，则跳转到 success_xxx 页面，如果失败，则跳转到 fail_xxx 页面，如果系统抛出了异常，则跳转到 5xx 页面，…… 这些属于页面逻辑。</p></blockquote><p>还有一些持久层的逻辑，也就是对数据库的操作。</p><blockquote><p>业务逻辑是核心逻辑，只关注用户的业务，比如管理系统和财务系统，需要处理的业务肯定不一样，但是页面的跳转大致相同，对于持久层的操作也差不多。如果你使用了 SSH 框架，那么 hibernate 和 struts 的代码有很大一部分可以复用。</p></blockquote><blockquote><p>业务逻辑（BL Action）不关心页面如何跳转，只是简单的返回成功，或是失败，或是异常，struts 框架根据配置文件跳转到相应的页面。</p></blockquote><blockquote><p>业务逻辑也不关心数据如何存储，是存储在文件系统，还是存储在数据库系统。是存储在MySQL，还是NoSQL。也不关系到底用没用缓存。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>样式穿透::v-deep</title>
+      <link href="/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/"/>
+      <url>/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/</url>
+      
+        <content type="html"><![CDATA[<h2 id="样式穿透-v-deep"><a href="#样式穿透-v-deep" class="headerlink" title="样式穿透::v-deep"></a>样式穿透::v-deep</h2><p>在用到很多vue的组件库如<a href="https://youzan.github.io/vant/#/zh-CN">vant3</a>，<a href="https://element.eleme.cn/#/zh-CN">Element-ui</a>,<a href="https://vuetifyjs.com/en/">，vuetify</a>等，虽然配好了样式但是神奇的产品还是会让你改一下样式</p><p>一般情况可以直接在当前页面中写入样式：</p><pre><code class="css">&lt;style lang=&quot;scss&quot; scoped&gt;  .v-text-field.v-text-field--enclosed .v-text-field__details &#123;          margin-bottom: 8px;          padding: 0px !important;   &#125;&lt;/style&gt;</code></pre><p>这边需不需要加scoped要自行判断，有scoped限制的时候，实现组件的私有化，不对全局造成样式污染，表示当前style属性只属于当前模块。</p><p>但是知道我遇到了这种方法改不了公司的一个项目样式时，发现可以用<code>::v-deep</code>或者<code>/deep/</code>来解决，<br>注意，/deep/在vue 3.0会报错</p><p>使用方法如下：</p><pre><code class="css">::v-deep .v-text-field.v-text-field--enclosed .v-text-field__details &#123;  margin-bottom: 8px;  padding: 0px !important; &#125;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue开发环境搭建</title>
+      <link href="/2022/04/01/Vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <url>/2022/04/01/Vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<p>一、安装node.js</p><p><a href="https://nodejs.org/en/download/">官网</a><br><a href="https://nodejs.org/en/download/releases/">历史版本</a></p><p><img src="https://s3.bmp.ovh/imgs/2022/04/01/71dd45c0ef3dd1b4.png" loading="lazy"></p><p>下载完毕后，可以安装node，建议不要安装在系统盘（如C：）。</p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0ued067t3j30h60df0tt.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uedm1vslj30h60df40i.jpg" loading="lazy"></p><p>二、设置nodejs prefix（全局）和cache（缓存）路径</p><p>1.在nodejs安装路径下，新建node_global和node_cache两个文件夹</p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0ueec77vrj30ha09fdh4.jpg" loading="lazy"></p><p>2.设置缓存文件夹</p><pre><code class="bash">npm config set cache &quot;D:\vueProject\nodejs\node_cache&quot;</code></pre><p>设置全局模块存放路径</p><pre><code class="bash">npm config set prefix &quot;D:\vueProject\nodejs\node_global&quot;</code></pre><p>设置成功后，之后用命令npm install XXX -g安装以后模块就在D:\vueProject\nodejs\node_global里</p><p>三、基于 Node.js 安装cnpm（淘宝镜像）</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>四、设置环境变量   <strong>这非常非常非常重要！！！！！</strong><br>说明：设置环境变量可以使得住任意目录下都可以使用cnpm、vue等命令，而不需要输入全路径<br>1、鼠标右键”此电脑”，选择“属性”菜单，在弹出的“系统”对话框中左侧选择“高级系统设置”，弹出“系统属性”对话框。<br>2、修改系统变量PATH</p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0ueg4o0ccj30hk0iijuc.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0ueginkxlj30f10fu775.jpg" loading="lazy"></p><p>3、新增系统变量NODE_PATH</p><p><img src="https://tva1.sinaimg.cn/large/0074R88yly8h0ueh2kv90j30hd0i1zn0.jpg" loading="lazy"></p><p>五、安装Vue</p><pre><code class="bash">cnpm install vue -g</code></pre><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uehl6adgj30r403egm6.jpg" loading="lazy"></p><p>六、安装vue命令行工具，即vue-cli 脚手架</p><pre><code class="bash">cnpm install vue-cli -g</code></pre><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0uei3t6joj30qt08x414.jpg" loading="lazy"></p><p>七、新项目的创建<br>1.打开存放新建项目的文件夹<br>打开开始菜单，输入 CMD，或使用快捷键 win+R，输入 CMD，敲回车，弹出命令提示符。打开你将要新建的项目目录<br><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0ueincm5xj30br05ddg1.jpg" loading="lazy"></p><p>2.根据模版创建新项目<br>在当前目录下输入“vue init webpack-simple 项目名称（使用英文）”。</p><pre><code class="bash">vue init webpack-simple mytest</code></pre><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uejfeauij30na07cwfg.jpg" loading="lazy"></p><p>初始化完成后的项目目录结构如下：<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0uejywhzcj30iq0bodhe.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uek95or5j30hh0bvmyu.jpg" loading="lazy"></p><p>3、安装工程依赖模块</p><p>定位到mytest的工程目录下，安装该工程依赖的模块，这些模块将被安装在：mytest\node_module目录下，node_module文件夹会被新建，而且根据package.json的配置下载该项目的modules</p><pre><code class="bash">cd mytestcnpm install</code></pre><p>4、运行该项目，测试一下该项目是否能够正常工作，这种方式是用nodejs来启动。</p><pre><code class="bash">cnpm run dev</code></pre><p><img src="https://tva1.sinaimg.cn/large/0074R88yly8h0uel7t7n1j30nq09uq43.jpg" loading="lazy"></p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0uelmkmmdj30kt04omxa.jpg" loading="lazy"></p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0uelyd6rxj30mu0h4aat.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Chrome报错</title>
+      <link href="/2022/03/30/Chrome%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/30/Chrome%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Chrome访问出现：-Slow-network-is-detected"><a href="#Chrome访问出现：-Slow-network-is-detected" class="headerlink" title="Chrome访问出现： Slow network is detected."></a>Chrome访问出现： Slow network is detected.</h3><p>Chrome报错:Slow network is detected. See <a href="https://www.chromestatus.com/feature/563695467">https://www.chromestatus.com/feature/563695467</a></p><p>百度一下 给出的解释是：</p><p>This means the network is slow, and Chrome is replacing a web font (loaded with a @font-face rule) with a local fallback.</p><p>By default, the text rendered with a web font is invisible until the font is downloaded (“<a href="https://link.csdn.net/?target=https://css-tricks.com/fout-foit-foft/">flash of invisible text</a>”). With this change, the user on a slow network could start reading right when the content is loaded instead of looking into the empty page for several seconds.</p><p>（这意味着网络速度很慢，Chrome正在用本地回退替换网络字体（加载@ font-face规则）。</p><p>默认情况下，使用Web字体呈现的文本在下载字体之前是不可见的（“不可见文本的闪烁”）。 通过此更改，慢速网络上的用户可以在加载内容时开始正确读取，而不是在几秒钟内查看空白页面。）</p><p>解决方法:</p><p>地址栏输入<code>chrome://flags/#enable-webfonts-intervention-v2</code>，并设置为<code>Disabled</code>；重启Chrome。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Chrome </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chrome </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue CLI 3 + element-ui 后台管理系统简单搭建</title>
+      <link href="/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
+      <url>/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h5 id="1-Vue-CLI-3-安装启动"><a href="#1-Vue-CLI-3-安装启动" class="headerlink" title="1.Vue CLI 3 安装启动"></a>1.Vue CLI 3 安装启动</h5><pre><code class="bash">npm install -g @vue-cli# ORyarn global add @vue-cli</code></pre><p>cd 你的项目名称 </p><h5 id="2-element-ui-安装"><a href="#2-element-ui-安装" class="headerlink" title="2.element-ui 安装"></a>2.element-ui 安装</h5><pre><code class="bash">vue add element</code></pre><p>会出现如下提示:</p><blockquote><p>How do you want to import Element? (Use arrow keys)</p></blockquote><p>为了方便，选择第一个全局引用：fully import</p><pre><code class="bash">Do you wish to overwrite Element&#39;s SCSS variables? YesChoose the locale you want to load zh-CN</code></pre><p>启动</p><pre><code class="bash">npm run serve</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue CLI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Element </tag>
+            
+            <tag> Vue CLI </tag>
+            
+            <tag> element-ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue-element-admin报错</title>
+      <link href="/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Element </tag>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Node版本降级</title>
+      <link href="/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/"/>
+      <url>/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号#例如：sudo n 12.17.0</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nodejs </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>npm命令报错笔记整理</title>
+      <link href="/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h1><h2 id="2022-3-28"><a href="#2022-3-28" class="headerlink" title="2022.3.28"></a>2022.3.28</h2><h3 id="npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect"><a href="#npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect" class="headerlink" title="npm install下载依赖项时报错 fatal: unable to access ‘https://github.com/nhn/raphael.git/‘: Failed to connect"></a>npm install下载依赖项时报错 fatal: unable to access ‘<a href="https://github.com/nhn/raphael.git/%E2%80%98">https://github.com/nhn/raphael.git/‘</a>: Failed to connect</h3><p><img src="https://s3.bmp.ovh/imgs/2022/03/0ebf426d1653e68c.jpg" loading="lazy"></p><p>解决方案：</p><p>1：查看一下自己的node版本，一般高版本下载会出问题，建议使用 12.17.0版本</p><p>2：网络延迟的问题，删除package.lock.json和node_modules文件夹,重新install<br>Node.js降级的方法我会写在另一篇<a href="">文章</a>内。</p><h3 id="2022-6-10"><a href="#2022-6-10" class="headerlink" title="2022-6-10"></a>2022-6-10</h3><h4 id="npm-WARN-Local-package-json-exists-but-node-modules-missing-did-you-mean-to-install"><a href="#npm-WARN-Local-package-json-exists-but-node-modules-missing-did-you-mean-to-install" class="headerlink" title="npm WARN Local package.json exists, but node_modules missing, did you mean to install?"></a>npm WARN Local package.json exists, but node_modules missing, did you mean to install?</h4><pre><code class="bash">npm ERR! code ELIFECYCLEnpm ERR! errno 1npm ERR! vuedatabase@1.0.0 dev: `webpack-dev-server --inline --progress --config build/onf.js`npm ERR! Exit status 1npm ERR!npm ERR! Failed at the vuedatabase@1.0.0 dev script.npm ERR! This is probably not a problem with npm. There is likely additional logging ounpm WARN Local package.json exists, but node_modules missing, did you mean to install?</code></pre><p>cd到当前目录</p><pre><code class="bash">npm install</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> npm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git报错笔记</title>
+      <link href="/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2022/03/24/Git%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h3 id="git报错笔记"><a href="#git报错笔记" class="headerlink" title="git报错笔记"></a>git报错笔记</h3><h4 id="git总是出现untracked-content怎么解决"><a href="#git总是出现untracked-content怎么解决" class="headerlink" title="git总是出现untracked content怎么解决"></a>git总是出现untracked content怎么解决</h4><p>在用git把本地代码同步至远端的时候出现了一个问题:</p><pre><code class="bash">admin:ios-hybird-flutter Red$ git add .admin:ios-hybird-flutter Red$ git stOn branch masterYour branch is up to date with &#39;origin/master&#39;.Changes to be committed:  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)    new file:   FlutterBoostDemo/.gitignore    new file:   FlutterBoostDemo/.metadata    new file:   FlutterBoostDemo/FlutterBoostDemo.iml    new file:   FlutterBoostDemo/FlutterBoostDemo_android.iml    new file:   FlutterBoostDemo/README.md    new file:   FlutterBoostDemo/lib/FirstPage.dart    new file:   FlutterBoostDemo/lib/main.dart    new file:   FlutterBoostDemo/pubspec.lock    new file:   FlutterBoostDemo/pubspec.yaml    new file:   FlutterBoostDemo/test/widget_test.dart    new file:   SwiftDemoChanges not staged for commit:  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)  (commit or discard the untracked or modified content in submodules)  modified:   SwiftDemo (modified content, untracked content)</code></pre><p>报错原因:</p><p>该目录是从网上用git clone指令克隆下来的项目,原有的git数据和我本来的有冲突</p><p>cd到该目录之后用<code>ls -al</code>命令查看所有目录发现该项目下还有一个.git文件</p><p>用rm -rf .git删除之后就没有报错指令了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux命令行下修改文件或文件夹名</title>
+      <link href="/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/"/>
+      <url>/2022/03/23/Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Linux命令行下修改文件或文件夹名"><a href="#Linux命令行下修改文件或文件夹名" class="headerlink" title="Linux命令行下修改文件或文件夹名"></a>Linux命令行下修改文件或文件夹名</h2><p>打开终端(或者ITerm)输入命令</p><pre><code class="bash">mv file1  file2  #前者是原文件名 后者是更改的文件名</code></pre><p>如图:<br><img src="https://s3.bmp.ovh/imgs/2022/03/6ff823ab17f6808c.jpg" loading="lazy"></p><p>把当前目录下的file1文件名改成file2，如果该目录下有file2，则覆盖以前的file2文件。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运行Vue项目报错</title>
+      <link href="/2022/03/22/%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/22/%E8%BF%90%E8%A1%8CVue%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="mac环境下运行vue项目报错sh-vue-cli-service-command-not-found"><a href="#mac环境下运行vue项目报错sh-vue-cli-service-command-not-found" class="headerlink" title="mac环境下运行vue项目报错sh: vue-cli-service: command not found"></a>mac环境下运行vue项目报错sh: vue-cli-service: command not found</h2><p>报错如图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e912617b33e4c0ef.jpg" loading="lazy"></p><p>解决方案:<br>cd到项目目录下，执行命令</p><pre><code class="bash">sudo rm -rf node_modules package-lock.jsonnpm install</code></pre><p>然后根据提示输入密码。安装完成后，再次npm run dev就可以正常运行啦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue路由组件之间传参</title>
+      <link href="/2022/03/19/Vue%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%8F%82/"/>
+      <url>/2022/03/19/Vue%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%8F%82/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue路由组件之间传参"><a href="#Vue路由组件之间传参" class="headerlink" title="Vue路由组件之间传参"></a>Vue路由组件之间传参</h2><p>我们经常需要把某种模式匹配到的所有路由，全都映射到同个组件。例如，我们有一个 User 组件，对于所有 ID 各不相同的用户，都要使用这个组件来渲染。通常的做法是“动态路由匹配”或者“query传参”，在组件中使用$route 来获取参数，从而使组件只能在某些特定的 URL 上使用，限制了其灵活性。</p><h2 id="route"><a href="#route" class="headerlink" title="$route"></a>$route</h2><p>组件与 <code>$route</code> 的耦合</p><p>router.js</p><pre><code class="js">import Vue from &quot;vue&quot;;import Router from &quot;vue-router&quot;;import User from &quot;./views/user&quot;;Vue.use(Router);export default new Router(&#123;  routes: [    &#123;      path: &quot;/user/:id&quot;,      name: &quot;user&quot;,      component: User    &#125;  ]&#125;);</code></pre><p>user.vue组件</p><pre><code class="js">// $route的使用，导致此组件只能使用在动态路径参数的特定url上&lt;template&gt;  &lt;div class=&quot;user&quot;&gt;    &lt;h4&gt;用户信息&lt;/h4&gt;    &lt;div&gt;userId： &#123;&#123;$route.params.id&#125;&#125;&lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;</code></pre><p><strong>props</strong></p><p>通过 <code>props</code> 与组件解耦</p><p>router.js</p><pre><code class="js">import Vue from &quot;vue&quot;;import Router from &quot;vue-router&quot;;import User from &quot;./views/user&quot;;Vue.use(Router);export default new Router(&#123;  routes: [    &#123;      path: &quot;/user/:id&quot;,      name: &quot;user&quot;,      component: User,      props: true    &#125;  ]&#125;);</code></pre><p>user.vue组件</p><pre><code class="html">// 使用 props 将组件和路由解耦,可以在任何地方使用该组件，通过props通信&lt;template&gt;  &lt;div class=&quot;user&quot;&gt;    &lt;h4&gt;用户信息&lt;/h4&gt;    &lt;div&gt;userId： &#123;&#123;id&#125;&#125;&lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  props: [&quot;id&quot;]&#125;;&lt;/script&gt;</code></pre><p><strong>props三种使用方式</strong></p><p>user.vue组件</p><pre><code class="html">&lt;!-- 同一组件，不同路由模式 --&gt;&lt;template&gt;  &lt;div class=&quot;user&quot;&gt;    &lt;h4&gt;用户信息&lt;/h4&gt;    &lt;div&gt;userId： &#123;&#123;id&#125;&#125;&lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  props: [&quot;id&quot;]&#125;;&lt;/script&gt;</code></pre><p><strong>props传递 — 布尔模式</strong><br><strong>url：172.16.57.15:8080/#/user/1</strong></p><p>router.js</p><pre><code class="js">// 如果 props 被设置为 true，route.params 将会被设置为组件属性。export default new Router(&#123;  routes: [    &#123;      path: &quot;/user/:id&quot;,      name: &quot;user&quot;,      component: User,      props: true    &#125;  ]&#125;);</code></pre><p><strong>props传递 — 对象模式</strong><br><strong>url：172.16.57.15:8080/#/user</strong></p><p>router.js</p><pre><code class="js">// 当 props 是静态的时候有用。export default new Router(&#123;  routes: [    &#123;      path: &quot;/user&quot;,      name: &quot;user&quot;,      component: User,      props: &#123; id: 1 &#125;    &#125;  ]&#125;);</code></pre><p><strong>props传递 — 函数模式</strong><br><strong>url：172.16.57.15:8080/#/user?id=2</strong></p><p>router.js</p><pre><code class="js">// 可以将参数转换成另一种类型，将静态值与基于路由的值结合等等。export default new Router(&#123;  routes: [    &#123;      path: &quot;/user&quot;,      name: &quot;user&quot;,      component: User,      props: route =&gt; &#123;        return &#123; id: route.query.id &#125;;      &#125;    &#125;  ]&#125;);</code></pre><p><strong>注意</strong>： “props传递—对象模式”和“props传递—函数模式”使用props传参的时候，只能使用单个视图。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Antd-vue的安装方法</title>
+      <link href="/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h2 id="1-Antd-vue的安装方法"><a href="#1-Antd-vue的安装方法" class="headerlink" title="1. Antd-vue的安装方法"></a>1. Antd-vue的安装方法</h2><p><a href="https://www.antdv.com/docs/vue/introduce-cn/">Antd-vue</a><br><a href="https://ant.design/index-cn">Antd</a></p><p>安装方法:</p><p>推荐使用npm或者yarn方法进行安装，在开发环境中可以轻松进行测试，也可以在生产环境打包部署使用，享受yarn和npm的生态圈和工具链带来的一些好处</p><p>npm安装方法:</p><pre><code class="bash">npm install ant-design-vue --save</code></pre><p>yarn安装方法:</p><pre><code class="bash">yarn add ant-design-vue</code></pre><p>建议使用<a href="https://github.com/cnpm/cnpm">cnpm</a>来代替npm安装</p><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre><code class="bash">import Vue from &#39;vue&#39;;import &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;Vue.use(DatePicker);</code></pre><p>引入样式:</p><pre><code class="bash">import &#39;ant-design-vue/dist/antd.css&#39;; or &#39;ant-design-vue/dist/antd.less&#39;</code></pre><p>然后只需从 ant-design-vue 引入模块即可，无需单独引入样式。等同于下面手动引入的方式。</p><pre><code class="bash"># babel-plugin-import 会帮助你加载 JS 和 CSSimport &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;</code></pre><p>手动引入</p><pre><code class="bash">import DatePicker from &#39;ant-design-vue/lib/date-picker&#39;; # 加载 JSimport &#39;ant-design-vue/lib/date-picker/style/css&#39;; # 加载 CSS# import &#39;ant-design-vue/lib/date-picker/style&#39;;   加载 LESS</code></pre><h2 id="2-引入-ant-design-vue"><a href="#2-引入-ant-design-vue" class="headerlink" title="2. 引入 ant-design-vue"></a>2. 引入 ant-design-vue</h2><h3 id="安装脚手架工具"><a href="#安装脚手架工具" class="headerlink" title="安装脚手架工具"></a>安装脚手架工具</h3><p><a href="https://github.com/vuejs/vue-cli">vue-cli</a></p><pre><code class="bash">npm install -g @vue/cli# or yarn global add @vue/cli</code></pre><h3 id="创建一个项目"><a href="#创建一个项目" class="headerlink" title="创建一个项目"></a>创建一个项目</h3><p>使用命令行进行项目初始化:</p><pre><code class="bash">vue create antd-demo</code></pre><h3 id="使用组件"><a href="#使用组件" class="headerlink" title="使用组件"></a>使用组件</h3><pre><code class="bash">npm i --save ant-design-vue</code></pre><p>完整引入</p><pre><code class="bash">import Vue from &#39;vue&#39;;import Antd from &#39;ant-design-vue&#39;;import App from &#39;./App&#39;;import &#39;ant-design-vue/dist/antd.css&#39;;Vue.config.productionTip = false;Vue.use(Antd);# eslint-disable no-newnew Vue(&#123;  el: &#39;#app&#39;,  components: &#123; App &#125;,  template: &#39;&lt;App/&gt;&#39;,&#125;);</code></pre><p>在main.js文件输入以上代码就能完成Antd的引入，但需要注意的是，样式文件需要单独引入</p><h4 id="局部导入组件"><a href="#局部导入组件" class="headerlink" title="局部导入组件"></a>局部导入组件</h4><pre><code class="bash">import Vue from &#39;vue&#39;;import &#123; Button, message &#125; from &#39;ant-design-vue&#39;;import App from &#39;./App&#39;;Vue.config.productionTip = false;# v1.1.2 Vue.component(Button.name, Button);Vue.component(Button.Group.name, Button.Group);# v1.1.3+ 自动注册Button下组件，如Button.Group Vue.use(Button);Vue.prototype.$message = message;# eslint-disable no-new new Vue(&#123;  el: &#39;#app&#39;,  components: &#123; App &#125;,  template: &#39;&lt;App/&gt;&#39;,&#125;);</code></pre><h2 id="在-vue-cli-3-中使用"><a href="#在-vue-cli-3-中使用" class="headerlink" title="在 vue-cli 3 中使用"></a>在 vue-cli 3 中使用</h2><p>使用命令行安装vue-cli,你可能需要安装<a href="https://yarn.bootcss.com/">yarn</a></p><pre><code class="bash">npm install -g @vue/cli# or yarn global add @vue/cli</code></pre><p>新建一个项目。</p><pre><code class="bash">vue create antd-demo</code></pre><p>并配置项目。</p><p>工具会自动初始化一个脚手架并安装 Vue 项目的各种必要依赖，如果在过程中出现网络问题，请尝试配置代理或使用其他 npm registry。</p><p>然后我们进入项目并启动:</p><pre><code class="bash">cd antd-demonpm run serve</code></pre><h3 id="引入Antd"><a href="#引入Antd" class="headerlink" title="引入Antd"></a>引入Antd</h3><p>这是 vue-cli 生成的默认目录结构。</p><pre><code class="bash">├── README.md├── babel.config├── package.json├── public│   ├── favicon.ico│   └── index.html├── src│   ├── assets│   │   └── logo.png│   ├── components│   │   └── HelloWorld.vue│   ├── App.vue│   └── main.js└── yarn.lock</code></pre><p>现在从 yarn 或 npm 安装并引入 ant-design-vue。</p><pre><code class="bash">yarn add ant-design-vue</code></pre><p>修改 <code>src/main.js</code>，引入 antd 的按钮组件以及全部样式文件。</p><pre><code class="js">import Vue from &#39;vue&#39;;import Button from &#39;ant-design-vue/lib/button&#39;;import &#39;ant-design-vue/dist/antd.css&#39;;import App from &#39;./App&#39;;Vue.component(Button.name, Button);Vue.config.productionTip = false;new Vue(&#123;  render: h =&gt; h(App),&#125;).$mount(&#39;#app&#39;);</code></pre><p>修改 <code>src/App.vue</code>的 template 内容。</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;img src=&quot;./assets/logo.png&quot;&gt;    &lt;a-button type=&quot;primary&quot;&gt;Button&gt;&lt;/a-button&gt;  &lt;/div&gt;&lt;/template&gt;...</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Antd-vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Antd-vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>淘宝镜像cnpm替代npm</title>
+      <link href="/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/"/>
+      <url>/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h2 id="使用淘宝镜像cnpm代替npm"><a href="#使用淘宝镜像cnpm代替npm" class="headerlink" title="使用淘宝镜像cnpm代替npm"></a>使用淘宝镜像cnpm代替npm</h2><p>直接用 npm 安装库非常慢，容易安装失败，简直是浪费时间，使用代理或者库镜像又比较麻烦，最好的解决方案是使用淘宝镜像 cnpm替代npm 。</p><p>使用方法：</p><p>打开ITerm或者你的终端，输入以下命令来安装cnpm：</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>2.显示完成后，使用cnpm替代npm ( 命令参数完全一样），例如安装Vue：</p><pre><code class="bash">cnpm install -g @vue/cli</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+            <tag> cnpm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装yarn</title>
+      <link href="/2022/03/12/%E5%AE%89%E8%A3%85yarn/"/>
+      <url>/2022/03/12/%E5%AE%89%E8%A3%85yarn/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://yarn.bootcss.com/">yarn中文文档</a><br><a href="https://yarnpkg.com/">yarn英文文档</a></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近在学习引入Antd vue需要使用yarn来安装相关的依赖包，其实以前在学习其他东西的时候碰到过，但是当时没有做笔记，现在等于是补上了。</p><p>接下来说说在Mac上安装yarn的几种方法。</p><h2 id="1-使用homebrew-安装"><a href="#1-使用homebrew-安装" class="headerlink" title="1.使用homebrew 安装"></a>1.使用homebrew 安装</h2><pre><code class="bash">brew install yarn</code></pre><p>在长久的等待和报错之后，终于安装成功了，建议一定要在良好的网络环境下安装</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/89493cf54284d2e8.jpg" loading="lazy"></p><p>查看yarn的版本</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/a366c8a55242cb07.jpg" loading="lazy"></p><p>ok这就是第一种安装方法</p><h2 id="2-脚本安装"><a href="#2-脚本安装" class="headerlink" title="2.脚本安装"></a>2.脚本安装</h2><pre><code class="bash">curl -o- -L https://yarnpkg.com/install.sh | bash</code></pre><p>同样在长久的等待下，安装成功:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/20e4bc256ee165e7.jpg" loading="lazy"></p><p>继续查看版本号</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/e741f86ad8f1dcd1.jpg" loading="lazy"></p><p>ok，上面两种方法都可以使用，建议要在良好的网络环境下安装。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> yarn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> yarn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue2.0报错笔记整理</title>
+      <link href="/2022/03/05/Vue2.0%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2022/03/05/Vue2.0%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h2><h3 id="2022-3-5-Vue报错笔记"><a href="#2022-3-5-Vue报错笔记" class="headerlink" title="2022.3.5 Vue报错笔记"></a>2022.3.5 Vue报错笔记</h3><p>Vue-cli搭建好默认项目后，想要用路由功能，但是报错:</p><pre><code class="bash">Can’t resolve ‘vue-router’ in xxxx(某路径)</code></pre><p>这是因为缺少包的原因</p><p>你可以看一下你的package.json文件中是否安装了vue-router</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/f15617d9351db180.jpg" loading="lazy"></p><p>运行命令</p><pre><code class="bash">npm install vue-router@3# 如果你的vue版本安装的是2.0，那么vue-router就要安装3.0版本## 如果你的vue版本安装的是3.0，那么vue-router就要安装4.0版本### 改变@后面的数字就行</code></pre><p>安装成功后显示</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/b566dec104fa864e.jpg" loading="lazy"></p><h3 id="2022-3-6-Vue报错笔记"><a href="#2022-3-6-Vue报错笔记" class="headerlink" title="2022.3.6 Vue报错笔记"></a>2022.3.6 Vue报错笔记</h3><h4 id="Component-name-“Vueabout”-should-always-be-multi-word"><a href="#Component-name-“Vueabout”-should-always-be-multi-word" class="headerlink" title="Component name “Vueabout” should always be multi-word"></a>Component name “Vueabout” should always be multi-word</h4><p>今天在跑Vue-router项目的时候碰到一个Bug</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/34dcc56415907b29.jpg" loading="lazy"></p><p>开始排错的时候怎么都发现不了，到百度上到处搜索，后来用百度翻译翻译出来这句话的意思：</p><p>组件名称“Vueabout”应始终为多个字母</p><p>然后我看了一下我的代码块，果然是组件的命名问题<br>原来的代码：</p><pre><code class="html">&lt;script&gt;import HelloWorld from &#39;./components/HelloWorld.vue&#39;export default &#123;  name: &#39;App&#39;,  components: &#123;    HelloWorld  &#125;&#125;&lt;/script&gt;</code></pre><p>更改后的</p><pre><code class="html">&lt;script&gt;import HelloWorld from &#39;./components/HelloWorld.vue&#39;export default &#123;  name: &#39;AppNamne&#39;,  components: &#123;    HelloWorld  &#125;&#125;&lt;/script&gt;</code></pre><p>然后我们就发现不报错了：</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1bb0726156ff5d5d.jpg" loading="lazy"></p><p>页面也成功的运行了起来</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/fb345fc386e153db.jpg" loading="lazy"></p><h4 id="vue-运行时，报错：-gt-plan-vue-0-1-0-serve-解决方式"><a href="#vue-运行时，报错：-gt-plan-vue-0-1-0-serve-解决方式" class="headerlink" title="vue 运行时，报错： &gt; plan-vue@0.1.0 serve 解决方式"></a>vue 运行时，报错： <code>&gt; plan-vue@0.1.0 serve</code> 解决方式</h4><p>出现此问题的原因：由于长时间没有运行项目导致项目缺少依赖项,如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/007f389abe802745.jpg" loading="lazy"></p><p>解决方式：将项目中的node_modules和package-lock.json两个文件手动删除掉，然后在idea窗口中，执行npm install。重启idea即可。如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/312be75605b62bd5.jpg" loading="lazy"></p><p>删除之后重新安装依赖包</p><pre><code class="bash">npm install vue-routernpm install</code></pre><p>安装完成之后可以进入<code>package.json</code>文件查看<br><img src="https://s3.bmp.ovh/imgs/2022/03/1c4af49c72db06db.jpg" loading="lazy"></p><p>最后重新npm run serve,就会发现运行成功，如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/7f94f589294090fe.jpg" loading="lazy"></p><h3 id="2022-3-7-Vue报错笔记"><a href="#2022-3-7-Vue报错笔记" class="headerlink" title="2022.3.7 Vue报错笔记"></a>2022.3.7 Vue报错笔记</h3><h4 id="＜div＞-has-no-matching-end-tag"><a href="#＜div＞-has-no-matching-end-tag" class="headerlink" title="＜div＞ has no matching end tag."></a>＜div＞ has no matching end tag.</h4><p><img src="https://s3.bmp.ovh/imgs/2022/03/ccd14940d5422c5d.png" loading="lazy"></p><p>div标签对应结束部分没加(/)</p><h3 id="2022-3-8-Vue报错笔记"><a href="#2022-3-8-Vue报错笔记" class="headerlink" title="2022.3.8 Vue报错笔记"></a>2022.3.8 Vue报错笔记</h3><h4 id="NavigationDuplicated-Avoided-redundant-navigation-to-current-location-“h-son2”"><a href="#NavigationDuplicated-Avoided-redundant-navigation-to-current-location-“h-son2”" class="headerlink" title="NavigationDuplicated: Avoided redundant navigation to current location: “h_son2”."></a>NavigationDuplicated: Avoided redundant navigation to current location: “h_son2”.</h4><p>在VUE中路由遇到Error: Avoided redundant navigation to current location:报错显示是路由重复</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/c9b7ddb5a384f4e5.jpg" loading="lazy"></p><p>解决方法：router文件夹下面的index.js中加上下面几句代码:</p><pre><code class="js">// 解决ElementUI导航栏中的vue-router在3.0版本以上重复点菜单报错问题const originalPush = Router.prototype.pushRouter.prototype.push = function push(location) &#123;  return originalPush.call(this, location).catch(err =&gt; err)&#125;</code></pre><h3 id="2022-3-13-Vue报错笔记"><a href="#2022-3-13-Vue报错笔记" class="headerlink" title="2022.3.13 Vue报错笔记"></a>2022.3.13 Vue报错笔记</h3><h4 id="Parsing-error-Identifier-‘Button’-has-already-been-declared"><a href="#Parsing-error-Identifier-‘Button’-has-already-been-declared" class="headerlink" title="Parsing error: Identifier ‘Button’ has already been declared"></a>Parsing error: Identifier ‘Button’ has already been declared</h4><p>安装Antd Vue的时候碰到一个bug，排查之后发现是引入错误</p><p>报错内容如下:</p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0bnt93yotj30wu09wwho.jpg" loading="lazy"></p><p>代码部分如下:</p><pre><code class="js">  // src/main.js  import Vue from &#39;vue&#39;  import Button from &#39;ant-design-vue/lib/button&#39;;  import &#123; Button &#125; from &#39;ant-design-vue&#39;;  import &#39;ant-design-vue/dist/antd.css&#39;  import App from &#39;./App&#39;  Vue.component(Button.name, Button)  Vue.config.productionTip = false  new Vue(&#123;      render: h =&gt; h(App)  &#125;).$mount(&quot;#app&quot;);</code></pre><p>只要删除重复引入的部分就行，删除代码：</p><pre><code class="js">  // src/main.js  import Vue from &#39;vue&#39;  import &#123; Button &#125; from &#39;ant-design-vue&#39;;  import &#39;ant-design-vue/dist/antd.css&#39;  import App from &#39;./App&#39;  Vue.component(Button.name, Button)  Vue.config.productionTip = false  new Vue(&#123;      render: h =&gt; h(App)  &#125;).$mount(&quot;#app&quot;);</code></pre><p>  删除了重复引入的部分，这样代码就不会报错了:</p><p>  <img src="https://s3.bmp.ovh/imgs/2022/03/cbe870a6132c0edf.jpg" loading="lazy"></p><h3 id="2022-3-16-Vue报错笔记"><a href="#2022-3-16-Vue报错笔记" class="headerlink" title="2022.3.16 Vue报错笔记"></a>2022.3.16 Vue报错笔记</h3><h4 id="Maximum-call-stack-size-exceeded"><a href="#Maximum-call-stack-size-exceeded" class="headerlink" title="Maximum call stack size exceeded"></a>Maximum call stack size exceeded</h4><p>  在学习vuerouter的时候想把所有编写的实例放在一个页面中展示，打开Google浏览器调试 工具的时候碰到如下错误:</p><p>  <img src="https://s3.bmp.ovh/imgs/2022/03/013a9b93be2bfe59.png" loading="lazy"></p><p>  百度翻译过来的内容是:</p><p>  超出了最大调用堆栈大小</p><p>  仔细检查页面后发现</p><pre><code class="html">&lt;template&gt;&lt;div&gt;  &lt;hr /&gt;  &lt;HistoryApp&gt;&lt;/HistoryApp&gt;  &lt;hr /&gt;  &lt;App&gt;&lt;/App&gt;  &lt;hr /&gt;&lt;/div&gt;&lt;/template&gt;&lt;script&gt;import HistoryApp from &quot;./components/history/HistoryApp.vue&quot;;import App from &quot;./components/App.vue&quot;;export default &#123;name:&#39;HistoryApp&#39;,components: &#123;  HistoryApp,  App,&#125;,&#125;;&lt;/script&gt;&lt;style scoped&gt;hr &#123;border: 1px solid red;&#125;div&#123;text-align: center;&#125;&lt;/style&gt;</code></pre><p>发现页面引用了一个组件 和页面的<code>name</code>重复。所以进入页面的时候，一直都在死循环。</p><p>修改如下</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;hr /&gt;    &lt;HistoryApp&gt;&lt;/HistoryApp&gt;    &lt;hr /&gt;    &lt;App&gt;&lt;/App&gt;    &lt;hr /&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;import HistoryApp from &quot;./components/history/HistoryApp.vue&quot;;import App from &quot;./components/App.vue&quot;;export default &#123;  component: &#123;    HistoryApp,    App,  &#125;,&#125;;&lt;/script&gt;&lt;style scoped&gt;hr &#123;  border: 1px solid red;&#125;div&#123;  text-align: center;&#125;&lt;/style&gt;</code></pre><h3 id="2022-3-18-Vue报错笔记"><a href="#2022-3-18-Vue报错笔记" class="headerlink" title="2022.3.18 Vue报错笔记"></a>2022.3.18 Vue报错笔记</h3><h4 id="did-you-register-the-component-correctly-For-recursive-components-make-sure-to-provide-the-“name”-option"><a href="#did-you-register-the-component-correctly-For-recursive-components-make-sure-to-provide-the-“name”-option" class="headerlink" title=" - did you register the component correctly? For recursive components, make sure to provide the “name” option."></a><BarApp> - did you register the component correctly? For recursive components, make sure to provide the “name” option.</h4><p>今天学习vue-router的时候碰到一个bug，浏览器报错如下：</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/142b3a8aad79caf1.jpg" loading="lazy"></p><p><strong>重点</strong></p><p><strong>其实是我的components单词写错了</strong></p><p>我以为又是什么很难的问题，结果就是一个少写一个字母的问题  = - =  哭死</p><p>修改之后如下图:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/bdceb5101f4493a4.jpg" loading="lazy"></p><h3 id="2022-3-19-Vue报错笔记"><a href="#2022-3-19-Vue报错笔记" class="headerlink" title="2022.3.19 Vue报错笔记"></a>2022.3.19 Vue报错笔记</h3><h4 id="Route-with-name-‘-Login’-does-not-exist"><a href="#Route-with-name-‘-Login’-does-not-exist" class="headerlink" title="Route with name ‘/Login’ does not exist"></a>Route with name ‘/Login’ does not exist</h4><p>今天学习vue-router内容中的重定向碰到一个bug，浏览器报错如下：</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/cd715bd2980f84aa.jpg" loading="lazy"></p><p>路由地址不存在<br>找到路由配置文件router.js</p><p>解决方法:</p><pre><code class="bash">&#123;    path: &#39;/home&#39;,    name: &#39;home&#39;,    component: home,&#125;</code></pre><h3 id="2022-3-23-Vue2-0报错笔记"><a href="#2022-3-23-Vue2-0报错笔记" class="headerlink" title="2022.3.23  Vue2.0报错笔记"></a>2022.3.23  Vue2.0报错笔记</h3><h4 id="You-are-using-the-runtime-only-build-of-Vue-where-the-template-compiler-is-not-available-Either-pre-compile-the-templates-into-render-functions-or-use-the-compiler-included-build"><a href="#You-are-using-the-runtime-only-build-of-Vue-where-the-template-compiler-is-not-available-Either-pre-compile-the-templates-into-render-functions-or-use-the-compiler-included-build" class="headerlink" title="You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build."></a>You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.</h4><p>今天写vue路由项目碰到一个bug，浏览器报错如下：<br><img src="https://s3.bmp.ovh/imgs/2022/03/9976d3b3e49aceea.jpg" loading="lazy"></p><p>报错原因:</p><p>vue有两种形式的代码 compiler（模板）模式和runtime模式（运行时）vue模块的package.json的main字段默认为runtime模式， 指向了”dist/vue.runtime.common.js”位置。</p><p>这是我main.js文件中初始化的vue块，这种形式为compiler模式，所以就会出现如上的错误信息</p><pre><code class="js">// compilernew Vue(&#123;  el: &#39;#app&#39;,  router: router,  store: store,  template: &#39;&lt;App/&gt;&#39;,  components: &#123; App &#125;&#125;)</code></pre><p>解决办法</p><p>main.js中修改成如下格式就行:</p><pre><code class="js">//runtimenew Vue(&#123;  router,  store,  render: h =&gt; h(App)&#125;).$mount(&quot;#app&quot;)</code></pre><h3 id="2022-3-26-Vue2-0报错笔记"><a href="#2022-3-26-Vue2-0报错笔记" class="headerlink" title="2022.3.26  Vue2.0报错笔记"></a>2022.3.26  Vue2.0报错笔记</h3><h4 id="Non-nested-routes-must-include-a-leading-slash-character-Fix-the-following-routes"><a href="#Non-nested-routes-must-include-a-leading-slash-character-Fix-the-following-routes" class="headerlink" title="Non-nested routes must include a leading slash character. Fix the following routes"></a>Non-nested routes must include a leading slash character. Fix the following routes</h4><p>出错点<br>Non-nested routes must include a leading slash character. Fix the following routes:<br>非嵌套路由必须包含前导斜杠字符</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/de90c863bf7c9b7b.png" loading="lazy"></p><h2 id="2022-4-6-Vue2-0报错笔记"><a href="#2022-4-6-Vue2-0报错笔记" class="headerlink" title="2022.4.6  Vue2.0报错笔记"></a>2022.4.6  Vue2.0报错笔记</h2><h3 id="openUrl-is-not-defined"><a href="#openUrl-is-not-defined" class="headerlink" title="openUrl is not defined"></a>openUrl is not defined</h3><p>报错如图：<br><img src="https://i.bmp.ovh/imgs/2022/04/06/a5d494e06d4dcf85.jpg" loading="lazy"></p><p>代码部分如下:</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;button onclick=&quot;openUrl();&quot;&gt;Click here&lt;/button&gt;    &lt;a href=&quot;https://www.zhihu.com/&quot; target=&quot;_blank&quot;      &gt;&lt;button&gt;Click here&lt;/button&gt;&lt;/a    &gt;  &lt;/div&gt;&lt;/template&gt;&lt;script type=&quot;text/javascript&quot;&gt;function openUrl() &#123;  var url = &quot;https://www.zhihu.com/&quot;;  window.open(url); //新窗口打开  window.location.href = url; //当前窗口打开&#125;&lt;/script&gt;</code></pre><p>解决方案:</p><p>用一个全局变量去定义onclick的点击函数就好了。</p><pre><code class="js">openUrl = function (id)&#123;&#125;</code></pre><h2 id="2022-4-11-Vue2-0报错笔记"><a href="#2022-4-11-Vue2-0报错笔记" class="headerlink" title="2022.4.11  Vue2.0报错笔记"></a>2022.4.11  Vue2.0报错笔记</h2><h3 id="can’t-resolve-‘sass-loader’"><a href="#can’t-resolve-‘sass-loader’" class="headerlink" title="can’t resolve ‘sass-loader’"></a>can’t resolve ‘sass-loader’</h3><p><img src="https://i.bmp.ovh/imgs/2022/04/11/985859e7dfef7855.png" loading="lazy"></p><p>翻一下来原因是什么 sass-loader 这个玩意儿不能编译</p><p>搜索解决原因，安装依赖:</p><pre><code class="bash">npm install sass-loader</code></pre><pre><code class="bash">npm install node-sass</code></pre><p>安装完成之后，npm run serve ok终于不报错了，nice！</p><h2 id="2022-7-7-Vue2-0报错笔记"><a href="#2022-7-7-Vue2-0报错笔记" class="headerlink" title="2022.7.7 Vue2.0报错笔记"></a>2022.7.7 Vue2.0报错笔记</h2><h3 id="Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar"><a href="#Deprecation-Warning-Using-for-division-outside-of-calc-is-deprecated-and-will-be-removed-in-Dar" class="headerlink" title="Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar"></a>Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dar</h3><p>今天跑vue项目的碰到一个bug，具体内容如下图：</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/1836d0fa3f411e8d.jpg" loading="lazy"></p><p>原因是 sass新版本目前弃用“/”的用法，sass自定义element theme时会报warnning</p><p>解决方案：</p><p>1:npm install -g sass-migrator</p><p>2：进入项目node_modules文件</p><p>3：执行sass-migrator division **/*.scss</p><h4 id="Can’t-resolve-‘less-loader’"><a href="#Can’t-resolve-‘less-loader’" class="headerlink" title="Can’t resolve ‘less-loader’"></a>Can’t resolve ‘less-loader’</h4><p>原因分析，文件中的style用了less，而项目中未安装less：</p><pre><code class="bash">&lt;style lang=&quot;less&quot; scoped&gt;&lt;/style&gt;</code></pre><p>解决方法：</p><p>打开项目文件夹，终端命令：</p><pre><code class="bash">npm install --save-dev less-loader less</code></pre><p>如果不想用less，可以将<code>lang=&#39;less&#39;</code>删除</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>github网址速度慢或无法访问</title>
+      <link href="/2022/03/02/github%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
+      <url>/2022/03/02/github%E7%BD%91%E5%9D%80%E9%80%9F%E5%BA%A6%E6%85%A2%E6%88%96%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="github网址速度慢或无法访问"><a href="#github网址速度慢或无法访问" class="headerlink" title="github网址速度慢或无法访问"></a>github网址速度慢或无法访问</h2><p>最近想用Mac电脑访问github发现一直登不上去,梯子太贵消费不起，常用的几个梯子基本都挂了，一直在网上搜寻解决方案，终于，结合两篇文章解决了<br>虽然访问依旧很慢，但是至少不需要梯子就能上github了</p><p>1.打开访达窗口，按住<code>shift command G</code>三个键，进入搜索文件夹的页面<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvxxhn4z0j30gm04zaa8.jpg" loading="lazy"></p><p>2.输入框内输入/etc/hosts<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8gzvy0sbky9j30gr04zq35.jpg" loading="lazy"></p><p>3.找到hosts文件<br><img src="https://s3.bmp.ovh/imgs/2022/03/b70711d5471fdfc3.jpg" loading="lazy"></p><p>4.由于hosts文件夹不可编辑，所以复制一份hosts文件先保存到本地桌面<br>注：修改或者变更hosts文件需要输入你的开机密码</p><p>5.在新的hosts文件夹里输入如下内容：</p><pre><code class="bash">151.101.185.194 github.global.ssl.fastly.net140.82.114.4 github.com 151.101.112.133 assets-cdn.github.com 151.101.184.133 assets-cdn.github.com 185.199.108.153 documentcloud.github.com 192.30.253.118 gist.github.com185.199.108.153 help.github.com 192.30.253.120 nodeload.github.com 151.101.112.133 raw.github.com 23.21.63.56 status.github.com 192.30.253.1668 training.github.com 192.30.253.112 www.github.com 151.101.13.194 github.global.ssl.fastly.net 151.101.12.133 avatars0.githubusercontent.com 151.101.112.133 avatars1.githubusercontent.com</code></pre><p><img src="https://s3.bmp.ovh/imgs/2022/03/cf87f0d6b7ec3de3.jpg" loading="lazy"></p><p>6.刷新DNS<br>输入命令:</p><pre><code class="bash">dscacheutil -flushcache</code></pre><p>7.以上完成后，我们来到终端命令行ping 一下github</p><pre><code class="bash">ping www.github.com</code></pre><p>然后我们就会发现，终于ping通了</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1b20cfa4b50191d1.jpg" loading="lazy"></p><p>再然后我们就见到了github页面</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/232c696115e2ff6a.jpg" loading="lazy"></p><p>虽然速度很慢(不知道是不是网速的原因)，但能上就行！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装vue-router</title>
+      <link href="/2022/03/02/%E5%AE%89%E8%A3%85vue-router/"/>
+      <url>/2022/03/02/%E5%AE%89%E8%A3%85vue-router/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="1-安装vue-router"><a href="#1-安装vue-router" class="headerlink" title="1.安装vue-router"></a>1.安装vue-router</h2><p>讲安装方法之前很关键的一点一定要记住！！！</p><p><code>vue-router 3.0 对应使用 vue 2.x</code><br><code>vue-router 4.0 对应使用 vue 3.x</code></p><p><a href="https://v3.router.vuejs.org/zh/installation.html">3.0文档</a><br><a href="https://router.vuejs.org/zh/introduction.html">4.0文档</a></p><p>1.安装vue项目</p><pre><code class="bash">vue create hello-world# 文件名称</code></pre><p>安装vue项目的具体过程可以参考我的另外一篇<a href="https://wangyufei.fun/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/">文章</a></p><p>2.通过如下命令安装vue-router</p><pre><code class="bash">npm install vue-router@3npm install vue-router</code></pre><p>3.查看是否安装成功</p><p>安装过后可以在<code>package.json</code>文件中查看到你的vue版本与vue-router版本</p><pre><code class="bash">  &quot;dependencies&quot;: &#123;    &quot;core-js&quot;: &quot;^3.8.3&quot;,    &quot;vue&quot;: &quot;^2.6.14&quot;,    &quot;vue-router&quot;: &quot;^3.5.3&quot;  &#125;,</code></pre><h2 id="2-下面添加一个实例"><a href="#2-下面添加一个实例" class="headerlink" title="2.下面添加一个实例"></a>2.下面添加一个实例</h2><p>1.在src目录中创建文件夹router</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/4543a1d59b4b54fa.jpg" loading="lazy"></p><p>2.在router目录中添加文件index.js</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/1f8ca267ab5fa7ad.jpg" loading="lazy"></p><p>3.修改mian.js文件</p><pre><code class="bash">import Vue from &#39;vue&#39;import App from &#39;./components/App&#39;import &#123; router &#125; from &#39;./router/index&#39;new Vue(&#123;    // el: &#39;#app&#39;,    router,    render(h) &#123;        return h(App);    &#125;&#125;).$mount(&#39;#app&#39;)</code></pre><p>4.components目录中添加文件App.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;warpper&quot;&gt;    &lt;div&gt;路由实例&lt;/div&gt;    &lt;div class=&quot;router&quot;&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/&quot;&gt;首页&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/good&quot;&gt;好的&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/about&quot;&gt;关于&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/1&quot;&gt;鞋子&lt;/router-link&gt;      &lt;router-link active-class=&quot;wyf&quot; to=&quot;/user/2&quot;&gt;帽子&lt;/router-link&gt;    &lt;/div&gt;    &lt;!--定义路由插座--&gt;    &lt;router-view&gt;&lt;/router-view&gt;    &lt;div class=&quot;footer&quot;&gt;      &lt;p&gt;测试&lt;/p&gt;      &lt;div&gt;        &lt;a href=&quot;#&quot;&gt;测试1&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;测试2&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;xxxxxxxxx&lt;/a&gt;        &lt;a href=&quot;#&quot;&gt;aaaaaaaaa&lt;/a&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.warpper &#123;  max-width: 980px;  margin: 0 auto;&#125;.router &#123;  background: #e8e7e3;&#125;.router a &#123;  display: inline-block;  padding: 13px 20px;  font-weight: bold;  text-decoration: auto;&#125;.router-link-exact-active &#123;  color: #fff;  background: #3f3f3f;&#125;.footer &#123;  font-size: 12px;  text-align: center;&#125;.footer p &#123;  background: #e8e7e3;  padding: 10px 18px;&#125;.footer div a &#123;  color: #333;  padding: 0 5px;&#125;.footer div a:hover &#123;  color: #0028f3;&#125;&lt;/style&gt;</code></pre><p>5.components目录中添加文件About.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;h2&gt;我是关于&lt;/h2&gt;    &lt;p&gt;xxxx&lt;/p&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>6.components目录中添加文件Good.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;p&gt;Good&lt;/p&gt;   &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>7.components目录中添加文件Home.vue</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;!-- 可以定义不变的内容 --&gt;    &lt;h3&gt;&#123;&#123;title&#125;&#125;&lt;/h3&gt;    &lt;!-- s可以定义不变的内容 --&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default&#123;    name:&#39;app&#39;,    data()&#123;        return&#123;            title:&#39;首页&#39;        &#125;    &#125;&#125;&lt;/script&gt;</code></pre><p>8.components目录中添加文件NotFound.vue</p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;notfound&quot;&gt;      &lt;div&gt;        &lt;h1&gt;404&lt;/h1&gt;        &lt;div&gt;            &lt;p&gt;页面不存在&lt;/p&gt;        &lt;/div&gt;      &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;style scoped&gt;.notfound &#123;    text-align: center;     min-height: 200px;    display: flex;    justify-content: center;        color: #afafaf;    align-items: center;&#125;&lt;/style&gt;</code></pre><p>9.components目录中添加文件User.vue</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;      User &#123;&#123; $route.params.id &#125;&#125;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name:&#39;about&#39;,&#125;;&lt;/script&gt;</code></pre><p>10.index文件中添加内容</p><pre><code class="js">import Vue from &#39;vue&#39;import Router from &#39;vue-router&#39;import About from &#39;../components/About&#39;import Good from &#39;../components/Good&#39;import Home from &#39;../components/Home&#39;import NotFound from &#39;../components/NotFound&#39;import User from &#39;../components/User&#39;export const routes = [    &#123; path: &#39;/&#39;, component: Home &#125;,    &#123; path: &#39;/about&#39;, component: About &#125;,    &#123; path: &#39;/good&#39;, component: Good &#125;,    &#123; path: &#39;/user/:id&#39;, component: User &#125;,    &#123; path: &#39;*&#39;, component: NotFound &#125;]export const router = new Router(&#123;    routes // (缩写) 相当于 routes: routes&#125;);Vue.use(Router);</code></pre><p>至此，从安装vue-router到完成第一个实例全部结束</p><p>实例运行效果图如下:</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/d33b159b6fd5b0a3.jpg" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装vue项目</title>
+      <link href="/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2022/03/02/%E5%AE%89%E8%A3%85vue%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="如何安装vue项目"><a href="#如何安装vue项目" class="headerlink" title="如何安装vue项目"></a>如何安装vue项目</h1><p><a href="https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create">Vue CLI 官网</a></p><h2 id="2022-02-26"><a href="#2022-02-26" class="headerlink" title="2022/02/26"></a>2022/02/26</h2><ol><li>检查 Vue 是否安装，如果输出 vue 的版本信息，说明安装了 vue</li></ol><pre><code class="bash">vue  -v# @vue/cli 4.5.15</code></pre><p>如果不存在 vue 命令工具，<a href="https://cli.vuejs.org/zh/guide/installation.html">安装 vue 命令</a></p><pre><code class="bash">npm install -g @vue/cli# ORyarn global add @vue/cli</code></pre><ol start="2"><li>通过 vue 命令，创建一个 <code>hello-world</code> 项目</li></ol><pre><code class="bash">vue create hello-world</code></pre><p>选择 Vue 版本, 通过上下键选择 <code>Default ([Vue 2] babel, eslint)</code></p><pre><code class="bash"># Vue CLI v4.5.15# ? Please pick a preset: (Use arrow keys)# ❯ Default ([Vue 2] babel, eslint)#   Default (Vue 3) ([Vue 3] babel, eslint)#   Manually select features</code></pre><p>选择安装，如果成功输出下面内容，如果失败，查看命令行信息，重新安装</p><pre><code class="bash"># Vue CLI v4.5.15# ✨  Creating project in /Users/wangyufei/git-project/FD/hello-world.# 🗃  Initializing git repository...# ⚙️  Installing CLI plugins. This might take a while...# added 1280 packages in 39s# 11 packages are looking for funding#   run `npm fund` for details# 🚀  Invoking generators...# 📦  Installing additional dependencies...# added 55 packages in 5s# 11 packages are looking for funding#   run `npm fund` for details# ⚓  Running completion hooks...# 📄  Generating README.md...# 🎉  Successfully created project hello-world.# 👉  Get started with the following commands:#  $ cd hello-world#  $ npm run serve</code></pre><ol start="3"><li>进入生成的 <code>hello-world</code> 目录，通过 <code>npm run serve</code> 命令运行 vue 服务</li></ol><pre><code class="bash">cd hello-worldnpm run serve</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新建Hexo项目部署至github</title>
+      <link href="/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/"/>
+      <url>/2022/03/02/%E6%96%B0%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E8%87%B3github/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h1 id="新建Hexo项目部署至github"><a href="#新建Hexo项目部署至github" class="headerlink" title="新建Hexo项目部署至github"></a>新建Hexo项目部署至github</h1><h3 id="1-查看是否安装node-js"><a href="#1-查看是否安装node-js" class="headerlink" title="1. 查看是否安装node.js"></a>1. 查看是否安装node.js</h3><p>如果安装了node.js可以查看版本号<br>运行命令</p><pre><code class="bash">node -v #显示内容（我安装的是最新版本的nodejs）# v16.13.0</code></pre><h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2.安装Git"></a>2.安装Git</h3><p>Mac下安装Xcode就自带Git。</p><h3 id="3-Gihub新建仓库"><a href="#3-Gihub新建仓库" class="headerlink" title="3.Gihub新建仓库"></a>3.Gihub新建仓库</h3><p>如果你有github账号那么就在github账号下新建一个仓库，需要注意的是这个仓库名称必须是你的用户名 username . github .比如我的用户名是logicwang 那么我的仓库名就是logicwang .github . io (注：中间不能加空格)</p><h3 id="4-配置SSH-Key"><a href="#4-配置SSH-Key" class="headerlink" title="4.配置SSH Key"></a>4.配置SSH Key</h3><p>这一步不是必须的，配置SSHKey的好处是避免每次更新博客需要输入用户名和密码。这样会方便很多</p><p>详细配置过程。</p><p>4.1 检查本机上是否存在SSH Key<br>打开终端，输入如下命令</p><pre>cd .sshls -la</pre><p>4.2  创建一个SSH Key</p><p>在终端输入如下命令</p><pre><code class="bash">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre><p>4.3 添加SSH Key到Github</p><p>点击右上角头像右边的三角图标，点击Settings，然后在左边菜单栏点击SSH and GPG keys，点击New SSH key，Title 随便填一个，在Key栏填入你复制的内容，点击Add SSH key，把你生成的sshkey添加到里面就可以了。</p><h2 id="5-新建文件夹"><a href="#5-新建文件夹" class="headerlink" title="5.新建文件夹"></a>5.新建文件夹</h2><pre><code class="bash">mkdir  blog</code></pre><h2 id="6-安装-hexo"><a href="#6-安装-hexo" class="headerlink" title="6.安装 hexo"></a>6.安装 hexo</h2><pre><code class="bash">npm install -g hexo</code></pre><p>如果报错就在前面加上sudo</p><pre><code class="bash">运行成功显示# Password:# changed 96 packages in 4s</code></pre><h2 id="7-初始化-hexo"><a href="#7-初始化-hexo" class="headerlink" title="7.初始化 hexo"></a>7.初始化 hexo</h2><p>运行命令</p><pre><code class="bash">hexo init myblog(这个可以随意起名) # 成功显示# INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git# INFO  Install dependencies# INFO  Start blogging with Hexo!## 8.进入到你初始化的文件夹中（myblog） ##</code></pre><pre><code class="bash">cd  myblog(你取的名称)</code></pre><h2 id="9-接下来是安装依赖包"><a href="#9-接下来是安装依赖包" class="headerlink" title="9.接下来是安装依赖包"></a>9.接下来是安装依赖包</h2><pre><code class="bash">npm install</code></pre><h2 id="10-浏览器调试"><a href="#10-浏览器调试" class="headerlink" title="10.浏览器调试"></a>10.浏览器调试</h2><pre><code class="bash">hexo s</code></pre><p>点击 <a href="http://localhost:4000/">http://localhost:4000/</a></p><p>如图：<br><img src="https://s3.bmp.ovh/imgs/2022/03/5fa064f0891c29db.jpg" loading="lazy"></p><p>转跳到浏览器显示如下</p><p><img src="https://s3.bmp.ovh/imgs/2022/03/96e3d311c036e065.jpg" loading="lazy"></p><h2 id="11-同步本地博客到Github"><a href="#11-同步本地博客到Github" class="headerlink" title="11.同步本地博客到Github"></a>11.同步本地博客到Github</h2><p>在myblog（或者你自己取的名称）中的_config.yml文件中添加deploy节点</p><pre><code class="bash">deploy:  type: git  repo: git@github.com:username/username.github.io.git  branch: master</code></pre><p>为了能够使Hexo部署到GitHub上，需要安装一个插件</p><pre><code class="bash">npm install hexo-deployer-git --save</code></pre><p>然后运行</p><pre><code class="bash">hexo cleanhexo g -d</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git add后撤销</title>
+      <link href="/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
+      <url>/2022/02/28/Git%20add%E5%90%8E%E6%92%A4%E9%94%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://github.com/logicwang/storeimage/blob/main/blogimage/20220608163201.jpg?raw=true" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown插入图片及图注的方法</title>
+      <link href="/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/02/28/Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E5%9B%BE%E6%B3%A8%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Markdown插入图片及图注的方法"><a href="#Markdown插入图片及图注的方法" class="headerlink" title="Markdown插入图片及图注的方法"></a>Markdown插入图片及图注的方法</h2><h3 id="一般方法"><a href="#一般方法" class="headerlink" title="一般方法"></a>一般方法</h3><p>格式为：</p><pre><code class="bash">![图片替换文字](图片地址)</code></pre><p>这里不建议从剪贴板或本地直接粘贴到Markdown文档中，个人使用的是(ImgURL免费图床)[<a href="https://imgurl.org/]%E6%AF%8F%E5%A4%A9%E6%9C%80%E5%A4%9A%E4%B8%8A%E4%BC%A010%E5%BC%A0%E5%9B%BE%E7%89%87%EF%BC%8C%E5%8D%95%E5%BC%A0%E5%9B%BE%E7%89%87%E4%B8%8D%E8%83%BD%E8%B6%85%E8%BF%875M%EF%BC%8C%E4%B8%93%E4%B8%9A%E7%89%88198%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%9C%89%E9%92%B1%E5%B0%B1%E6%94%AF%E6%8C%81%E6%AD%A3%E7%89%88%EF%BC%8C%E6%B2%A1%E9%92%B1%E5%B0%B1%E6%9A%82%E6%97%B6%E7%99%BD%E5%AB%96%EF%BC%8C%E6%88%96%E8%80%85%E9%80%89%E6%8B%A9%E5%85%B6%E4%BB%96%E7%9A%84%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A">https://imgurl.org/]每天最多上传10张图片，单张图片不能超过5M，专业版198，如果你有钱就支持正版，没钱就暂时白嫖，或者选择其他的免费图床</a></p><p>下面是一些进阶操作。</p><h3 id="插入图注，并调整尺寸"><a href="#插入图注，并调整尺寸" class="headerlink" title="插入图注，并调整尺寸"></a>插入图注，并调整尺寸</h3><pre><code class="bash">&lt;center&gt;    &lt;img style=&quot;border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot;     src=&quot;在这里插入图片地址&quot; width = &quot;65%&quot; alt=&quot;&quot;/&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      在这里插入图片注释      &lt;/div&gt;&lt;/center&gt;</code></pre><p>其中<code>width = &quot;65%&quot;</code>可以将图片宽度（等比例）压缩为整页宽的65%。<br>图注部分在Typora中显示正常，但在CSDN中，图注与图片之间会有较大空隙（目前不知道如何解决）。<br>若要插入包含LaTeX的图注，注释部分改为下面的代码即可。</p><pre><code class="bash">在这里插入图片注释&lt;img src=&quot;http://latex.codecogs.com/gif.latex? 在这里输入LaTeX公式&quot;&gt;</code></pre><h3 id="并排插入两张图片"><a href="#并排插入两张图片" class="headerlink" title="并排插入两张图片"></a>并排插入两张图片</h3><pre><code class="bash"> &lt;center&gt;    &lt;img style=&quot;border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot;     src=&quot;在这里插入图片1地址&quot; width = &quot;30%&quot; alt=&quot;&quot;/&gt;    &lt;img style=&quot;border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot;     src=&quot;在这里插入图片2地址&quot; width = &quot;30%&quot; alt=&quot;&quot;/&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      在这里插入图片注释      &lt;/div&gt;&lt;/center&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中创建单文件组件 注册组件 以及组件的使用</title>
+      <link href="/2022/02/28/Vue%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8D%95%E6%96%87%E4%BB%B6%E7%BB%84%E4%BB%B6%20%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6%20%E4%BB%A5%E5%8F%8A%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/02/28/Vue%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8D%95%E6%96%87%E4%BB%B6%E7%BB%84%E4%BB%B6%20%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6%20%E4%BB%A5%E5%8F%8A%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中创建单文件组件-注册组件-以及组件的使用"><a href="#Vue中创建单文件组件-注册组件-以及组件的使用" class="headerlink" title="Vue中创建单文件组件 注册组件 以及组件的使用"></a>Vue中创建单文件组件 注册组件 以及组件的使用</h2><h3 id="1-App-vue"><a href="#1-App-vue" class="headerlink" title="1. App.vue"></a>1. App.vue</h3><pre><code class="html">#App.vue&lt;template&gt;  &lt;div&gt;    &lt;v-home&gt;&lt;/v-home&gt;    &lt;hr /&gt;    &lt;br /&gt;    &lt;v-news&gt;&lt;/v-news&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;// 引入组件// 挂载组件// 在模板中使用import Home from &quot;./Home.vue&quot;;import News from &quot;./News.vue&quot;;export default &#123;  data() &#123;    return &#123;      msg: &quot;你好vue&quot;,    &#125;;  &#125;,  components: &#123;    /*前面的组件名称不能和html标签一样*/ &quot;v-home&quot;: Home,    &quot;v-news&quot;: News,  &#125;,&#125;;&lt;/script&gt;</code></pre><h3 id="2-Header-vue"><a href="#2-Header-vue" class="headerlink" title="2. Header.vue"></a>2. Header.vue</h3><pre><code class="html"># Header.vue&lt;template&gt;  &lt;div&gt;    &lt;h2 class=&quot;header&quot;&gt;这是一个头部组件&lt;/h2&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      msg: &quot;这是一个头部组件&quot;,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><h3 id="3-Home-vue"><a href="#3-Home-vue" class="headerlink" title="3. Home.vue"></a>3. Home.vue</h3><pre><code class="html">&lt;!-- Home.vue --&gt;&lt;template&gt;&lt;!-- 所有的内容要被根节点包含起来  --&gt;  &lt;div&gt;    &lt;v-header&gt;&lt;/v-header&gt;    &lt;br /&gt;    &lt;hr /&gt;    &lt;h2&gt;这是一个首页组件--&#123;&#123; msg &#125;&#125;&lt;/h2&gt;    &lt;button @click=&quot;run()&quot;&gt;执行run方法&lt;/button&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;// 引入头部组件import Header from &quot;./Header.vue&quot;;export default &#123;  data() &#123;    return &#123;      msg: &quot;我是一个首页组件msg&quot;,    &#125;;  &#125;,  methods: &#123;    run() &#123;      alert(this.msg);    &#125;,  &#125;,  components: &#123;    &quot;v-header&quot;: Header,  &#125;,&#125;;&lt;/script&gt;</code></pre><h3 id="4-News-vue"><a href="#4-News-vue" class="headerlink" title="4. News.vue"></a>4. News.vue</h3><pre><code class="html">&lt;!-- News.vue --&gt;&lt;template&gt;  &lt;div&gt;    &lt;v-header&gt;&lt;/v-header&gt;    &lt;h2&gt;这是一个新闻组件&lt;/h2&gt;    &lt;ul&gt;      &lt;li&gt;111111&lt;/li&gt;      &lt;li&gt;2222&lt;/li&gt;      &lt;li&gt;333333&lt;/li&gt;    &lt;/ul&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;//引入头部组件import Header from &quot;./Header.vue&quot;;export default &#123;  data() &#123;    return &#123;      msg: &quot;我是一个新闻组件&quot;,    &#125;;  &#125;,  components: &#123;    &quot;v-header&quot;: Header,  &#125;,&#125;;&lt;/script&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git add后撤销</title>
+      <link href="/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/"/>
+      <url>/2022/02/28/git%20add%E5%90%8E%E6%92%A4%E9%94%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何撤销git-add操作"><a href="#如何撤销git-add操作" class="headerlink" title="如何撤销git add操作"></a>如何撤销git add操作</h2><p>使用Git的时候，有时候不小心使用git add，添加了不想追踪的文件。也就是track了一些不想track的文件，这个时候需要撤销操作，我们来看看应该如何操作</p><p><img src="https://github.com/logicwang/storeimage/blob/main/blogimage/20220608163201.jpg?raw=true" loading="lazy"></p><p>1.使用git reset命令</p><pre><code class="html">&lt;center&gt;    &lt;img src = &#39;https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true&#39; /&gt;    &lt;br&gt;    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;&quot;&gt;      git reset命令效果      &lt;/div&gt;&lt;/center&gt;</code></pre><center>    <img src = 'https://github.com/logicwang/storeimage/blob/main/blogimage/20220608125223.jpg?raw=true' / loading="lazy">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">      git reset命令效果      </div></center>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue路由三种写法方式</title>
+      <link href="/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/"/>
+      <url>/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="常见-性能一般"><a href="#常见-性能一般" class="headerlink" title="常见(性能一般)"></a>常见(性能一般)</h2><pre><code class="js">import Index from &quot;@/components/index&quot;const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre><h2 id="性能有优化"><a href="#性能有优化" class="headerlink" title="性能有优化"></a>性能有优化</h2><pre><code class="js">const Index = (resolve) =&gt; &#123;  import(&#39;@/components/index&#39;).then((module) =&gt; &#123;    resolve(module);  &#125;);&#125;;const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre><h2 id="路由懒加载-性能较优，推荐使用"><a href="#路由懒加载-性能较优，推荐使用" class="headerlink" title="路由懒加载(性能较优，推荐使用)"></a>路由懒加载(性能较优，推荐使用)</h2><pre><code class="js">const index = require(&#39;@/components/index&#39;);const Index = resolve =&gt; require.ensure([], () =&gt; resolve(index), &#39;list&#39;);const router = new Router(&#123;    routes: [        &#123;        path: &#39;/&#39;,        name: &#39;Index&#39;        component: Index,        &#125;    ]&#125;)</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中的语法糖</title>
+      <link href="/2022/02/24/Vue%E4%B8%AD%E7%9A%84%E8%AF%AD%E6%B3%95%E7%B3%96/"/>
+      <url>/2022/02/24/Vue%E4%B8%AD%E7%9A%84%E8%AF%AD%E6%B3%95%E7%B3%96/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的语法糖"><a href="#Vue中的语法糖" class="headerlink" title="Vue中的语法糖"></a>Vue中的语法糖</h2><h3 id="1、什么是语法糖？"><a href="#1、什么是语法糖？" class="headerlink" title="1、什么是语法糖？"></a>1、什么是语法糖？</h3><p>学习语法糖之前我们要了解什么是语法糖：<br>语法糖（Syntactic sugar），也译为糖衣语法，是由英国计算机科学家彼得·约翰·兰达（Peter J. Landin）发明的一个术语，指计算机语言中添加的某种语法，这种语法对语言的功能并没有影响，但是更方便程序员使用。通常来说使用语法糖能够增加程序的可读性，从而减少程序代码出错的机会。</p><h3 id="2、VUE中语法糖有哪些"><a href="#2、VUE中语法糖有哪些" class="headerlink" title="2、VUE中语法糖有哪些?"></a>2、VUE中语法糖有哪些?</h3><h4 id="2-1、最常见的语法糖-v-model"><a href="#2-1、最常见的语法糖-v-model" class="headerlink" title="2.1、最常见的语法糖 v-model"></a>2.1、最常见的语法糖 v-model</h4><p>使用 v-model 可以实现数据双向绑定，但是如何实现的呢？<br>v-model 绑定数据之后，既绑定了数据，又添加了事件监听，这个事件就是 input 事件。<br>使用案例：</p><pre><code class="html">&lt;!-- 语法糖写法 --&gt;&lt;input type=&quot;text&quot; v-model=&quot;name&quot; &gt;&lt;!-- 还原为以下实例 --&gt;&lt;input type=&quot;text&quot;  v-bind:value=&quot;name&quot;  v-on:input=&quot;name=$event.target.value&quot;&gt;</code></pre><p>输入的时候会触发 input 事件，input 事件会把当前值赋值给 value ，这就是 v-model 为什么可以实现双向绑定的原因。</p><h4 id="2-2、v-bind-的语法糖"><a href="#2-2、v-bind-的语法糖" class="headerlink" title="2.2、v-bind 的语法糖"></a>2.2、v-bind 的语法糖</h4><p>v-bind 用来添加动态属性的，常见的 src、href、class、style、title 等属性都可以通过 v-bind 添加动态属性值。<br>v-bind 的语法糖就是去掉 v-bind 替换成冒号 (:)<br>具体实例:</p><pre><code class="html">&lt;!-- 语法糖写法 --&gt;&lt;div :title=&quot;title&quot;&gt; &lt;img :src=&quot;url&quot; alt=&quot;&quot;&gt; &lt;a :href=&quot;link&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot; &gt;没有语法糖&lt;/a&gt;&lt;/div&gt;&lt;!-- 没有语法糖 --&gt;&lt;div v-bind:title=&quot;title&quot;&gt; &lt;img v-bind:src=&quot;url&quot; alt=&quot;&quot;&gt; &lt;a v-bind:href=&quot;link&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot; &gt;没有语法糖&lt;/a&gt;&lt;/div&gt;</code></pre><h4 id="2-2、v-on-的语法糖"><a href="#2-2、v-on-的语法糖" class="headerlink" title="2.2、v-on 的语法糖"></a>2.2、v-on 的语法糖</h4><p>v-on 绑定事件监听器的，v-on 的语法糖，就是简写成@ 。<br>情况1：如果方法不传参时，可以不加小括号。</p><pre><code class="html">&lt;!-- 需要注意的是，如果方法本身有一个参数，会默认将原生的事件event参数传递进来 --&gt;&lt;button @click=&quot;btn&quot;&gt;语法糖&lt;/button&gt;&lt;button v-on:click=&quot;btn&quot;&gt;无语法糖&lt;/button&gt;methods:&#123; btn( event )&#123;  console.log( &#39;event&#39; , event ) &#125;&#125;</code></pre><p>情况2：如果需要传递参数时，又同时需要 event 参数。</p><pre><code class="html">&lt;button @click=&quot;btn( &#39;点击事件&#39; , $event )&quot;&gt;语法糖&lt;/button&gt;&lt;!-- 需要注意的是，$event 事件拿到浏览器事件对象 --&gt;methods:&#123; btn( type, event )&#123;  console.log( &#39;type&#39; , type ) //点击事件  console.log( &#39;event&#39; , event ) &#125;&#125;</code></pre><h4 id="2-3、修饰符"><a href="#2-3、修饰符" class="headerlink" title="2.3、修饰符"></a>2.3、修饰符</h4><p>修饰符是以半角句号 . 指明的特殊后缀。v-on 后面的修饰符，也是语法糖。</p><p>示例：链接添加点击事件，点击之后不希望跳转。</p><pre><code class="html">&lt;!--  语法糖 --&gt;&lt;a href=&quot;http://www.baidu.com&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot;  @click.prevent=&quot;go&quot;&gt;百度&lt;/a&gt;&lt;!-- 普通写法 --&gt;&lt;a href=&quot;http://www.baidu.com&quot; rel=&quot;external nofollow&quot;  rel=&quot;external nofollow&quot;  v-on:click=&quot;go&quot;&gt;百度&lt;/a&gt;methods:&#123; go(e)&#123;  e.preventDefault();  console.log(&#39;阻止链接跳转&#39;) &#125;&#125;</code></pre><p>prevent 修饰符是阻止默认事件。还有 submit 同样也适用。</p><pre><code class="html">&lt;form @submit.prevent=&quot;onSubmit&quot;&gt;&lt;/form&gt;</code></pre><p>下列是常见的修饰符，与上边 .prevent 使用相同。</p><ul><li> stop 用来阻止事件冒泡。</li><li> .once 事件只触发一次。</li><li> .self 事件只在自身触发，不能从内部触发。</li><li> .enter | .tab | .delete | .esc ….. 键盘修饰符</li><li> .ctr | .alt | .shift | .meta 系统修饰符</li></ul><h3 id="3、动态css"><a href="#3、动态css" class="headerlink" title="3、动态css"></a>3、动态css</h3><p>使用 v-bind 可以通过 style 或 class， 可以添加动态样式。</p><pre><code class="html">&lt;!-- 点击 你好，实现文字红黑之间切换 --&gt;&lt;h1 @click=&quot; changeColor = !changeColor &quot; :style=&quot;&#123;color:changeColor?&#39;red&#39;:&#39;black&#39;&#125;&quot;&gt; 你好&lt;/h1&gt;data:&#123;  changeColor:false&#125;</code></pre><h3 id="4、注册组件语法糖"><a href="#4、注册组件语法糖" class="headerlink" title="4、注册组件语法糖"></a>4、注册组件语法糖</h3><p>所谓的注册组件语法糖是指省去组件构造器的定义，直接将组件构造器对象传入注册组件函数里，这样会减少 CPU 的调度以及内存的分配。</p><p>全局组件使用：</p><pre><code class="js">//全局组件语法糖写法Vue.component(  &#39;my-component&#39; ,   template:`      &lt;div&gt;组件内容&lt;/div&gt;  `)/* 全局组件注册 *///  组件使用&lt;my-component&gt;&lt;/my-component&gt;//注册组件const myComponent = Vue.extend(&#123; template:`  &lt;div&gt;   &lt;h2&gt;VUkeh&lt;/h2&gt;      &lt;/div&gt;  `&#125;)Vue.component(&#39;myComponent&#39;, myComponent)</code></pre><p>局部组件使用：</p><pre><code class="js">// 全局组件语法糖写法components:&#123;  &#39;my-component&#39;:&#123;      template:`&lt;div&gt;组件内容&lt;/div&gt;`  &#125;&#125;// 局部组件注册// 注册组件const myComponent = Vue.extend(&#123; template:`  &lt;div&gt;   &lt;h2&gt;VUkeh&lt;/h2&gt;      &lt;/div&gt;  `,  components:&#123;      child:&#123;     template:`&lt;div&gt;子组件内容&lt;/div&gt;`    &#125;  &#125;&#125;)Vue.component(&#39;myComponent&#39;, myComponent)</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中的原生事件</title>
+      <link href="/2022/02/23/Vue%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%94%9F%E4%BA%8B%E4%BB%B6./"/>
+      <url>/2022/02/23/Vue%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%94%9F%E4%BA%8B%E4%BB%B6./</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的原生事件"><a href="#Vue中的原生事件" class="headerlink" title="Vue中的原生事件"></a>Vue中的原生事件</h2><pre><code class="html">&lt;router-link :to=&quot;path&quot; @click.native=&quot;&#39;&#39;&quot;&gt;&lt;/router-link&gt;</code></pre><p>在router-link中必须加入native,click事件才能生效，否则，router-link会阻止click事件，而a标签不会阻止。</p><p>可以这么认为，native就是一个把组件变回原生DOM的一种方法，给vue组件绑定事件的时候，一定要加上native，如果是普通元素就不需要</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中的methods方法</title>
+      <link href="/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/02/22/Vue%E4%B8%AD%E7%9A%84methods%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue中的methods方法"><a href="#Vue中的methods方法" class="headerlink" title="Vue中的methods方法"></a>Vue中的methods方法</h2><h3 id="在-methods-中定义方法"><a href="#在-methods-中定义方法" class="headerlink" title="在 methods 中定义方法"></a>在 methods 中定义方法</h3><p>我们可以使用 <code>methods</code> 属性给 Vue 定义方法，<code>methods</code> 的基本语法：</p><pre><code class="js">var vm = new Vue(&#123;  methods:&#123;         方法名:function()&#123;        // 在此时定义方法，方法之间使用逗号分隔   &#125;&#125;);</code></pre><p>例如在 <code>methods </code>中定义一个名为<code>show </code>的方法</p><pre><code class="js">methods:&#123;    show: function()&#123;        console.log(&quot;显示内容&quot;)    &#125;&#125;</code></pre><h2 id="在方法中访问属性"><a href="#在方法中访问属性" class="headerlink" title="在方法中访问属性"></a>在方法中访问属性</h2><p>在 <code>methods</code> 方法中访问 <code>data </code>的数据，可以直接通过 <code>this.属性名</code> 的形式来访问。</p><p>我们在 <code>show </code>方法中，访问<code>number</code>属性，可以直接通过 <code>this.number</code> 形式访问，其中 <code>this</code> 表示的就是Vue 实例对象：</p><pre><code class="js">&lt;script&gt;export default &#123;  data() &#123;    return &#123;      methods: &#123;        handleClick: function () &#123;          alert(&quot;click&quot;);        &#125;,      &#125;,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><p>如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。</p><pre><code class="html">&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;    &lt;button @click=&quot;change&quot;&gt;点我改名&lt;/button&gt;    &lt;h1&gt;点击按钮修改名字&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;老王&quot;,    &#125;;  &#125;,  methods: &#123;    change() &#123;      this.message = &quot;小李&quot;; // 改变data中属性的值    &#125;,  &#125;,&#125;;&lt;/script&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue引入子组件报错</title>
+      <link href="/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/02/20/Vue%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue引入子组件报错"><a href="#Vue引入子组件报错" class="headerlink" title="Vue引入子组件报错"></a>Vue引入子组件报错</h2><p>报错内容</p><pre><code class="bash">module &quot;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&quot;Already included file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/child.vue&#39; differs from file name &#39;/Users/wangyufei/git-project/Vue/example/demo14/src/components/Child.vue&#39; only in casing.  The file is in th</code></pre><p>具体显示:</p><p><img src="https://s3.bmp.ovh/imgs/2022/02/b50ee4e1de288a70.jpg" loading="lazy"></p><p>该错误的原因是(当然也可以不管，因为你会发现你的代码可以正常运行)：</p><p>vue名称相同，但是有大小写差异导致的</p><p>解决方法:</p><p>1、修改名称，使得引用的和文件名称大小写都对应起来</p><p>2、去掉vue后缀也能解决掉该问题</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue生命周期</title>
+      <link href="/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+      <url>/2022/02/20/Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="Vue-生命周期"><a href="#Vue-生命周期" class="headerlink" title="Vue 生命周期"></a>Vue 生命周期</h2><p>Vue实例有一个完整的生命周期，也就是从<strong>开始创建</strong>、<strong>初始化数据</strong>、<strong>编译模板</strong>、<strong>挂载Dom</strong>、<strong>渲染→更新→渲染</strong>、<strong>销毁等一系列过程，我们称这是Vue的生命周期</strong>。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。</p><p>每一个组件或者实例都会经历一个完整的生命周期，总共分为三个阶段：初始化、运行中、销毁。</p><p>1.实例、组件通过new Vue() 创建出来之后会初始化事件和生命周期，然后就会执行<strong>beforeCreate钩子函数</strong>，这个时候，<strong>数据还没有挂载呢</strong>，只是一个空壳，<strong>无法访问到数据和真实的dom</strong>，一般不做操作</p><p>2.<strong>挂载数据，绑定事件等等，然后执行created函数</strong>，这个时候已经可以使用到数据，也可以更改数据,在这里更改数据不会触发updated函数，<strong>在这里可以在渲染前倒数第二次更改数据的机会，不会触发其他的钩子函数</strong>，一般可以在这里做初始数据的获取</p><p>3.接下来开始找实例或者组件对应的模板，编译模板为虚拟dom放入到render函数中准备渲染，然后执行beforeMount钩子函数，在这个函数中虚拟dom已经创建完成，马上就要渲染,在这里也可以更改数据，不会触发updated，在这里可以在渲染前最后一次更改数据的机会，不会触发其他的钩子函数，一般可以在这里做初始数据的获取</p><p>4.<strong>接下来开始render，渲染出真实dom</strong>，然后<strong>执行mounted钩子函数</strong>，此时，组件已经出现在页面中，数据、真实dom都已经处理好了,事件都已经挂载好了，可以在这里操作真实dom等事情…</p><p>5.<strong>当组件或实例的数据更改之后，会立即执行beforeUpdate</strong>，然后vue的虚拟dom机制会重新构建虚拟dom与上一次的虚拟dom树利用diff算法进行对比之后重新渲染，一般不做什么事儿</p><p>6.<strong>当更新完成后，执行updated，数据已经更改完成，dom也重新render完成，可以操作更新后的虚拟dom</strong></p><p>7.当经过某种途径调用$destroy方法后，立即执行beforeDestroy，一般在这里做一些善后工作，例如清除计时器、清除非指令绑定的事件等等</p><p>8.组件的数据绑定、监听…去掉后只剩下dom空壳，这个时候，执行destroyed，在这里做善后工作也可以</p><p>9.vue中的钩子函数;<strong>beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed。</strong></p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;h1&gt;&#123;&#123; message &#125;&#125;&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &quot;触发组件更新&quot;,    &#125;;  &#125;,  beforeCreate() &#123;    console.group(&quot;------beforeCreate创建前状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  created() &#123;    console.group(&quot;------created创建完毕状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //undefined    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  beforeMount() &#123;    console.group(&quot;------beforeMount挂载前状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //已被初始化    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  mounted() &#123;    console.group(&quot;------mounted 挂载结束状态------&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el); //已被初始化    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data); //已被初始化    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message); //已被初始化  &#125;,  beforeUpdate() &#123;    console.group(&quot;beforeUpdate 更新前状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  updated() &#123;    console.group(&quot;updated 更新完成状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  beforeDestroy () &#123;    console.group(&quot;beforeDestroy 销毁前状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,  destroyed() &#123;    console.group(&quot;destroyed 销毁完成状态===============》&quot;);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;el     : &quot; + this.$el);    console.log(this.$el);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;data   : &quot; + this.$data);    console.log(&quot;%c%s&quot;, &quot;color:red&quot;, &quot;message: &quot; + this.message);  &#125;,&#125;;// vue实例若数据未跟新只会打印到 mounted挂载结束状态// vm.message=&#39;触发组件更新&#39; vue会继续执行 beforeUpdate 和 updated&lt;/script&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中props默认写法</title>
+      <link href="/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/"/>
+      <url>/2022/02/20/vue%E4%B8%ADprops%E9%BB%98%E8%AE%A4%E5%86%99%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="vue中props默认写法"><a href="#vue中props默认写法" class="headerlink" title="vue中props默认写法"></a>vue中props默认写法</h2><pre><code class="bash">props: &#123;    // 字符串    stringType: &#123;        type: String,        default: () =&gt; &#39;&#39;    &#125;,    // 数值    numberType: &#123;        type: Number,        default: 0    &#125;    // 布尔值    booleanType: &#123;        type: Boolean,        default: true    &#125;    // 数组    arrayType: &#123;        type: Array,        default: () =&gt; []    &#125;    // 对象    objectType: &#123;        type: Object,        default: () =&gt; &#123;&#125;    &#125;    # 待补充...&#125;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue全局注册与局部注册的区别</title>
+      <link href="/2022/02/16/Vue%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+      <url>/2022/02/16/Vue%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%B1%80%E9%83%A8%E6%B3%A8%E5%86%8C%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><h2 id="Vue全局注册与局部注册的区别"><a href="#Vue全局注册与局部注册的区别" class="headerlink" title="Vue全局注册与局部注册的区别"></a>Vue全局注册与局部注册的区别</h2><p>不同点</p><p>1.注册位置不同<br>全局注册是在src/mian.js中<br>局部注册是写在APP.vue中</p><p>2.语法的不同点</p><p>全局注册</p><pre><code class="js">Vue.component(&#39;myheader&#39;,header),Vue.component(&#39;mycontent&#39;,content),Vue.component(&#39;mybottom&#39;,bottom),</code></pre><p>局部注册</p><pre><code class="js">export default &#123;  name: &#39;app&#39;,  components:&#123;    &#39;myheader&#39;:Header,    &#39;mycontent&#39;:Content,    &#39;mybottom&#39;:Bottom  &#125;&#125;</code></pre><p>3.起作用的地方不同</p><p>全局注册是都全都能用<br>局部注册是在哪里注册就用在哪里</p><h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><p>导入方式一样</p><pre><code class="js">import Header from &#39;./components/header&#39;import Content from &#39;./components/content&#39;import Bottom from &#39;./components/bottom&#39;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue子组件当中data必须是函数</title>
+      <link href="/2022/01/24/Vue%E5%AD%90%E7%BB%84%E4%BB%B6%E5%BD%93%E4%B8%ADdata%E5%BF%85%E9%A1%BB%E6%98%AF%E5%87%BD%E6%95%B0/"/>
+      <url>/2022/01/24/Vue%E5%AD%90%E7%BB%84%E4%BB%B6%E5%BD%93%E4%B8%ADdata%E5%BF%85%E9%A1%BB%E6%98%AF%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><span id="more"></span><h2 id="为什么Vue子组件当中data必须是函数"><a href="#为什么Vue子组件当中data必须是函数" class="headerlink" title="为什么Vue子组件当中data必须是函数"></a>为什么Vue子组件当中data必须是函数</h2><h3 id="vue中data有四种写法"><a href="#vue中data有四种写法" class="headerlink" title="vue中data有四种写法"></a>vue中data有四种写法</h3><p>第一种写法</p><pre><code class="js">data() &#123;  return &#123;    msg: &#39;&#39;,    xxx: &#39;Hello CSDN&#39;  &#125;&#125;</code></pre><p>第二种写法</p><pre><code class="JS">data:&#123;    msg:&#39;&#39;,    xxx: &#39;Hello,vue!&#39;&#125;</code></pre><p>如果在一个html文件中，使用<code>script:src</code>方式导入到vue当中并实现时，以上两种方法都行<br>但当你在使用本文件并且注册了一个组件之后，那么在这个组件当中的data必须是一个函数；如果你不是用函数，那么就会报错。举个例子：就像你在用v-for的时候非要引入一个key一样，这是文件规范。</p><p>原因如下：</p><ul><li>使每个组件闭包</li><li>容易互相影响</li></ul><p>说是两点其实还是一个原因，你能实例化出来的根组件就一个，你可以把其写成对象（object），或者你还可以写一个对象的函数，但是子组件的不够强大，非常容易在内存中的地址相互影响，举个例子，就像我们经常使用的深浅拷贝所能解决的。所以为了防止出现上述意外，就不能再子组件当中使用对象来写data</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo中添加阅读全文</title>
+      <link href="/2022/01/11/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87/"/>
+      <url>/2022/01/11/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<!-- Hexo-设置阅读全文 --><h1 id="Hexo-设置阅读全文"><a href="#Hexo-设置阅读全文" class="headerlink" title="Hexo-设置阅读全文"></a>Hexo-设置阅读全文</h1><p>1 在文章内添加&lt; !–more–&gt; 手动进行截断<br>这种方法可以根据文章的内容，自己在合适的位置添加 &lt; !–more–&gt; 标签，使用灵活，也是Hexo推荐的方法。</p><p><img src="https://s3.bmp.ovh/imgs/2022/01/3705da0533eedb16.jpg" loading="lazy"></p><p>2 在文章内的front-matter中添加description，然后提供文章摘录<br>这种方式只会在首页列表中显示文章的摘要内容，进入文章详情后不会再显示。<br><img src="https://s3.bmp.ovh/imgs/2022/01/69d1283c3ab16b30.jpg" loading="lazy"></p><ul><li><strong>建议使用 &lt; !– more –&gt;（即第一种方式），除了可以精确控制需要显示的摘录内容以外， 这种方式也可以让 Hexo 中的插件更好的识别。</strong> </li></ul><blockquote><p>本文部分节选自    —— <a href="https://www.jianshu.com/p/78c218f9d1e7">简书</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vscode快捷键</title>
+      <link href="/2022/01/11/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2022/01/11/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><span id="more"></span><h2 id="全局"><a href="#全局" class="headerlink" title="全局"></a>全局</h2><pre><code class="bash">Command + Shift + P / F1 显示命令面板Command + P 快速打开Command + Shift + N 打开新窗口Command + W 关闭窗口</code></pre><h2 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h2><pre><code class="bash">Command + X 剪切（未选中文本的情况下，剪切光标所在行）Command + C 复制（未选中文本的情况下，复制光标所在行）Option + Up 向上移动行Option + Down 向下移动行Option + Shift + Up 向上复制行Option + Shift + Down 向下复制行Command + Shift + K 删除行Command + Enter 下一行插入Command + Shift + Enter 上一行插入Command + Shift + \ 跳转到匹配的括号Command + [ 减少缩进Command + ] 增加缩进Home 跳转至行首End 跳转到行尾Command + Up 跳转至文件开头Command + Down 跳转至文件结尾Ctrl + PgUp 按行向上滚动Ctrl + PgDown 按行向下滚动Command + PgUp 按屏向上滚动Command + PgDown 按屏向下滚动Command + Shift + [ 折叠代码块Command + Shift + ] 展开代码块Command + K Command + [ 折叠全部子代码块Command + K Command + ] 展开全部子代码块Command + K Command + 0 折叠全部代码块Command + K Command + J 展开全部代码块Command + K Command + C 添加行注释Command + K Command + U 移除行注释Command + / 添加、移除行注释Option + Shift + A 添加、移除块注释Option + Z 自动换行、取消自动换行</code></pre><!-- more --><h2 id="多光标与选择"><a href="#多光标与选择" class="headerlink" title="多光标与选择"></a>多光标与选择</h2><pre><code class="bash">Option + 点击 插入多个光标Command + Option + Up 向上插入光标Command + Option + Down 向下插入光标Command + U 撤销上一个光标操作Option + Shift + I 在所选行的行尾插入光标Command + I 选中当前行Command + Shift + L 选中所有与当前选中内容相同部分Command + F2 选中所有与当前选中单词相同的单词Command + Ctrl + Shift + Left 折叠选中Command + Ctrl + Shift + Right 展开选中Alt + Shift + 拖动鼠标 选中代码块Command + Shift + Option + Up 列选择 向上Command + Shift + Option + Down 列选择 向下Command + Shift + Option + Left 列选择 向左Command + Shift + Option + Right 列选择 向右Command + Shift + Option + PgUp 列选择 向上翻页Command + Shift + Option + PgDown 列选择 向下翻页</code></pre><h2 id="查找替换"><a href="#查找替换" class="headerlink" title="查找替换"></a>查找替换</h2><pre><code class="bash">Command + F 查找Command + Option + F 替换Command + G 查找下一个Command + Shift + G 查找上一个Option + Enter 选中所有匹配项Command + D 向下选中相同内容Command + K Command + D 移除前一个向下选中相同内容</code></pre><h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><pre><code class="bash">Ctrl + Space 打开建议Command + Shift + Space 参数提示Tab Emmet插件缩写补全Option + Shift + F 格式化Command + K Command + F 格式化选中内容F12 跳转到声明位置Option + F12 查看具体声明内容Command + K F12 分屏查看具体声明内容Command + . 快速修复Shift + F12 显示引用F2 重命名符号Command + Shift + . 替换为上一个值Command + Shift + , 替换为下一个值Command + K Command + X 删除行尾多余空格Command + K M 更改文件语言</code></pre><h2 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h2><pre><code class="bash">Command + T 显示所有符号Ctrl + G 跳转至某行Command + P 跳转到某个文件Command + Shift + O 跳转到某个符号Command + Shift + M 打开问题面板F8 下一个错误或警告位置Shift + F8 上一个错误或警告位置Ctrl + Shift + Tab 编辑器历史记录Ctrl + - 后退Ctrl + Shift + - 前进Ctrl + Shift + M Tab 切换焦点</code></pre><h2 id="编辑器管理"><a href="#编辑器管理" class="headerlink" title="编辑器管理"></a>编辑器管理</h2><pre><code class="bash">Command + W 关闭编辑器Command + K F 关闭文件夹Command + \ 编辑器分屏Command + 1 切换到第一分组Command + 2 切换到第二分组Command + 3 切换到第三分组Command + K Command + Left 切换到上一分组Command + K Command + Right 切换到下一分组Command + K Command + Shift + Left 左移编辑器Command + K Command + Shift + Right 右移编辑器Command + K Left 激活左侧编辑组Command + K Right 激活右侧编辑组</code></pre><h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><pre><code class="bash">Command + N 新建文件Command + O 打开文件Command + S 保存文件Command + Shift + S 另存为Command + Option + S 全部保存Command + W 关闭Command + K Command + W 全部关闭Command + Shift + T 重新打开被关闭的编辑器Command + K Enter 保持打开Ctrl + Tab 打开下一个Ctrl + Shift + Tab 打开上一个Command + K P 复制当前文件路径Command + K R 在资源管理器中查看当前文件Command + K O 新窗口打开当前文件</code></pre><h2 id="显示"><a href="#显示" class="headerlink" title="显示"></a>显示</h2><pre><code class="bash">Command + Ctrl + F 全屏、退出全屏Command + Option + 1 切换编辑器分屏方式（横、竖）Command + + 放大Command + - 缩小Command + B 显示、隐藏侧边栏Command + Shift + E 显示资源管理器 或 切换焦点Command + Shift + F 显示搜索框Ctrl + Shift + G 显示Git面板Command + Shift + D 显示调试面板Command + Shift + X 显示插件面板Command + Shift + H 全局搜索替换Command + Shift + J 显示、隐藏高级搜索Command + Shift + C 打开新终端Command + Shift + U 显示输出面板Command + Shift + V Markdown预览窗口Command + K V 分屏显示 Markdown预览窗口</code></pre><h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><pre><code class="bash">F9 设置 或 取消断点F5 开始 或 继续F11 进入Shift + F11 跳出F10 跳过Command + K Command + I 显示悬停信息</code></pre><h2 id="集成终端"><a href="#集成终端" class="headerlink" title="集成终端"></a>集成终端</h2><pre><code class="bash">Ctrl + ` 显示终端Ctrl + Shift + ` 新建终端Command + Up 向上滚动Command + Down 向下滚动PgUp 向上翻页PgDown 向下翻页Command + Home 滚动到顶部Command + End 滚动到底部</code></pre><h2 id="光标移动"><a href="#光标移动" class="headerlink" title="光标移动"></a>光标移动</h2><pre><code class="bash">option + ← 移动到单词的最前面option + → 移动到单词最末尾option + ↑ 将当前行代码移动到上一行option + ↓ 将当前行代码移动到下一行cmd + ← 移动到当前行最前面cmd + → 移动到当前行最末尾cmd + shift + 花括号之间跳转：cmd + ↑ / cmd + ↓ 移动到文档第一行或最后一行</code></pre><h2 id="文本选择"><a href="#文本选择" class="headerlink" title="文本选择"></a>文本选择</h2><p>基于单词，行，文档的光标操作加上个shift键，就可以移动光标的同时选择文本；例如，选择当前光标所在位置到当前行最前面的代码：cmd + ← + shift</p><h3 id="删除操作"><a href="#删除操作" class="headerlink" title="删除操作"></a>删除操作</h3><pre><code class="bash">cmd + fn + delete 删除当前行光标后的所有字符cmd + delete 删除当前行光标前的所有字符option + fn + delete 删除当前单词光标后的字符option + delete 把当前单词光标前的字符删除</code></pre><h3 id="添加注释"><a href="#添加注释" class="headerlink" title="添加注释"></a>添加注释</h3><pre><code class="bash">cmd + / 注释一行代码option + shift + A 注释一整段代码</code></pre><h3 id="折叠代码"><a href="#折叠代码" class="headerlink" title="折叠代码"></a>折叠代码</h3><pre><code class="bash">cmd + option + ][</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue中data与html中data的写法</title>
+      <link href="/2022/01/10/Vue%E4%B8%ADdata%E4%B8%8EHTML%E4%B8%ADdata%E7%9A%84%E5%86%99%E6%B3%95/"/>
+      <url>/2022/01/10/Vue%E4%B8%ADdata%E4%B8%8EHTML%E4%B8%ADdata%E7%9A%84%E5%86%99%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><span id="more"></span><h3 id="Vue中的写法"><a href="#Vue中的写法" class="headerlink" title="Vue中的写法"></a>Vue中的写法</h3><pre><code class="html">&lt;template&gt;  &lt;button v-on:click=&quot;count++&quot;&gt;You clicked me &#123;&#123; count &#125;&#125; times.&lt;/button&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      count: 0,    &#125;;  &#125;,&#125;;&lt;/script&gt;</code></pre><h3 id="Javascript中的写法"><a href="#Javascript中的写法" class="headerlink" title="Javascript中的写法"></a>Javascript中的写法</h3><pre><code class="js">var vm = new Vue(&#123;    el: &#39;#example&#39;,    data: &#123;        message: &#39;WANGYUFEI&#39;    &#125;,    computed: &#123;        // 计算属性的 getter        reversedMessage: function () &#123;            // `this` 指向 vm 实例            return this.message.split(&#39;&#39;).reverse().join(&#39;&#39;)        &#125;    &#125;&#125;)</code></pre><h2 id="HTML中的写法"><a href="#HTML中的写法" class="headerlink" title="HTML中的写法"></a>HTML中的写法</h2><pre><code class="html">&lt;div id=&quot;example&quot;&gt;  &lt;p&gt;Original message: &quot;&#123;&#123; message &#125;&#125;&quot;&lt;/p&gt;  &lt;p&gt;Computed reversed message: &quot;&#123;&#123; reversedMessage &#125;&#125;&quot;&lt;/p&gt;&lt;/div&gt;&lt;script&gt;var vm = new Vue(&#123;  el: &#39;#example&#39;, // 找到页面中 id = example 的 dom节点（div）  data: &#123;    message: &#39;Hello&#39;  &#125;,  computed: &#123;    // 计算属性的 getter    reversedMessage: function () &#123;      // `this` 指向 vm 实例      return this.message.split(&#39;&#39;).reverse().join(&#39;&#39;)    &#125;  &#125;&#125;)&lt;/script&gt;</code></pre><p>转换到 vue 单文件组件里面写法</p><pre><code class="html">&lt;template&gt;  &lt;div&gt;    &lt;p&gt;Original message: &quot;&#123;&#123; message &#125;&#125;&quot;&lt;/p&gt;    &lt;p&gt;Computed reversed message: &quot;&#123;&#123; reversedMessage &#125;&#125;&quot;&lt;/p&gt;  &lt;/div&gt;&lt;template&gt;&lt;script&gt;export default &#123;  data() &#123;    return &#123;      message: &#39;Hello&#39;    &#125;  &#125;,  computed: &#123;    // 计算属性的 getter    reversedMessage: function () &#123;      // `this` 指向 vm 实例      return this.message.split(&#39;&#39;).reverse().join(&#39;&#39;)    &#125;  &#125;&#125;&lt;/script&gt;</code></pre><p>变化了什么</p><pre><code class="diff">+ &lt;template&gt;- &lt;div id=&quot;example&quot;&gt;+  &lt;div&gt;    &lt;p&gt;Original message: &quot;&#123;&#123; message &#125;&#125;&quot;&lt;/p&gt;    &lt;p&gt;Computed reversed message: &quot;&#123;&#123; reversedMessage &#125;&#125;&quot;&lt;/p&gt;  &lt;/div&gt;+ &lt;template&gt;&lt;script&gt;export default &#123;-  el: &#39;#example&#39;, // 找到页面中 id = example 的 dom节点（div）-  data: &#123;-    message: &#39;Hello&#39;-  &#125;,+  data() &#123;+    return &#123;+      message: &#39;Hello&#39;+    &#125;+  &#125;,  computed: &#123;    // 计算属性的 getter    reversedMessage: function () &#123;      // `this` 指向 vm 实例      return this.message.split(&#39;&#39;).reverse().join(&#39;&#39;)    &#125;  &#125;&#125;&lt;/script&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>致未来的自己</title>
+      <link href="/2022/01/03/%E8%87%B4%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%87%AA%E5%B7%B1/"/>
+      <url>/2022/01/03/%E8%87%B4%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%87%AA%E5%B7%B1/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://tva2.sinaimg.cn/large/0074R88yly8gzfukf5xuuj30u008adgb.jpg" loading="lazy"></p><span id="more"></span><p class="z">Hey，将来的自己，不知道你对现在的事物是否满心欢喜，或者觉得对旁人事物还是置之不理，能不能在朋友面前出人头地.。</p><p class="a">让曾经欺负你的人尽快出局，相信你一定会感喟候鸟的迁徙，看着大雁奔去属于晚归的初春典礼。不知道你是否成为一个有爱的父亲，在下班归途给孩子买上一斤沙糖桔，相信你的幸福家庭一定会很甜蜜，但还是改不了你的臭脾气和一根筋，还是保留意见生活不是逢场作戏。面对将来的爱情现在我也只能无能为力，以后的你可能不会存在任何的秘密，微笑和生气只会是你机械的表情，你会改变那动不动哭泣的坏毛病，因为你已经接受了属于自己的成人礼，可能长大会很简单，成长的大题会越来越难，可能压力会像座大山，压死的不止是自信的船帆。而我现在随遇而安，飞翔的翅膀在天空蔚蓝，希望就是那夜晚的灯，带来温度和有爱的过程，当然，你爱的人和爱你的人你都得关心，别问我为什么因为感情需要弥足珍惜，秋落银杏冬霜挂枝在十二月底，也不要忘了让家里人在天冷之际多加一件毛衣。</p><p class="a"> finally还是妥协回去假装啰嗦几句，压力再大还是不要改变你的生活情趣。</p><p class="a">毕竟小孩子才不知道怎么才叫做努力,希望你不会再扯你所谓的一切烂道理。因为孩子的耳朵会产生属于自由的乐音，不要强求你的孩子去做任何的事情，也不要让孩子流眼泪就因为手臂磨破了皮，结痂的伤疤是属于男人的勋章，你一定会以孩子为傲不管是否身披荣光，将来你肯定会有一个美丽爱你的妻子，会守护着你直到你们一起慢慢变老。</p><p class="aaaa">或许你不知道什么才叫做美好，但是一切的存在就本因着美好的过往，金钱可能会逐渐的把你诱惑，我希望意志坚定的你不会被浮华而看破。因为你不会因为这个事情而去闯祸，不管在多冷的冬夜里也不会感到孤单寒冷，因为有爱你的人热好饭菜只为你一人而等。</p><p class="gggggg">来自2021年初深冬的我</p><p class="bbbbb">2022年1月3日</p><style>.p{text-indent:25em;}.b{text-indent:32em;}.z{text-indent:1em;}.a{text-indent:1em;}.aaaa{text-indent:1em;}.gggggg{text-indent:25em;padding-top:25px;}.bbbbb{text-indent:27em;padding-top:5px;}/* p{text-indent:10px;} *//* .aaaa{text-indent:10px;} */</style>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何书写md文件</title>
+      <link href="/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/"/>
+      <url>/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<link href="themes/prism.css" rel="stylesheet" /><script src="prism.js" data-manual></script><span id="more"></span><p>一、标题<br>标题其实和HTML中的h系列很像，想要设置为标题的文字前面加#来表示<br>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p><p>注：标准语法一般在#后跟个空格再写文字，</p><p>示例：</p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>二、字体<br>加粗<br>要加粗的文字左右分别用两个*号包起来</p><p>斜体<br>要倾斜的文字左右分别用一个*号或者用_包起来</p><p>斜体加粗<br>要倾斜和加粗的文字左右分别用三个*号包起来</p><p>删除线<br>要加删除线的文字左右分别用两个~~号包起来</p><p>示例：</p><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del></p><p>三、引用<br>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…</p><p>示例：</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p></blockquote></blockquote></blockquote><p>四、分割线<br>三个或者三个以上的 - 或者 * 都可以。</p><p>示例：</p><hr><hr><p>五、图片<br>语法：</p><p><img src="https://s2.loli.net/2022/01/03/QUNdLgKh2t6ZFau.png" loading="lazy"><br>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p><p>六、超链接</p><p>示例：</p><p><a href="http://baidu.com/">百度</a></p><p>七、列表<br>无序列表<br>语法：<br>无序列表用 - + * 任何一种都可以</p><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><p>注意：- + * 跟内容之间都要有一个空格</p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法：</p><table><thead><tr><th>表头</th><th align="center">表头</th><th align="right">表头</th></tr></thead><tbody><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr></tbody></table><p>第二行分割表头和内容。</p><ul><li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li><li>两边加：表示文字居中</li><li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li></ul><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>语法：<br>单行代码：代码之间分别用一个反引号包起来</p><pre><code>`代码内容`</code></pre><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p><pre><code class="bash">代码内容</code></pre><pre><code>代码内容</code></pre><p>以上内容转载来自<a href="https://www.cnblogs.com/irenehanb/p/10967834.html">博客园</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>端口占用</title>
+      <link href="/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/"/>
+      <url>/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="端口占用"><a href="#端口占用" class="headerlink" title="端口占用"></a>端口占用</h2><p>昨天晚上在编辑Hexo运行的个人博客出现了一个端口占用的问题<br>解决方案如下</p><p>1：重启电脑<br>2：opition+control+c关闭服务<br>3：checkout代码</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaScript练习</title>
+      <link href="/2021/12/28/Javascript%E7%BB%83%E4%B9%A0/"/>
+      <url>/2021/12/28/Javascript%E7%BB%83%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://logicwang.github.io/Javascript/">这是我的JavaScript练习实例练习记录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端静态页面练习</title>
+      <link href="/2021/12/28/%E5%89%8D%E7%AB%AF%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <url>/2021/12/28/%E5%89%8D%E7%AB%AF%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://logicwang.github.io/website/">这是我的前端静态页面仿写练习记录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实例 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实例 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>brew下载非常慢</title>
+      <link href="/2021/12/16/Brew%E4%B8%8B%E8%BD%BD%E9%9D%9E%E5%B8%B8%E6%85%A2/"/>
+      <url>/2021/12/16/Brew%E4%B8%8B%E8%BD%BD%E9%9D%9E%E5%B8%B8%E6%85%A2/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><span id="more"></span><p>Mac brew下载非常慢（2020最新方法）</p><p>一键解决：自动脚本(全部国内地址)（在Mac os终端中复制粘贴回车下面这句话)</p><pre><code class="bash">/bin/zsh -c &quot;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&quot;</code></pre><p>源自：<a href="https://zhuanlan.zhihu.com/p/111014448">知乎</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> brew </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> brew </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue组件写法</title>
+      <link href="/2021/12/16/Vue%E7%BB%84%E4%BB%B6%E7%9A%84%E5%86%99%E6%B3%95/"/>
+      <url>/2021/12/16/Vue%E7%BB%84%E4%BB%B6%E7%9A%84%E5%86%99%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><span id="more"></span><h2 id="Vue中的组件写法"><a href="#Vue中的组件写法" class="headerlink" title="Vue中的组件写法"></a>Vue中的组件写法</h2><h3 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h3><pre><code class="bash">&lt;!DOCTYPE html&gt;&lt;html&gt;    &lt;body&gt;        &lt;div id=&quot;app&quot;&gt;            &lt;my-component&gt;&lt;/my-component&gt;        &lt;/div&gt;        &lt;-- 注意：使用&lt;script&gt;标签时，type指定为text/x-template，意在告诉浏览器这不是一段js脚本，浏览器在解析HTML文档时会忽略&lt;script&gt;标签内定义的内容。--&gt;        &lt;script type=&quot;text/x-template&quot; id=&quot;myComponent&quot;&gt;//注意 type 和id。            &lt;div&gt;This is a component!&lt;/div&gt;        &lt;/script&gt;    &lt;/body&gt;    &lt;script src=&quot;js/vue.js&quot;&gt;&lt;/script&gt;    &lt;script&gt;        //全局注册组件        Vue.component(&#39;my-component&#39;,&#123;            template: &#39;#myComponent&#39;        &#125;)        new Vue(&#123;            el: &#39;#app&#39;        &#125;)    &lt;/script&gt;&lt;/html&gt;</code></pre><h3 id="第二种使用template标签"><a href="#第二种使用template标签" class="headerlink" title="第二种使用template标签"></a>第二种使用template标签</h3><pre><code class="bash">&lt;!DOCTYPE html&gt;&lt;html&gt;    &lt;body&gt;        &lt;div id=&quot;app&quot;&gt;            &lt;my-component&gt;&lt;/my-component&gt;        &lt;/div&gt;        ###注意：当你正在使用&lt;script&gt;标签时，type指定为text/x-template，        ###这个意思就是告诉浏览器这不是一段js脚本，        ###浏览器在解析HTML文档时会忽略&lt;script&gt;标签内定义的内容。        &lt;script type=&quot;text/x-template&quot; id=&quot;myComponent&quot;&gt;//注意 type 和id。            &lt;div&gt;This is a component!&lt;/div&gt;        &lt;/script&gt;    &lt;/body&gt;    &lt;script src=&quot;js/vue.js&quot;&gt;&lt;/script&gt;    &lt;script&gt;        //全局注册组件        Vue.component(&#39;my-component&#39;,&#123;            template: &#39;#myComponent&#39;        &#125;)        new Vue(&#123;            el: &#39;#app&#39;        &#125;)    &lt;/script&gt;&lt;/html&gt;</code></pre><h3 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h3><p>这种方法基本用于vue的单页面应用之中，详情可见<a href="https://cn.vuejs.org/v2/guide/single-file-components.html">Vue官网</a></p><pre><code class="html">&lt;template&gt;  &lt;div class=&quot;hello&quot;&gt;    &lt;h1&gt;&#123;&#123; msg &#125;&#125;&lt;/h1&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name: &#39;hello&#39;,  data () &#123;    return &#123;      msg: &#39;欢迎！&#39;    &#125;  &#125;&#125;&lt;/script&gt;</code></pre><h3 id="3-1-App-vue文件"><a href="#3-1-App-vue文件" class="headerlink" title="3.1  App.vue文件"></a>3.1  App.vue文件</h3><pre><code class="html">&lt;!-- 展示模板 --&gt;&lt;template&gt;  &lt;div id=&quot;app&quot;&gt;    &lt;img src=&quot;./assets/logo.png&quot;&gt;    &lt;hello&gt;&lt;/hello&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;// 导入组件import Hello from &#39;./components/Hello&#39;export default &#123;  name: &#39;app&#39;,  components: &#123;    Hello  &#125;&#125;&lt;/script&gt;&lt;!-- 样式代码 --&gt;&lt;style&gt;#app &#123;  font-family: &#39;Avenir&#39;, Helvetica, Arial, sans-serif;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;  text-align: center;  color: #2c3e50;  margin-top: 60px;&#125;&lt;/style&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML5及CSS3实例练习</title>
+      <link href="/2021/12/16/%E5%AD%A6%E4%B9%A0HTML5%E5%8F%8ACSS3/"/>
+      <url>/2021/12/16/%E5%AD%A6%E4%B9%A0HTML5%E5%8F%8ACSS3/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://wangyf2020.gitee.io/html/">这是本人的HTML5和CSS3实例练习记录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实例 </tag>
+            
+            <tag> HTML5/CSS3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

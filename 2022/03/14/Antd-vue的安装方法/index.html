@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="王先生"><meta name="copyright" content="王先生"><meta name="generator" content="Hexo 6.0.0"><meta name="theme" content="hexo-theme-yun"><title>Antd-vue的安装方法 | 某科学的王先生</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.2.4/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/mini.global.js"></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://tva1.sinaimg.cn/large/0074R88yly8h1o7mey550j30ku0dwwgh.jpg"><link rel="mask-icon" href="https://tva1.sinaimg.cn/large/0074R88yly8h1o7mey550j30ku0dwwgh.jpg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"example.com","root":"/","title":"王先生","version":"1.8.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"local_search":{"path":"/search.xml"},"fireworks":{"colors":null},"vendors":{"darken":"https://cdn.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="某科学的王先生" type="application/atom+xml"><meta name="description" content="1. Antd-vue的安装方法Antd-vueAntd 安装方法: 推荐使用npm或者yarn方法进行安装，在开发环境中可以轻松进行测试，也可以在生产环境打包部署使用，享受yarn和npm的生态圈和工具链带来的一些好处 npm安装方法: npm install ant-design-vue --save  yarn安装方法: yarn add ant-design-vue  建议使用cnpm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Antd-vue的安装方法">
+<meta property="og:url" content="http://example.com/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/index.html">
+<meta property="og:site_name" content="某科学的王先生">
+<meta property="og:description" content="1. Antd-vue的安装方法Antd-vueAntd 安装方法: 推荐使用npm或者yarn方法进行安装，在开发环境中可以轻松进行测试，也可以在生产环境打包部署使用，享受yarn和npm的生态圈和工具链带来的一些好处 npm安装方法: npm install ant-design-vue --save  yarn安装方法: yarn add ant-design-vue  建议使用cnpm">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-03-14T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-07-23T14:39:39.373Z">
+<meta property="article:author" content="王先生">
+<meta property="article:tag" content="Antd-vue">
+<meta name="twitter:card" content="summary"><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="王先生"><img width="96" loading="lazy" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2F80%2Fv2-6419c5565ab345fb3cd2b4f18492b636_720w.jpg%3Fsource%3D1940ef5c&amp;refer=http%3A%2F%2Fpic1.zhimg.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1646936736&amp;t=4419a04597d5da9fbaed2476020a3eae" alt="王先生"></a><div class="site-author-name"><a href="/about/">王先生</a></div><span class="site-name">某科学的王先生</span><sub class="site-subtitle">相逢拌酩酊,何必备芳鲜。</sub><div class="site-desciption">少年去游荡,中年想掘藏,老来当和尚。</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">56</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">20</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">26</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-settings-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/logicwang" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:me@yunyoujun.cn" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/my/m/music/playlist?id=867800107" title="网易云音乐" target="_blank" style="color:#C10D0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.zhihu.com/people/peng-yu-yan-44-15" title="知乎" target="_blank" style="color:#0084FF"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/474868654?spm_id_from=333.1007.0.0" title="哔哩哔哩" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/baintatugou" title="Twitter" target="_blank" style="color:#1da1f2"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-twitter-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/girls/" title="二次元" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">1. Antd-vue的安装方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.1.</span> <span class="toc-text">示例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%BC%95%E5%85%A5-ant-design-vue"><span class="toc-number">2.</span> <span class="toc-text">2. 引入 ant-design-vue</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7"><span class="toc-number">2.1.</span> <span class="toc-text">安装脚手架工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="toc-number">2.2.</span> <span class="toc-text">创建一个项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E7%BB%84%E4%BB%B6"><span class="toc-number">2.3.</span> <span class="toc-text">使用组件</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B1%80%E9%83%A8%E5%AF%BC%E5%85%A5%E7%BB%84%E4%BB%B6"><span class="toc-number">2.3.1.</span> <span class="toc-text">局部导入组件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8-vue-cli-3-%E4%B8%AD%E4%BD%BF%E7%94%A8"><span class="toc-number">3.</span> <span class="toc-text">在 vue-cli 3 中使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E5%85%A5Antd"><span class="toc-number">3.1.</span> <span class="toc-text">引入Antd</span></a></li></ol></li></ol></div></div></div><div class="tag-cloud"><div class="tag-cloud-tags"><a href="/tags/Antd-vue/" style="font-size: 12px; color: #999">Antd-vue</a> <a href="/tags/Chrome/" style="font-size: 12px; color: #999">Chrome</a> <a href="/tags/ES6/" style="font-size: 12px; color: #999">ES6</a> <a href="/tags/Element/" style="font-size: 16.5px; color: #7391ad">Element</a> <a href="/tags/HTML5-CSS3/" style="font-size: 12px; color: #999">HTML5/CSS3</a> <a href="/tags/Hexo/" style="font-size: 21px; color: #4d89c0">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 16.5px; color: #7391ad">JavaScript</a> <a href="/tags/Linux/" style="font-size: 12px; color: #999">Linux</a> <a href="/tags/Markdown/" style="font-size: 16.5px; color: #7391ad">Markdown</a> <a href="/tags/Nodejs/" style="font-size: 12px; color: #999">Nodejs</a> <a href="/tags/React/" style="font-size: 12px; color: #999">React</a> <a href="/tags/SublimeText/" style="font-size: 12px; color: #999">SublimeText</a> <a href="/tags/Vue/" style="font-size: 30px; color: #0078e7">Vue</a> <a href="/tags/Vue-CLI/" style="font-size: 12px; color: #999">Vue CLI</a> <a href="/tags/brew/" style="font-size: 12px; color: #999">brew</a> <a href="/tags/cnpm/" style="font-size: 12px; color: #999">cnpm</a> <a href="/tags/css/" style="font-size: 16.5px; color: #7391ad">css</a> <a href="/tags/element-ui/" style="font-size: 12px; color: #999">element-ui</a> <a href="/tags/git/" style="font-size: 21px; color: #4d89c0">git</a> <a href="/tags/github/" style="font-size: 16.5px; color: #7391ad">github</a> <a href="/tags/npm/" style="font-size: 21px; color: #4d89c0">npm</a> <a href="/tags/vscode/" style="font-size: 25.5px; color: #2680d4">vscode</a> <a href="/tags/vue/" style="font-size: 12px; color: #999">vue</a> <a href="/tags/yarn/" style="font-size: 12px; color: #999">yarn</a></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2022/03/14/Antd-vue%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="王先生"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="某科学的王先生"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Antd-vue的安装方法</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2022-03-14 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-14T00:00:00+00:00">2022-03-14</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2022-07-23 14:39:39" itemprop="dateModified" datetime="2022-07-23T14:39:39+00:00">2022-07-23</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/Antd-vue/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">Antd-vue</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/Antd-vue/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Antd-vue</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><span id="more"></span>
+
+<h2 id="1-Antd-vue的安装方法"><a href="#1-Antd-vue的安装方法" class="headerlink" title="1. Antd-vue的安装方法"></a>1. Antd-vue的安装方法</h2><p><a target="_blank" rel="noopener" href="https://www.antdv.com/docs/vue/introduce-cn/">Antd-vue</a><br><a target="_blank" rel="noopener" href="https://ant.design/index-cn">Antd</a></p>
+<p>安装方法:</p>
+<p>推荐使用npm或者yarn方法进行安装，在开发环境中可以轻松进行测试，也可以在生产环境打包部署使用，享受yarn和npm的生态圈和工具链带来的一些好处</p>
+<p>npm安装方法:</p>
+<pre><code class="bash">npm install ant-design-vue --save
+</code></pre>
+<p>yarn安装方法:</p>
+<pre><code class="bash">yarn add ant-design-vue
+</code></pre>
+<p>建议使用<a target="_blank" rel="noopener" href="https://github.com/cnpm/cnpm">cnpm</a>来代替npm安装</p>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre><code class="bash">import Vue from &#39;vue&#39;;
+import &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;
+Vue.use(DatePicker);
+</code></pre>
+<p>引入样式:</p>
+<pre><code class="bash">import &#39;ant-design-vue/dist/antd.css&#39;; or &#39;ant-design-vue/dist/antd.less&#39;
+</code></pre>
+<p>然后只需从 ant-design-vue 引入模块即可，无需单独引入样式。等同于下面手动引入的方式。</p>
+<pre><code class="bash"># babel-plugin-import 会帮助你加载 JS 和 CSS
+import &#123; DatePicker &#125; from &#39;ant-design-vue&#39;;
+</code></pre>
+<p>手动引入</p>
+<pre><code class="bash">import DatePicker from &#39;ant-design-vue/lib/date-picker&#39;; # 加载 JS
+import &#39;ant-design-vue/lib/date-picker/style/css&#39;; # 加载 CSS
+# import &#39;ant-design-vue/lib/date-picker/style&#39;;   加载 LESS
+</code></pre>
+<h2 id="2-引入-ant-design-vue"><a href="#2-引入-ant-design-vue" class="headerlink" title="2. 引入 ant-design-vue"></a>2. 引入 ant-design-vue</h2><h3 id="安装脚手架工具"><a href="#安装脚手架工具" class="headerlink" title="安装脚手架工具"></a>安装脚手架工具</h3><p><a target="_blank" rel="noopener" href="https://github.com/vuejs/vue-cli">vue-cli</a></p>
+<pre><code class="bash">npm install -g @vue/cli
+# or 
+yarn global add @vue/cli
+</code></pre>
+<h3 id="创建一个项目"><a href="#创建一个项目" class="headerlink" title="创建一个项目"></a>创建一个项目</h3><p>使用命令行进行项目初始化:</p>
+<pre><code class="bash">vue create antd-demo
+</code></pre>
+<h3 id="使用组件"><a href="#使用组件" class="headerlink" title="使用组件"></a>使用组件</h3><pre><code class="bash">npm i --save ant-design-vue
+</code></pre>
+<p>完整引入</p>
+<pre><code class="bash">import Vue from &#39;vue&#39;;
+import Antd from &#39;ant-design-vue&#39;;
+import App from &#39;./App&#39;;
+import &#39;ant-design-vue/dist/antd.css&#39;;
+Vue.config.productionTip = false;
+
+Vue.use(Antd);
+
+# eslint-disable no-new
+new Vue(&#123;
+  el: &#39;#app&#39;,
+  components: &#123; App &#125;,
+  template: &#39;&lt;App/&gt;&#39;,
+&#125;);
+</code></pre>
+<p>在main.js文件输入以上代码就能完成Antd的引入，但需要注意的是，样式文件需要单独引入</p>
+<h4 id="局部导入组件"><a href="#局部导入组件" class="headerlink" title="局部导入组件"></a>局部导入组件</h4><pre><code class="bash">import Vue from &#39;vue&#39;;
+import &#123; Button, message &#125; from &#39;ant-design-vue&#39;;
+import App from &#39;./App&#39;;
+
+Vue.config.productionTip = false;
+
+# v1.1.2 
+Vue.component(Button.name, Button);
+Vue.component(Button.Group.name, Button.Group);
+
+# v1.1.3+ 自动注册Button下组件，如Button.Group 
+Vue.use(Button);
+
+Vue.prototype.$message = message;
+
+# eslint-disable no-new 
+new Vue(&#123;
+  el: &#39;#app&#39;,
+  components: &#123; App &#125;,
+  template: &#39;&lt;App/&gt;&#39;,
+&#125;);
+</code></pre>
+<h2 id="在-vue-cli-3-中使用"><a href="#在-vue-cli-3-中使用" class="headerlink" title="在 vue-cli 3 中使用"></a>在 vue-cli 3 中使用</h2><p>使用命令行安装vue-cli,你可能需要安装<a target="_blank" rel="noopener" href="https://yarn.bootcss.com/">yarn</a></p>
+<pre><code class="bash">npm install -g @vue/cli
+# or 
+yarn global add @vue/cli
+</code></pre>
+<p>新建一个项目。</p>
+<pre><code class="bash">vue create antd-demo
+</code></pre>
+<p>并配置项目。</p>
+<p>工具会自动初始化一个脚手架并安装 Vue 项目的各种必要依赖，如果在过程中出现网络问题，请尝试配置代理或使用其他 npm registry。</p>
+<p>然后我们进入项目并启动:</p>
+<pre><code class="bash">cd antd-demo
+npm run serve
+</code></pre>
+<h3 id="引入Antd"><a href="#引入Antd" class="headerlink" title="引入Antd"></a>引入Antd</h3><p>这是 vue-cli 生成的默认目录结构。</p>
+<pre><code class="bash">├── README.md
+├── babel.config
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── src
+│   ├── assets
+│   │   └── logo.png
+│   ├── components
+│   │   └── HelloWorld.vue
+│   ├── App.vue
+│   └── main.js
+└── yarn.lock
+</code></pre>
+<p>现在从 yarn 或 npm 安装并引入 ant-design-vue。</p>
+<pre><code class="bash">yarn add ant-design-vue
+</code></pre>
+<p>修改 <code>src/main.js</code>，引入 antd 的按钮组件以及全部样式文件。</p>
+<pre><code class="js">import Vue from &#39;vue&#39;;
+import Button from &#39;ant-design-vue/lib/button&#39;;
+import &#39;ant-design-vue/dist/antd.css&#39;;
+import App from &#39;./App&#39;;
+
+Vue.component(Button.name, Button);
+
+Vue.config.productionTip = false;
+
+new Vue(&#123;
+  render: h =&gt; h(App),
+&#125;).$mount(&#39;#app&#39;);
+</code></pre>
+<p>修改 <code>src/App.vue</code>的 template 内容。</p>
+<pre><code class="html">&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;img src=&quot;./assets/logo.png&quot;&gt;
+    &lt;a-button type=&quot;primary&quot;&gt;Button&gt;&lt;/a-button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+...
+</code></pre>
+</div></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/03/19/Vue%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B9%8B%E9%97%B4%E4%BC%A0%E5%8F%82/" rel="prev" title="Vue路由组件之间传参"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-left-s-line"></use></svg><span class="post-nav-text">Vue路由组件之间传参</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/03/14/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8Fcnpm%E6%9B%BF%E4%BB%A3npm/" rel="next" title="淘宝镜像cnpm替代npm"><span class="post-nav-text">淘宝镜像cnpm替代npm</span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2022 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> 王先生</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v6.0.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.8.11</span></div><div class="live-time"><span>本博客已运行</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2022-02-09T00:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} Days ${passHour} Hours ${passMinute} Minutes ${passSecond} Seconds`;
+}
+blog_live_time();
+</script></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="Search"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search-line"></use></svg></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script src="/js/search/local-search.js" defer type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-close-line"></use></svg></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="Searching..." value=""></div><div id="local-search-result"></div></div></div></body></html>
