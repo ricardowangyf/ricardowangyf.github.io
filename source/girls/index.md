@@ -76,7 +76,7 @@ girls:
     avatar: https://img2.baidu.com/it/u=4162498507,3929559878&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 青春猪头少年不会梦到兔女郎学姐
   - name: 堀北铃音
-    avatar: https://img1.baidu.com/it/u=4037363509,3717601215&fm=26&fmt=auto
+    avatar: https://s3.bmp.ovh/imgs/2022/07/24/dfbf7f6c6111f62b.jpg
     from: 欢迎来到实力至上主义的教室
   - name: 栉田桔梗
     avatar: https://img2.baidu.com/it/u=2015826881,2570521938&fm=253&fmt=auto&app=138&f=PNG?w=400&h=400
