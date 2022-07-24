@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-24T11:41:38.261Z</updated>
+  <updated>2022-07-24T12:21:33.914Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/"/>
     <id>http://example.com/2022/07/17/Sublime%20Text%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/</id>
     <published>2022-07-17T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h3 id="SublimeText编辑器设置中文"><a href="#SublimeText编辑器设置中文" class="headerlink" title="SublimeText编辑器设置中文"></a>SublimeText编辑器设置中文</h3><p>1:打开sublime，使用快捷键Shift+Command+P打开查找栏</p><p>2: 在搜索框中输入<code>Package Control: Install Package</code><br><img src="https://s3.bmp.ovh/imgs/2022/07/17/71c6a73d19eec39d.jpg" loading="lazy"></p><p>出现下拉选项，点击选择其中的：Package Control: Install Package</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/17/83e1158db2046325.jpg" loading="lazy"></p><p><img src="https://img2020.cnblogs.com/blog/2019812/202005/2019812-20200525111153898-1815626418.png" loading="lazy"></p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="http://example.com/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
     <id>http://example.com/2022/07/13/vscode%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
     <published>2022-07-13T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.918Z</updated>
     
     <content type="html"><![CDATA[<h2 id="如何关闭vscode的自动更新"><a href="#如何关闭vscode的自动更新" class="headerlink" title="如何关闭vscode的自动更新"></a>如何关闭vscode的自动更新</h2><p>Macbook 操作如下:<br>command + ,进入设置<br><img src="https://s3.bmp.ovh/imgs/2022/07/13/49e98906685a4afb.jpg" loading="lazy"></p><p>在打开的设置里面搜索<code>update</code>或<code>更新</code>，可能会找到很多关于更新的设置，我们在目录里面选择应用程序。可以看到有这么几个设置：</p><p><code>Update:Channel</code>或者 <code>Update:Mode</code>（配置是否从更新通道接收自动更新）此配置有三个下拉选择<code>none</code>，<code>manual</code>，<code>default</code>三个。<code>none</code>是不自动更新，<code>manual</code>是手动更新，<code>default</code>是自动更新。这里我们选择<code>none</code>或者<code>manual</code>，并重启程序便关闭了自动更新。</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/2bd20561894786c9.jpg" loading="lazy"></p>]]></content>
     
@@ -69,7 +69,7 @@
     <link href="http://example.com/2022/07/13/vscode%E6%9F%A5%E7%9C%8B%E7%89%88%E6%9C%AC/"/>
     <id>http://example.com/2022/07/13/vscode%E6%9F%A5%E7%9C%8B%E7%89%88%E6%9C%AC/</id>
     <published>2022-07-13T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.918Z</updated>
     
     <content type="html"><![CDATA[<h2 id="vscode查看版本"><a href="#vscode查看版本" class="headerlink" title="vscode查看版本"></a>vscode查看版本</h2><p>在vscode菜单栏<br>帮助 -&gt; 发行说明<br>Help-&gt;Release Notes<br><img src="https://s3.bmp.ovh/imgs/2022/07/13/0627f0518b5191ee.jpg" loading="lazy"><br><img src="https://s3.bmp.ovh/imgs/2022/07/13/29937e137fb0d88e.jpg" loading="lazy"></p><p>版本为1.69</p>]]></content>
     
@@ -93,7 +93,7 @@
     <link href="http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/"/>
     <id>http://example.com/2022/07/13/%E6%9F%A5%E7%9C%8Bvue%E7%89%88%E6%9C%AC%E5%92%8Cvue%E8%84%9A%E6%89%8B%E6%9E%B6%E7%89%88%E6%9C%AC/</id>
     <published>2022-07-13T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.922Z</updated>
     
     <content type="html"><![CDATA[<h2 id="查看vue版本和vue脚手架版本"><a href="#查看vue版本和vue脚手架版本" class="headerlink" title="查看vue版本和vue脚手架版本"></a>查看vue版本和vue脚手架版本</h2><p>打开cmd控制台：<br>输入<code>vue --version</code>（俩个-）或 <code>vue -V</code>（第二个V要大写）查看vue脚手架版本；<br>输入<code>npm list vue -g</code> 查看vue版本和vue脚手架版本；</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/13/a5243ea2a3f6d1fc.jpg" loading="lazy"></p><p>如图所示，vue版本为</p><pre><code class="bash">2.6.14</code></pre><p>vue脚手架版本为：</p><pre><code class="bash">3.2.13</code></pre>]]></content>
     
@@ -117,7 +117,7 @@
     <link href="http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2022/07/11/vscode%E5%AE%89%E8%A3%85code%E5%91%BD%E4%BB%A4/</id>
     <published>2022-07-11T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.918Z</updated>
     
     <content type="html"><![CDATA[<h2 id="vscode安装code命令"><a href="#vscode安装code命令" class="headerlink" title="vscode安装code命令"></a>vscode安装code命令</h2><p><code>VSCode</code>提供<code>code</code>命令直接从命令行中打开文件目录，此时需要先安装 code 命令。</p><p>1:首先打开vscode</p><p>2:Mac使用快捷键<code>command + shift + p</code>,windows使用快捷键<code>ctrl+shift+p</code>然后搜索code，选择 install ‘code’ command in path。  </p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/84c98865835a0fc9.jpg" loading="lazy"></p><p>3、在命令行中运行 code [path] 打开文件目录</p><pre><code class="bash">code ./</code></pre>]]></content>
     
@@ -141,7 +141,7 @@
     <link href="http://example.com/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2022/07/11/%E8%A7%A3%E5%86%B3vscode%E4%B8%8B%E8%BD%BD%E5%BE%88%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</id>
     <published>2022-07-11T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.922Z</updated>
     
     <content type="html"><![CDATA[<h2 id="解决vscode下载很慢的问题"><a href="#解决vscode下载很慢的问题" class="headerlink" title="解决vscode下载很慢的问题"></a>解决vscode下载很慢的问题</h2><p>1： 打开<a href="https://code.visualstudio.com/">vscode官网</a></p><p>2：点击下图中下载链接（我的电脑是Macos）</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/eaafc16a8a167d76.jpg" loading="lazy"></p><p>3： 下载时可以去谷歌的下载内容里面，看到正在下载的vscode，然后点击上面的链接，会发生跳转</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/2d49b0bf2efe1090.jpg" loading="lazy"></p><p>4.然后在谷歌浏览器上的地址上会发现这个链接，这个时候直接复制 vscode.cdn.azure.cn 替换地址上面的</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/da8fd03a0a004df9.jpg" loading="lazy"></p><p>然后你就会发现速度快到飞起</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/11/0e8cf7f97bf528b4.jpg" loading="lazy"></p>]]></content>
     
@@ -165,7 +165,7 @@
     <link href="http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://example.com/2022/05/28/v-model%E4%B8%8E:model%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
     <published>2022-05-28T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.918Z</updated>
     
     <content type="html"><![CDATA[<h3 id="v-model与-model的区别"><a href="#v-model与-model的区别" class="headerlink" title="v-model与:model的区别"></a>v-model与:model的区别</h3><h4 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h4><blockquote><p>通常用于表单上双向数据的绑定，如果除了表单其他组件使用时，起不到任何效果。它还可以实现子组件到父组件的双向数据动态绑定。<br><a href="https://cn.vuejs.org/v2/guide/forms.html">详情参考官网</a></p></blockquote><h4 id="model"><a href="#model" class="headerlink" title=":model"></a>:model</h4><blockquote><p>:model是v-bind:model的缩写。<br>只是将父组件的值传递给和子组件，但是并未实现子组件<br>和父组件之间的双向数据绑定，当然引用类型除外，子组件改变了引用类型的数据的话，父组件的数据也会跟着改变。</p></blockquote>]]></content>
     
@@ -189,7 +189,7 @@
     <link href="http://example.com/2022/05/22/MAC%E5%8D%87%E7%BA%A7Nodejs%E5%92%8CNpm%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88/"/>
     <id>http://example.com/2022/05/22/MAC%E5%8D%87%E7%BA%A7Nodejs%E5%92%8CNpm%E5%88%B0%E6%9C%80%E6%96%B0%E7%89%88/</id>
     <published>2022-05-22T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Mac升级Node-js和Npm到最新版"><a href="#Mac升级Node-js和Npm到最新版" class="headerlink" title="Mac升级Node.js和Npm到最新版"></a>Mac升级Node.js和Npm到最新版</h3><p>1:  先查看本机node.js版本:</p><pre><code class="bash">node -v</code></pre><p>2:  清除node.js的cache:</p><pre><code class="bash">sudo npm cache clean -f</code></pre><p>3:  安装<code>n工具</code>，这个工具是专门用来管理node:</p><pre><code class="bash">sudo npm install -g n</code></pre><p>4:  安装最新版本的node.js: </p><pre><code class="bash">sudo n stable</code></pre><p>5:  再次查看本机的node.js版本:</p><pre><code class="bash">node -v</code></pre><p>6:  更新npm到最新版:</p><pre><code class="bash">sudo npm install npm@latest -g</code></pre><p>最后一步，验证：</p><pre><code class="bash">node -v#v16.15.0npm -v#8.10.0</code></pre><blockquote><p>转载自: <a href="https://www.cnblogs.com/ae6623/p/6242423.html">博客园</a></p></blockquote>]]></content>
     
@@ -213,7 +213,7 @@
     <link href="http://example.com/2022/05/22/React%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2022/05/22/React%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
     <published>2022-05-22T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="开发环境搭建"><a href="#开发环境搭建" class="headerlink" title="开发环境搭建"></a>开发环境搭建</h2><p>安装<a href="https://nodejs.org/en/">node</a></p><p>安装create-react-app, 一个全局的命令行工具，用于简化并创建一个新的 react 项目</p><pre><code class="bash">npm install -g create-react-app</code></pre><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><pre><code class="bash">create-react-app react-demo #创建项目cd react-demo #进入到新的工程目录下</code></pre><p>默认生成的项目框架</p><pre><code class="bash">|-node_modules             #包管理|-public             #一般用于存放静态文件，打包时会被直接复制到输出目录(./buidle)|-src               #项目源代码  |  |-asserts         #用于存放静态资源，打包时会经过 webpack 处理  |  |-components    #组件 存放 React 组件，一般是该项目公用的无状态组件  |  |-containers       #页面视图  |  |-routes         #路由 存放需要 connect model 的路由组件  |  |-App.js         #入口文件  |  |-index         #注册路由与服务  |  |- serviceWorker       #开发配置|-package.json      #包管理代码|-.gitignore # Git忽略文件</code></pre><h2 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h2><pre><code class="bash">npm run start #启动本地server用于开发</code></pre><p>在浏览器中打开 localhost://8080 查看</p><h3 id="项目打包"><a href="#项目打包" class="headerlink" title="项目打包"></a>项目打包</h3><pre><code class="bash">npm run build #命令执行后, 会在工程根目录下生成 build 目录</code></pre>]]></content>
     
@@ -238,7 +238,7 @@
     <link href="http://example.com/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/"/>
     <id>http://example.com/2022/04/30/VueCli3%E4%B9%8B%E6%9B%B4%E6%94%B9icon%E5%9B%BE%E6%A0%87/</id>
     <published>2022-04-30T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="VueCli3更改icon图标"><a href="#VueCli3更改icon图标" class="headerlink" title="VueCli3更改icon图标"></a>VueCli3更改icon图标</h2><blockquote><p>初次使用更改icon图标的时候，可能会根据脚手架搭建完成后的public中修改index.html中的link,如下</p></blockquote><pre><code class="bash">&lt;link rel=&quot;icon&quot; href=&quot;&lt;%= BASE_URL %&gt;assets/logo/logo.png&quot;&gt;</code></pre><p>但是，会发现即使修改了之后，重新刷新也没有任何作用。</p><p>那么接下来我来讲一下搜索到的解决方法。<br>一、先将自己的icon直接替换原的图标<br>二、在根目录创建一个<code>vue.config.js</code>文件，然后写下之前</p><pre><code class="js">module.exports = &#123;    pwa: &#123;        iconPaths: &#123;            favicon32: &#39;favicon.ico&#39;,            favicon16: &#39;favicon.ico&#39;,            appleTouchIcon: &#39;favicon.ico&#39;,            maskIcon: &#39;favicon.ico&#39;,            msTileImage: &#39;favicon.ico&#39;        &#125;    &#125;&#125;</code></pre><p>记得修改完成之后需要重启项目，这样图标才会生效。</p>]]></content>
     
@@ -263,7 +263,7 @@
     <link href="http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/"/>
     <id>http://example.com/2022/04/30/Vue%E5%BC%95%E5%85%A5css/</id>
     <published>2022-04-30T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Vue引入css"><a href="#Vue引入css" class="headerlink" title="Vue引入css"></a>Vue引入css</h2><p>vue引用css的方法</p><p>在vue中引入外部的css文件：</p><p>在项目的src文件下，新建一个style文件夹，存放css文件。</p><h4 id="全局引入"><a href="#全局引入" class="headerlink" title="全局引入"></a>全局引入</h4><p>将外部的css文件放到style文件下，引入外部文件只需在main.js文件中</p><pre><code class="bash">import &#39;./style/reset.css&#39; # 清除默认样式的css文件</code></pre><h4 id="局部引入"><a href="#局部引入" class="headerlink" title="局部引入"></a>局部引入</h4><pre><code class="bash">&lt;style scoped&gt;  @import &#39;../assets/iconfont/iconfont.css&#39;; #这个分号一定要写，要不会报错&lt;/style&gt;</code></pre><p><code>@import CSS@</code>规则，用于从其他样式表导入样式规则。这些规则必须先于所有其他类型的规则，@charset 规则除外; 因为它不是一个嵌套语句，@import不能在条件组的规则中使用。<br>因此，用户代理可以避免为不支持的媒体类型检索资源，作者可以指定依赖媒体的@import规则。这些条件导入在URI之后指定逗号分隔的媒体查询。在没有任何媒体查询的情况下，导入是无条件的。指定所有的媒体具有相同的效果。</p>]]></content>
     
@@ -291,7 +291,7 @@
     <link href="http://example.com/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/"/>
     <id>http://example.com/2022/04/28/ES6%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/</id>
     <published>2022-04-28T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="ES6暂时性死区"><a href="#ES6暂时性死区" class="headerlink" title="ES6暂时性死区"></a>ES6暂时性死区</h2><blockquote><p>暂时性死区是针对<code>const</code>,<code>let</code>这两个关键字而产生的概念。<br>首先变量提升这个js的基本概念无法撼动，<code>const</code>和<code>let</code>作为块级作用域也不能避免。<br>和<code>var</code>不同，这两个关键字将作用域限制在了<code>块</code>中，且规定了在该块中，由这两个关键字定义的变量已经被分配内存。<br>即其实已经<code>存在</code>了，但程序未执行到声明处时，访问该变量都会报引用错误。<br>这个时候，对于该变量来说就是’暂时性死区’，通俗来说就是该变量存在，但并未完全存在</p></blockquote><p>代码如下：</p><pre><code class="js">//情景一、if (true) &#123;  // TDZ开始  tmp = &#39;abc&#39;; // ReferenceError  console.log(tmp); // ReferenceError  let tmp; // TDZ结束  console.log(tmp); // undefined  tmp = 123;  console.log(tmp); // 123&#125;</code></pre><p>上面代码中，在let命令声明变量tmp之前，都属于变量tmp的“死区”。</p><pre><code class="js">//情景二var tmp = 123;if (true) &#123;  tmp = &#39;abc&#39;; // ReferenceError  let tmp;&#125;</code></pre>]]></content>
     
@@ -318,7 +318,7 @@
     <link href="http://example.com/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/"/>
     <id>http://example.com/2022/04/27/%E5%89%8D%E7%AB%AF%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3/</id>
     <published>2022-04-27T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.922Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前端业务逻辑理解"><a href="#前端业务逻辑理解" class="headerlink" title="前端业务逻辑理解"></a>前端业务逻辑理解</h2><p>今天在学习前端开发的时候碰到一个词<code>业务逻辑</code>，理解如下:</p><blockquote><p>简单来就是在怎么做事（how to do）, 比方说你去餐馆吃饭, 你点了个炒米粉，服务员给你下单，厨房见到单后下锅给你炒，你吃完后付账。这一些列动作都可以说是业务逻辑。</p></blockquote><p><code>业务逻辑就是客户的逻辑</code></p><p>在 N 层架构的系统中，经常会提到这些名词。</p><blockquote><p>表现层（Presentation layer） 业务逻辑层（Application layer） 数据访问层（Data layer） 在一个系统开发过程中，后台做一些处理，如果成功，则跳转到 success_xxx 页面，如果失败，则跳转到 fail_xxx 页面，如果系统抛出了异常，则跳转到 5xx 页面，…… 这些属于页面逻辑。</p></blockquote><p>还有一些持久层的逻辑，也就是对数据库的操作。</p><blockquote><p>业务逻辑是核心逻辑，只关注用户的业务，比如管理系统和财务系统，需要处理的业务肯定不一样，但是页面的跳转大致相同，对于持久层的操作也差不多。如果你使用了 SSH 框架，那么 hibernate 和 struts 的代码有很大一部分可以复用。</p></blockquote><blockquote><p>业务逻辑（BL Action）不关心页面如何跳转，只是简单的返回成功，或是失败，或是异常，struts 框架根据配置文件跳转到相应的页面。</p></blockquote><blockquote><p>业务逻辑也不关心数据如何存储，是存储在文件系统，还是存储在数据库系统。是存储在MySQL，还是NoSQL。也不关系到底用没用缓存。</p></blockquote>]]></content>
     
@@ -343,7 +343,7 @@
     <link href="http://example.com/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/"/>
     <id>http://example.com/2022/04/25/%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F::v-deep/</id>
     <published>2022-04-25T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.922Z</updated>
     
     <content type="html"><![CDATA[<h2 id="样式穿透-v-deep"><a href="#样式穿透-v-deep" class="headerlink" title="样式穿透::v-deep"></a>样式穿透::v-deep</h2><p>在用到很多vue的组件库如<a href="https://youzan.github.io/vant/#/zh-CN">vant3</a>，<a href="https://element.eleme.cn/#/zh-CN">Element-ui</a>,<a href="https://vuetifyjs.com/en/">，vuetify</a>等，虽然配好了样式但是神奇的产品还是会让你改一下样式</p><p>一般情况可以直接在当前页面中写入样式：</p><pre><code class="css">&lt;style lang=&quot;scss&quot; scoped&gt;  .v-text-field.v-text-field--enclosed .v-text-field__details &#123;          margin-bottom: 8px;          padding: 0px !important;   &#125;&lt;/style&gt;</code></pre><p>这边需不需要加scoped要自行判断，有scoped限制的时候，实现组件的私有化，不对全局造成样式污染，表示当前style属性只属于当前模块。</p><p>但是知道我遇到了这种方法改不了公司的一个项目样式时，发现可以用<code>::v-deep</code>或者<code>/deep/</code>来解决，<br>注意，/deep/在vue 3.0会报错</p><p>使用方法如下：</p><pre><code class="css">::v-deep .v-text-field.v-text-field--enclosed .v-text-field__details &#123;  margin-bottom: 8px;  padding: 0px !important; &#125;</code></pre>]]></content>
     
@@ -367,7 +367,7 @@
     <link href="http://example.com/2022/04/01/Vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2022/04/01/Vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
     <published>2022-04-01T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<p>一、安装node.js</p><p><a href="https://nodejs.org/en/download/">官网</a><br><a href="https://nodejs.org/en/download/releases/">历史版本</a></p><p><img src="https://s3.bmp.ovh/imgs/2022/04/01/71dd45c0ef3dd1b4.png" loading="lazy"></p><p>下载完毕后，可以安装node，建议不要安装在系统盘（如C：）。</p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0ued067t3j30h60df0tt.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uedm1vslj30h60df40i.jpg" loading="lazy"></p><p>二、设置nodejs prefix（全局）和cache（缓存）路径</p><p>1.在nodejs安装路径下，新建node_global和node_cache两个文件夹</p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0ueec77vrj30ha09fdh4.jpg" loading="lazy"></p><p>2.设置缓存文件夹</p><pre><code class="bash">npm config set cache &quot;D:\vueProject\nodejs\node_cache&quot;</code></pre><p>设置全局模块存放路径</p><pre><code class="bash">npm config set prefix &quot;D:\vueProject\nodejs\node_global&quot;</code></pre><p>设置成功后，之后用命令npm install XXX -g安装以后模块就在D:\vueProject\nodejs\node_global里</p><p>三、基于 Node.js 安装cnpm（淘宝镜像）</p><pre><code class="bash">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre><p>四、设置环境变量   <strong>这非常非常非常重要！！！！！</strong><br>说明：设置环境变量可以使得住任意目录下都可以使用cnpm、vue等命令，而不需要输入全路径<br>1、鼠标右键”此电脑”，选择“属性”菜单，在弹出的“系统”对话框中左侧选择“高级系统设置”，弹出“系统属性”对话框。<br>2、修改系统变量PATH</p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0ueg4o0ccj30hk0iijuc.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0ueginkxlj30f10fu775.jpg" loading="lazy"></p><p>3、新增系统变量NODE_PATH</p><p><img src="https://tva1.sinaimg.cn/large/0074R88yly8h0ueh2kv90j30hd0i1zn0.jpg" loading="lazy"></p><p>五、安装Vue</p><pre><code class="bash">cnpm install vue -g</code></pre><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uehl6adgj30r403egm6.jpg" loading="lazy"></p><p>六、安装vue命令行工具，即vue-cli 脚手架</p><pre><code class="bash">cnpm install vue-cli -g</code></pre><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0uei3t6joj30qt08x414.jpg" loading="lazy"></p><p>七、新项目的创建<br>1.打开存放新建项目的文件夹<br>打开开始菜单，输入 CMD，或使用快捷键 win+R，输入 CMD，敲回车，弹出命令提示符。打开你将要新建的项目目录<br><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0ueincm5xj30br05ddg1.jpg" loading="lazy"></p><p>2.根据模版创建新项目<br>在当前目录下输入“vue init webpack-simple 项目名称（使用英文）”。</p><pre><code class="bash">vue init webpack-simple mytest</code></pre><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uejfeauij30na07cwfg.jpg" loading="lazy"></p><p>初始化完成后的项目目录结构如下：<br><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0uejywhzcj30iq0bodhe.jpg" loading="lazy"></p><p><img src="https://tva4.sinaimg.cn/large/0074R88yly8h0uek95or5j30hh0bvmyu.jpg" loading="lazy"></p><p>3、安装工程依赖模块</p><p>定位到mytest的工程目录下，安装该工程依赖的模块，这些模块将被安装在：mytest\node_module目录下，node_module文件夹会被新建，而且根据package.json的配置下载该项目的modules</p><pre><code class="bash">cd mytestcnpm install</code></pre><p>4、运行该项目，测试一下该项目是否能够正常工作，这种方式是用nodejs来启动。</p><pre><code class="bash">cnpm run dev</code></pre><p><img src="https://tva1.sinaimg.cn/large/0074R88yly8h0uel7t7n1j30nq09uq43.jpg" loading="lazy"></p><p><img src="https://tva3.sinaimg.cn/large/0074R88yly8h0uelmkmmdj30kt04omxa.jpg" loading="lazy"></p><p><img src="https://tva2.sinaimg.cn/large/0074R88yly8h0uelyd6rxj30mu0h4aat.jpg" loading="lazy"></p>]]></content>
     
@@ -393,7 +393,7 @@
     <link href="http://example.com/2022/03/30/Chrome%E6%8A%A5%E9%94%99/"/>
     <id>http://example.com/2022/03/30/Chrome%E6%8A%A5%E9%94%99/</id>
     <published>2022-03-30T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Chrome访问出现：-Slow-network-is-detected"><a href="#Chrome访问出现：-Slow-network-is-detected" class="headerlink" title="Chrome访问出现： Slow network is detected."></a>Chrome访问出现： Slow network is detected.</h3><p>Chrome报错:Slow network is detected. See <a href="https://www.chromestatus.com/feature/563695467">https://www.chromestatus.com/feature/563695467</a></p><p>百度一下 给出的解释是：</p><p>This means the network is slow, and Chrome is replacing a web font (loaded with a @font-face rule) with a local fallback.</p><p>By default, the text rendered with a web font is invisible until the font is downloaded (“<a href="https://link.csdn.net/?target=https://css-tricks.com/fout-foit-foft/">flash of invisible text</a>”). With this change, the user on a slow network could start reading right when the content is loaded instead of looking into the empty page for several seconds.</p><p>（这意味着网络速度很慢，Chrome正在用本地回退替换网络字体（加载@ font-face规则）。</p><p>默认情况下，使用Web字体呈现的文本在下载字体之前是不可见的（“不可见文本的闪烁”）。 通过此更改，慢速网络上的用户可以在加载内容时开始正确读取，而不是在几秒钟内查看空白页面。）</p><p>解决方法:</p><p>地址栏输入<code>chrome://flags/#enable-webfonts-intervention-v2</code>，并设置为<code>Disabled</code>；重启Chrome。</p>]]></content>
     
@@ -417,7 +417,7 @@
     <link href="http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2022/03/29/Vue%20CLI%203%20+%20element-ui%20%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/</id>
     <published>2022-03-29T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h5 id="1-Vue-CLI-3-安装启动"><a href="#1-Vue-CLI-3-安装启动" class="headerlink" title="1.Vue CLI 3 安装启动"></a>1.Vue CLI 3 安装启动</h5><pre><code class="bash">npm install -g @vue-cli# ORyarn global add @vue-cli</code></pre><p>cd 你的项目名称 </p><h5 id="2-element-ui-安装"><a href="#2-element-ui-安装" class="headerlink" title="2.element-ui 安装"></a>2.element-ui 安装</h5><pre><code class="bash">vue add element</code></pre><p>会出现如下提示:</p><blockquote><p>How do you want to import Element? (Use arrow keys)</p></blockquote><p>为了方便，选择第一个全局引用：fully import</p><pre><code class="bash">Do you wish to overwrite Element&#39;s SCSS variables? YesChoose the locale you want to load zh-CN</code></pre><p>启动</p><pre><code class="bash">npm run serve</code></pre>]]></content>
     
@@ -445,7 +445,7 @@
     <link href="http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/"/>
     <id>http://example.com/2022/03/29/Vue-element-admin%E6%8A%A5%E9%94%99/</id>
     <published>2022-03-29T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告"><a href="#Added-non-passive-event-listener-to-a-scroll-blocking-‘mousewheel’-event-警告" class="headerlink" title="Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告"></a>Added non-passive event listener to a scroll-blocking ‘mousewheel’ event.警告</h2><p>今天跑vue-element-admin的时候打开Chrome浏览器调试报错如下</p><p>Chrome 提醒：[Violation] Added non-passive event listener to a scroll-blocking ‘mousewheel’ event. Consider marking event handler as ‘passive’ to make the page more responsive.</p><p>原因：<a href="https://www.cnblogs.com/PopularProdigal/p/8005783.html">详情</a></p><p>Chrome51 版本以后，Chrome 增加了新的事件捕获机制－Passive Event Listeners。<br>Passive Event Listeners：就是告诉前页面内的事件监听器内部是否会调用preventDefault函数来阻止事件的默认行为，以便浏览器根据这个信息更好地做出决策来优化页面性能。当属性passive的值为true的时候，代表该监听器内部不会调用preventDefault函数来阻止默认滑动行为，Chrome浏览器称这类型的监听器为被动（passive）监听器。目前Chrome主要利用该特性来优化页面的滑动性能，所以Passive Event Listeners特性当前仅支持mousewheel/touch相关事件。</p><p>解决方案:</p><pre><code class="bash">npm i default-passive-events -Smain.js中加入：import &#39;default-passive-events&#39;</code></pre>]]></content>
     
@@ -471,7 +471,7 @@
     <link href="http://example.com/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/"/>
     <id>http://example.com/2022/03/28/Mac%E7%94%B5%E8%84%91node%E7%89%88%E6%9C%AC%E9%99%8D%E7%BA%A7/</id>
     <published>2022-03-28T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.261Z</updated>
+    <updated>2022-07-24T12:21:33.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Mac电脑Node版本降级"><a href="#Mac电脑Node版本降级" class="headerlink" title="Mac电脑Node版本降级"></a>Mac电脑Node版本降级</h2><p>1.安装node版本管理模块</p><pre><code class="bash">sudo npm install n -g</code></pre><p>下边步骤请根据自己需要选择</p><p>1.安装稳定版</p><pre><code class="bash">sudo n stable</code></pre><p>2.安装最新版</p><pre><code class="bash">sudo n latest</code></pre><p>3.版本降级/升级</p><pre><code class="bash">sudo n 版本号#例如：sudo n 12.17.0</code></pre>]]></content>
     
@@ -496,7 +496,7 @@
     <link href="http://example.com/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
     <id>http://example.com/2022/03/28/npm%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</id>
     <published>2022-03-28T00:00:00.000Z</published>
-    <updated>2022-07-24T11:41:38.269Z</updated>
+    <updated>2022-07-24T12:21:33.918Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2022-3月报错笔记整理"><a href="#2022-3月报错笔记整理" class="headerlink" title="2022.3月报错笔记整理"></a>2022.3月报错笔记整理</h1><h2 id="2022-3-28"><a href="#2022-3-28" class="headerlink" title="2022.3.28"></a>2022.3.28</h2><h3 id="npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect"><a href="#npm-install下载依赖项时报错-fatal-unable-to-access-‘https-github-com-nhn-raphael-git-‘-Failed-to-connect" class="headerlink" title="npm install下载依赖项时报错 fatal: unable to access ‘https://github.com/nhn/raphael.git/‘: Failed to connect"></a>npm install下载依赖项时报错 fatal: unable to access ‘<a href="https://github.com/nhn/raphael.git/%E2%80%98">https://github.com/nhn/raphael.git/‘</a>: Failed to connect</h3><p><img src="https://s3.bmp.ovh/imgs/2022/03/0ebf426d1653e68c.jpg" loading="lazy"></p><p>解决方案：</p><p>1：查看一下自己的node版本，一般高版本下载会出问题，建议使用 12.17.0版本</p><p>2：网络延迟的问题，删除package.lock.json和node_modules文件夹,重新install<br>Node.js降级的方法我会写在另一篇<a href="">文章</a>内。</p><h3 id="2022-6-10"><a href="#2022-6-10" class="headerlink" title="2022-6-10"></a>2022-6-10</h3><h4 id="npm-WARN-Local-package-json-exists-but-node-modules-missing-did-you-mean-to-install"><a href="#npm-WARN-Local-package-json-exists-but-node-modules-missing-did-you-mean-to-install" class="headerlink" title="npm WARN Local package.json exists, but node_modules missing, did you mean to install?"></a>npm WARN Local package.json exists, but node_modules missing, did you mean to install?</h4><pre><code class="bash">npm ERR! code ELIFECYCLEnpm ERR! errno 1npm ERR! vuedatabase@1.0.0 dev: `webpack-dev-server --inline --progress --config build/onf.js`npm ERR! Exit status 1npm ERR!npm ERR! Failed at the vuedatabase@1.0.0 dev script.npm ERR! This is probably not a problem with npm. There is likely additional logging ounpm WARN Local package.json exists, but node_modules missing, did you mean to install?</code></pre><p>cd到当前目录</p><pre><code class="bash">npm install</code></pre>]]></content>
     
