@@ -100,7 +100,7 @@ girls:
     avatar: https://img2.baidu.com/it/u=4143926784,1780179785&fm=253&fmt=auto&app=138&f=JPEG?w=670&h=500
     from: 名侦探柯南
   - name: 宫野志保
-    avatar: https://img2.baidu.com/it/u=1113730356,1065772493&fm=26&fmt=auto
+    avatar: https://s3.bmp.ovh/imgs/2022/07/24/c380a3f4565e5030.jpg
     from: 名侦探柯南
   - name: 毛利兰
     avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2Febcf84b3-d52c-2acf-312d-122d2a87a2c0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933730&t=fda294334b5717db91f1d9f8975c8846
