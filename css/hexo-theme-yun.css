@@ -2208,6 +2208,17 @@ input {
 .flex-col {
   flex-direction: column;
 }
+.justfiy-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .w-full {
   width: 100%;
 }
