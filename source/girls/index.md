@@ -7,7 +7,7 @@ girls:
     avatar: https://img2.baidu.com/it/u=2173215309,1270192997&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=801
     from: 魔法禁书目录/某科学的超电磁炮
   - name: 御坂妹妹
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F012951a84e0449dbedeead540697b3986627e273.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646930707&t=83ec43b17415cfbc18f5ca2dd14d0f7e
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/48f46d9b1520f80c.jpg
     from: 魔法禁书目录/某科学的超电磁炮
   - name: 芙兰达·塞维伦
     avatar: https://img2.baidu.com/it/u=3690184553,3952081777&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
@@ -31,25 +31,25 @@ girls:
     avatar: https://img1.baidu.com/it/u=3923167714,1541525220&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 魔法禁书目录/某科学的超电磁炮
   - name: 布束砥信
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbkimg.cdn.bcebos.com%2Fpic%2Ffaf2b2119313b07e86ed7ca90dd7912397dd8c3a&refer=http%3A%2F%2Fbkimg.cdn.bcebos.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646931899&t=50483ccb7751df230e78dfac4405d521
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4otajafqmj30pe0k00u3.jpg
     from: 某科学的超电磁炮
   - name: 鸢一折纸
-    avatar: https://p3-bcy-sign.bcyimg.com/banciyuan/a29553df5122464699fc02c48a762054~tplv-banciyuan-w650.image?x-expires=1660732594&x-signature=MKsfCGGAvcF5MgKeiTIRUs%2FbMyA%3D
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/404b1d455abceb5c.jpg
     from: 约会大作战
   - name: 四宫辉夜
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202008%2F24%2F20200824095754_e4cfb.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646932747&t=d021dbdc5c6f3d2125aaa25a27b6b951
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/53862afe44ab241b.jpg
     from: 辉夜大小姐想让我告白～天才们的恋爱头脑战～
   - name: 藤原千花
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201903%2F02%2F20190302105002_W3EzC.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646932809&t=773d1a7f56eaa7035c07b5153f9b1000
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/2495cd05f82f4575.jpg
     from: 辉夜大小姐想让我告白～天才们的恋爱头脑战～
   - name: 伊井野弥子
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.itc.cn%2Fq_70%2Fimages03%2F20200609%2F2c3b66c18cb043e490d6978ce28aa464.jpeg&refer=http%3A%2F%2Fp0.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646932929&t=80abe7ed96f76f49ad082b4b0c2bd2b4
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4osfo1sqkj30p80pcmyu.jpg
     from: 辉夜大小姐想让我告白～天才们的恋爱头脑战～
   - name: 早坂爱
-    avatar: https://p3-bcy-sign.bcyimg.com/banciyuan/b160d25892654f02aec0d7484905ef14~tplv-banciyuan-w650.image?x-expires=1660732544&x-signature=C7q3lf%2F9Y3ePC5yMVZ3k2G84RFE%3D
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4ot3rg9n3j30hs0hsq3l.jpg
     from: 辉夜大小姐想让我告白～天才们的恋爱头脑战～
   - name: 蕾姆
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13346812386%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933050&t=556b8a9c56febea603d5541e85251d28
+    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h4ot55t6dlj30c80c4t9b.jpg
     from: Re：从零开始的异世界生活
   - name: 拉姆
     avatar: https://img0.baidu.com/it/u=2089937069,1033350216&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
@@ -61,10 +61,10 @@ girls:
     avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2F97afbe41-96ba-3032-a51d-a4fcbfe00f97%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933161&t=03b26d83c3eeb5ad68aea7e23550c193
     from: 侦探已死
   - name: 千反田爱瑠
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202007%2F19%2F20200719222454_rzixp.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933202&t=a80ac80461e79262783080b65bc9df4a
+    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h4otb7m4rhj30hs0hsdgq.jpg
     from: 冰菓
   - name: 樱岛麻衣
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13904256126%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933242&t=d3d282ee54d55c3547dbd065d5fe29d4
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4ot7t08wbj30u00u0jst.jpg
     from: 青春猪头少年不会梦到兔女郎学姐
   - name: 牧之原翔子
     avatar: https://img1.baidu.com/it/u=1885189570,2818205495&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
@@ -99,14 +99,14 @@ girls:
   - name: 宫野明美
     avatar: https://img2.baidu.com/it/u=4143926784,1780179785&fm=253&fmt=auto&app=138&f=JPEG?w=670&h=500
     from: 名侦探柯南
-  - name: 宫野志保
-    avatar: https://s3.bmp.ovh/imgs/2022/07/24/c380a3f4565e5030.jpg
+  - name: 灰原哀
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ot6d6isyj30ir0irwfz.jpg
     from: 名侦探柯南
   - name: 毛利兰
     avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2Febcf84b3-d52c-2acf-312d-122d2a87a2c0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933730&t=fda294334b5717db91f1d9f8975c8846
     from: 名侦探柯南
   - name: 朱蒂·斯泰琳
-    avatar: https://img2.baidu.com/it/u=2228364392,2979982778&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=349
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ot8ofh4hj30i20f275l.jpg
     from: 名侦探柯南
   - name: 宫本由美
     avatar: https://img0.baidu.com/it/u=847760962,1618694024&fm=253&fmt=auto&app=138&f=JPEG?w=509&h=449
@@ -115,7 +115,7 @@ girls:
     avatar: https://img0.baidu.com/it/u=335366700,347807243&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=501
     from: 名侦探柯南
   - name: 堀 
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202102%2F10%2F20210210171350_cc07e.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933992&t=8363f7a7fe48d8b23a48b985849c9727
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4ot9wwuz5j30us0u0di7.jpg
     from: 堀与宫村
   - name: 宫水三叶 
     avatar: https://img1.baidu.com/it/u=32697384,2808523241&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
