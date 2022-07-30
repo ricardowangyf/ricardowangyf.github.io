@@ -15,12 +15,6 @@ girls:
   - name: 茵蒂克丝
     avatar: https://img0.baidu.com/it/u=3660028469,3423090562&fm=253&fmt=auto&app=120&f=PNG?w=620&h=438
     from: 魔法禁书目录
-  - name: 神裂火织
-    avatar: https://img2.baidu.com/it/u=2430660746,1167397477&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=400
-    from: 魔法禁书目录
-  - name: 五和
-    avatar: https://imgsa.baidu.com/forum/w%3D580%3B/sign=a97e5edcdc43ad4ba62e46c8b2395baf/2f738bd4b31c8701d1c6119f2a7f9e2f0708ff53.jpg
-    from: 魔法禁书目录
   - name: 白井黑子
     avatar: https://img0.baidu.com/it/u=3513480274,1522258983&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 魔法禁书目录/某科学的超电磁炮
@@ -58,7 +52,7 @@ girls:
     avatar: https://img2.baidu.com/it/u=3306653412,2942255081&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: Re：从零开始的异世界生活
   - name: 谢丝塔
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2F97afbe41-96ba-3032-a51d-a4fcbfe00f97%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933161&t=03b26d83c3eeb5ad68aea7e23550c193
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/e38a8a6ba6b255c3.jpg
     from: 侦探已死
   - name: 千反田爱瑠
     avatar: https://tva3.sinaimg.cn/large/0074R88yly8h4otb7m4rhj30hs0hsdgq.jpg
@@ -73,7 +67,7 @@ girls:
     avatar: https://img0.baidu.com/it/u=648637194,2388140528&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 青春猪头少年不会梦到兔女郎学姐
   - name: 梓川枫
-    avatar: https://img2.baidu.com/it/u=4162498507,3929559878&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4owusfmk5j30q60q6ab3.jpg
     from: 青春猪头少年不会梦到兔女郎学姐
   - name: 堀北铃音
     avatar: https://s3.bmp.ovh/imgs/2022/07/24/dfbf7f6c6111f62b.jpg
@@ -90,11 +84,8 @@ girls:
   - name: 由比滨结衣
     avatar: https://img0.baidu.com/it/u=1018004314,2574935165&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 我的青春恋爱物语果然有问题
-  - name: 雪之下阳乃
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi.qqkou.com%2Fi%2F1a635169203x359733416b26.jpg&refer=http%3A%2F%2Fi.qqkou.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933532&t=6daf1c2f183efe7aa6f8d5586d81564d
-    from: 我的青春恋爱物语果然有问题
   - name: 平冢静
-    avatar: https://img1.baidu.com/it/u=1577631271,2438985127&fm=253&fmt=auto&app=138&f=JPEG?w=899&h=500
+    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h4owt77qa0j30oh0yhjvk.jpg
     from: 我的青春恋爱物语果然有问题
   - name: 宫野明美
     avatar: https://img2.baidu.com/it/u=4143926784,1780179785&fm=253&fmt=auto&app=138&f=JPEG?w=670&h=500
@@ -103,13 +94,10 @@ girls:
     avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ot6d6isyj30ir0irwfz.jpg
     from: 名侦探柯南
   - name: 毛利兰
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2Febcf84b3-d52c-2acf-312d-122d2a87a2c0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646933730&t=fda294334b5717db91f1d9f8975c8846
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/d1eaa333a053ed67.jpg
     from: 名侦探柯南
   - name: 朱蒂·斯泰琳
     avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ot8ofh4hj30i20f275l.jpg
-    from: 名侦探柯南
-  - name: 宫本由美
-    avatar: https://img0.baidu.com/it/u=847760962,1618694024&fm=253&fmt=auto&app=138&f=JPEG?w=509&h=449
     from: 名侦探柯南
   - name: 佐藤美和子 
     avatar: https://img0.baidu.com/it/u=335366700,347807243&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=501
@@ -124,7 +112,7 @@ girls:
     avatar: https://img1.baidu.com/it/u=2319610260,2981541113&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=281
     from: 天气之子
   - name: 天野阳菜 
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202010%2F04%2F20201004131448_centd.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646934175&t=da8c95b45dafbd46b280144f7798f4e8
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/1cc0cc6714812721.jpg
     from: 天气之子
   - name: 0 2 
     avatar: https://img2.baidu.com/it/u=4211930493,3241429699&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
@@ -142,19 +130,19 @@ girls:
     avatar: https://www.bnacg.com/uploads/2105/1-21050G03625642.png
     from: 女神宿舍的管理员
   - name: 结城明日奈
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201808%2F28%2F20180828155720_htgxy.jpg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1646997288&t=e55df3bce601676c864af31814b8875d
+    avatar: https://s3.bmp.ovh/imgs/2022/07/30/e5a8a7379dc05bbe.jpg
     from: 刀剑神域
   - name: 水原千鹤
-    avatar: http://t15.baidu.com/it/u=2521318027,3925409435&fm=224&app=112&f=JPEG?w=500&h=500
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4oww6wn94j30q60wjad9.jpg
     from: 租借女友
   - name: 更科瑠夏
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202009%2F16%2F20200916010037_7db37.thumb.400_0.png&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648463053&t=f31f2f41b436a366a1725108072b0408
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4owg4mbvqj30hs0hswfi.jpg
     from: 租借女友
   - name: 七海麻美
-    avatar: https://img2.baidu.com/it/u=2228802074,977971509&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4owx59au3j30hs0hst9p.jpg
     from: 租借女友
   - name: 平泽唯
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi.qqkou.com%2Fi%2F2a4142938063x3595388774b26.jpg&refer=http%3A%2F%2Fi.qqkou.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648723505&t=9c568f04a613b35c4b11c814188f5dbf
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4owxqod0tj30q60q6dgx.jpg
     from: 轻音少女
   - name: 秋山澪
     avatar: https://img2.baidu.com/it/u=3617775504,480882670&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
@@ -166,28 +154,28 @@ girls:
     avatar: https://img2.baidu.com/it/u=2874446388,1461644438&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
     from: 轻音少女
   - name: 中野一花
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F1085578d4bbd3d99373bb0a969864d03ebedf8ad.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650294331&t=f389230e391a8a78f95e5368083a8322
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4owguq73xj30q60q6mz7.jpg
     from: 五等分的新娘
   - name: 中野二乃
-    avatar: https://img0.baidu.com/it/u=474867630,2759406617&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4owjb4rvcj30ol0okmyw.jpg
     from: 五等分的新娘
   - name: 中野三玖
-    avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F14073619978%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650294396&t=82a821accac341ac53429301cc1e6030
+    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h4owkc1u86j30hs0hst9j.jpg
     from: 五等分的新娘
   - name: 中野四叶
-    avatar: https://img0.baidu.com/it/u=1498562688,3731292149&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4owm4vby7j30q60vp41g.jpg
     from: 五等分的新娘
   - name: 中野五月
-    avatar: https://img0.baidu.com/it/u=1225048093,4141314436&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=499
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ownpnjlsj30k00k0q46.jpg
     from: 五等分的新娘
   - name: 绫波丽
-    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h1o6alrgeaj30f00dwgmb.jpg
+    avatar: https://tva2.sinaimg.cn/large/0074R88yly8h4ows4dlvkj30u00u0799.jpg
     from: 新世纪福音战士
   - name: 惣流·明日香·兰格雷
-    avatar: https://tva3.sinaimg.cn/large/0074R88yly8h1o6bobmyej30j60j6gn0.jpg
+    avatar: https://tva4.sinaimg.cn/large/0074R88yly8h4owrmpxqxj310k0kk0wv.jpg
     from: 新世纪福音战士
   - name: 葛城美里
-    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h1o6d7lyj1j30rs0rs762.jpg
+    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4oworolx4j30or0orgph.jpg
     from: 新世纪福音战士
   - name: 宝多六花
     avatar: https://s3.bmp.ovh/imgs/2022/07/23/f865b5d0bd8251d3.jpg
