@@ -455,3 +455,21 @@ npm install --save-dev less-loader less
 ```
 
 如果不想用less，可以将`lang='less'`删除
+
+
+## 2022.8.5 Vue2.0报错笔记
+### TypeScript intellisense is disabled on template. To enable, configure `"jsx": "preserve"` in the `"compilerOptions"` property of tsconfig or jsconfig. To disable this prompt instead, configure `"experimentalDisableTemplateSupport": true` in `"vueCompilerOptions"` property.
+ 
+解决方法：
+
+找到根目录下的`jsconfig.json`文件
+
+![](https://s3.bmp.ovh/imgs/2022/08/05/eac756693819add7.jpg)
+
+在文件中添加一句：
+
+```
+"jsx": "preserve",    //在这里添加"jsx": "preserve",
+```
+
+![](https://s3.bmp.ovh/imgs/2022/08/05/e471d94d37128094.jpg)
