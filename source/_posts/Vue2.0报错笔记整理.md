@@ -473,3 +473,23 @@ npm install --save-dev less-loader less
 ```
 
 ![](https://s3.bmp.ovh/imgs/2022/08/05/e471d94d37128094.jpg)
+
+## 2022.8.6 Vue2.0报错笔记
+### autoprefixer: start value has mixed support, consider using flex-start instead
+
+今日在进行项目开发的过程中，遇到编译警告异常，此警告虽然不会影响项目正常运行，但是看着十分不舒服，所以着手解决了这个问题
+
+#### 警告异常分析
+
+如下图，可以了解到这是一个警告异常，且异常内容为“start value has mixed support, consider using flex-start instead”即`开始值有混合支持，考虑使用flex-start代替`
+
+![](https://s3.bmp.ovh/imgs/2022/08/06/f184a7f76797c219.jpg)
+
+#### 解决方案
+经过分析过后，了解了异常问的的内容以及相关位置，接下来就是找到问题并解决。
+1：异常出现位置，如下图：
+![](https://s3.bmp.ovh/imgs/2022/08/06/16338efdac159c7a.jpg)
+2:修改后如下
+![](https://s3.bmp.ovh/imgs/2022/08/06/d67cee8b3c2495c7.jpg)
+
+在css3盒子模型中使用justify-content: flex-start水平居中属性时，需要加flex为了区分属性，防止混合。
