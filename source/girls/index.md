@@ -183,4 +183,22 @@ girls:
   - name: 新条茜
     avatar: https://s3.bmp.ovh/imgs/2022/07/23/657746bdaf6dc71d.jpg
     from: SSSS.古立特
+  - name: 朝井明
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/332f796f22112f20.png
+    from: 彻夜之歌
+  - name: 巴尔泽布
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/6c731911c7c3e9a5.jpg
+    from: 原神
+  - name: 八重神子
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/016b5e4fbbabcb7b.jpg
+    from: 原神
+  - name: 宵宫
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/04f91746c367b36a.jpg
+    from: 原神
+  - name: 琴·古恩希尔德
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/029f1356b3f5fe97.jpg
+    from: 原神
+  - name: 刻晴
+    avatar: https://s3.bmp.ovh/imgs/2022/09/24/04b1c13c5d077b0b.jpg
+    from: 原神
 ---
