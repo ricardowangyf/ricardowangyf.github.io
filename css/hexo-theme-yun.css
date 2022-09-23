@@ -1552,6 +1552,7 @@ input {
   color: var(--hty-text-color);
   font-weight: 400;
   font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
+  padding: 1rem 0;
 }
 .markdown-body code,
 .markdown-body pre {
@@ -1571,6 +1572,7 @@ input {
 }
 .markdown-body iframe {
   border: none;
+  width: 100%;
 }
 .post-nav {
   display: flex;
@@ -2184,6 +2186,11 @@ input {
 }
 #say #say-from {
   display: block;
+}
+iframe.bilibili-video {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
 }
 .heimu {
   background-color: var(--hty-text-color);
