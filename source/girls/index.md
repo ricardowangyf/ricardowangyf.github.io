@@ -136,7 +136,7 @@ girls:
     avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4oww6wn94j30q60wjad9.jpg
     from: 租借女友
   - name: 更科瑠夏
-    avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4owg4mbvqj30hs0hswfi.jpg
+    avatar: https://s1.xptou.com/2022/09/24/632ddf860323b.jpg
     from: 租借女友
   - name: 七海麻美
     avatar: https://tva1.sinaimg.cn/large/0074R88yly8h4owx59au3j30hs0hst9p.jpg
