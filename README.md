@@ -69,4 +69,4 @@ hexo s
 ```
 转跳到浏览器显示如下
 
-![](/source/_posts/images/readme.jpg.jpg)
+![](https://s3.bmp.ovh/imgs/2022/09/24/fd0968c314c21277.jpg)
