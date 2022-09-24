@@ -67,31 +67,6 @@ npm install
 ```bash
 hexo s
 ```
-
-如图：
-![](/source/_posts/images/blog1.jpg)
-
 转跳到浏览器显示如下
 
-![](/source/_posts/images/blog2.jpg)
-
-## 10.同步本地博客到Github
-在myblog（或者你自己取的名称）中的_config.yml文件中添加deploy节点
-```bash
-deploy:
-  type: git
-  repo: git@github.com:username/username.github.io.git
-  branch: master
-```
-
-为了能够使Hexo部署到GitHub上，需要安装一个插件
-```bash 
-npm install hexo-deployer-git --save
-```
-
-然后操作
-```bash
-hexo clean
-
-hexo g -d
-```
+![](/source/_posts/images/readme.jpg.jpg)
