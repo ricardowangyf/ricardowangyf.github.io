@@ -18,8 +18,7 @@ mode: auto
 
 search:
   modal: true
-  bg_image: https://i.postimg.cc/DystPcJd/342ac65c103853432236c05f8413b07ecb8088d7.jpg
-  dark_bg_image: xxx
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
   # placeholder:
 
 
