@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Vue3.0报错笔记整理</title>
+      <link href="/2022/10/24/Vue3.0%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2022/10/24/Vue3.0%E6%8A%A5%E9%94%99%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="2022-10月报错笔记整理"><a href="#2022-10月报错笔记整理" class="headerlink" title="2022.10月报错笔记整理"></a>2022.10月报错笔记整理</h2><h3 id="2022-10-24-Vue报错笔记"><a href="#2022-10-24-Vue报错笔记" class="headerlink" title="2022.10.24 Vue报错笔记"></a>2022.10.24 Vue报错笔记</h3><p>今天刚开始用vue3写项目，出现了一个vue-router的bug。<br>具体报错信息如下:</p><p><img src="../_posts//images/2022.10.jpg" loading="lazy"></p><p>原因是我当时安装vue-router的时候没有用cli脚手架，手动用命令安装了vue和vue-router，导致main.js又和之前有一些不一样的地方<br>之前在写vue2.0的时候main.js内的内容是这样的:</p><pre><code class="js">import Vue from &#39;vue&#39;import Router from &#39;vue-router&#39;import LeftList from &#39;../View/LeftList.vue&#39;export const routes = (&#123;    mode: &#39;history&#39;,    linkActiveClass: &#39;is-active&#39;,    routes: [        &#123;            path: &#39;/&#39;,            redirect: &#39;/list/all&#39;,            component: LeftList,        &#125;,    ]&#125;)export const router = new Router(&#123;    Router // (缩写) 相当于 routes: routes&#125;);Vue.use(Router);</code></pre><p>写的时候不知道router4的写法，不知道怎么去注册router以及store  于是就换成了上面那种写法 项目虽然能运行但是一直就出现<code>export &#39;default&#39; (imported as &#39;Vue&#39;) was not found in &#39;vue&#39;</code>的问题。createApp是可以进行链式调用的<br>解决方案:</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue防抖</title>
       <link href="/2022/10/02/Vue%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/"/>
       <url>/2022/10/02/Vue%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/</url>
