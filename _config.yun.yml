@@ -18,70 +18,39 @@ mode: auto
 
 search:
   modal: true
-  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  bg_image: https://i.postimg.cc/DystPcJd/342ac65c103853432236c05f8413b07ecb8088d7.jpg
   dark_bg_image: xxx
   # placeholder:
 
 
-favicon: https://tva1.sinaimg.cn/large/0074R88yly8h1o7mey550j30ku0dwwgh.jpg
+favicon: https://i.postimg.cc/xT4tL0sZ/176.png
 
 
 social:
-  - name: RSS
-    # set rss in your root config
-    # https://github.com/hexojs/hexo-generator-feed
-    link: /atom.xml # config.feed.path
-    icon: ri:rss-line
-    color: orange
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/logicwang
     icon: ri:github-line
     color: '#181717'
   - name: E-Mail
-    link: mailto:me@yunyoujun.cn
+    link: mailto:me@wangyufei0909@hotmail.com
     icon: ri:mail-line
     color: '#8E71C1'
-  - name: 微博
-    link: https://weibo.com/jizhideyunyoujun
-    icon: ri:weibo-line
-    color: '#E6162D'
-  - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
-    icon: ri:douban-line
-    color: '#007722'
   - name: 网易云音乐
     link: https://music.163.com/#/user/home?id=247102977
     icon: ri:netease-cloud-music-line
     color: '#C10D0C'
   - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
+    link: https://www.zhihu.com/people/peng-yu-yan-44-15
     icon: ri:zhihu-line
     color: '#0084FF'
   - name: 哔哩哔哩动画
-    link: https://space.bilibili.com/1579790
+    link: https://space.bilibili.com/474868654?spm_id_from=333.1007.0.0
     icon: ri:bilibili-line
     color: '#FF8EB3'
-  - name: 微信公众号
-    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
-    icon: ri:wechat-2-line
-    color: '#1AAD19'
   - name: Twitter
-    link: https://twitter.com/YunYouJun
+    link: https://twitter.com/biantaiwang0721
     icon: ri:twitter-line
     color: '#1da1f2'
-  - name: Telegram
-    link: https://t.me/YunYouJun
-    icon: ri:telegram-line
-    color: '#0088CC'
-  - name: Telegram Channel
-    link: https://t.me/elpsycn
-    icon: ri:telegram-fill
-    color: '#0088CC'
-  - name: Travelling
-    link: https://travellings.link
-    icon: ri:gitee-line
-    color: black
-
 head:
   css:
     fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
@@ -199,3 +168,7 @@ cdn:
       # 默认引入的图标资源，使用 iconfont
       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
     defer:
+
+ja: # 将要覆盖的语言
+  menu:
+    home: マイインデックス
