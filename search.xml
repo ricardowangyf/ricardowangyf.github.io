@@ -975,6 +975,31 @@
     
     
     <entry>
+      <title>Markdown插入图片及图注的方法</title>
+      <link href="/2022/02/28/%E5%BF%BD%E7%84%B6/"/>
+      <url>/2022/02/28/%E5%BF%BD%E7%84%B6/</url>
+      
+        <content type="html"><![CDATA[<script src="prism.js"></script><link href="themes/prism.css" rel="stylesheet" /><h2 id="忽然"><a href="#忽然" class="headerlink" title="忽然"></a>忽然</h2><h3 id="李志"><a href="#李志" class="headerlink" title="李志"></a>李志</h3><p><img src="../_posts/images/1.jpg" loading="lazy"></p><p>忽然就流出泪来<br>忽然想要听到她的声音<br>而我却什么话都说不出来<br>是谁在温暖你<br>有谁会让我觉得这夜晚还有期盼<br>我就会跟着她去远行<br>可是你在哪里<br>可是明天醒来的第一缕阳光<br>是否 会像梦里一样明亮<br>幻想朝西的生活<br>幻想着你被害怕定格的角落<br>最后 我一个人越走越孤单<br>幻想朝西的生活 幻想着你被灯光伤感了寂寞<br>最后 你一个人越走越孤单<br>害怕朝西的生活<br>害怕着你被灯光伤感了寂寞<br>最后 我们就越走越孤单</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 歌词 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 歌词 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue路由三种写法方式</title>
       <link href="/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/"/>
       <url>/2022/02/26/Vue%E8%B7%AF%E7%94%B1%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%E6%96%B9%E5%BC%8F/</url>
