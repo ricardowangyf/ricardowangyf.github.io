@@ -133,8 +133,8 @@ sidebar:
       
 bg_image:
   enable: true
-  url: https://tva1.sinaimg.cn/large/0074R88yly8h1o677t2y2j31400px441.jpg
-  dark: https://tva1.sinaimg.cn/large/0074R88yly8h1o677t2y2j31400px441.jpg
+  url: https://s1.ax1x.com/2023/01/28/pSalauD.jpg
+  dark: https://s1.ax1x.com/2023/01/28/pSalauD.jpg
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
 
