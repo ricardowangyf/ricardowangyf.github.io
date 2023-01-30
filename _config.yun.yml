@@ -171,3 +171,9 @@ cdn:
 ja: # 将要覆盖的语言
   menu:
     home: マイインデックス
+
+github_issues:
+  enable: true
+  username: Ricardowangyf
+  repository: Ricardowangyf.github.io
+  filters: is:issue

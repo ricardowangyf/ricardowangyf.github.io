@@ -181,7 +181,7 @@ girls:
     avatar: https://s3.bmp.ovh/imgs/2022/07/23/f865b5d0bd8251d3.jpg
     from: SSSS.古立特
   - name: 新条茜
-    avatar: https://s3.bmp.ovh/imgs/2022/07/23/657746bdaf6dc71d.jpg
+    avatar: https://c-ssl.dtstatic.com/uploads/blog/202104/28/20210428211551_5bbea.thumb.1000_0.png
     from: SSSS.古立特
   - name: 朝井明
     avatar: https://s3.bmp.ovh/imgs/2022/09/24/332f796f22112f20.png
@@ -193,12 +193,9 @@ girls:
     avatar: https://s3.bmp.ovh/imgs/2022/09/24/016b5e4fbbabcb7b.jpg
     from: 原神
   - name: 宵宫
-    avatar: https://s3.bmp.ovh/imgs/2022/09/24/04f91746c367b36a.jpg
-    from: 原神
-  - name: 琴·古恩希尔德
-    avatar: https://s3.bmp.ovh/imgs/2022/09/24/029f1356b3f5fe97.jpg
+    avatar: https://upload-bbs.mihoyo.com/upload/2021/07/07/249495538/80df33f24c70217bdc00cbdd1e64f79d_3044663547031356680.jpg
     from: 原神
   - name: 刻晴
-    avatar: https://s3.bmp.ovh/imgs/2022/09/24/04b1c13c5d077b0b.jpg
+    avatar: https://pic3.zhimg.com/80/v2-c81fc505165a145d4d8ad14e8f66008e_720w.jpg
     from: 原神
 ---
