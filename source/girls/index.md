@@ -181,7 +181,7 @@ girls:
     avatar: https://s3.bmp.ovh/imgs/2022/07/23/f865b5d0bd8251d3.jpg
     from: SSSS.古立特
   - name: 新条茜
-    avatar: https://c-ssl.dtstatic.com/uploads/blog/202104/28/20210428211551_5bbea.thumb.1000_0.png
+    avatar: https://c-ssl.duitang.com/uploads/blog/202105/04/20210504003609_94cbb.jpg
     from: SSSS.古立特
   - name: 朝井明
     avatar: https://s3.bmp.ovh/imgs/2022/09/24/332f796f22112f20.png
@@ -198,4 +198,16 @@ girls:
   - name: 刻晴
     avatar: https://pic3.zhimg.com/80/v2-c81fc505165a145d4d8ad14e8f66008e_720w.jpg
     from: 原神
+  - name: 2B
+    avatar: https://ss5i.com/uploadfiles/image/20210204/20210204164727642764.jpg
+    from: 尼尔.机械纪元
+  - name: 妮妮姆
+    avatar: https://i03piccdn.sogoucdn.com/eab119c31056e9e2
+    from: 天才王子的赤字国家振兴术
+  - name: 木更
+    avatar: https://images8.alphacoders.com/126/1260282.jpg
+    from: 契约之吻
+  - name: 莎朗·荷莉格蕾尔
+    avatar: https://tse4-mm.cn.bing.net/th/id/OIP-C.ZPuLp9K06rQpHpwP5hO-3wAAAA?pid=ImgDet&rs=1
+    from: 契约之吻
 ---
