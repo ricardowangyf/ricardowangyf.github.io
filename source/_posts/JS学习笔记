@@ -1,0 +1,65 @@
+---
+title: JS学习笔记
+date: 2023.2.28
+categories: JavaScript
+tags: 
+- JavaScript
+---
+
+#  JS学习笔记 
+
+## JS用法  
+`2023.2.28`
+
+在`head`标签中写JS
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(){
+    document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+}
+</script>
+</head>
+<body>
+<p id="demo">段落</p>
+<button type="button" onclick="myFunction()">尝试一下</button>
+</body>
+</html>
+```
+
+在`body`标签中编写JS
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">一个段落</p>
+<button type="button" onclick="myFunction()">尝试一下</button>
+<script>
+function myFunction(){
+    document.getElementById("demo").innerHTML="JS内容";
+}
+</script>
+</body>
+</html>
+```
+在`外部`编写JS
+```html
+<h1>我的 Web 页面</h1>
+<p id="demo">一个段落。</p>
+<button type="button" onclick="myFunction()">点击这里</button>
+<p><b>注释：</b>myFunction 保存在名为 "myscript.js" 的外部文件中。</p>
+<script src="../outesied.js"></script>
+```
+
+
+## JS浏览器中执行
+
+1 console窗口调试JS代码
+![](https://atts.w3cschool.cn/attachments/day_210927/202109271433192356.jpg)
+
+
+![](https://atts.w3cschool.cn/attachments/day_210927/202109271433194077.jpg)
+
+![](https://atts.w3cschool.cn/attachments/image/20211106/1636165017322580.jpeg)
