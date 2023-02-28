@@ -63,3 +63,13 @@ function myFunction(){
 ![](https://atts.w3cschool.cn/attachments/day_210927/202109271433194077.jpg)
 
 ![](https://atts.w3cschool.cn/attachments/image/20211106/1636165017322580.jpeg)
+
+
+2、chrome snippets小脚本
+
+以在 Chrome 浏览器中创建一个脚本来执行，在开发者工具中点击 Sources 面板，选择 Snippets 选项卡，在导航器中右击鼠标，然后选择 Create new snippet 来新建一个脚本文件：
+![](https://atts.w3cschool.cn/attachments/day_210927/202109271433207531.jpg)
+
+![](https://atts.w3cschool.cn/attachments/day_210927/202109271433219500.jpg)
+
+点击Create new snippet 后，会自动创建一个文件，你只需在右侧窗口输入以下代码，然后按 Command+S（Mac）或 Ctrl+S（Windows 和 Linux）保存更改即可。
