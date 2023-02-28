@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>JS学习笔记</title>
+      <link href="/2023/02/28/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2023/02/28/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JS学习笔记"><a href="#JS学习笔记" class="headerlink" title="JS学习笔记"></a>JS学习笔记</h1><h2 id="JS用法"><a href="#JS用法" class="headerlink" title="JS用法"></a>JS用法</h2><p><code>2023.2.28</code></p><p>在<code>head</code>标签中写JS</p><pre><code class="HTML">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;script&gt;function myFunction()&#123;    document.getElementById(&quot;demo&quot;).innerHTML=&quot;我的第一个 JavaScript 函数&quot;;&#125;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;p id=&quot;demo&quot;&gt;段落&lt;/p&gt;&lt;button type=&quot;button&quot; onclick=&quot;myFunction()&quot;&gt;尝试一下&lt;/button&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><p>在<code>body</code>标签中编写JS</p><pre><code class="html">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;&lt;p id=&quot;demo&quot;&gt;一个段落&lt;/p&gt;&lt;button type=&quot;button&quot; onclick=&quot;myFunction()&quot;&gt;尝试一下&lt;/button&gt;&lt;script&gt;function myFunction()&#123;    document.getElementById(&quot;demo&quot;).innerHTML=&quot;JS内容&quot;;&#125;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><p>在<code>外部</code>编写JS</p><pre><code class="html">&lt;h1&gt;我的 Web 页面&lt;/h1&gt;&lt;p id=&quot;demo&quot;&gt;一个段落。&lt;/p&gt;&lt;button type=&quot;button&quot; onclick=&quot;myFunction()&quot;&gt;点击这里&lt;/button&gt;&lt;p&gt;&lt;b&gt;注释：&lt;/b&gt;myFunction 保存在名为 &quot;myscript.js&quot; 的外部文件中。&lt;/p&gt;&lt;script src=&quot;../outesied.js&quot;&gt;&lt;/script&gt;</code></pre><h2 id="JS浏览器中执行"><a href="#JS浏览器中执行" class="headerlink" title="JS浏览器中执行"></a>JS浏览器中执行</h2><p>1 console窗口调试JS代码<br><img src="https://atts.w3cschool.cn/attachments/day_210927/202109271433192356.jpg" loading="lazy"></p><p><img src="https://atts.w3cschool.cn/attachments/day_210927/202109271433194077.jpg" loading="lazy"></p><p><img src="https://atts.w3cschool.cn/attachments/image/20211106/1636165017322580.jpeg" loading="lazy"></p><p>2、chrome snippets小脚本</p><p>以在 Chrome 浏览器中创建一个脚本来执行，在开发者工具中点击 Sources 面板，选择 Snippets 选项卡，在导航器中右击鼠标，然后选择 Create new snippet 来新建一个脚本文件：<br><img src="https://atts.w3cschool.cn/attachments/day_210927/202109271433207531.jpg" loading="lazy"></p><p><img src="https://atts.w3cschool.cn/attachments/day_210927/202109271433219500.jpg" loading="lazy"></p><p>点击Create new snippet 后，会自动创建一个文件，你只需在右侧窗口输入以下代码，然后按 Command+S（Mac）或 Ctrl+S（Windows 和 Linux）保存更改即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>残酷天使的行动纲领</title>
       <link href="/2023/02/26/%E6%AE%8B%E9%85%B7%E5%A4%A9%E4%BD%BF%E7%9A%84%E8%A1%8C%E5%8A%A8%E7%BA%B2%E9%A2%86/"/>
       <url>/2023/02/26/%E6%AE%8B%E9%85%B7%E5%A4%A9%E4%BD%BF%E7%9A%84%E8%A1%8C%E5%8A%A8%E7%BA%B2%E9%A2%86/</url>
