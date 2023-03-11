@@ -46,4 +46,4 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ![](https://s3.bmp.ovh/imgs/2022/03/e741f86ad8f1dcd1.jpg)
 
-ok，上面两种方法都可以使用，建议要在良好的网络环境下安装。
+ok，上面两种方法都可以使用，建议要在良好的网络环境下安装
