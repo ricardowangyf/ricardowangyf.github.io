@@ -22,12 +22,12 @@ search:
   # placeholder:
 
 
-favicon: https://i.postimg.cc/xT4tL0sZ/176.png
+favicon: https://s1.ax1x.com/2023/03/16/pp8BdB9.jpg
 
 
 social:
   - name: GitHub
-    link: https://github.com/logicwang
+    link: https://github.com/ricardowangyf
     icon: ri:github-line
     color: '#181717'
   - name: E-Mail
@@ -47,7 +47,7 @@ social:
     icon: ri:bilibili-line
     color: '#FF8EB3'
   - name: Twitter
-    link: https://twitter.com/Ricardowang0721
+    link: https://twitter.com/biantairicardo
     icon: ri:twitter-line
     color: '#1da1f2'
 head:
@@ -82,6 +82,9 @@ tags:
   github: mediumpurple
   npm: "#d04d2d"
   实例: "#2577b1"
+
+# codeblock:
+#   copy_btn: true
 
 engine_search:
   enable: false

@@ -1,16 +1,11 @@
 ---
-title: 如何书写md文件
+title: 书写md文件
 date: 2022.1.3
 description:  000
 categories: Markdown
 tags:
 - Markdown
 ---
-
-<link href="themes/prism.css" rel="stylesheet" />
-<script src="prism.js" data-manual></script>
-
-<!-- more -->
 
 一、标题
 标题其实和HTML中的h系列很像，想要设置为标题的文字前面加#来表示
