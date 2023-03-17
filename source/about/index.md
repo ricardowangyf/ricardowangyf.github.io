@@ -18,8 +18,8 @@ date: 2022-02-08 22:38:17
 
 - Gmail：<wangyufei0909@gmail.com>
 - QQmail: <1758555877@qq.com>
-- GitHub: [logicwang](https://github.com/logicwang)
-- Gitee:[logicwang](https://gitee.com/wangyf2020)
+- GitHub: [logicwang](https://github.com/ricardowangyf)
+- Gitee:[logicwang](https://gitee.com/logicwang)
 - 哔哩哔哩: [科学的梵高先生](https://space.bilibili.com/474868654?spm_id_from=333.1007.0.0)
 - 知乎：[某傲娇的超电磁炮](https://www.zhihu.com/people/peng-yu-yan-44-15)
-- Twitter: [热心市民王先生](https://twitter.com/biantaiwang0721)
+<!-- - Twitter: [热心市民王先生](https://twitter.com/) -->

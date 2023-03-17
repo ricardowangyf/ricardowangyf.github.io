@@ -46,10 +46,10 @@ social:
     link: https://space.bilibili.com/474868654?spm_id_from=333.1007.0.0
     icon: ri:bilibili-line
     color: '#FF8EB3'
-  - name: Twitter
-    link: https://twitter.com/biantairicardo
-    icon: ri:twitter-line
-    color: '#1da1f2'
+  # - name: Twitter
+  #   link: https://twitter.com/biantairicardo
+  #   icon: ri:twitter-line
+  #   color: '#1da1f2'
 head:
   css:
     fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
