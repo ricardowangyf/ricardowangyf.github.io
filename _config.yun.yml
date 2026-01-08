@@ -1,5 +1,36 @@
 avatar:
-  url: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2F80%2Fv2-6419c5565ab345fb3cd2b4f18492b636_720w.jpg?sec=1646936736&t=4419a04597d5da9fbaed2476020a3eae
+  enable: true
+  url: https://image2url.com/r2/bucket1/images/1767854498312-5e46c7ed-1d46-48ad-b6e8-26e0f3019b36.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+
+menu:
+  home:
+    path: /
+    icon: ri:home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: ri:archive-line
+    - type: categories
+      path: /categories/
+      icon: ri:folder-2-line
+    - type: tags
+      path: /tags/
+      icon: ri:price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: ri:cloud-line
+    #   count: 你猜
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: ri:settings-line
+
 
 banner:
   enable: true
