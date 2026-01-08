@@ -93,21 +93,12 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: yun
 
 deploy:
   type: git
   repo: git@github.com:logicwang/logicwang.github.io.git
   branch: master
-
-
-# aplayer:
-#   asset_inject: true
-
-
 codeblock:
   copy_btn: true
   prismjs:
