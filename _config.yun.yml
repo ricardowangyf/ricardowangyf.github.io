@@ -182,6 +182,6 @@ footer:
   icon: some-icon
 
 
-wordcloud:
-  enable: true
-  height: 350
+# wordcloud:
+#   enable: true
+#   height: 350
