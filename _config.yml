@@ -98,7 +98,8 @@ theme: yun
 deploy:
   type: git
   repo: git@github.com:logicwang/logicwang.github.io.git
-  branch: master
+  branch: gh-pages
+
 codeblock:
   copy_btn: true
   prismjs:
