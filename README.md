@@ -1,4 +1,6 @@
-# 新建hexo项目并部署到github
+碎碎念和一些日语学习记录还有编码文章
+
+<!-- # 新建hexo项目并部署到github
 
 ### 1. 查看是否安装node.js
 
@@ -69,4 +71,4 @@ hexo s
 ```
 转跳到浏览器显示如下
 
-![](https://s3.bmp.ovh/imgs/2022/09/24/fd0968c314c21277.jpg)
+![](https://s3.bmp.ovh/imgs/2022/09/24/fd0968c314c21277.jpg) -->
