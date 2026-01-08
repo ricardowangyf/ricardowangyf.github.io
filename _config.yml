@@ -104,8 +104,8 @@ deploy:
   branch: master
 
 
-aplayer:
-  asset_inject: true
+# aplayer:
+#   asset_inject: true
 
 
 codeblock:

@@ -197,29 +197,29 @@ wordcloud:
   enable: true
   height: 350
 
-aplayer:
-  global: true
-  meting: true
-  # https://github.com/metowolf/MetingJS/tree/v1.2#option
-  widget:
-    enable: true
-    autoplay: true
-    # theme: "#2980b9"
-    loop: all
-    order: list
-    preload: auto
-    volume: 0.7
-    mutex: true
-    lrcType: 0
-    listFolded: true
-    listMaxHeight: 340px
-    audio:
-      - name: 星宿计时
-        artist: 杉田朗/洛天依
-        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
-        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
-    meting:
-      enable: true
-      id: 308168565
-      server: netease
-      type: playlist
+# aplayer:
+  # global: true
+  # meting: true
+  # # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  # widget:
+  #   enable: true
+  #   autoplay: true
+  #   # theme: "#2980b9"
+  #   loop: all
+  #   order: list
+  #   preload: auto
+  #   volume: 0.7
+  #   mutex: true
+  #   lrcType: 0
+  #   listFolded: true
+  #   listMaxHeight: 340px
+  #   audio:
+  #     - name: 星宿计时
+  #       artist: 杉田朗/洛天依
+  #       url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+  #       cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
+  #   meting:
+  #     enable: true
+  #     id: 308168565
+  #     server: netease
+  #     type: playlist
