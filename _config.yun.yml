@@ -183,12 +183,12 @@ github_issues:
   repository: Ricardowangyf.github.io
   filters: is:issue
 
-footer:
-  since: 1997
-  icon:
-    name: ri:cloud-line
-    animated: true
-    color: '#0078E7'
+# footer:
+#   since: 1997
+#   icon:
+#     name: ri:cloud-line
+#     animated: true
+#     color: '#0078E7'
 
 footer:
   custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
