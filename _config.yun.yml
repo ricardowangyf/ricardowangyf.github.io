@@ -176,10 +176,6 @@ github_issues:
   repository: Ricardowangyf.github.io
   filters: is:issue
 
-
-footer:
-  custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-
 wordcloud:
   enable: true
   height: 350
