@@ -81,6 +81,7 @@ tags:
   brew: "#0078e7"
   github: mediumpurple
   npm: "#d04d2d"
+  japanese: "#d04d2d"
   实例: "#2577b1"
 
 # codeblock:
@@ -132,7 +133,7 @@ sidebar:
   bg_position: bottom 3rem center
   tagcloud:
     enable: true
-    amount: 29
+    amount: 30
       
 bg_image:
   enable: true
