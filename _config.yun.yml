@@ -51,11 +51,11 @@ head:
     fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
 
-footer:
-  live_time:
-    enable: true
-    prefix: 本博客已运行
-    start_time: "2022-02-09T00:25:00"
+# footer:
+#   live_time:
+#     enable: true
+#     prefix: 本博客已运行
+#     start_time: "2022-02-09T00:25:00"
 
 girls:
   enable: true
@@ -175,6 +175,12 @@ github_issues:
   username: Ricardowangyf
   repository: Ricardowangyf.github.io
   filters: is:issue
+
+footer:
+  custom_text: Hosted by <a href="https://pages.github.com/">GitHub Pages</a>
+  since: 1997
+  icon: some-icon
+
 
 wordcloud:
   enable: true
