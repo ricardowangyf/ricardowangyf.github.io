@@ -236,7 +236,36 @@ var _self = "undefined" != typeof window ? window : "undefined" != typeof Worker
             u.postMessage(M.highlight(r, M.languages[t], t)), a && u.close()
         }, !1)), M;
         var r = M.util.currentScript();
-
+/**
+ * Transform embedded video to support responsive layout.
+ * @see https://ultimatecourses.com/blog/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js
+ */
+function embeddedVideoTransformer() {
+    const iframes = document.getElementsByTagName('iframe')
+    const SUPPORTED_PLAYERS = [
+      'www.youtube.com',
+      'player.vimeo.com',
+      'music.163.com'
+    ]
+    for (let i = 0; i < iframes.length; i++) {
+      const iframe = iframes[i]
+      if (iframe.src.search(SUPPORTED_PLAYERS.join('|')) !== -1) {
+        const videoRatio = (iframe.height / iframe.width) * 100
+        iframe.width = '100%'
+  
+        const wrap = document.createElement('div')
+        wrap.className = 'fluid-vids'
+        wrap.style.width = '100%'
+        wrap.style.minHeight = '90px'
+        wrap.style.height = iframe.height
+        wrap.style.position = 'relative'
+  
+        const iframeParent = iframe.parentNode
+        iframeParent.insertBefore(wrap, iframe)
+        wrap.appendChild(iframe)
+      }
+    }
+  }
         function a() { M.manual || M.highlightAll() }
         if (r && (M.filename = r.src, r.hasAttribute("data-manual") && (M.manual = !0)), !M.manual) { var l = document.readyState; "loading" === l || "interactive" === l && r && r.defer ? document.addEventListener("DOMContentLoaded", a) : window.requestAnimationFrame ? window.requestAnimationFrame(a) : window.setTimeout(a, 16) }
         return M

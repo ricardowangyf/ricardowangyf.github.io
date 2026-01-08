@@ -83,6 +83,7 @@ tags:
   npm: "#d04d2d"
   japanese: "#d04d2d"
   实例: "#2577b1"
+  杂谈: "#2577b1"
 
 # codeblock:
 #   copy_btn: true
@@ -133,7 +134,7 @@ sidebar:
   bg_position: bottom 3rem center
   tagcloud:
     enable: true
-    amount: 30
+    amount: 31
       
 bg_image:
   enable: true
@@ -181,3 +182,44 @@ github_issues:
   username: Ricardowangyf
   repository: Ricardowangyf.github.io
   filters: is:issue
+
+footer:
+  since: 1997
+  icon:
+    name: ri:cloud-line
+    animated: true
+    color: '#0078E7'
+
+footer:
+  custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+
+wordcloud:
+  enable: true
+  height: 350
+
+aplayer:
+  global: true
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: true
+    autoplay: true
+    # theme: "#2980b9"
+    loop: all
+    order: list
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: true
+    listMaxHeight: 340px
+    audio:
+      - name: 星宿计时
+        artist: 杉田朗/洛天依
+        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
+    meting:
+      enable: true
+      id: 308168565
+      server: netease
+      type: playlist

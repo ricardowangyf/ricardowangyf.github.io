@@ -28,6 +28,7 @@
     "hexo-renderer-pug": "^2.0.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-yun": "^1.8.11",
     "highlight.js": "^11.4.0",
     "install": "^0.13.0",
