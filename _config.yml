@@ -98,7 +98,7 @@ theme: yun
 deploy:
   type: git
   repo: git@github.com:logicwang/logicwang.github.io.git
-  branch: gh-pages
+  branch: master
 
 codeblock:
   copy_btn: true
