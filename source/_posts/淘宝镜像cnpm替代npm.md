@@ -2,6 +2,7 @@
 title: 淘宝镜像cnpm替代npm
 date: 2022.3.14
 description: 
+hide: true
 tags:
 - npm 
 - cnpm

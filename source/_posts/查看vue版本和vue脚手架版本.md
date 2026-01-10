@@ -2,6 +2,7 @@
 title: 查看vue版本和vue脚手架版本
 date: 2022.7.13
 categories: vue
+hide: true
 tags:
 - vue
 ---

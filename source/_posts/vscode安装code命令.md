@@ -2,6 +2,7 @@
 title: vscode安装code命令
 date: 2022.7.11
 categories: vscode
+hide: true
 tags:
 - vscode
 ---

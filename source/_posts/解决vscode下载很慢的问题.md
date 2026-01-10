@@ -2,6 +2,7 @@
 title: 解决vscode下载很慢的问题
 date: 2022.7.11
 categories: vscode
+hide: true
 tags:
 - vscode
 ---

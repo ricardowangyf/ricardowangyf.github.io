@@ -3,6 +3,7 @@ title: Linux命令行下修改文件或文件夹名
 date: 2022.3.23
 description:  
 categories: 
+hide: true
 tags:
 - Linux
 ---

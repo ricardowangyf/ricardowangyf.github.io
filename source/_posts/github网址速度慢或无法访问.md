@@ -1,5 +1,6 @@
 ---
 title: github网址速度慢或无法访问
+hide: true
 date: 2022.3.2
 categories: 
 tags:

@@ -6,8 +6,8 @@ categories: Vue
 tags:
 - Vue
 ---
-<script src="prism.js"></script>
-<link href="themes/prism.css" rel="stylesheet" />
+<!-- <script src="prism.js"></script>
+<link href="themes/prism.css" rel="stylesheet" /> -->
 
 ## Vue中的语法糖
 

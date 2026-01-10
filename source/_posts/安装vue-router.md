@@ -1,6 +1,7 @@
 ---
 title: 安装vue-router
 date: 2022.3.2
+hide: true
 categories: Vue
 comments: true
 tags: 

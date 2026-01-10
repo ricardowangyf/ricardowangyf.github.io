@@ -1,6 +1,7 @@
 ---
 title: git报错笔记
 date: 2022.3.24
+hide: true
 categories: git
 tags: 
 - git

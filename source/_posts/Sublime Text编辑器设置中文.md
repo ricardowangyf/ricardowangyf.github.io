@@ -2,6 +2,7 @@
 title: SublimeText编辑器设置中文
 date: 2022.7.17
 categories: SublimeText
+hide: true
 tags:
 - SublimeText
 ---

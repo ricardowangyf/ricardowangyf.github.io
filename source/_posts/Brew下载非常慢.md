@@ -3,6 +3,7 @@ title: brew下载非常慢
 date: 2021-12-16 21:18:11
 description: 
 categories: brew
+hide: true
 tags:
 - brew
 ---

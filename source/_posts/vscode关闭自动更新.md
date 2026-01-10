@@ -2,6 +2,7 @@
 title: vscode关闭自动更新
 date: 2022.7.13
 categories: vscode
+hide: true
 tags:
 - vscode
 ---

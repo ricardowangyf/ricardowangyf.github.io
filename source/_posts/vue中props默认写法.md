@@ -3,6 +3,7 @@ title: Vue中props默认写法
 date: 2022.2.20
 description: 
 categories: Vue
+hide: true
 tags:
 - Vue
 ---
