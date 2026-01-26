@@ -1,6 +1,7 @@
 ---
 title: git add后撤销
 date: 2022-02-28
+hide: true
 description: 
 categories: git
 tags:
