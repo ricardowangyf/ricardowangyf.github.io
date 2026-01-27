@@ -6,6 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "jp": "bash scripts/jp-log.sh",
     "server": "hexo server"
   },
   "hexo": {
