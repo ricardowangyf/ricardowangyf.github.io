@@ -29,7 +29,7 @@
       <link href="/2026/01/27/jp-log/2026-01-27/"/>
       <url>/2026/01/27/jp-log/2026-01-27/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">name: Hexo Deployon:  push:    branches:      - masterjobs:  build-deploy:    runs-on: ubuntu-latest    steps:      - name: Checkout        uses: actions/checkout@v4      - name: Setup Node        uses: actions/setup-node@v4        with:          node-version: 18      - name: Install dependencies        run: npm install      - name: Build Hexo        run: npx hexo generate      - name: Deploy to GitHub Pages        uses: peaceiris/actions-gh-pages@v3        with:          github_token: $&#123;&#123; secrets.GITHUB_TOKEN &#125;&#125;          publish_dir: ./public```</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">name: Build &amp; Deploy Vue 2 Projecton:  push:    branches:      - mainpermissions:  contents: writejobs:  build-and-deploy:    runs-on: ubuntu-latest    steps:      # 1️⃣ 拉取仓库      - name: Checkout repository        uses: actions/checkout@v3.3.0      # 2️⃣ 设置 Node.js      - name: Setup Node.js        uses: actions/setup-node@v3.10.0        with:          node-version: &#39;16&#39;      # 3️⃣ 安装依赖      - name: Install dependencies        run: npm install      # 4️⃣ 构建 Vue 项目      - name: Build project        run: npm run build      # 5️⃣ 禁用 Jekyll      - name: Disable Jekyll        run: touch dist/.nojekyll      # 6️⃣ 删除 dist 下可能存在的 README.md      - name: Remove README.md if exists        run: rm -f dist/README.md      # 7️⃣ SPA history 模式兼容      - name: Copy index.html to 404.html        run: cp dist/index.html dist/404.html      # 8️⃣ 部署到 gh-pages 分支      - name: Deploy to GitHub Pages        uses: peaceiris/actions-gh-pages@v3.12.0        with:          personal_token: $&#123;&#123; secrets.GH_PAT &#125;&#125;          publish_dir: ./dist          destination_branch: gh-pages          commit_message: &quot;Deploy Vue 2 project via GitHub Actions&quot;</code></pre>]]></content>
       
       
       
@@ -1417,31 +1417,6 @@
     
     
     <entry>
-      <title>端口占用</title>
-      <link href="/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/"/>
-      <url>/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="端口占用"><a href="#端口占用" class="headerlink" title="端口占用"></a>端口占用</h2><p>昨天晚上在编辑Hexo运行的个人博客出现了一个端口占用的问题<br>解决方案如下</p><p>1：重启电脑<br>2：opition+control+c关闭服务<br>3：checkout代码</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>书写md文件</title>
       <link href="/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/"/>
       <url>/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/</url>
@@ -1459,6 +1434,31 @@
         <tags>
             
             <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>端口占用</title>
+      <link href="/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/"/>
+      <url>/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="端口占用"><a href="#端口占用" class="headerlink" title="端口占用"></a>端口占用</h2><p>昨天晚上在编辑Hexo运行的个人博客出现了一个端口占用的问题<br>解决方案如下</p><p>1：重启电脑<br>2：opition+control+c关闭服务<br>3：checkout代码</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
