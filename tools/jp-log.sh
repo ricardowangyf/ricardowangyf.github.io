@@ -35,11 +35,4 @@ else
   git push origin master
 fi
 
-# ---------- Hexo 部署 ----------
-npx hexo clean
-npx hexo g
-npx hexo d
-
-echo "🚀 GitHub Pages 已更新"
-
-chmod +x scripts/jp-log.sh
+echo "✅ 已推送到 GitHub，等待 Actions 自动部署"
