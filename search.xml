@@ -4,11 +4,32 @@
   
     
     <entry>
+      <title>日语学习记录 2026-01-28</title>
+      <link href="/2026/01/28/newpagesagain/"/>
+      <url>/2026/01/28/newpagesagain/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><p>自动化部署</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日语 </tag>
+            
+            <tag> 学习日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语学习记录 2026-01-27</title>
       <link href="/2026/01/27/jp-log/2026-01-27/"/>
       <url>/2026/01/27/jp-log/2026-01-27/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">    &quot;scripts&quot;: &#123;      &quot;jp&quot;: &quot;bash ,scripts/jp-log.sh&quot;    &#125;```</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">---title: 日语学习记录 2026-01-27date: 2026-01-27tags:  - 日语  - 学习日志---## 📅 2026-01-27 日语学习记录```json    &quot;scripts&quot;: &#123;      &quot;jp&quot;: &quot;bash ,scripts/jp-log.sh&quot;    &#125;```</code></pre>]]></content>
       
       
       
