@@ -29,7 +29,7 @@
       <link href="/2026/01/27/jp-log/2026-01-27/"/>
       <url>/2026/01/27/jp-log/2026-01-27/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">npm run jp</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="📅-2026-01-27-日语学习记录"><a href="#📅-2026-01-27-日语学习记录" class="headerlink" title="📅 2026-01-27 日语学习记录"></a>📅 2026-01-27 日语学习记录</h2><pre><code class="json">name: Hexo Deployon:  push:    branches:      - masterjobs:  build-deploy:    runs-on: ubuntu-latest    steps:      - name: Checkout        uses: actions/checkout@v4      - name: Setup Node        uses: actions/setup-node@v4        with:          node-version: 18      - name: Install dependencies        run: npm install      - name: Build Hexo        run: npx hexo generate      - name: Deploy to GitHub Pages        uses: peaceiris/actions-gh-pages@v3        with:          github_token: $&#123;&#123; secrets.GITHUB_TOKEN &#125;&#125;          publish_dir: ./public```</code></pre>]]></content>
       
       
       
@@ -1417,31 +1417,6 @@
     
     
     <entry>
-      <title>书写md文件</title>
-      <link href="/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/"/>
-      <url>/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>一、标题<br>标题其实和HTML中的h系列很像，想要设置为标题的文字前面加#来表示<br>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p><p>注：标准语法一般在#后跟个空格再写文字，</p><p>示例：</p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>二、字体<br>加粗<br>要加粗的文字左右分别用两个*号包起来</p><p>斜体<br>要倾斜的文字左右分别用一个*号或者用_包起来</p><p>斜体加粗<br>要倾斜和加粗的文字左右分别用三个*号包起来</p><p>删除线<br>要加删除线的文字左右分别用两个~~号包起来</p><p>示例：</p><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del></p><p>三、引用<br>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…</p><p>示例：</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p></blockquote></blockquote></blockquote><p>四、分割线<br>三个或者三个以上的 - 或者 * 都可以。</p><p>示例：</p><hr><hr><p>五、图片<br>语法：</p><p><img src="https://s2.loli.net/2022/01/03/QUNdLgKh2t6ZFau.png" loading="lazy"><br>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p><p>六、超链接</p><p>示例：</p><p><a href="http://baidu.com/">百度</a></p><p>七、列表<br>无序列表<br>语法：<br>无序列表用 - + * 任何一种都可以</p><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><p>注意：- + * 跟内容之间都要有一个空格</p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法：</p><table><thead><tr><th>表头</th><th align="center">表头</th><th align="right">表头</th></tr></thead><tbody><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr></tbody></table><p>第二行分割表头和内容。</p><ul><li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li><li>两边加：表示文字居中</li><li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li></ul><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>语法：<br>单行代码：代码之间分别用一个反引号包起来</p><pre><code>`代码内容`</code></pre><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p><pre><code class="bash">代码内容</code></pre><pre><code>代码内容</code></pre><p>以上内容转载来自<a href="https://www.cnblogs.com/irenehanb/p/10967834.html">博客园</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Markdown </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>端口占用</title>
       <link href="/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/"/>
       <url>/2022/01/03/%E5%87%BA%E7%8E%B0%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</url>
@@ -1459,6 +1434,31 @@
         <tags>
             
             <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>书写md文件</title>
+      <link href="/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/"/>
+      <url>/2022/01/03/%E4%B9%A6%E5%86%99md%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>一、标题<br>标题其实和HTML中的h系列很像，想要设置为标题的文字前面加#来表示<br>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p><p>注：标准语法一般在#后跟个空格再写文字，</p><p>示例：</p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>二、字体<br>加粗<br>要加粗的文字左右分别用两个*号包起来</p><p>斜体<br>要倾斜的文字左右分别用一个*号或者用_包起来</p><p>斜体加粗<br>要倾斜和加粗的文字左右分别用三个*号包起来</p><p>删除线<br>要加删除线的文字左右分别用两个~~号包起来</p><p>示例：</p><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del></p><p>三、引用<br>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…</p><p>示例：</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p></blockquote></blockquote></blockquote><p>四、分割线<br>三个或者三个以上的 - 或者 * 都可以。</p><p>示例：</p><hr><hr><p>五、图片<br>语法：</p><p><img src="https://s2.loli.net/2022/01/03/QUNdLgKh2t6ZFau.png" loading="lazy"><br>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p><p>六、超链接</p><p>示例：</p><p><a href="http://baidu.com/">百度</a></p><p>七、列表<br>无序列表<br>语法：<br>无序列表用 - + * 任何一种都可以</p><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><p>注意：- + * 跟内容之间都要有一个空格</p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法：</p><table><thead><tr><th>表头</th><th align="center">表头</th><th align="right">表头</th></tr></thead><tbody><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr></tbody></table><p>第二行分割表头和内容。</p><ul><li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li><li>两边加：表示文字居中</li><li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li></ul><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>语法：<br>单行代码：代码之间分别用一个反引号包起来</p><pre><code>`代码内容`</code></pre><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p><pre><code class="bash">代码内容</code></pre><pre><code>代码内容</code></pre><p>以上内容转载来自<a href="https://www.cnblogs.com/irenehanb/p/10967834.html">博客园</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
