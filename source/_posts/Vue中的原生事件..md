@@ -1,9 +1,6 @@
 ---
 title: Vue中的原生事件
 date: 2022.2.23
-description: 
-categories:  Vue
-hide: true
 tags:
 - Vue
 ---

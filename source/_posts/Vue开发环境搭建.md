@@ -1,9 +1,6 @@
 ---
 title:   Vue开发环境搭建
 date:  2022.4.1
-hide: true
-description:
-categories:  Vue
 tags:
 - Vue
 ---

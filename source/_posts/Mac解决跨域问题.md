@@ -1,9 +1,6 @@
 ---
 title: Mac解决跨域问题
 date: 2022.11.30
-description: 
-categories: Mac
-hide: true
 tags:
 - Mac
 ---

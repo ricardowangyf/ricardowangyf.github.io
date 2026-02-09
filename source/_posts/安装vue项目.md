@@ -1,8 +1,6 @@
 ---
 title: 安装vue项目
 date: 2022.3.2
-categories: Vue
-hide: true
 tags: 
 - Vue
 ---

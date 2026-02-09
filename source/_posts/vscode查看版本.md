@@ -1,8 +1,6 @@
 ---
 title: vscode查看版本
 date: 2022.7.13
-categories: vscode
-hide: true
 tags:
 - vscode
 ---

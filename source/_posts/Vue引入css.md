@@ -1,9 +1,6 @@
 ---
 title: Vue引入css
 date: 2022.4.30
-description: 
-categories:  Vue
-hide: true
 tags:
 - Vue
 - css

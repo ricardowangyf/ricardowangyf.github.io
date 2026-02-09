@@ -1,13 +1,10 @@
 ---
 title: 淘宝镜像cnpm替代npm
 date: 2022.3.14
-description: 
-hide: true
 tags:
 - npm 
 - cnpm
 ---
-<!-- more -->
 
 
 ## 使用淘宝镜像cnpm代替npm

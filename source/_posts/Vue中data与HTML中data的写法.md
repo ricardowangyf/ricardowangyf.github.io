@@ -1,9 +1,6 @@
 ---
 title: Vue中data与html中data的写法
 date: 2022.1.10
-description: 
-hide: true
-categories:  Vue
 tags:
 - Vue
 ---

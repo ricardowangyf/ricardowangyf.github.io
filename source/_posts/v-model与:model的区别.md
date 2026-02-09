@@ -1,8 +1,6 @@
 ---
 title: v-model与:model的区别
 date: 2022.5.28
-categories: Vue
-hide: true
 tags: 
 - Vue
 ---

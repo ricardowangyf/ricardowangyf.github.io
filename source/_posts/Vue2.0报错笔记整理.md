@@ -1,8 +1,6 @@
 ---
 title: Vue2.0报错笔记整理
 date: 2022.3.5
-hide: true
-categories: Vue
 tags: 
 - Vue
 ---

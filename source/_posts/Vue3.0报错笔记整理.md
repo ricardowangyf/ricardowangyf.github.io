@@ -1,8 +1,6 @@
 ---
 title: Vue3.0报错笔记整理
 date: 2022.10.24
-hide: true
-categories: Vue
 tags: 
 - Vue
 ---
